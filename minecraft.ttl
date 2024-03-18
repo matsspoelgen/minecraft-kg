@@ -1,0 +1,6093 @@
+@prefix mc: <http://example.org/minecraft/> .
+@prefix mc_block: <http://example.org/minecraft/block/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+mc:acacia_button a mc:Block ;
+    mc_block:hasDisplayName "Acacia Button" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 389 ;
+    mc_block:hasName "acacia_button" .
+
+mc:acacia_door a mc:Block ;
+    mc_block:hasDisplayName "Acacia Door" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 586 ;
+    mc_block:hasName "acacia_door" .
+
+mc:acacia_fence a mc:Block ;
+    mc_block:hasDisplayName "Acacia Fence" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 578 ;
+    mc_block:hasName "acacia_fence" .
+
+mc:acacia_fence_gate a mc:Block ;
+    mc_block:hasDisplayName "Acacia Fence Gate" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 570 ;
+    mc_block:hasName "acacia_fence_gate" .
+
+mc:acacia_hanging_sign a mc:Block ;
+    mc_block:hasDisplayName "Acacia Hanging Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 211 ;
+    mc_block:hasName "acacia_hanging_sign" .
+
+mc:acacia_leaves a mc:Block ;
+    mc_block:hasDisplayName "Acacia Leaves" ;
+    mc_block:hasHardness 2e-01 ;
+    mc_block:hasId 86 ;
+    mc_block:hasName "acacia_leaves" .
+
+mc:acacia_log a mc:Block ;
+    mc_block:hasDisplayName "Acacia Log" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 50 ;
+    mc_block:hasName "acacia_log" .
+
+mc:acacia_planks a mc:Block ;
+    mc_block:hasDisplayName "Acacia Planks" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 17 ;
+    mc_block:hasName "acacia_planks" .
+
+mc:acacia_pressure_plate a mc:Block ;
+    mc_block:hasDisplayName "Acacia Pressure Plate" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 237 ;
+    mc_block:hasName "acacia_pressure_plate" .
+
+mc:acacia_sapling a mc:Block ;
+    mc_block:hasDisplayName "Acacia Sapling" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 27 ;
+    mc_block:hasName "acacia_sapling" .
+
+mc:acacia_sign a mc:Block ;
+    mc_block:hasDisplayName "Acacia Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 189 ;
+    mc_block:hasName "acacia_sign" .
+
+mc:acacia_slab a mc:Block ;
+    mc_block:hasDisplayName "Acacia Slab" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 543 ;
+    mc_block:hasName "acacia_slab" .
+
+mc:acacia_stairs a mc:Block ;
+    mc_block:hasDisplayName "Acacia Stairs" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 457 ;
+    mc_block:hasName "acacia_stairs" .
+
+mc:acacia_trapdoor a mc:Block ;
+    mc_block:hasDisplayName "Acacia Trapdoor" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 289 ;
+    mc_block:hasName "acacia_trapdoor" .
+
+mc:acacia_wall_hanging_sign a mc:Block ;
+    mc_block:hasDisplayName "Acacia Hanging Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 222 ;
+    mc_block:hasName "acacia_wall_hanging_sign" .
+
+mc:acacia_wall_sign a mc:Block ;
+    mc_block:hasDisplayName "Acacia Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 202 ;
+    mc_block:hasName "acacia_wall_sign" .
+
+mc:acacia_wood a mc:Block ;
+    mc_block:hasDisplayName "Acacia Wood" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 70 ;
+    mc_block:hasName "acacia_wood" .
+
+mc:activator_rail a mc:Block ;
+    mc_block:hasDisplayName "Activator Rail" ;
+    mc_block:hasHardness 7e-01 ;
+    mc_block:hasId 423 ;
+    mc_block:hasName "activator_rail" .
+
+mc:air a mc:Block ;
+    mc_block:hasDisplayName "Air" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 0 ;
+    mc_block:hasName "air" .
+
+mc:allium a mc:Block ;
+    mc_block:hasDisplayName "Allium" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 151 ;
+    mc_block:hasName "allium" .
+
+mc:amethyst_block a mc:Block ;
+    mc_block:hasDisplayName "Block of Amethyst" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 903 ;
+    mc_block:hasName "amethyst_block" .
+
+mc:amethyst_cluster a mc:Block ;
+    mc_block:hasDisplayName "Amethyst Cluster" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 905 ;
+    mc_block:hasName "amethyst_cluster" .
+
+mc:ancient_debris a mc:Block ;
+    mc_block:hasDisplayName "Ancient Debris" ;
+    mc_block:hasHardness 3e+01 ;
+    mc_block:hasId 841 ;
+    mc_block:hasName "ancient_debris" .
+
+mc:andesite a mc:Block ;
+    mc_block:hasDisplayName "Andesite" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 6 ;
+    mc_block:hasName "andesite" .
+
+mc:andesite_slab a mc:Block ;
+    mc_block:hasDisplayName "Andesite Slab" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 755 ;
+    mc_block:hasName "andesite_slab" .
+
+mc:andesite_stairs a mc:Block ;
+    mc_block:hasDisplayName "Andesite Stairs" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 742 ;
+    mc_block:hasName "andesite_stairs" .
+
+mc:andesite_wall a mc:Block ;
+    mc_block:hasDisplayName "Andesite Wall" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 767 ;
+    mc_block:hasName "andesite_wall" .
+
+mc:anvil a mc:Block ;
+    mc_block:hasDisplayName "Anvil" ;
+    mc_block:hasHardness 5e+00 ;
+    mc_block:hasId 408 ;
+    mc_block:hasName "anvil" .
+
+mc:attached_melon_stem a mc:Block ;
+    mc_block:hasDisplayName "Attached Melon Stem" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 314 ;
+    mc_block:hasName "attached_melon_stem" .
+
+mc:attached_pumpkin_stem a mc:Block ;
+    mc_block:hasDisplayName "Attached Pumpkin Stem" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 313 ;
+    mc_block:hasName "attached_pumpkin_stem" .
+
+mc:azalea a mc:Block ;
+    mc_block:hasDisplayName "Azalea" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 959 ;
+    mc_block:hasName "azalea" .
+
+mc:azalea_leaves a mc:Block ;
+    mc_block:hasDisplayName "Azalea Leaves" ;
+    mc_block:hasHardness 2e-01 ;
+    mc_block:hasId 90 ;
+    mc_block:hasName "azalea_leaves" .
+
+mc:azure_bluet a mc:Block ;
+    mc_block:hasDisplayName "Azure Bluet" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 152 ;
+    mc_block:hasName "azure_bluet" .
+
+mc:bamboo a mc:Block ;
+    mc_block:hasDisplayName "Bamboo" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 727 ;
+    mc_block:hasName "bamboo" .
+
+mc:bamboo_block a mc:Block ;
+    mc_block:hasDisplayName "Block of Bamboo" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 56 ;
+    mc_block:hasName "bamboo_block" .
+
+mc:bamboo_button a mc:Block ;
+    mc_block:hasDisplayName "Bamboo Button" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 393 ;
+    mc_block:hasName "bamboo_button" .
+
+mc:bamboo_door a mc:Block ;
+    mc_block:hasDisplayName "Bamboo Door" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 590 ;
+    mc_block:hasName "bamboo_door" .
+
+mc:bamboo_fence a mc:Block ;
+    mc_block:hasDisplayName "Bamboo Fence" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 582 ;
+    mc_block:hasName "bamboo_fence" .
+
+mc:bamboo_fence_gate a mc:Block ;
+    mc_block:hasDisplayName "Bamboo Fence Gate" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 574 ;
+    mc_block:hasName "bamboo_fence_gate" .
+
+mc:bamboo_hanging_sign a mc:Block ;
+    mc_block:hasDisplayName "Bamboo Hanging Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 218 ;
+    mc_block:hasName "bamboo_hanging_sign" .
+
+mc:bamboo_mosaic a mc:Block ;
+    mc_block:hasDisplayName "Bamboo Mosaic" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 22 ;
+    mc_block:hasName "bamboo_mosaic" .
+
+mc:bamboo_mosaic_slab a mc:Block ;
+    mc_block:hasDisplayName "Bamboo Mosaic Slab" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 548 ;
+    mc_block:hasName "bamboo_mosaic_slab" .
+
+mc:bamboo_mosaic_stairs a mc:Block ;
+    mc_block:hasDisplayName "Bamboo Mosaic Stairs" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 462 ;
+    mc_block:hasName "bamboo_mosaic_stairs" .
+
+mc:bamboo_planks a mc:Block ;
+    mc_block:hasDisplayName "Bamboo Planks" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 21 ;
+    mc_block:hasName "bamboo_planks" .
+
+mc:bamboo_pressure_plate a mc:Block ;
+    mc_block:hasDisplayName "Bamboo Pressure Plate" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 241 ;
+    mc_block:hasName "bamboo_pressure_plate" .
+
+mc:bamboo_sapling a mc:Block ;
+    mc_block:hasDisplayName "Bamboo Shoot" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 726 ;
+    mc_block:hasName "bamboo_sapling" .
+
+mc:bamboo_sign a mc:Block ;
+    mc_block:hasDisplayName "Bamboo Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 194 ;
+    mc_block:hasName "bamboo_sign" .
+
+mc:bamboo_slab a mc:Block ;
+    mc_block:hasDisplayName "Bamboo Slab" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 547 ;
+    mc_block:hasName "bamboo_slab" .
+
+mc:bamboo_stairs a mc:Block ;
+    mc_block:hasDisplayName "Bamboo Stairs" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 461 ;
+    mc_block:hasName "bamboo_stairs" .
+
+mc:bamboo_trapdoor a mc:Block ;
+    mc_block:hasDisplayName "Bamboo Trapdoor" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 293 ;
+    mc_block:hasName "bamboo_trapdoor" .
+
+mc:bamboo_wall_hanging_sign a mc:Block ;
+    mc_block:hasDisplayName "Bamboo Hanging Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 229 ;
+    mc_block:hasName "bamboo_wall_hanging_sign" .
+
+mc:bamboo_wall_sign a mc:Block ;
+    mc_block:hasDisplayName "Bamboo Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 207 ;
+    mc_block:hasName "bamboo_wall_sign" .
+
+mc:barrel a mc:Block ;
+    mc_block:hasDisplayName "Barrel" ;
+    mc_block:hasHardness 2.5e+00 ;
+    mc_block:hasId 774 ;
+    mc_block:hasName "barrel" .
+
+mc:barrier a mc:Block ;
+    mc_block:hasDisplayName "Barrier" ;
+    mc_block:hasHardness -1e+00 ;
+    mc_block:hasId 464 ;
+    mc_block:hasName "barrier" .
+
+mc:basalt a mc:Block ;
+    mc_block:hasDisplayName "Basalt" ;
+    mc_block:hasHardness 1.25e+00 ;
+    mc_block:hasId 259 ;
+    mc_block:hasName "basalt" .
+
+mc:beacon a mc:Block ;
+    mc_block:hasDisplayName "Beacon" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 352 ;
+    mc_block:hasName "beacon" .
+
+mc:bedrock a mc:Block ;
+    mc_block:hasDisplayName "Bedrock" ;
+    mc_block:hasHardness -1e+00 ;
+    mc_block:hasId 31 ;
+    mc_block:hasName "bedrock" .
+
+mc:bee_nest a mc:Block ;
+    mc_block:hasDisplayName "Bee Nest" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 836 ;
+    mc_block:hasName "bee_nest" .
+
+mc:beehive a mc:Block ;
+    mc_block:hasDisplayName "Beehive" ;
+    mc_block:hasHardness 6e-01 ;
+    mc_block:hasId 837 ;
+    mc_block:hasName "beehive" .
+
+mc:beetroots a mc:Block ;
+    mc_block:hasDisplayName "Beetroots" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 601 ;
+    mc_block:hasName "beetroots" .
+
+mc:bell a mc:Block ;
+    mc_block:hasDisplayName "Bell" ;
+    mc_block:hasHardness 5e+00 ;
+    mc_block:hasId 783 ;
+    mc_block:hasName "bell" .
+
+mc:big_dripleaf a mc:Block ;
+    mc_block:hasDisplayName "Big Dripleaf" ;
+    mc_block:hasHardness 1e-01 ;
+    mc_block:hasId 964 ;
+    mc_block:hasName "big_dripleaf" .
+
+mc:big_dripleaf_stem a mc:Block ;
+    mc_block:hasDisplayName "Big Dripleaf Stem" ;
+    mc_block:hasHardness 1e-01 ;
+    mc_block:hasId 965 ;
+    mc_block:hasName "big_dripleaf_stem" .
+
+mc:birch_button a mc:Block ;
+    mc_block:hasDisplayName "Birch Button" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 387 ;
+    mc_block:hasName "birch_button" .
+
+mc:birch_door a mc:Block ;
+    mc_block:hasDisplayName "Birch Door" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 584 ;
+    mc_block:hasName "birch_door" .
+
+mc:birch_fence a mc:Block ;
+    mc_block:hasDisplayName "Birch Fence" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 576 ;
+    mc_block:hasName "birch_fence" .
+
+mc:birch_fence_gate a mc:Block ;
+    mc_block:hasDisplayName "Birch Fence Gate" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 568 ;
+    mc_block:hasName "birch_fence_gate" .
+
+mc:birch_hanging_sign a mc:Block ;
+    mc_block:hasDisplayName "Birch Hanging Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 210 ;
+    mc_block:hasName "birch_hanging_sign" .
+
+mc:birch_leaves a mc:Block ;
+    mc_block:hasDisplayName "Birch Leaves" ;
+    mc_block:hasHardness 2e-01 ;
+    mc_block:hasId 84 ;
+    mc_block:hasName "birch_leaves" .
+
+mc:birch_log a mc:Block ;
+    mc_block:hasDisplayName "Birch Log" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 48 ;
+    mc_block:hasName "birch_log" .
+
+mc:birch_planks a mc:Block ;
+    mc_block:hasDisplayName "Birch Planks" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 15 ;
+    mc_block:hasName "birch_planks" .
+
+mc:birch_pressure_plate a mc:Block ;
+    mc_block:hasDisplayName "Birch Pressure Plate" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 235 ;
+    mc_block:hasName "birch_pressure_plate" .
+
+mc:birch_sapling a mc:Block ;
+    mc_block:hasDisplayName "Birch Sapling" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 25 ;
+    mc_block:hasName "birch_sapling" .
+
+mc:birch_sign a mc:Block ;
+    mc_block:hasDisplayName "Birch Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 188 ;
+    mc_block:hasName "birch_sign" .
+
+mc:birch_slab a mc:Block ;
+    mc_block:hasDisplayName "Birch Slab" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 541 ;
+    mc_block:hasName "birch_slab" .
+
+mc:birch_stairs a mc:Block ;
+    mc_block:hasDisplayName "Birch Stairs" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 349 ;
+    mc_block:hasName "birch_stairs" .
+
+mc:birch_trapdoor a mc:Block ;
+    mc_block:hasDisplayName "Birch Trapdoor" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 287 ;
+    mc_block:hasName "birch_trapdoor" .
+
+mc:birch_wall_hanging_sign a mc:Block ;
+    mc_block:hasDisplayName "Birch Hanging Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 221 ;
+    mc_block:hasName "birch_wall_hanging_sign" .
+
+mc:birch_wall_sign a mc:Block ;
+    mc_block:hasDisplayName "Birch Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 201 ;
+    mc_block:hasName "birch_wall_sign" .
+
+mc:birch_wood a mc:Block ;
+    mc_block:hasDisplayName "Birch Wood" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 68 ;
+    mc_block:hasName "birch_wood" .
+
+mc:black_banner a mc:Block ;
+    mc_block:hasDisplayName "Black Banner" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 518 ;
+    mc_block:hasName "black_banner" .
+
+mc:black_bed a mc:Block ;
+    mc_block:hasDisplayName "Black Bed" ;
+    mc_block:hasHardness 2e-01 ;
+    mc_block:hasId 118 ;
+    mc_block:hasName "black_bed" .
+
+mc:black_candle a mc:Block ;
+    mc_block:hasDisplayName "Black Candle" ;
+    mc_block:hasHardness 1e-01 ;
+    mc_block:hasId 885 ;
+    mc_block:hasName "black_candle" .
+
+mc:black_candle_cake a mc:Block ;
+    mc_block:hasDisplayName "Cake with Black Candle" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 902 ;
+    mc_block:hasName "black_candle_cake" .
+
+mc:black_carpet a mc:Block ;
+    mc_block:hasDisplayName "Black Carpet" ;
+    mc_block:hasHardness 1e-01 ;
+    mc_block:hasId 493 ;
+    mc_block:hasName "black_carpet" .
+
+mc:black_concrete a mc:Block ;
+    mc_block:hasDisplayName "Black Concrete" ;
+    mc_block:hasHardness 1.8e+00 ;
+    mc_block:hasId 661 ;
+    mc_block:hasName "black_concrete" .
+
+mc:black_concrete_powder a mc:Block ;
+    mc_block:hasDisplayName "Black Concrete Powder" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 677 ;
+    mc_block:hasName "black_concrete_powder" .
+
+mc:black_glazed_terracotta a mc:Block ;
+    mc_block:hasDisplayName "Black Glazed Terracotta" ;
+    mc_block:hasHardness 1.4e+00 ;
+    mc_block:hasId 645 ;
+    mc_block:hasName "black_glazed_terracotta" .
+
+mc:black_shulker_box a mc:Block ;
+    mc_block:hasDisplayName "Black Shulker Box" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 629 ;
+    mc_block:hasName "black_shulker_box" .
+
+mc:black_stained_glass a mc:Block ;
+    mc_block:hasDisplayName "Black Stained Glass" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 284 ;
+    mc_block:hasName "black_stained_glass" .
+
+mc:black_stained_glass_pane a mc:Block ;
+    mc_block:hasDisplayName "Black Stained Glass Pane" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 456 ;
+    mc_block:hasName "black_stained_glass_pane" .
+
+mc:black_terracotta a mc:Block ;
+    mc_block:hasDisplayName "Black Terracotta" ;
+    mc_block:hasHardness 1.25e+00 ;
+    mc_block:hasId 440 ;
+    mc_block:hasName "black_terracotta" .
+
+mc:black_wall_banner a mc:Block ;
+    mc_block:hasDisplayName "Black Banner" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 534 ;
+    mc_block:hasName "black_wall_banner" .
+
+mc:black_wool a mc:Block ;
+    mc_block:hasDisplayName "Black Wool" ;
+    mc_block:hasHardness 8e-01 ;
+    mc_block:hasId 145 ;
+    mc_block:hasName "black_wool" .
+
+mc:blackstone a mc:Block ;
+    mc_block:hasDisplayName "Blackstone" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 849 ;
+    mc_block:hasName "blackstone" .
+
+mc:blackstone_slab a mc:Block ;
+    mc_block:hasDisplayName "Blackstone Slab" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 852 ;
+    mc_block:hasName "blackstone_slab" .
+
+mc:blackstone_stairs a mc:Block ;
+    mc_block:hasDisplayName "Blackstone Stairs" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 850 ;
+    mc_block:hasName "blackstone_stairs" .
+
+mc:blackstone_wall a mc:Block ;
+    mc_block:hasDisplayName "Blackstone Wall" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 851 ;
+    mc_block:hasName "blackstone_wall" .
+
+mc:blast_furnace a mc:Block ;
+    mc_block:hasDisplayName "Blast Furnace" ;
+    mc_block:hasHardness 3.5e+00 ;
+    mc_block:hasId 776 ;
+    mc_block:hasName "blast_furnace" .
+
+mc_block:emitLight a owl:DatatypeProperty ;
+    rdfs:domain mc:Block ;
+    rdfs:range xsd:integer .
+
+mc_block:filterLight a owl:DatatypeProperty ;
+    rdfs:domain mc:Block ;
+    rdfs:range xsd:integer .
+
+mc_block:hasBoundingBox a owl:DatatypeProperty ;
+    rdfs:domain mc:Block ;
+    rdfs:range xsd:string .
+
+mc_block:hasDefaultState a owl:DatatypeProperty ;
+    rdfs:domain mc:Block ;
+    rdfs:range xsd:integer .
+
+mc_block:hasDisplayName a owl:DatatypeProperty ;
+    rdfs:domain mc:Block ;
+    rdfs:range xsd:string .
+
+mc_block:hasDrops a owl:DatatypeProperty ;
+    rdfs:domain mc:Block ;
+    rdfs:range rdf:List .
+
+mc_block:hasHardness a owl:DatatypeProperty ;
+    rdfs:domain mc:Block ;
+    rdfs:range xsd:float .
+
+mc_block:hasId a owl:DatatypeProperty ;
+    rdfs:domain mc:Block ;
+    rdfs:range xsd:integer .
+
+mc_block:hasMaterial a owl:DatatypeProperty ;
+    rdfs:domain mc:Block ;
+    rdfs:range xsd:string .
+
+mc_block:hasMaxStateId a owl:DatatypeProperty ;
+    rdfs:domain mc:Block ;
+    rdfs:range xsd:integer .
+
+mc_block:hasMinStateId a owl:DatatypeProperty ;
+    rdfs:domain mc:Block ;
+    rdfs:range xsd:integer .
+
+mc_block:hasName a owl:DatatypeProperty ;
+    rdfs:domain mc:Block ;
+    rdfs:range xsd:string .
+
+mc_block:hasResistance a owl:DatatypeProperty ;
+    rdfs:domain mc:Block ;
+    rdfs:range xsd:float .
+
+mc_block:hasStackSize a owl:DatatypeProperty ;
+    rdfs:domain mc:Block ;
+    rdfs:range xsd:integer .
+
+mc_block:hasStates a owl:DatatypeProperty ;
+    rdfs:domain mc:Block ;
+    rdfs:range rdf:List .
+
+mc_block:isDiggable a owl:DatatypeProperty ;
+    rdfs:domain mc:Block ;
+    rdfs:range xsd:boolean .
+
+mc_block:isTransparent a owl:DatatypeProperty ;
+    rdfs:domain mc:Block ;
+    rdfs:range xsd:boolean .
+
+mc:blue_banner a mc:Block ;
+    mc_block:hasDisplayName "Blue Banner" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 514 ;
+    mc_block:hasName "blue_banner" .
+
+mc:blue_bed a mc:Block ;
+    mc_block:hasDisplayName "Blue Bed" ;
+    mc_block:hasHardness 2e-01 ;
+    mc_block:hasId 114 ;
+    mc_block:hasName "blue_bed" .
+
+mc:blue_candle a mc:Block ;
+    mc_block:hasDisplayName "Blue Candle" ;
+    mc_block:hasHardness 1e-01 ;
+    mc_block:hasId 881 ;
+    mc_block:hasName "blue_candle" .
+
+mc:blue_candle_cake a mc:Block ;
+    mc_block:hasDisplayName "Cake with Blue Candle" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 898 ;
+    mc_block:hasName "blue_candle_cake" .
+
+mc:blue_carpet a mc:Block ;
+    mc_block:hasDisplayName "Blue Carpet" ;
+    mc_block:hasHardness 1e-01 ;
+    mc_block:hasId 489 ;
+    mc_block:hasName "blue_carpet" .
+
+mc:blue_concrete a mc:Block ;
+    mc_block:hasDisplayName "Blue Concrete" ;
+    mc_block:hasHardness 1.8e+00 ;
+    mc_block:hasId 657 ;
+    mc_block:hasName "blue_concrete" .
+
+mc:blue_concrete_powder a mc:Block ;
+    mc_block:hasDisplayName "Blue Concrete Powder" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 673 ;
+    mc_block:hasName "blue_concrete_powder" .
+
+mc:blue_glazed_terracotta a mc:Block ;
+    mc_block:hasDisplayName "Blue Glazed Terracotta" ;
+    mc_block:hasHardness 1.4e+00 ;
+    mc_block:hasId 641 ;
+    mc_block:hasName "blue_glazed_terracotta" .
+
+mc:blue_ice a mc:Block ;
+    mc_block:hasDisplayName "Blue Ice" ;
+    mc_block:hasHardness 2.8e+00 ;
+    mc_block:hasId 724 ;
+    mc_block:hasName "blue_ice" .
+
+mc:blue_orchid a mc:Block ;
+    mc_block:hasDisplayName "Blue Orchid" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 150 ;
+    mc_block:hasName "blue_orchid" .
+
+mc:blue_shulker_box a mc:Block ;
+    mc_block:hasDisplayName "Blue Shulker Box" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 625 ;
+    mc_block:hasName "blue_shulker_box" .
+
+mc:blue_stained_glass a mc:Block ;
+    mc_block:hasDisplayName "Blue Stained Glass" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 280 ;
+    mc_block:hasName "blue_stained_glass" .
+
+mc:blue_stained_glass_pane a mc:Block ;
+    mc_block:hasDisplayName "Blue Stained Glass Pane" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 452 ;
+    mc_block:hasName "blue_stained_glass_pane" .
+
+mc:blue_terracotta a mc:Block ;
+    mc_block:hasDisplayName "Blue Terracotta" ;
+    mc_block:hasHardness 1.25e+00 ;
+    mc_block:hasId 436 ;
+    mc_block:hasName "blue_terracotta" .
+
+mc:blue_wall_banner a mc:Block ;
+    mc_block:hasDisplayName "Blue Banner" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 530 ;
+    mc_block:hasName "blue_wall_banner" .
+
+mc:blue_wool a mc:Block ;
+    mc_block:hasDisplayName "Blue Wool" ;
+    mc_block:hasHardness 8e-01 ;
+    mc_block:hasId 141 ;
+    mc_block:hasName "blue_wool" .
+
+mc:bone_block a mc:Block ;
+    mc_block:hasDisplayName "Bone Block" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 610 ;
+    mc_block:hasName "bone_block" .
+
+mc:bookshelf a mc:Block ;
+    mc_block:hasDisplayName "Bookshelf" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 167 ;
+    mc_block:hasName "bookshelf" .
+
+mc:brain_coral a mc:Block ;
+    mc_block:hasDisplayName "Brain Coral" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 699 ;
+    mc_block:hasName "brain_coral" .
+
+mc:brain_coral_block a mc:Block ;
+    mc_block:hasDisplayName "Brain Coral Block" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 689 ;
+    mc_block:hasName "brain_coral_block" .
+
+mc:brain_coral_fan a mc:Block ;
+    mc_block:hasDisplayName "Brain Coral Fan" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 709 ;
+    mc_block:hasName "brain_coral_fan" .
+
+mc:brain_coral_wall_fan a mc:Block ;
+    mc_block:hasDisplayName "Brain Coral Wall Fan" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 719 ;
+    mc_block:hasName "brain_coral_wall_fan" .
+
+mc:brewing_stand a mc:Block ;
+    mc_block:hasDisplayName "Brewing Stand" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 330 ;
+    mc_block:hasName "brewing_stand" .
+
+mc:brick_slab a mc:Block ;
+    mc_block:hasDisplayName "Brick Slab" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 555 ;
+    mc_block:hasName "brick_slab" .
+
+mc:brick_stairs a mc:Block ;
+    mc_block:hasDisplayName "Brick Stairs" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 320 ;
+    mc_block:hasName "brick_stairs" .
+
+mc:brick_wall a mc:Block ;
+    mc_block:hasDisplayName "Brick Wall" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 759 ;
+    mc_block:hasName "brick_wall" .
+
+mc:bricks a mc:Block ;
+    mc_block:hasDisplayName "Bricks" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 165 ;
+    mc_block:hasName "bricks" .
+
+mc:brown_banner a mc:Block ;
+    mc_block:hasDisplayName "Brown Banner" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 515 ;
+    mc_block:hasName "brown_banner" .
+
+mc:brown_bed a mc:Block ;
+    mc_block:hasDisplayName "Brown Bed" ;
+    mc_block:hasHardness 2e-01 ;
+    mc_block:hasId 115 ;
+    mc_block:hasName "brown_bed" .
+
+mc:brown_candle a mc:Block ;
+    mc_block:hasDisplayName "Brown Candle" ;
+    mc_block:hasHardness 1e-01 ;
+    mc_block:hasId 882 ;
+    mc_block:hasName "brown_candle" .
+
+mc:brown_candle_cake a mc:Block ;
+    mc_block:hasDisplayName "Cake with Brown Candle" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 899 ;
+    mc_block:hasName "brown_candle_cake" .
+
+mc:brown_carpet a mc:Block ;
+    mc_block:hasDisplayName "Brown Carpet" ;
+    mc_block:hasHardness 1e-01 ;
+    mc_block:hasId 490 ;
+    mc_block:hasName "brown_carpet" .
+
+mc:brown_concrete a mc:Block ;
+    mc_block:hasDisplayName "Brown Concrete" ;
+    mc_block:hasHardness 1.8e+00 ;
+    mc_block:hasId 658 ;
+    mc_block:hasName "brown_concrete" .
+
+mc:brown_concrete_powder a mc:Block ;
+    mc_block:hasDisplayName "Brown Concrete Powder" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 674 ;
+    mc_block:hasName "brown_concrete_powder" .
+
+mc:brown_glazed_terracotta a mc:Block ;
+    mc_block:hasDisplayName "Brown Glazed Terracotta" ;
+    mc_block:hasHardness 1.4e+00 ;
+    mc_block:hasId 642 ;
+    mc_block:hasName "brown_glazed_terracotta" .
+
+mc:brown_mushroom a mc:Block ;
+    mc_block:hasDisplayName "Brown Mushroom" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 161 ;
+    mc_block:hasName "brown_mushroom" .
+
+mc:brown_mushroom_block a mc:Block ;
+    mc_block:hasDisplayName "Brown Mushroom Block" ;
+    mc_block:hasHardness 2e-01 ;
+    mc_block:hasId 306 ;
+    mc_block:hasName "brown_mushroom_block" .
+
+mc:brown_shulker_box a mc:Block ;
+    mc_block:hasDisplayName "Brown Shulker Box" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 626 ;
+    mc_block:hasName "brown_shulker_box" .
+
+mc:brown_stained_glass a mc:Block ;
+    mc_block:hasDisplayName "Brown Stained Glass" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 281 ;
+    mc_block:hasName "brown_stained_glass" .
+
+mc:brown_stained_glass_pane a mc:Block ;
+    mc_block:hasDisplayName "Brown Stained Glass Pane" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 453 ;
+    mc_block:hasName "brown_stained_glass_pane" .
+
+mc:brown_terracotta a mc:Block ;
+    mc_block:hasDisplayName "Brown Terracotta" ;
+    mc_block:hasHardness 1.25e+00 ;
+    mc_block:hasId 437 ;
+    mc_block:hasName "brown_terracotta" .
+
+mc:brown_wall_banner a mc:Block ;
+    mc_block:hasDisplayName "Brown Banner" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 531 ;
+    mc_block:hasName "brown_wall_banner" .
+
+mc:brown_wool a mc:Block ;
+    mc_block:hasDisplayName "Brown Wool" ;
+    mc_block:hasHardness 8e-01 ;
+    mc_block:hasId 142 ;
+    mc_block:hasName "brown_wool" .
+
+mc:bubble_column a mc:Block ;
+    mc_block:hasDisplayName "Bubble Column" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 731 ;
+    mc_block:hasName "bubble_column" .
+
+mc:bubble_coral a mc:Block ;
+    mc_block:hasDisplayName "Bubble Coral" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 700 ;
+    mc_block:hasName "bubble_coral" .
+
+mc:bubble_coral_block a mc:Block ;
+    mc_block:hasDisplayName "Bubble Coral Block" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 690 ;
+    mc_block:hasName "bubble_coral_block" .
+
+mc:bubble_coral_fan a mc:Block ;
+    mc_block:hasDisplayName "Bubble Coral Fan" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 710 ;
+    mc_block:hasName "bubble_coral_fan" .
+
+mc:bubble_coral_wall_fan a mc:Block ;
+    mc_block:hasDisplayName "Bubble Coral Wall Fan" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 720 ;
+    mc_block:hasName "bubble_coral_wall_fan" .
+
+mc:budding_amethyst a mc:Block ;
+    mc_block:hasDisplayName "Budding Amethyst" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 904 ;
+    mc_block:hasName "budding_amethyst" .
+
+mc:cactus a mc:Block ;
+    mc_block:hasDisplayName "Cactus" ;
+    mc_block:hasHardness 4e-01 ;
+    mc_block:hasId 250 ;
+    mc_block:hasName "cactus" .
+
+mc:cake a mc:Block ;
+    mc_block:hasDisplayName "Cake" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 267 ;
+    mc_block:hasName "cake" .
+
+mc:calcite a mc:Block ;
+    mc_block:hasDisplayName "Calcite" ;
+    mc_block:hasHardness 7.5e-01 ;
+    mc_block:hasId 910 ;
+    mc_block:hasName "calcite" .
+
+mc:calibrated_sculk_sensor a mc:Block ;
+    mc_block:hasDisplayName "Calibrated Sculk Sensor" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 914 ;
+    mc_block:hasName "calibrated_sculk_sensor" .
+
+mc:campfire a mc:Block ;
+    mc_block:hasDisplayName "Campfire" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 786 ;
+    mc_block:hasName "campfire" .
+
+mc:candle a mc:Block ;
+    mc_block:hasDisplayName "Candle" ;
+    mc_block:hasHardness 1e-01 ;
+    mc_block:hasId 869 ;
+    mc_block:hasName "candle" .
+
+mc:candle_cake a mc:Block ;
+    mc_block:hasDisplayName "Cake with Candle" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 886 ;
+    mc_block:hasName "candle_cake" .
+
+mc:carrots a mc:Block ;
+    mc_block:hasDisplayName "Carrots" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 383 ;
+    mc_block:hasName "carrots" .
+
+mc:cartography_table a mc:Block ;
+    mc_block:hasDisplayName "Cartography Table" ;
+    mc_block:hasHardness 2.5e+00 ;
+    mc_block:hasId 777 ;
+    mc_block:hasName "cartography_table" .
+
+mc:carved_pumpkin a mc:Block ;
+    mc_block:hasDisplayName "Carved Pumpkin" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 265 ;
+    mc_block:hasName "carved_pumpkin" .
+
+mc:cauldron a mc:Block ;
+    mc_block:hasDisplayName "Cauldron" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 331 ;
+    mc_block:hasName "cauldron" .
+
+mc:cave_air a mc:Block ;
+    mc_block:hasDisplayName "Cave Air" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 730 ;
+    mc_block:hasName "cave_air" .
+
+mc:cave_vines a mc:Block ;
+    mc_block:hasDisplayName "Cave Vines" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 956 ;
+    mc_block:hasName "cave_vines" .
+
+mc:cave_vines_plant a mc:Block ;
+    mc_block:hasDisplayName "Cave Vines Plant" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 957 ;
+    mc_block:hasName "cave_vines_plant" .
+
+mc:chain a mc:Block ;
+    mc_block:hasDisplayName "Chain" ;
+    mc_block:hasHardness 5e+00 ;
+    mc_block:hasId 310 ;
+    mc_block:hasName "chain" .
+
+mc:chain_command_block a mc:Block ;
+    mc_block:hasDisplayName "Chain Command Block" ;
+    mc_block:hasHardness -1e+00 ;
+    mc_block:hasId 605 ;
+    mc_block:hasName "chain_command_block" .
+
+mc:cherry_button a mc:Block ;
+    mc_block:hasDisplayName "Cherry Button" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 390 ;
+    mc_block:hasName "cherry_button" .
+
+mc:cherry_door a mc:Block ;
+    mc_block:hasDisplayName "Cherry Door" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 587 ;
+    mc_block:hasName "cherry_door" .
+
+mc:cherry_fence a mc:Block ;
+    mc_block:hasDisplayName "Cherry Fence" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 579 ;
+    mc_block:hasName "cherry_fence" .
+
+mc:cherry_fence_gate a mc:Block ;
+    mc_block:hasDisplayName "Cherry Fence Gate" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 571 ;
+    mc_block:hasName "cherry_fence_gate" .
+
+mc:cherry_hanging_sign a mc:Block ;
+    mc_block:hasDisplayName "Cherry Hanging Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 212 ;
+    mc_block:hasName "cherry_hanging_sign" .
+
+mc:cherry_leaves a mc:Block ;
+    mc_block:hasDisplayName "Cherry Leaves" ;
+    mc_block:hasHardness 2e-01 ;
+    mc_block:hasId 87 ;
+    mc_block:hasName "cherry_leaves" .
+
+mc:cherry_log a mc:Block ;
+    mc_block:hasDisplayName "Cherry Log" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 51 ;
+    mc_block:hasName "cherry_log" .
+
+mc:cherry_planks a mc:Block ;
+    mc_block:hasDisplayName "Cherry Planks" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 18 ;
+    mc_block:hasName "cherry_planks" .
+
+mc:cherry_pressure_plate a mc:Block ;
+    mc_block:hasDisplayName "Cherry Pressure Plate" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 238 ;
+    mc_block:hasName "cherry_pressure_plate" .
+
+mc:cherry_sapling a mc:Block ;
+    mc_block:hasDisplayName "Cherry Sapling" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 28 ;
+    mc_block:hasName "cherry_sapling" .
+
+mc:cherry_sign a mc:Block ;
+    mc_block:hasDisplayName "Cherry Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 190 ;
+    mc_block:hasName "cherry_sign" .
+
+mc:cherry_slab a mc:Block ;
+    mc_block:hasDisplayName "Cherry Slab" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 544 ;
+    mc_block:hasName "cherry_slab" .
+
+mc:cherry_stairs a mc:Block ;
+    mc_block:hasDisplayName "Cherry Stairs" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 458 ;
+    mc_block:hasName "cherry_stairs" .
+
+mc:cherry_trapdoor a mc:Block ;
+    mc_block:hasDisplayName "Cherry Trapdoor" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 290 ;
+    mc_block:hasName "cherry_trapdoor" .
+
+mc:cherry_wall_hanging_sign a mc:Block ;
+    mc_block:hasDisplayName "Cherry Hanging Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 223 ;
+    mc_block:hasName "cherry_wall_hanging_sign" .
+
+mc:cherry_wall_sign a mc:Block ;
+    mc_block:hasDisplayName "Cherry Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 203 ;
+    mc_block:hasName "cherry_wall_sign" .
+
+mc:cherry_wood a mc:Block ;
+    mc_block:hasDisplayName "Cherry Wood" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 71 ;
+    mc_block:hasName "cherry_wood" .
+
+mc:chest a mc:Block ;
+    mc_block:hasDisplayName "Chest" ;
+    mc_block:hasHardness 2.5e+00 ;
+    mc_block:hasId 177 ;
+    mc_block:hasName "chest" .
+
+mc:chipped_anvil a mc:Block ;
+    mc_block:hasDisplayName "Chipped Anvil" ;
+    mc_block:hasHardness 5e+00 ;
+    mc_block:hasId 409 ;
+    mc_block:hasName "chipped_anvil" .
+
+mc:chiseled_bookshelf a mc:Block ;
+    mc_block:hasDisplayName "Chiseled Bookshelf" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 168 ;
+    mc_block:hasName "chiseled_bookshelf" .
+
+mc:chiseled_deepslate a mc:Block ;
+    mc_block:hasDisplayName "Chiseled Deepslate" ;
+    mc_block:hasHardness 3.5e+00 ;
+    mc_block:hasId 987 ;
+    mc_block:hasName "chiseled_deepslate" .
+
+mc:chiseled_nether_bricks a mc:Block ;
+    mc_block:hasDisplayName "Chiseled Nether Bricks" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 866 ;
+    mc_block:hasName "chiseled_nether_bricks" .
+
+mc:chiseled_polished_blackstone a mc:Block ;
+    mc_block:hasDisplayName "Chiseled Polished Blackstone" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 856 ;
+    mc_block:hasName "chiseled_polished_blackstone" .
+
+mc:chiseled_quartz_block a mc:Block ;
+    mc_block:hasDisplayName "Chiseled Quartz Block" ;
+    mc_block:hasHardness 8e-01 ;
+    mc_block:hasId 420 ;
+    mc_block:hasName "chiseled_quartz_block" .
+
+mc:chiseled_red_sandstone a mc:Block ;
+    mc_block:hasDisplayName "Chiseled Red Sandstone" ;
+    mc_block:hasHardness 8e-01 ;
+    mc_block:hasId 536 ;
+    mc_block:hasName "chiseled_red_sandstone" .
+
+mc:chiseled_sandstone a mc:Block ;
+    mc_block:hasDisplayName "Chiseled Sandstone" ;
+    mc_block:hasHardness 8e-01 ;
+    mc_block:hasId 100 ;
+    mc_block:hasName "chiseled_sandstone" .
+
+mc:chiseled_stone_bricks a mc:Block ;
+    mc_block:hasDisplayName "Chiseled Stone Bricks" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 297 ;
+    mc_block:hasName "chiseled_stone_bricks" .
+
+mc:chorus_flower a mc:Block ;
+    mc_block:hasDisplayName "Chorus Flower" ;
+    mc_block:hasHardness 4e-01 ;
+    mc_block:hasId 593 ;
+    mc_block:hasName "chorus_flower" .
+
+mc:chorus_plant a mc:Block ;
+    mc_block:hasDisplayName "Chorus Plant" ;
+    mc_block:hasHardness 4e-01 ;
+    mc_block:hasId 592 ;
+    mc_block:hasName "chorus_plant" .
+
+mc:clay a mc:Block ;
+    mc_block:hasDisplayName "Clay" ;
+    mc_block:hasHardness 6e-01 ;
+    mc_block:hasId 251 ;
+    mc_block:hasName "clay" .
+
+mc:coal_block a mc:Block ;
+    mc_block:hasDisplayName "Block of Coal" ;
+    mc_block:hasHardness 5e+00 ;
+    mc_block:hasId 495 ;
+    mc_block:hasName "coal_block" .
+
+mc:coal_ore a mc:Block ;
+    mc_block:hasDisplayName "Coal Ore" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 43 ;
+    mc_block:hasName "coal_ore" .
+
+mc:coarse_dirt a mc:Block ;
+    mc_block:hasDisplayName "Coarse Dirt" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 10 ;
+    mc_block:hasName "coarse_dirt" .
+
+mc:cobbled_deepslate a mc:Block ;
+    mc_block:hasDisplayName "Cobbled Deepslate" ;
+    mc_block:hasHardness 3.5e+00 ;
+    mc_block:hasId 971 ;
+    mc_block:hasName "cobbled_deepslate" .
+
+mc:cobbled_deepslate_slab a mc:Block ;
+    mc_block:hasDisplayName "Cobbled Deepslate Slab" ;
+    mc_block:hasHardness 3.5e+00 ;
+    mc_block:hasId 973 ;
+    mc_block:hasName "cobbled_deepslate_slab" .
+
+mc:cobbled_deepslate_stairs a mc:Block ;
+    mc_block:hasDisplayName "Cobbled Deepslate Stairs" ;
+    mc_block:hasHardness 3.5e+00 ;
+    mc_block:hasId 972 ;
+    mc_block:hasName "cobbled_deepslate_stairs" .
+
+mc:cobbled_deepslate_wall a mc:Block ;
+    mc_block:hasDisplayName "Cobbled Deepslate Wall" ;
+    mc_block:hasHardness 3.5e+00 ;
+    mc_block:hasId 974 ;
+    mc_block:hasName "cobbled_deepslate_wall" .
+
+mc:cobblestone a mc:Block ;
+    mc_block:hasDisplayName "Cobblestone" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 12 ;
+    mc_block:hasName "cobblestone" .
+
+mc:cobblestone_slab a mc:Block ;
+    mc_block:hasDisplayName "Cobblestone Slab" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 554 ;
+    mc_block:hasName "cobblestone_slab" .
+
+mc:cobblestone_stairs a mc:Block ;
+    mc_block:hasDisplayName "Cobblestone Stairs" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 198 ;
+    mc_block:hasName "cobblestone_stairs" .
+
+mc:cobblestone_wall a mc:Block ;
+    mc_block:hasDisplayName "Cobblestone Wall" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 353 ;
+    mc_block:hasName "cobblestone_wall" .
+
+mc:cobweb a mc:Block ;
+    mc_block:hasDisplayName "Cobweb" ;
+    mc_block:hasHardness 4e+00 ;
+    mc_block:hasId 122 ;
+    mc_block:hasName "cobweb" .
+
+mc:cocoa a mc:Block ;
+    mc_block:hasDisplayName "Cocoa" ;
+    mc_block:hasHardness 2e-01 ;
+    mc_block:hasId 340 ;
+    mc_block:hasName "cocoa" .
+
+mc:command_block a mc:Block ;
+    mc_block:hasDisplayName "Command Block" ;
+    mc_block:hasHardness -1e+00 ;
+    mc_block:hasId 351 ;
+    mc_block:hasName "command_block" .
+
+mc:comparator a mc:Block ;
+    mc_block:hasDisplayName "Redstone Comparator" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 414 ;
+    mc_block:hasName "comparator" .
+
+mc:composter a mc:Block ;
+    mc_block:hasDisplayName "Composter" ;
+    mc_block:hasHardness 6e-01 ;
+    mc_block:hasId 834 ;
+    mc_block:hasName "composter" .
+
+mc:conduit a mc:Block ;
+    mc_block:hasDisplayName "Conduit" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 725 ;
+    mc_block:hasName "conduit" .
+
+mc:copper_block a mc:Block ;
+    mc_block:hasDisplayName "Block of Copper" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 922 ;
+    mc_block:hasName "copper_block" .
+
+mc:copper_ore a mc:Block ;
+    mc_block:hasDisplayName "Copper Ore" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 923 ;
+    mc_block:hasName "copper_ore" .
+
+mc:cornflower a mc:Block ;
+    mc_block:hasDisplayName "Cornflower" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 158 ;
+    mc_block:hasName "cornflower" .
+
+mc:cracked_deepslate_bricks a mc:Block ;
+    mc_block:hasDisplayName "Cracked Deepslate Bricks" ;
+    mc_block:hasHardness 3.5e+00 ;
+    mc_block:hasId 988 ;
+    mc_block:hasName "cracked_deepslate_bricks" .
+
+mc:cracked_deepslate_tiles a mc:Block ;
+    mc_block:hasDisplayName "Cracked Deepslate Tiles" ;
+    mc_block:hasHardness 3.5e+00 ;
+    mc_block:hasId 989 ;
+    mc_block:hasName "cracked_deepslate_tiles" .
+
+mc:cracked_nether_bricks a mc:Block ;
+    mc_block:hasDisplayName "Cracked Nether Bricks" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 867 ;
+    mc_block:hasName "cracked_nether_bricks" .
+
+mc:cracked_polished_blackstone_bricks a mc:Block ;
+    mc_block:hasDisplayName "Cracked Polished Blackstone Bricks" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 855 ;
+    mc_block:hasName "cracked_polished_blackstone_bricks" .
+
+mc:cracked_stone_bricks a mc:Block ;
+    mc_block:hasDisplayName "Cracked Stone Bricks" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 296 ;
+    mc_block:hasName "cracked_stone_bricks" .
+
+mc:crafting_table a mc:Block ;
+    mc_block:hasDisplayName "Crafting Table" ;
+    mc_block:hasHardness 2.5e+00 ;
+    mc_block:hasId 182 ;
+    mc_block:hasName "crafting_table" .
+
+mc:creeper_head a mc:Block ;
+    mc_block:hasDisplayName "Creeper Head" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 402 ;
+    mc_block:hasName "creeper_head" .
+
+mc:creeper_wall_head a mc:Block ;
+    mc_block:hasDisplayName "Creeper Head" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 403 ;
+    mc_block:hasName "creeper_wall_head" .
+
+mc:crimson_button a mc:Block ;
+    mc_block:hasDisplayName "Crimson Button" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 824 ;
+    mc_block:hasName "crimson_button" .
+
+mc:crimson_door a mc:Block ;
+    mc_block:hasDisplayName "Crimson Door" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 826 ;
+    mc_block:hasName "crimson_door" .
+
+mc:crimson_fence a mc:Block ;
+    mc_block:hasDisplayName "Crimson Fence" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 816 ;
+    mc_block:hasName "crimson_fence" .
+
+mc:crimson_fence_gate a mc:Block ;
+    mc_block:hasDisplayName "Crimson Fence Gate" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 820 ;
+    mc_block:hasName "crimson_fence_gate" .
+
+mc:crimson_fungus a mc:Block ;
+    mc_block:hasDisplayName "Crimson Fungus" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 803 ;
+    mc_block:hasName "crimson_fungus" .
+
+mc:crimson_hanging_sign a mc:Block ;
+    mc_block:hasDisplayName "Crimson Hanging Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 215 ;
+    mc_block:hasName "crimson_hanging_sign" .
+
+mc:crimson_hyphae a mc:Block ;
+    mc_block:hasDisplayName "Crimson Hyphae" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 800 ;
+    mc_block:hasName "crimson_hyphae" .
+
+mc:crimson_nylium a mc:Block ;
+    mc_block:hasDisplayName "Crimson Nylium" ;
+    mc_block:hasHardness 4e-01 ;
+    mc_block:hasId 802 ;
+    mc_block:hasName "crimson_nylium" .
+
+mc:crimson_planks a mc:Block ;
+    mc_block:hasDisplayName "Crimson Planks" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 810 ;
+    mc_block:hasName "crimson_planks" .
+
+mc:crimson_pressure_plate a mc:Block ;
+    mc_block:hasDisplayName "Crimson Pressure Plate" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 814 ;
+    mc_block:hasName "crimson_pressure_plate" .
+
+mc:crimson_roots a mc:Block ;
+    mc_block:hasDisplayName "Crimson Roots" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 809 ;
+    mc_block:hasName "crimson_roots" .
+
+mc:crimson_sign a mc:Block ;
+    mc_block:hasDisplayName "Crimson Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 828 ;
+    mc_block:hasName "crimson_sign" .
+
+mc:crimson_slab a mc:Block ;
+    mc_block:hasDisplayName "Crimson Slab" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 812 ;
+    mc_block:hasName "crimson_slab" .
+
+mc:crimson_stairs a mc:Block ;
+    mc_block:hasDisplayName "Crimson Stairs" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 822 ;
+    mc_block:hasName "crimson_stairs" .
+
+mc:crimson_stem a mc:Block ;
+    mc_block:hasDisplayName "Crimson Stem" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 798 ;
+    mc_block:hasName "crimson_stem" .
+
+mc:crimson_trapdoor a mc:Block ;
+    mc_block:hasDisplayName "Crimson Trapdoor" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 818 ;
+    mc_block:hasName "crimson_trapdoor" .
+
+mc:crimson_wall_hanging_sign a mc:Block ;
+    mc_block:hasDisplayName "Crimson Hanging Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 227 ;
+    mc_block:hasName "crimson_wall_hanging_sign" .
+
+mc:crimson_wall_sign a mc:Block ;
+    mc_block:hasDisplayName "Crimson Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 830 ;
+    mc_block:hasName "crimson_wall_sign" .
+
+mc:crying_obsidian a mc:Block ;
+    mc_block:hasDisplayName "Crying Obsidian" ;
+    mc_block:hasHardness 5e+01 ;
+    mc_block:hasId 842 ;
+    mc_block:hasName "crying_obsidian" .
+
+mc:cut_copper a mc:Block ;
+    mc_block:hasDisplayName "Cut Copper" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 928 ;
+    mc_block:hasName "cut_copper" .
+
+mc:cut_copper_slab a mc:Block ;
+    mc_block:hasDisplayName "Cut Copper Slab" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 936 ;
+    mc_block:hasName "cut_copper_slab" .
+
+mc:cut_copper_stairs a mc:Block ;
+    mc_block:hasDisplayName "Cut Copper Stairs" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 932 ;
+    mc_block:hasName "cut_copper_stairs" .
+
+mc:cut_red_sandstone a mc:Block ;
+    mc_block:hasDisplayName "Cut Red Sandstone" ;
+    mc_block:hasHardness 8e-01 ;
+    mc_block:hasId 537 ;
+    mc_block:hasName "cut_red_sandstone" .
+
+mc:cut_red_sandstone_slab a mc:Block ;
+    mc_block:hasDisplayName "Cut Red Sandstone Slab" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 561 ;
+    mc_block:hasName "cut_red_sandstone_slab" .
+
+mc:cut_sandstone a mc:Block ;
+    mc_block:hasDisplayName "Cut Sandstone" ;
+    mc_block:hasHardness 8e-01 ;
+    mc_block:hasId 101 ;
+    mc_block:hasName "cut_sandstone" .
+
+mc:cut_sandstone_slab a mc:Block ;
+    mc_block:hasDisplayName "Cut Sandstone Slab" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 552 ;
+    mc_block:hasName "cut_sandstone_slab" .
+
+mc:cyan_banner a mc:Block ;
+    mc_block:hasDisplayName "Cyan Banner" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 512 ;
+    mc_block:hasName "cyan_banner" .
+
+mc:cyan_bed a mc:Block ;
+    mc_block:hasDisplayName "Cyan Bed" ;
+    mc_block:hasHardness 2e-01 ;
+    mc_block:hasId 112 ;
+    mc_block:hasName "cyan_bed" .
+
+mc:cyan_candle a mc:Block ;
+    mc_block:hasDisplayName "Cyan Candle" ;
+    mc_block:hasHardness 1e-01 ;
+    mc_block:hasId 879 ;
+    mc_block:hasName "cyan_candle" .
+
+mc:cyan_candle_cake a mc:Block ;
+    mc_block:hasDisplayName "Cake with Cyan Candle" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 896 ;
+    mc_block:hasName "cyan_candle_cake" .
+
+mc:cyan_carpet a mc:Block ;
+    mc_block:hasDisplayName "Cyan Carpet" ;
+    mc_block:hasHardness 1e-01 ;
+    mc_block:hasId 487 ;
+    mc_block:hasName "cyan_carpet" .
+
+mc:cyan_concrete a mc:Block ;
+    mc_block:hasDisplayName "Cyan Concrete" ;
+    mc_block:hasHardness 1.8e+00 ;
+    mc_block:hasId 655 ;
+    mc_block:hasName "cyan_concrete" .
+
+mc:cyan_concrete_powder a mc:Block ;
+    mc_block:hasDisplayName "Cyan Concrete Powder" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 671 ;
+    mc_block:hasName "cyan_concrete_powder" .
+
+mc:cyan_glazed_terracotta a mc:Block ;
+    mc_block:hasDisplayName "Cyan Glazed Terracotta" ;
+    mc_block:hasHardness 1.4e+00 ;
+    mc_block:hasId 639 ;
+    mc_block:hasName "cyan_glazed_terracotta" .
+
+mc:cyan_shulker_box a mc:Block ;
+    mc_block:hasDisplayName "Cyan Shulker Box" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 623 ;
+    mc_block:hasName "cyan_shulker_box" .
+
+mc:cyan_stained_glass a mc:Block ;
+    mc_block:hasDisplayName "Cyan Stained Glass" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 278 ;
+    mc_block:hasName "cyan_stained_glass" .
+
+mc:cyan_stained_glass_pane a mc:Block ;
+    mc_block:hasDisplayName "Cyan Stained Glass Pane" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 450 ;
+    mc_block:hasName "cyan_stained_glass_pane" .
+
+mc:cyan_terracotta a mc:Block ;
+    mc_block:hasDisplayName "Cyan Terracotta" ;
+    mc_block:hasHardness 1.25e+00 ;
+    mc_block:hasId 434 ;
+    mc_block:hasName "cyan_terracotta" .
+
+mc:cyan_wall_banner a mc:Block ;
+    mc_block:hasDisplayName "Cyan Banner" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 528 ;
+    mc_block:hasName "cyan_wall_banner" .
+
+mc:cyan_wool a mc:Block ;
+    mc_block:hasDisplayName "Cyan Wool" ;
+    mc_block:hasHardness 8e-01 ;
+    mc_block:hasId 139 ;
+    mc_block:hasName "cyan_wool" .
+
+mc:damaged_anvil a mc:Block ;
+    mc_block:hasDisplayName "Damaged Anvil" ;
+    mc_block:hasHardness 5e+00 ;
+    mc_block:hasId 410 ;
+    mc_block:hasName "damaged_anvil" .
+
+mc:dandelion a mc:Block ;
+    mc_block:hasDisplayName "Dandelion" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 147 ;
+    mc_block:hasName "dandelion" .
+
+mc:dark_oak_button a mc:Block ;
+    mc_block:hasDisplayName "Dark Oak Button" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 391 ;
+    mc_block:hasName "dark_oak_button" .
+
+mc:dark_oak_door a mc:Block ;
+    mc_block:hasDisplayName "Dark Oak Door" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 588 ;
+    mc_block:hasName "dark_oak_door" .
+
+mc:dark_oak_fence a mc:Block ;
+    mc_block:hasDisplayName "Dark Oak Fence" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 580 ;
+    mc_block:hasName "dark_oak_fence" .
+
+mc:dark_oak_fence_gate a mc:Block ;
+    mc_block:hasDisplayName "Dark Oak Fence Gate" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 572 ;
+    mc_block:hasName "dark_oak_fence_gate" .
+
+mc:dark_oak_hanging_sign a mc:Block ;
+    mc_block:hasDisplayName "Dark Oak Hanging Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 214 ;
+    mc_block:hasName "dark_oak_hanging_sign" .
+
+mc:dark_oak_leaves a mc:Block ;
+    mc_block:hasDisplayName "Dark Oak Leaves" ;
+    mc_block:hasHardness 2e-01 ;
+    mc_block:hasId 88 ;
+    mc_block:hasName "dark_oak_leaves" .
+
+mc:dark_oak_log a mc:Block ;
+    mc_block:hasDisplayName "Dark Oak Log" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 52 ;
+    mc_block:hasName "dark_oak_log" .
+
+mc:dark_oak_planks a mc:Block ;
+    mc_block:hasDisplayName "Dark Oak Planks" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 19 ;
+    mc_block:hasName "dark_oak_planks" .
+
+mc:dark_oak_pressure_plate a mc:Block ;
+    mc_block:hasDisplayName "Dark Oak Pressure Plate" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 239 ;
+    mc_block:hasName "dark_oak_pressure_plate" .
+
+mc:dark_oak_sapling a mc:Block ;
+    mc_block:hasDisplayName "Dark Oak Sapling" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 29 ;
+    mc_block:hasName "dark_oak_sapling" .
+
+mc:dark_oak_sign a mc:Block ;
+    mc_block:hasDisplayName "Dark Oak Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 192 ;
+    mc_block:hasName "dark_oak_sign" .
+
+mc:dark_oak_slab a mc:Block ;
+    mc_block:hasDisplayName "Dark Oak Slab" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 545 ;
+    mc_block:hasName "dark_oak_slab" .
+
+mc:dark_oak_stairs a mc:Block ;
+    mc_block:hasDisplayName "Dark Oak Stairs" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 459 ;
+    mc_block:hasName "dark_oak_stairs" .
+
+mc:dark_oak_trapdoor a mc:Block ;
+    mc_block:hasDisplayName "Dark Oak Trapdoor" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 291 ;
+    mc_block:hasName "dark_oak_trapdoor" .
+
+mc:dark_oak_wall_hanging_sign a mc:Block ;
+    mc_block:hasDisplayName "Dark Oak Hanging Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 225 ;
+    mc_block:hasName "dark_oak_wall_hanging_sign" .
+
+mc:dark_oak_wall_sign a mc:Block ;
+    mc_block:hasDisplayName "Dark Oak Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 205 ;
+    mc_block:hasName "dark_oak_wall_sign" .
+
+mc:dark_oak_wood a mc:Block ;
+    mc_block:hasDisplayName "Dark Oak Wood" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 72 ;
+    mc_block:hasName "dark_oak_wood" .
+
+mc:dark_prismarine a mc:Block ;
+    mc_block:hasDisplayName "Dark Prismarine" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 469 ;
+    mc_block:hasName "dark_prismarine" .
+
+mc:dark_prismarine_slab a mc:Block ;
+    mc_block:hasDisplayName "Dark Prismarine Slab" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 475 ;
+    mc_block:hasName "dark_prismarine_slab" .
+
+mc:dark_prismarine_stairs a mc:Block ;
+    mc_block:hasDisplayName "Dark Prismarine Stairs" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 472 ;
+    mc_block:hasName "dark_prismarine_stairs" .
+
+mc:daylight_detector a mc:Block ;
+    mc_block:hasDisplayName "Daylight Detector" ;
+    mc_block:hasHardness 2e-01 ;
+    mc_block:hasId 415 ;
+    mc_block:hasName "daylight_detector" .
+
+mc:dead_brain_coral a mc:Block ;
+    mc_block:hasDisplayName "Dead Brain Coral" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 694 ;
+    mc_block:hasName "dead_brain_coral" .
+
+mc:dead_brain_coral_block a mc:Block ;
+    mc_block:hasDisplayName "Dead Brain Coral Block" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 684 ;
+    mc_block:hasName "dead_brain_coral_block" .
+
+mc:dead_brain_coral_fan a mc:Block ;
+    mc_block:hasDisplayName "Dead Brain Coral Fan" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 704 ;
+    mc_block:hasName "dead_brain_coral_fan" .
+
+mc:dead_brain_coral_wall_fan a mc:Block ;
+    mc_block:hasDisplayName "Dead Brain Coral Wall Fan" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 714 ;
+    mc_block:hasName "dead_brain_coral_wall_fan" .
+
+mc:dead_bubble_coral a mc:Block ;
+    mc_block:hasDisplayName "Dead Bubble Coral" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 695 ;
+    mc_block:hasName "dead_bubble_coral" .
+
+mc:dead_bubble_coral_block a mc:Block ;
+    mc_block:hasDisplayName "Dead Bubble Coral Block" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 685 ;
+    mc_block:hasName "dead_bubble_coral_block" .
+
+mc:dead_bubble_coral_fan a mc:Block ;
+    mc_block:hasDisplayName "Dead Bubble Coral Fan" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 705 ;
+    mc_block:hasName "dead_bubble_coral_fan" .
+
+mc:dead_bubble_coral_wall_fan a mc:Block ;
+    mc_block:hasDisplayName "Dead Bubble Coral Wall Fan" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 715 ;
+    mc_block:hasName "dead_bubble_coral_wall_fan" .
+
+mc:dead_bush a mc:Block ;
+    mc_block:hasDisplayName "Dead Bush" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 125 ;
+    mc_block:hasName "dead_bush" .
+
+mc:dead_fire_coral a mc:Block ;
+    mc_block:hasDisplayName "Dead Fire Coral" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 696 ;
+    mc_block:hasName "dead_fire_coral" .
+
+mc:dead_fire_coral_block a mc:Block ;
+    mc_block:hasDisplayName "Dead Fire Coral Block" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 686 ;
+    mc_block:hasName "dead_fire_coral_block" .
+
+mc:dead_fire_coral_fan a mc:Block ;
+    mc_block:hasDisplayName "Dead Fire Coral Fan" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 706 ;
+    mc_block:hasName "dead_fire_coral_fan" .
+
+mc:dead_fire_coral_wall_fan a mc:Block ;
+    mc_block:hasDisplayName "Dead Fire Coral Wall Fan" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 716 ;
+    mc_block:hasName "dead_fire_coral_wall_fan" .
+
+mc:dead_horn_coral a mc:Block ;
+    mc_block:hasDisplayName "Dead Horn Coral" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 697 ;
+    mc_block:hasName "dead_horn_coral" .
+
+mc:dead_horn_coral_block a mc:Block ;
+    mc_block:hasDisplayName "Dead Horn Coral Block" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 687 ;
+    mc_block:hasName "dead_horn_coral_block" .
+
+mc:dead_horn_coral_fan a mc:Block ;
+    mc_block:hasDisplayName "Dead Horn Coral Fan" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 707 ;
+    mc_block:hasName "dead_horn_coral_fan" .
+
+mc:dead_horn_coral_wall_fan a mc:Block ;
+    mc_block:hasDisplayName "Dead Horn Coral Wall Fan" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 717 ;
+    mc_block:hasName "dead_horn_coral_wall_fan" .
+
+mc:dead_tube_coral a mc:Block ;
+    mc_block:hasDisplayName "Dead Tube Coral" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 693 ;
+    mc_block:hasName "dead_tube_coral" .
+
+mc:dead_tube_coral_block a mc:Block ;
+    mc_block:hasDisplayName "Dead Tube Coral Block" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 683 ;
+    mc_block:hasName "dead_tube_coral_block" .
+
+mc:dead_tube_coral_fan a mc:Block ;
+    mc_block:hasDisplayName "Dead Tube Coral Fan" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 703 ;
+    mc_block:hasName "dead_tube_coral_fan" .
+
+mc:dead_tube_coral_wall_fan a mc:Block ;
+    mc_block:hasDisplayName "Dead Tube Coral Wall Fan" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 713 ;
+    mc_block:hasName "dead_tube_coral_wall_fan" .
+
+mc:decorated_pot a mc:Block ;
+    mc_block:hasDisplayName "Decorated Pot" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 1002 ;
+    mc_block:hasName "decorated_pot" .
+
+mc:deepslate a mc:Block ;
+    mc_block:hasDisplayName "Deepslate" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 970 ;
+    mc_block:hasName "deepslate" .
+
+mc:deepslate_brick_slab a mc:Block ;
+    mc_block:hasDisplayName "Deepslate Brick Slab" ;
+    mc_block:hasHardness 3.5e+00 ;
+    mc_block:hasId 985 ;
+    mc_block:hasName "deepslate_brick_slab" .
+
+mc:deepslate_brick_stairs a mc:Block ;
+    mc_block:hasDisplayName "Deepslate Brick Stairs" ;
+    mc_block:hasHardness 3.5e+00 ;
+    mc_block:hasId 984 ;
+    mc_block:hasName "deepslate_brick_stairs" .
+
+mc:deepslate_brick_wall a mc:Block ;
+    mc_block:hasDisplayName "Deepslate Brick Wall" ;
+    mc_block:hasHardness 3.5e+00 ;
+    mc_block:hasId 986 ;
+    mc_block:hasName "deepslate_brick_wall" .
+
+mc:deepslate_bricks a mc:Block ;
+    mc_block:hasDisplayName "Deepslate Bricks" ;
+    mc_block:hasHardness 3.5e+00 ;
+    mc_block:hasId 983 ;
+    mc_block:hasName "deepslate_bricks" .
+
+mc:deepslate_coal_ore a mc:Block ;
+    mc_block:hasDisplayName "Deepslate Coal Ore" ;
+    mc_block:hasHardness 4.5e+00 ;
+    mc_block:hasId 44 ;
+    mc_block:hasName "deepslate_coal_ore" .
+
+mc:deepslate_copper_ore a mc:Block ;
+    mc_block:hasDisplayName "Deepslate Copper Ore" ;
+    mc_block:hasHardness 4.5e+00 ;
+    mc_block:hasId 924 ;
+    mc_block:hasName "deepslate_copper_ore" .
+
+mc:deepslate_diamond_ore a mc:Block ;
+    mc_block:hasDisplayName "Deepslate Diamond Ore" ;
+    mc_block:hasHardness 4.5e+00 ;
+    mc_block:hasId 180 ;
+    mc_block:hasName "deepslate_diamond_ore" .
+
+mc:deepslate_emerald_ore a mc:Block ;
+    mc_block:hasDisplayName "Deepslate Emerald Ore" ;
+    mc_block:hasHardness 4.5e+00 ;
+    mc_block:hasId 343 ;
+    mc_block:hasName "deepslate_emerald_ore" .
+
+mc:deepslate_gold_ore a mc:Block ;
+    mc_block:hasDisplayName "Deepslate Gold Ore" ;
+    mc_block:hasHardness 4.5e+00 ;
+    mc_block:hasId 40 ;
+    mc_block:hasName "deepslate_gold_ore" .
+
+mc:deepslate_iron_ore a mc:Block ;
+    mc_block:hasDisplayName "Deepslate Iron Ore" ;
+    mc_block:hasHardness 4.5e+00 ;
+    mc_block:hasId 42 ;
+    mc_block:hasName "deepslate_iron_ore" .
+
+mc:deepslate_lapis_ore a mc:Block ;
+    mc_block:hasDisplayName "Deepslate Lapis Lazuli Ore" ;
+    mc_block:hasHardness 4.5e+00 ;
+    mc_block:hasId 96 ;
+    mc_block:hasName "deepslate_lapis_ore" .
+
+mc:deepslate_redstone_ore a mc:Block ;
+    mc_block:hasDisplayName "Deepslate Redstone Ore" ;
+    mc_block:hasHardness 4.5e+00 ;
+    mc_block:hasId 243 ;
+    mc_block:hasName "deepslate_redstone_ore" .
+
+mc:deepslate_tile_slab a mc:Block ;
+    mc_block:hasDisplayName "Deepslate Tile Slab" ;
+    mc_block:hasHardness 3.5e+00 ;
+    mc_block:hasId 981 ;
+    mc_block:hasName "deepslate_tile_slab" .
+
+mc:deepslate_tile_stairs a mc:Block ;
+    mc_block:hasDisplayName "Deepslate Tile Stairs" ;
+    mc_block:hasHardness 3.5e+00 ;
+    mc_block:hasId 980 ;
+    mc_block:hasName "deepslate_tile_stairs" .
+
+mc:deepslate_tile_wall a mc:Block ;
+    mc_block:hasDisplayName "Deepslate Tile Wall" ;
+    mc_block:hasHardness 3.5e+00 ;
+    mc_block:hasId 982 ;
+    mc_block:hasName "deepslate_tile_wall" .
+
+mc:deepslate_tiles a mc:Block ;
+    mc_block:hasDisplayName "Deepslate Tiles" ;
+    mc_block:hasHardness 3.5e+00 ;
+    mc_block:hasId 979 ;
+    mc_block:hasName "deepslate_tiles" .
+
+mc:detector_rail a mc:Block ;
+    mc_block:hasDisplayName "Detector Rail" ;
+    mc_block:hasHardness 7e-01 ;
+    mc_block:hasId 120 ;
+    mc_block:hasName "detector_rail" .
+
+mc:diamond_block a mc:Block ;
+    mc_block:hasDisplayName "Block of Diamond" ;
+    mc_block:hasHardness 5e+00 ;
+    mc_block:hasId 181 ;
+    mc_block:hasName "diamond_block" .
+
+mc:diamond_ore a mc:Block ;
+    mc_block:hasDisplayName "Diamond Ore" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 179 ;
+    mc_block:hasName "diamond_ore" .
+
+mc:diorite a mc:Block ;
+    mc_block:hasDisplayName "Diorite" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 4 ;
+    mc_block:hasName "diorite" .
+
+mc:diorite_slab a mc:Block ;
+    mc_block:hasDisplayName "Diorite Slab" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 758 ;
+    mc_block:hasName "diorite_slab" .
+
+mc:diorite_stairs a mc:Block ;
+    mc_block:hasDisplayName "Diorite Stairs" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 745 ;
+    mc_block:hasName "diorite_stairs" .
+
+mc:diorite_wall a mc:Block ;
+    mc_block:hasDisplayName "Diorite Wall" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 771 ;
+    mc_block:hasName "diorite_wall" .
+
+mc:dirt a mc:Block ;
+    mc_block:hasDisplayName "Dirt" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 9 ;
+    mc_block:hasName "dirt" .
+
+mc:dirt_path a mc:Block ;
+    mc_block:hasDisplayName "Dirt Path" ;
+    mc_block:hasHardness 6.5e-01 ;
+    mc_block:hasId 602 ;
+    mc_block:hasName "dirt_path" .
+
+mc:dispenser a mc:Block ;
+    mc_block:hasDisplayName "Dispenser" ;
+    mc_block:hasHardness 3.5e+00 ;
+    mc_block:hasId 98 ;
+    mc_block:hasName "dispenser" .
+
+mc:dragon_egg a mc:Block ;
+    mc_block:hasDisplayName "Dragon Egg" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 338 ;
+    mc_block:hasName "dragon_egg" .
+
+mc:dragon_head a mc:Block ;
+    mc_block:hasDisplayName "Dragon Head" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 404 ;
+    mc_block:hasName "dragon_head" .
+
+mc:dragon_wall_head a mc:Block ;
+    mc_block:hasDisplayName "Dragon Head" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 405 ;
+    mc_block:hasName "dragon_wall_head" .
+
+mc:dried_kelp_block a mc:Block ;
+    mc_block:hasDisplayName "Dried Kelp Block" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 680 ;
+    mc_block:hasName "dried_kelp_block" .
+
+mc:dripstone_block a mc:Block ;
+    mc_block:hasDisplayName "Dripstone Block" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 955 ;
+    mc_block:hasName "dripstone_block" .
+
+mc:dropper a mc:Block ;
+    mc_block:hasDisplayName "Dropper" ;
+    mc_block:hasHardness 3.5e+00 ;
+    mc_block:hasId 424 ;
+    mc_block:hasName "dropper" .
+
+mc:emerald_block a mc:Block ;
+    mc_block:hasDisplayName "Block of Emerald" ;
+    mc_block:hasHardness 5e+00 ;
+    mc_block:hasId 347 ;
+    mc_block:hasName "emerald_block" .
+
+mc:emerald_ore a mc:Block ;
+    mc_block:hasDisplayName "Emerald Ore" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 342 ;
+    mc_block:hasName "emerald_ore" .
+
+mc:enchanting_table a mc:Block ;
+    mc_block:hasDisplayName "Enchanting Table" ;
+    mc_block:hasHardness 5e+00 ;
+    mc_block:hasId 329 ;
+    mc_block:hasName "enchanting_table" .
+
+mc:end_gateway a mc:Block ;
+    mc_block:hasDisplayName "End Gateway" ;
+    mc_block:hasHardness -1e+00 ;
+    mc_block:hasId 603 ;
+    mc_block:hasName "end_gateway" .
+
+mc:end_portal a mc:Block ;
+    mc_block:hasDisplayName "End Portal" ;
+    mc_block:hasHardness -1e+00 ;
+    mc_block:hasId 335 ;
+    mc_block:hasName "end_portal" .
+
+mc:end_portal_frame a mc:Block ;
+    mc_block:hasDisplayName "End Portal Frame" ;
+    mc_block:hasHardness -1e+00 ;
+    mc_block:hasId 336 ;
+    mc_block:hasName "end_portal_frame" .
+
+mc:end_rod a mc:Block ;
+    mc_block:hasDisplayName "End Rod" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 591 ;
+    mc_block:hasName "end_rod" .
+
+mc:end_stone a mc:Block ;
+    mc_block:hasDisplayName "End Stone" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 337 ;
+    mc_block:hasName "end_stone" .
+
+mc:end_stone_brick_slab a mc:Block ;
+    mc_block:hasDisplayName "End Stone Brick Slab" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 751 ;
+    mc_block:hasName "end_stone_brick_slab" .
+
+mc:end_stone_brick_stairs a mc:Block ;
+    mc_block:hasDisplayName "End Stone Brick Stairs" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 737 ;
+    mc_block:hasName "end_stone_brick_stairs" .
+
+mc:end_stone_brick_wall a mc:Block ;
+    mc_block:hasDisplayName "End Stone Brick Wall" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 770 ;
+    mc_block:hasName "end_stone_brick_wall" .
+
+mc:end_stone_bricks a mc:Block ;
+    mc_block:hasDisplayName "End Stone Bricks" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 597 ;
+    mc_block:hasName "end_stone_bricks" .
+
+mc:ender_chest a mc:Block ;
+    mc_block:hasDisplayName "Ender Chest" ;
+    mc_block:hasHardness 2.25e+01 ;
+    mc_block:hasId 344 ;
+    mc_block:hasName "ender_chest" .
+
+mc:exposed_copper a mc:Block ;
+    mc_block:hasDisplayName "Exposed Copper" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 921 ;
+    mc_block:hasName "exposed_copper" .
+
+mc:exposed_cut_copper a mc:Block ;
+    mc_block:hasDisplayName "Exposed Cut Copper" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 927 ;
+    mc_block:hasName "exposed_cut_copper" .
+
+mc:exposed_cut_copper_slab a mc:Block ;
+    mc_block:hasDisplayName "Exposed Cut Copper Slab" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 935 ;
+    mc_block:hasName "exposed_cut_copper_slab" .
+
+mc:exposed_cut_copper_stairs a mc:Block ;
+    mc_block:hasDisplayName "Exposed Cut Copper Stairs" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 931 ;
+    mc_block:hasName "exposed_cut_copper_stairs" .
+
+mc:farmland a mc:Block ;
+    mc_block:hasDisplayName "Farmland" ;
+    mc_block:hasHardness 6e-01 ;
+    mc_block:hasId 184 ;
+    mc_block:hasName "farmland" .
+
+mc:fern a mc:Block ;
+    mc_block:hasDisplayName "Fern" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 124 ;
+    mc_block:hasName "fern" .
+
+mc:fire a mc:Block ;
+    mc_block:hasDisplayName "Fire" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 173 ;
+    mc_block:hasName "fire" .
+
+mc:fire_coral a mc:Block ;
+    mc_block:hasDisplayName "Fire Coral" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 701 ;
+    mc_block:hasName "fire_coral" .
+
+mc:fire_coral_block a mc:Block ;
+    mc_block:hasDisplayName "Fire Coral Block" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 691 ;
+    mc_block:hasName "fire_coral_block" .
+
+mc:fire_coral_fan a mc:Block ;
+    mc_block:hasDisplayName "Fire Coral Fan" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 711 ;
+    mc_block:hasName "fire_coral_fan" .
+
+mc:fire_coral_wall_fan a mc:Block ;
+    mc_block:hasDisplayName "Fire Coral Wall Fan" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 721 ;
+    mc_block:hasName "fire_coral_wall_fan" .
+
+mc:fletching_table a mc:Block ;
+    mc_block:hasDisplayName "Fletching Table" ;
+    mc_block:hasHardness 2.5e+00 ;
+    mc_block:hasId 778 ;
+    mc_block:hasName "fletching_table" .
+
+mc:flower_pot a mc:Block ;
+    mc_block:hasDisplayName "Flower Pot" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 355 ;
+    mc_block:hasName "flower_pot" .
+
+mc:flowering_azalea a mc:Block ;
+    mc_block:hasDisplayName "Flowering Azalea" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 960 ;
+    mc_block:hasName "flowering_azalea" .
+
+mc:flowering_azalea_leaves a mc:Block ;
+    mc_block:hasDisplayName "Flowering Azalea Leaves" ;
+    mc_block:hasHardness 2e-01 ;
+    mc_block:hasId 91 ;
+    mc_block:hasName "flowering_azalea_leaves" .
+
+mc:frogspawn a mc:Block ;
+    mc_block:hasDisplayName "Frogspawn" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 1000 ;
+    mc_block:hasName "frogspawn" .
+
+mc:frosted_ice a mc:Block ;
+    mc_block:hasDisplayName "Frosted Ice" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 606 ;
+    mc_block:hasName "frosted_ice" .
+
+mc:furnace a mc:Block ;
+    mc_block:hasDisplayName "Furnace" ;
+    mc_block:hasHardness 3.5e+00 ;
+    mc_block:hasId 185 ;
+    mc_block:hasName "furnace" .
+
+mc:gilded_blackstone a mc:Block ;
+    mc_block:hasDisplayName "Gilded Blackstone" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 860 ;
+    mc_block:hasName "gilded_blackstone" .
+
+mc:glass a mc:Block ;
+    mc_block:hasDisplayName "Glass" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 94 ;
+    mc_block:hasName "glass" .
+
+mc:glass_pane a mc:Block ;
+    mc_block:hasDisplayName "Glass Pane" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 311 ;
+    mc_block:hasName "glass_pane" .
+
+mc:glow_lichen a mc:Block ;
+    mc_block:hasDisplayName "Glow Lichen" ;
+    mc_block:hasHardness 2e-01 ;
+    mc_block:hasId 318 ;
+    mc_block:hasName "glow_lichen" .
+
+mc:glowstone a mc:Block ;
+    mc_block:hasDisplayName "Glowstone" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 263 ;
+    mc_block:hasName "glowstone" .
+
+mc:gold_block a mc:Block ;
+    mc_block:hasDisplayName "Block of Gold" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 163 ;
+    mc_block:hasName "gold_block" .
+
+mc:gold_ore a mc:Block ;
+    mc_block:hasDisplayName "Gold Ore" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 39 ;
+    mc_block:hasName "gold_ore" .
+
+mc:granite a mc:Block ;
+    mc_block:hasDisplayName "Granite" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 2 ;
+    mc_block:hasName "granite" .
+
+mc:granite_slab a mc:Block ;
+    mc_block:hasDisplayName "Granite Slab" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 754 ;
+    mc_block:hasName "granite_slab" .
+
+mc:granite_stairs a mc:Block ;
+    mc_block:hasDisplayName "Granite Stairs" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 741 ;
+    mc_block:hasName "granite_stairs" .
+
+mc:granite_wall a mc:Block ;
+    mc_block:hasDisplayName "Granite Wall" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 763 ;
+    mc_block:hasName "granite_wall" .
+
+mc:grass a mc:Block ;
+    mc_block:hasDisplayName "Grass" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 123 ;
+    mc_block:hasName "grass" .
+
+mc:grass_block a mc:Block ;
+    mc_block:hasDisplayName "Grass Block" ;
+    mc_block:hasHardness 6e-01 ;
+    mc_block:hasId 8 ;
+    mc_block:hasName "grass_block" .
+
+mc:gravel a mc:Block ;
+    mc_block:hasDisplayName "Gravel" ;
+    mc_block:hasHardness 6e-01 ;
+    mc_block:hasId 37 ;
+    mc_block:hasName "gravel" .
+
+mc:gray_banner a mc:Block ;
+    mc_block:hasDisplayName "Gray Banner" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 510 ;
+    mc_block:hasName "gray_banner" .
+
+mc:gray_bed a mc:Block ;
+    mc_block:hasDisplayName "Gray Bed" ;
+    mc_block:hasHardness 2e-01 ;
+    mc_block:hasId 110 ;
+    mc_block:hasName "gray_bed" .
+
+mc:gray_candle a mc:Block ;
+    mc_block:hasDisplayName "Gray Candle" ;
+    mc_block:hasHardness 1e-01 ;
+    mc_block:hasId 877 ;
+    mc_block:hasName "gray_candle" .
+
+mc:gray_candle_cake a mc:Block ;
+    mc_block:hasDisplayName "Cake with Gray Candle" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 894 ;
+    mc_block:hasName "gray_candle_cake" .
+
+mc:gray_carpet a mc:Block ;
+    mc_block:hasDisplayName "Gray Carpet" ;
+    mc_block:hasHardness 1e-01 ;
+    mc_block:hasId 485 ;
+    mc_block:hasName "gray_carpet" .
+
+mc:gray_concrete a mc:Block ;
+    mc_block:hasDisplayName "Gray Concrete" ;
+    mc_block:hasHardness 1.8e+00 ;
+    mc_block:hasId 653 ;
+    mc_block:hasName "gray_concrete" .
+
+mc:gray_concrete_powder a mc:Block ;
+    mc_block:hasDisplayName "Gray Concrete Powder" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 669 ;
+    mc_block:hasName "gray_concrete_powder" .
+
+mc:gray_glazed_terracotta a mc:Block ;
+    mc_block:hasDisplayName "Gray Glazed Terracotta" ;
+    mc_block:hasHardness 1.4e+00 ;
+    mc_block:hasId 637 ;
+    mc_block:hasName "gray_glazed_terracotta" .
+
+mc:gray_shulker_box a mc:Block ;
+    mc_block:hasDisplayName "Gray Shulker Box" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 621 ;
+    mc_block:hasName "gray_shulker_box" .
+
+mc:gray_stained_glass a mc:Block ;
+    mc_block:hasDisplayName "Gray Stained Glass" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 276 ;
+    mc_block:hasName "gray_stained_glass" .
+
+mc:gray_stained_glass_pane a mc:Block ;
+    mc_block:hasDisplayName "Gray Stained Glass Pane" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 448 ;
+    mc_block:hasName "gray_stained_glass_pane" .
+
+mc:gray_terracotta a mc:Block ;
+    mc_block:hasDisplayName "Gray Terracotta" ;
+    mc_block:hasHardness 1.25e+00 ;
+    mc_block:hasId 432 ;
+    mc_block:hasName "gray_terracotta" .
+
+mc:gray_wall_banner a mc:Block ;
+    mc_block:hasDisplayName "Gray Banner" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 526 ;
+    mc_block:hasName "gray_wall_banner" .
+
+mc:gray_wool a mc:Block ;
+    mc_block:hasDisplayName "Gray Wool" ;
+    mc_block:hasHardness 8e-01 ;
+    mc_block:hasId 137 ;
+    mc_block:hasName "gray_wool" .
+
+mc:green_banner a mc:Block ;
+    mc_block:hasDisplayName "Green Banner" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 516 ;
+    mc_block:hasName "green_banner" .
+
+mc:green_bed a mc:Block ;
+    mc_block:hasDisplayName "Green Bed" ;
+    mc_block:hasHardness 2e-01 ;
+    mc_block:hasId 116 ;
+    mc_block:hasName "green_bed" .
+
+mc:green_candle a mc:Block ;
+    mc_block:hasDisplayName "Green Candle" ;
+    mc_block:hasHardness 1e-01 ;
+    mc_block:hasId 883 ;
+    mc_block:hasName "green_candle" .
+
+mc:green_candle_cake a mc:Block ;
+    mc_block:hasDisplayName "Cake with Green Candle" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 900 ;
+    mc_block:hasName "green_candle_cake" .
+
+mc:green_carpet a mc:Block ;
+    mc_block:hasDisplayName "Green Carpet" ;
+    mc_block:hasHardness 1e-01 ;
+    mc_block:hasId 491 ;
+    mc_block:hasName "green_carpet" .
+
+mc:green_concrete a mc:Block ;
+    mc_block:hasDisplayName "Green Concrete" ;
+    mc_block:hasHardness 1.8e+00 ;
+    mc_block:hasId 659 ;
+    mc_block:hasName "green_concrete" .
+
+mc:green_concrete_powder a mc:Block ;
+    mc_block:hasDisplayName "Green Concrete Powder" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 675 ;
+    mc_block:hasName "green_concrete_powder" .
+
+mc:green_glazed_terracotta a mc:Block ;
+    mc_block:hasDisplayName "Green Glazed Terracotta" ;
+    mc_block:hasHardness 1.4e+00 ;
+    mc_block:hasId 643 ;
+    mc_block:hasName "green_glazed_terracotta" .
+
+mc:green_shulker_box a mc:Block ;
+    mc_block:hasDisplayName "Green Shulker Box" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 627 ;
+    mc_block:hasName "green_shulker_box" .
+
+mc:green_stained_glass a mc:Block ;
+    mc_block:hasDisplayName "Green Stained Glass" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 282 ;
+    mc_block:hasName "green_stained_glass" .
+
+mc:green_stained_glass_pane a mc:Block ;
+    mc_block:hasDisplayName "Green Stained Glass Pane" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 454 ;
+    mc_block:hasName "green_stained_glass_pane" .
+
+mc:green_terracotta a mc:Block ;
+    mc_block:hasDisplayName "Green Terracotta" ;
+    mc_block:hasHardness 1.25e+00 ;
+    mc_block:hasId 438 ;
+    mc_block:hasName "green_terracotta" .
+
+mc:green_wall_banner a mc:Block ;
+    mc_block:hasDisplayName "Green Banner" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 532 ;
+    mc_block:hasName "green_wall_banner" .
+
+mc:green_wool a mc:Block ;
+    mc_block:hasDisplayName "Green Wool" ;
+    mc_block:hasHardness 8e-01 ;
+    mc_block:hasId 143 ;
+    mc_block:hasName "green_wool" .
+
+mc:grindstone a mc:Block ;
+    mc_block:hasDisplayName "Grindstone" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 779 ;
+    mc_block:hasName "grindstone" .
+
+mc:hanging_roots a mc:Block ;
+    mc_block:hasDisplayName "Hanging Roots" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 967 ;
+    mc_block:hasName "hanging_roots" .
+
+mc:hay_block a mc:Block ;
+    mc_block:hasDisplayName "Hay Bale" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 477 ;
+    mc_block:hasName "hay_block" .
+
+mc:heavy_weighted_pressure_plate a mc:Block ;
+    mc_block:hasDisplayName "Heavy Weighted Pressure Plate" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 413 ;
+    mc_block:hasName "heavy_weighted_pressure_plate" .
+
+mc:honey_block a mc:Block ;
+    mc_block:hasDisplayName "Honey Block" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 838 ;
+    mc_block:hasName "honey_block" .
+
+mc:honeycomb_block a mc:Block ;
+    mc_block:hasDisplayName "Honeycomb Block" ;
+    mc_block:hasHardness 6e-01 ;
+    mc_block:hasId 839 ;
+    mc_block:hasName "honeycomb_block" .
+
+mc:hopper a mc:Block ;
+    mc_block:hasDisplayName "Hopper" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 418 ;
+    mc_block:hasName "hopper" .
+
+mc:horn_coral a mc:Block ;
+    mc_block:hasDisplayName "Horn Coral" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 702 ;
+    mc_block:hasName "horn_coral" .
+
+mc:horn_coral_block a mc:Block ;
+    mc_block:hasDisplayName "Horn Coral Block" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 692 ;
+    mc_block:hasName "horn_coral_block" .
+
+mc:horn_coral_fan a mc:Block ;
+    mc_block:hasDisplayName "Horn Coral Fan" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 712 ;
+    mc_block:hasName "horn_coral_fan" .
+
+mc:horn_coral_wall_fan a mc:Block ;
+    mc_block:hasDisplayName "Horn Coral Wall Fan" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 722 ;
+    mc_block:hasName "horn_coral_wall_fan" .
+
+mc:ice a mc:Block ;
+    mc_block:hasDisplayName "Ice" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 248 ;
+    mc_block:hasName "ice" .
+
+mc:infested_chiseled_stone_bricks a mc:Block ;
+    mc_block:hasDisplayName "Infested Chiseled Stone Bricks" ;
+    mc_block:hasHardness 7.5e-01 ;
+    mc_block:hasId 305 ;
+    mc_block:hasName "infested_chiseled_stone_bricks" .
+
+mc:infested_cobblestone a mc:Block ;
+    mc_block:hasDisplayName "Infested Cobblestone" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 301 ;
+    mc_block:hasName "infested_cobblestone" .
+
+mc:infested_cracked_stone_bricks a mc:Block ;
+    mc_block:hasDisplayName "Infested Cracked Stone Bricks" ;
+    mc_block:hasHardness 7.5e-01 ;
+    mc_block:hasId 304 ;
+    mc_block:hasName "infested_cracked_stone_bricks" .
+
+mc:infested_deepslate a mc:Block ;
+    mc_block:hasDisplayName "Infested Deepslate" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 990 ;
+    mc_block:hasName "infested_deepslate" .
+
+mc:infested_mossy_stone_bricks a mc:Block ;
+    mc_block:hasDisplayName "Infested Mossy Stone Bricks" ;
+    mc_block:hasHardness 7.5e-01 ;
+    mc_block:hasId 303 ;
+    mc_block:hasName "infested_mossy_stone_bricks" .
+
+mc:infested_stone a mc:Block ;
+    mc_block:hasDisplayName "Infested Stone" ;
+    mc_block:hasHardness 7.5e-01 ;
+    mc_block:hasId 300 ;
+    mc_block:hasName "infested_stone" .
+
+mc:infested_stone_bricks a mc:Block ;
+    mc_block:hasDisplayName "Infested Stone Bricks" ;
+    mc_block:hasHardness 7.5e-01 ;
+    mc_block:hasId 302 ;
+    mc_block:hasName "infested_stone_bricks" .
+
+mc:iron_bars a mc:Block ;
+    mc_block:hasDisplayName "Iron Bars" ;
+    mc_block:hasHardness 5e+00 ;
+    mc_block:hasId 309 ;
+    mc_block:hasName "iron_bars" .
+
+mc:iron_block a mc:Block ;
+    mc_block:hasDisplayName "Block of Iron" ;
+    mc_block:hasHardness 5e+00 ;
+    mc_block:hasId 164 ;
+    mc_block:hasName "iron_block" .
+
+mc:iron_door a mc:Block ;
+    mc_block:hasDisplayName "Iron Door" ;
+    mc_block:hasHardness 5e+00 ;
+    mc_block:hasId 232 ;
+    mc_block:hasName "iron_door" .
+
+mc:iron_ore a mc:Block ;
+    mc_block:hasDisplayName "Iron Ore" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 41 ;
+    mc_block:hasName "iron_ore" .
+
+mc:iron_trapdoor a mc:Block ;
+    mc_block:hasDisplayName "Iron Trapdoor" ;
+    mc_block:hasHardness 5e+00 ;
+    mc_block:hasId 466 ;
+    mc_block:hasName "iron_trapdoor" .
+
+mc:jack_o_lantern a mc:Block ;
+    mc_block:hasDisplayName "Jack o'Lantern" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 266 ;
+    mc_block:hasName "jack_o_lantern" .
+
+mc:jigsaw a mc:Block ;
+    mc_block:hasDisplayName "Jigsaw Block" ;
+    mc_block:hasHardness -1e+00 ;
+    mc_block:hasId 833 ;
+    mc_block:hasName "jigsaw" .
+
+mc:jukebox a mc:Block ;
+    mc_block:hasDisplayName "Jukebox" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 253 ;
+    mc_block:hasName "jukebox" .
+
+mc:jungle_button a mc:Block ;
+    mc_block:hasDisplayName "Jungle Button" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 388 ;
+    mc_block:hasName "jungle_button" .
+
+mc:jungle_door a mc:Block ;
+    mc_block:hasDisplayName "Jungle Door" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 585 ;
+    mc_block:hasName "jungle_door" .
+
+mc:jungle_fence a mc:Block ;
+    mc_block:hasDisplayName "Jungle Fence" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 577 ;
+    mc_block:hasName "jungle_fence" .
+
+mc:jungle_fence_gate a mc:Block ;
+    mc_block:hasDisplayName "Jungle Fence Gate" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 569 ;
+    mc_block:hasName "jungle_fence_gate" .
+
+mc:jungle_hanging_sign a mc:Block ;
+    mc_block:hasDisplayName "Jungle Hanging Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 213 ;
+    mc_block:hasName "jungle_hanging_sign" .
+
+mc:jungle_leaves a mc:Block ;
+    mc_block:hasDisplayName "Jungle Leaves" ;
+    mc_block:hasHardness 2e-01 ;
+    mc_block:hasId 85 ;
+    mc_block:hasName "jungle_leaves" .
+
+mc:jungle_log a mc:Block ;
+    mc_block:hasDisplayName "Jungle Log" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 49 ;
+    mc_block:hasName "jungle_log" .
+
+mc:jungle_planks a mc:Block ;
+    mc_block:hasDisplayName "Jungle Planks" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 16 ;
+    mc_block:hasName "jungle_planks" .
+
+mc:jungle_pressure_plate a mc:Block ;
+    mc_block:hasDisplayName "Jungle Pressure Plate" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 236 ;
+    mc_block:hasName "jungle_pressure_plate" .
+
+mc:jungle_sapling a mc:Block ;
+    mc_block:hasDisplayName "Jungle Sapling" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 26 ;
+    mc_block:hasName "jungle_sapling" .
+
+mc:jungle_sign a mc:Block ;
+    mc_block:hasDisplayName "Jungle Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 191 ;
+    mc_block:hasName "jungle_sign" .
+
+mc:jungle_slab a mc:Block ;
+    mc_block:hasDisplayName "Jungle Slab" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 542 ;
+    mc_block:hasName "jungle_slab" .
+
+mc:jungle_stairs a mc:Block ;
+    mc_block:hasDisplayName "Jungle Stairs" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 350 ;
+    mc_block:hasName "jungle_stairs" .
+
+mc:jungle_trapdoor a mc:Block ;
+    mc_block:hasDisplayName "Jungle Trapdoor" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 288 ;
+    mc_block:hasName "jungle_trapdoor" .
+
+mc:jungle_wall_hanging_sign a mc:Block ;
+    mc_block:hasDisplayName "Jungle Hanging Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 224 ;
+    mc_block:hasName "jungle_wall_hanging_sign" .
+
+mc:jungle_wall_sign a mc:Block ;
+    mc_block:hasDisplayName "Jungle Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 204 ;
+    mc_block:hasName "jungle_wall_sign" .
+
+mc:jungle_wood a mc:Block ;
+    mc_block:hasDisplayName "Jungle Wood" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 69 ;
+    mc_block:hasName "jungle_wood" .
+
+mc:kelp a mc:Block ;
+    mc_block:hasDisplayName "Kelp" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 678 ;
+    mc_block:hasName "kelp" .
+
+mc:kelp_plant a mc:Block ;
+    mc_block:hasDisplayName "Kelp Plant" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 679 ;
+    mc_block:hasName "kelp_plant" .
+
+mc:ladder a mc:Block ;
+    mc_block:hasDisplayName "Ladder" ;
+    mc_block:hasHardness 4e-01 ;
+    mc_block:hasId 196 ;
+    mc_block:hasName "ladder" .
+
+mc:lantern a mc:Block ;
+    mc_block:hasDisplayName "Lantern" ;
+    mc_block:hasHardness 3.5e+00 ;
+    mc_block:hasId 784 ;
+    mc_block:hasName "lantern" .
+
+mc:lapis_block a mc:Block ;
+    mc_block:hasDisplayName "Block of Lapis Lazuli" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 97 ;
+    mc_block:hasName "lapis_block" .
+
+mc:lapis_ore a mc:Block ;
+    mc_block:hasDisplayName "Lapis Lazuli Ore" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 95 ;
+    mc_block:hasName "lapis_ore" .
+
+mc:large_amethyst_bud a mc:Block ;
+    mc_block:hasDisplayName "Large Amethyst Bud" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 906 ;
+    mc_block:hasName "large_amethyst_bud" .
+
+mc:large_fern a mc:Block ;
+    mc_block:hasDisplayName "Large Fern" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 502 ;
+    mc_block:hasName "large_fern" .
+
+mc:lava a mc:Block ;
+    mc_block:hasDisplayName "Lava" ;
+    mc_block:hasHardness 1e+02 ;
+    mc_block:hasId 33 ;
+    mc_block:hasName "lava" .
+
+mc:lava_cauldron a mc:Block ;
+    mc_block:hasDisplayName "Lava Cauldron" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 333 ;
+    mc_block:hasName "lava_cauldron" .
+
+mc:lectern a mc:Block ;
+    mc_block:hasDisplayName "Lectern" ;
+    mc_block:hasHardness 2.5e+00 ;
+    mc_block:hasId 780 ;
+    mc_block:hasName "lectern" .
+
+mc:lever a mc:Block ;
+    mc_block:hasDisplayName "Lever" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 230 ;
+    mc_block:hasName "lever" .
+
+mc:light a mc:Block ;
+    mc_block:hasDisplayName "Light" ;
+    mc_block:hasHardness -1e+00 ;
+    mc_block:hasId 465 ;
+    mc_block:hasName "light" .
+
+mc:light_blue_banner a mc:Block ;
+    mc_block:hasDisplayName "Light Blue Banner" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 506 ;
+    mc_block:hasName "light_blue_banner" .
+
+mc:light_blue_bed a mc:Block ;
+    mc_block:hasDisplayName "Light Blue Bed" ;
+    mc_block:hasHardness 2e-01 ;
+    mc_block:hasId 106 ;
+    mc_block:hasName "light_blue_bed" .
+
+mc:light_blue_candle a mc:Block ;
+    mc_block:hasDisplayName "Light Blue Candle" ;
+    mc_block:hasHardness 1e-01 ;
+    mc_block:hasId 873 ;
+    mc_block:hasName "light_blue_candle" .
+
+mc:light_blue_candle_cake a mc:Block ;
+    mc_block:hasDisplayName "Cake with Light Blue Candle" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 890 ;
+    mc_block:hasName "light_blue_candle_cake" .
+
+mc:light_blue_carpet a mc:Block ;
+    mc_block:hasDisplayName "Light Blue Carpet" ;
+    mc_block:hasHardness 1e-01 ;
+    mc_block:hasId 481 ;
+    mc_block:hasName "light_blue_carpet" .
+
+mc:light_blue_concrete a mc:Block ;
+    mc_block:hasDisplayName "Light Blue Concrete" ;
+    mc_block:hasHardness 1.8e+00 ;
+    mc_block:hasId 649 ;
+    mc_block:hasName "light_blue_concrete" .
+
+mc:light_blue_concrete_powder a mc:Block ;
+    mc_block:hasDisplayName "Light Blue Concrete Powder" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 665 ;
+    mc_block:hasName "light_blue_concrete_powder" .
+
+mc:light_blue_glazed_terracotta a mc:Block ;
+    mc_block:hasDisplayName "Light Blue Glazed Terracotta" ;
+    mc_block:hasHardness 1.4e+00 ;
+    mc_block:hasId 633 ;
+    mc_block:hasName "light_blue_glazed_terracotta" .
+
+mc:light_blue_shulker_box a mc:Block ;
+    mc_block:hasDisplayName "Light Blue Shulker Box" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 617 ;
+    mc_block:hasName "light_blue_shulker_box" .
+
+mc:light_blue_stained_glass a mc:Block ;
+    mc_block:hasDisplayName "Light Blue Stained Glass" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 272 ;
+    mc_block:hasName "light_blue_stained_glass" .
+
+mc:light_blue_stained_glass_pane a mc:Block ;
+    mc_block:hasDisplayName "Light Blue Stained Glass Pane" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 444 ;
+    mc_block:hasName "light_blue_stained_glass_pane" .
+
+mc:light_blue_terracotta a mc:Block ;
+    mc_block:hasDisplayName "Light Blue Terracotta" ;
+    mc_block:hasHardness 1.25e+00 ;
+    mc_block:hasId 428 ;
+    mc_block:hasName "light_blue_terracotta" .
+
+mc:light_blue_wall_banner a mc:Block ;
+    mc_block:hasDisplayName "Light Blue Banner" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 522 ;
+    mc_block:hasName "light_blue_wall_banner" .
+
+mc:light_blue_wool a mc:Block ;
+    mc_block:hasDisplayName "Light Blue Wool" ;
+    mc_block:hasHardness 8e-01 ;
+    mc_block:hasId 133 ;
+    mc_block:hasName "light_blue_wool" .
+
+mc:light_gray_banner a mc:Block ;
+    mc_block:hasDisplayName "Light Gray Banner" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 511 ;
+    mc_block:hasName "light_gray_banner" .
+
+mc:light_gray_bed a mc:Block ;
+    mc_block:hasDisplayName "Light Gray Bed" ;
+    mc_block:hasHardness 2e-01 ;
+    mc_block:hasId 111 ;
+    mc_block:hasName "light_gray_bed" .
+
+mc:light_gray_candle a mc:Block ;
+    mc_block:hasDisplayName "Light Gray Candle" ;
+    mc_block:hasHardness 1e-01 ;
+    mc_block:hasId 878 ;
+    mc_block:hasName "light_gray_candle" .
+
+mc:light_gray_candle_cake a mc:Block ;
+    mc_block:hasDisplayName "Cake with Light Gray Candle" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 895 ;
+    mc_block:hasName "light_gray_candle_cake" .
+
+mc:light_gray_carpet a mc:Block ;
+    mc_block:hasDisplayName "Light Gray Carpet" ;
+    mc_block:hasHardness 1e-01 ;
+    mc_block:hasId 486 ;
+    mc_block:hasName "light_gray_carpet" .
+
+mc:light_gray_concrete a mc:Block ;
+    mc_block:hasDisplayName "Light Gray Concrete" ;
+    mc_block:hasHardness 1.8e+00 ;
+    mc_block:hasId 654 ;
+    mc_block:hasName "light_gray_concrete" .
+
+mc:light_gray_concrete_powder a mc:Block ;
+    mc_block:hasDisplayName "Light Gray Concrete Powder" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 670 ;
+    mc_block:hasName "light_gray_concrete_powder" .
+
+mc:light_gray_glazed_terracotta a mc:Block ;
+    mc_block:hasDisplayName "Light Gray Glazed Terracotta" ;
+    mc_block:hasHardness 1.4e+00 ;
+    mc_block:hasId 638 ;
+    mc_block:hasName "light_gray_glazed_terracotta" .
+
+mc:light_gray_shulker_box a mc:Block ;
+    mc_block:hasDisplayName "Light Gray Shulker Box" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 622 ;
+    mc_block:hasName "light_gray_shulker_box" .
+
+mc:light_gray_stained_glass a mc:Block ;
+    mc_block:hasDisplayName "Light Gray Stained Glass" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 277 ;
+    mc_block:hasName "light_gray_stained_glass" .
+
+mc:light_gray_stained_glass_pane a mc:Block ;
+    mc_block:hasDisplayName "Light Gray Stained Glass Pane" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 449 ;
+    mc_block:hasName "light_gray_stained_glass_pane" .
+
+mc:light_gray_terracotta a mc:Block ;
+    mc_block:hasDisplayName "Light Gray Terracotta" ;
+    mc_block:hasHardness 1.25e+00 ;
+    mc_block:hasId 433 ;
+    mc_block:hasName "light_gray_terracotta" .
+
+mc:light_gray_wall_banner a mc:Block ;
+    mc_block:hasDisplayName "Light Gray Banner" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 527 ;
+    mc_block:hasName "light_gray_wall_banner" .
+
+mc:light_gray_wool a mc:Block ;
+    mc_block:hasDisplayName "Light Gray Wool" ;
+    mc_block:hasHardness 8e-01 ;
+    mc_block:hasId 138 ;
+    mc_block:hasName "light_gray_wool" .
+
+mc:light_weighted_pressure_plate a mc:Block ;
+    mc_block:hasDisplayName "Light Weighted Pressure Plate" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 412 ;
+    mc_block:hasName "light_weighted_pressure_plate" .
+
+mc:lightning_rod a mc:Block ;
+    mc_block:hasDisplayName "Lightning Rod" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 953 ;
+    mc_block:hasName "lightning_rod" .
+
+mc:lilac a mc:Block ;
+    mc_block:hasDisplayName "Lilac" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 498 ;
+    mc_block:hasName "lilac" .
+
+mc:lily_of_the_valley a mc:Block ;
+    mc_block:hasDisplayName "Lily of the Valley" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 160 ;
+    mc_block:hasName "lily_of_the_valley" .
+
+mc:lily_pad a mc:Block ;
+    mc_block:hasDisplayName "Lily Pad" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 324 ;
+    mc_block:hasName "lily_pad" .
+
+mc:lime_banner a mc:Block ;
+    mc_block:hasDisplayName "Lime Banner" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 508 ;
+    mc_block:hasName "lime_banner" .
+
+mc:lime_bed a mc:Block ;
+    mc_block:hasDisplayName "Lime Bed" ;
+    mc_block:hasHardness 2e-01 ;
+    mc_block:hasId 108 ;
+    mc_block:hasName "lime_bed" .
+
+mc:lime_candle a mc:Block ;
+    mc_block:hasDisplayName "Lime Candle" ;
+    mc_block:hasHardness 1e-01 ;
+    mc_block:hasId 875 ;
+    mc_block:hasName "lime_candle" .
+
+mc:lime_candle_cake a mc:Block ;
+    mc_block:hasDisplayName "Cake with Lime Candle" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 892 ;
+    mc_block:hasName "lime_candle_cake" .
+
+mc:lime_carpet a mc:Block ;
+    mc_block:hasDisplayName "Lime Carpet" ;
+    mc_block:hasHardness 1e-01 ;
+    mc_block:hasId 483 ;
+    mc_block:hasName "lime_carpet" .
+
+mc:lime_concrete a mc:Block ;
+    mc_block:hasDisplayName "Lime Concrete" ;
+    mc_block:hasHardness 1.8e+00 ;
+    mc_block:hasId 651 ;
+    mc_block:hasName "lime_concrete" .
+
+mc:lime_concrete_powder a mc:Block ;
+    mc_block:hasDisplayName "Lime Concrete Powder" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 667 ;
+    mc_block:hasName "lime_concrete_powder" .
+
+mc:lime_glazed_terracotta a mc:Block ;
+    mc_block:hasDisplayName "Lime Glazed Terracotta" ;
+    mc_block:hasHardness 1.4e+00 ;
+    mc_block:hasId 635 ;
+    mc_block:hasName "lime_glazed_terracotta" .
+
+mc:lime_shulker_box a mc:Block ;
+    mc_block:hasDisplayName "Lime Shulker Box" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 619 ;
+    mc_block:hasName "lime_shulker_box" .
+
+mc:lime_stained_glass a mc:Block ;
+    mc_block:hasDisplayName "Lime Stained Glass" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 274 ;
+    mc_block:hasName "lime_stained_glass" .
+
+mc:lime_stained_glass_pane a mc:Block ;
+    mc_block:hasDisplayName "Lime Stained Glass Pane" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 446 ;
+    mc_block:hasName "lime_stained_glass_pane" .
+
+mc:lime_terracotta a mc:Block ;
+    mc_block:hasDisplayName "Lime Terracotta" ;
+    mc_block:hasHardness 1.25e+00 ;
+    mc_block:hasId 430 ;
+    mc_block:hasName "lime_terracotta" .
+
+mc:lime_wall_banner a mc:Block ;
+    mc_block:hasDisplayName "Lime Banner" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 524 ;
+    mc_block:hasName "lime_wall_banner" .
+
+mc:lime_wool a mc:Block ;
+    mc_block:hasDisplayName "Lime Wool" ;
+    mc_block:hasHardness 8e-01 ;
+    mc_block:hasId 135 ;
+    mc_block:hasName "lime_wool" .
+
+mc:lodestone a mc:Block ;
+    mc_block:hasDisplayName "Lodestone" ;
+    mc_block:hasHardness 3.5e+00 ;
+    mc_block:hasId 848 ;
+    mc_block:hasName "lodestone" .
+
+mc:loom a mc:Block ;
+    mc_block:hasDisplayName "Loom" ;
+    mc_block:hasHardness 2.5e+00 ;
+    mc_block:hasId 773 ;
+    mc_block:hasName "loom" .
+
+mc:magenta_banner a mc:Block ;
+    mc_block:hasDisplayName "Magenta Banner" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 505 ;
+    mc_block:hasName "magenta_banner" .
+
+mc:magenta_bed a mc:Block ;
+    mc_block:hasDisplayName "Magenta Bed" ;
+    mc_block:hasHardness 2e-01 ;
+    mc_block:hasId 105 ;
+    mc_block:hasName "magenta_bed" .
+
+mc:magenta_candle a mc:Block ;
+    mc_block:hasDisplayName "Magenta Candle" ;
+    mc_block:hasHardness 1e-01 ;
+    mc_block:hasId 872 ;
+    mc_block:hasName "magenta_candle" .
+
+mc:magenta_candle_cake a mc:Block ;
+    mc_block:hasDisplayName "Cake with Magenta Candle" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 889 ;
+    mc_block:hasName "magenta_candle_cake" .
+
+mc:magenta_carpet a mc:Block ;
+    mc_block:hasDisplayName "Magenta Carpet" ;
+    mc_block:hasHardness 1e-01 ;
+    mc_block:hasId 480 ;
+    mc_block:hasName "magenta_carpet" .
+
+mc:magenta_concrete a mc:Block ;
+    mc_block:hasDisplayName "Magenta Concrete" ;
+    mc_block:hasHardness 1.8e+00 ;
+    mc_block:hasId 648 ;
+    mc_block:hasName "magenta_concrete" .
+
+mc:magenta_concrete_powder a mc:Block ;
+    mc_block:hasDisplayName "Magenta Concrete Powder" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 664 ;
+    mc_block:hasName "magenta_concrete_powder" .
+
+mc:magenta_glazed_terracotta a mc:Block ;
+    mc_block:hasDisplayName "Magenta Glazed Terracotta" ;
+    mc_block:hasHardness 1.4e+00 ;
+    mc_block:hasId 632 ;
+    mc_block:hasName "magenta_glazed_terracotta" .
+
+mc:magenta_shulker_box a mc:Block ;
+    mc_block:hasDisplayName "Magenta Shulker Box" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 616 ;
+    mc_block:hasName "magenta_shulker_box" .
+
+mc:magenta_stained_glass a mc:Block ;
+    mc_block:hasDisplayName "Magenta Stained Glass" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 271 ;
+    mc_block:hasName "magenta_stained_glass" .
+
+mc:magenta_stained_glass_pane a mc:Block ;
+    mc_block:hasDisplayName "Magenta Stained Glass Pane" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 443 ;
+    mc_block:hasName "magenta_stained_glass_pane" .
+
+mc:magenta_terracotta a mc:Block ;
+    mc_block:hasDisplayName "Magenta Terracotta" ;
+    mc_block:hasHardness 1.25e+00 ;
+    mc_block:hasId 427 ;
+    mc_block:hasName "magenta_terracotta" .
+
+mc:magenta_wall_banner a mc:Block ;
+    mc_block:hasDisplayName "Magenta Banner" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 521 ;
+    mc_block:hasName "magenta_wall_banner" .
+
+mc:magenta_wool a mc:Block ;
+    mc_block:hasDisplayName "Magenta Wool" ;
+    mc_block:hasHardness 8e-01 ;
+    mc_block:hasId 132 ;
+    mc_block:hasName "magenta_wool" .
+
+mc:magma_block a mc:Block ;
+    mc_block:hasDisplayName "Magma Block" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 607 ;
+    mc_block:hasName "magma_block" .
+
+mc:mangrove_button a mc:Block ;
+    mc_block:hasDisplayName "Mangrove Button" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 392 ;
+    mc_block:hasName "mangrove_button" .
+
+mc:mangrove_door a mc:Block ;
+    mc_block:hasDisplayName "Mangrove Door" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 589 ;
+    mc_block:hasName "mangrove_door" .
+
+mc:mangrove_fence a mc:Block ;
+    mc_block:hasDisplayName "Mangrove Fence" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 581 ;
+    mc_block:hasName "mangrove_fence" .
+
+mc:mangrove_fence_gate a mc:Block ;
+    mc_block:hasDisplayName "Mangrove Fence Gate" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 573 ;
+    mc_block:hasName "mangrove_fence_gate" .
+
+mc:mangrove_hanging_sign a mc:Block ;
+    mc_block:hasDisplayName "Mangrove Hanging Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 217 ;
+    mc_block:hasName "mangrove_hanging_sign" .
+
+mc:mangrove_leaves a mc:Block ;
+    mc_block:hasDisplayName "Mangrove Leaves" ;
+    mc_block:hasHardness 2e-01 ;
+    mc_block:hasId 89 ;
+    mc_block:hasName "mangrove_leaves" .
+
+mc:mangrove_log a mc:Block ;
+    mc_block:hasDisplayName "Mangrove Log" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 53 ;
+    mc_block:hasName "mangrove_log" .
+
+mc:mangrove_planks a mc:Block ;
+    mc_block:hasDisplayName "Mangrove Planks" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 20 ;
+    mc_block:hasName "mangrove_planks" .
+
+mc:mangrove_pressure_plate a mc:Block ;
+    mc_block:hasDisplayName "Mangrove Pressure Plate" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 240 ;
+    mc_block:hasName "mangrove_pressure_plate" .
+
+mc:mangrove_propagule a mc:Block ;
+    mc_block:hasDisplayName "Mangrove Propagule" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 30 ;
+    mc_block:hasName "mangrove_propagule" .
+
+mc:mangrove_roots a mc:Block ;
+    mc_block:hasDisplayName "Mangrove Roots" ;
+    mc_block:hasHardness 7e-01 ;
+    mc_block:hasId 54 ;
+    mc_block:hasName "mangrove_roots" .
+
+mc:mangrove_sign a mc:Block ;
+    mc_block:hasDisplayName "Mangrove Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 193 ;
+    mc_block:hasName "mangrove_sign" .
+
+mc:mangrove_slab a mc:Block ;
+    mc_block:hasDisplayName "Mangrove Slab" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 546 ;
+    mc_block:hasName "mangrove_slab" .
+
+mc:mangrove_stairs a mc:Block ;
+    mc_block:hasDisplayName "Mangrove Stairs" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 460 ;
+    mc_block:hasName "mangrove_stairs" .
+
+mc:mangrove_trapdoor a mc:Block ;
+    mc_block:hasDisplayName "Mangrove Trapdoor" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 292 ;
+    mc_block:hasName "mangrove_trapdoor" .
+
+mc:mangrove_wall_hanging_sign a mc:Block ;
+    mc_block:hasDisplayName "Mangrove Hanging Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 226 ;
+    mc_block:hasName "mangrove_wall_hanging_sign" .
+
+mc:mangrove_wall_sign a mc:Block ;
+    mc_block:hasDisplayName "Mangrove Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 206 ;
+    mc_block:hasName "mangrove_wall_sign" .
+
+mc:mangrove_wood a mc:Block ;
+    mc_block:hasDisplayName "Mangrove Wood" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 73 ;
+    mc_block:hasName "mangrove_wood" .
+
+mc:medium_amethyst_bud a mc:Block ;
+    mc_block:hasDisplayName "Medium Amethyst Bud" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 907 ;
+    mc_block:hasName "medium_amethyst_bud" .
+
+mc:melon a mc:Block ;
+    mc_block:hasDisplayName "Melon" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 312 ;
+    mc_block:hasName "melon" .
+
+mc:melon_stem a mc:Block ;
+    mc_block:hasDisplayName "Melon Stem" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 316 ;
+    mc_block:hasName "melon_stem" .
+
+mc:moss_block a mc:Block ;
+    mc_block:hasDisplayName "Moss Block" ;
+    mc_block:hasHardness 1e-01 ;
+    mc_block:hasId 963 ;
+    mc_block:hasName "moss_block" .
+
+mc:moss_carpet a mc:Block ;
+    mc_block:hasDisplayName "Moss Carpet" ;
+    mc_block:hasHardness 1e-01 ;
+    mc_block:hasId 961 ;
+    mc_block:hasName "moss_carpet" .
+
+mc:mossy_cobblestone a mc:Block ;
+    mc_block:hasDisplayName "Mossy Cobblestone" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 169 ;
+    mc_block:hasName "mossy_cobblestone" .
+
+mc:mossy_cobblestone_slab a mc:Block ;
+    mc_block:hasDisplayName "Mossy Cobblestone Slab" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 750 ;
+    mc_block:hasName "mossy_cobblestone_slab" .
+
+mc:mossy_cobblestone_stairs a mc:Block ;
+    mc_block:hasDisplayName "Mossy Cobblestone Stairs" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 736 ;
+    mc_block:hasName "mossy_cobblestone_stairs" .
+
+mc:mossy_cobblestone_wall a mc:Block ;
+    mc_block:hasDisplayName "Mossy Cobblestone Wall" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 354 ;
+    mc_block:hasName "mossy_cobblestone_wall" .
+
+mc:mossy_stone_brick_slab a mc:Block ;
+    mc_block:hasDisplayName "Mossy Stone Brick Slab" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 748 ;
+    mc_block:hasName "mossy_stone_brick_slab" .
+
+mc:mossy_stone_brick_stairs a mc:Block ;
+    mc_block:hasDisplayName "Mossy Stone Brick Stairs" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 734 ;
+    mc_block:hasName "mossy_stone_brick_stairs" .
+
+mc:mossy_stone_brick_wall a mc:Block ;
+    mc_block:hasDisplayName "Mossy Stone Brick Wall" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 762 ;
+    mc_block:hasName "mossy_stone_brick_wall" .
+
+mc:mossy_stone_bricks a mc:Block ;
+    mc_block:hasDisplayName "Mossy Stone Bricks" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 295 ;
+    mc_block:hasName "mossy_stone_bricks" .
+
+mc:moving_piston a mc:Block ;
+    mc_block:hasDisplayName "Moving Piston" ;
+    mc_block:hasHardness -1e+00 ;
+    mc_block:hasId 146 ;
+    mc_block:hasName "moving_piston" .
+
+mc:mud a mc:Block ;
+    mc_block:hasDisplayName "Mud" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 969 ;
+    mc_block:hasName "mud" .
+
+mc:mud_brick_slab a mc:Block ;
+    mc_block:hasDisplayName "Mud Brick Slab" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 557 ;
+    mc_block:hasName "mud_brick_slab" .
+
+mc:mud_brick_stairs a mc:Block ;
+    mc_block:hasDisplayName "Mud Brick Stairs" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 322 ;
+    mc_block:hasName "mud_brick_stairs" .
+
+mc:mud_brick_wall a mc:Block ;
+    mc_block:hasDisplayName "Mud Brick Wall" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 765 ;
+    mc_block:hasName "mud_brick_wall" .
+
+mc:mud_bricks a mc:Block ;
+    mc_block:hasDisplayName "Mud Bricks" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 299 ;
+    mc_block:hasName "mud_bricks" .
+
+mc:muddy_mangrove_roots a mc:Block ;
+    mc_block:hasDisplayName "Muddy Mangrove Roots" ;
+    mc_block:hasHardness 7e-01 ;
+    mc_block:hasId 55 ;
+    mc_block:hasName "muddy_mangrove_roots" .
+
+mc:mushroom_stem a mc:Block ;
+    mc_block:hasDisplayName "Mushroom Stem" ;
+    mc_block:hasHardness 2e-01 ;
+    mc_block:hasId 308 ;
+    mc_block:hasName "mushroom_stem" .
+
+mc:mycelium a mc:Block ;
+    mc_block:hasDisplayName "Mycelium" ;
+    mc_block:hasHardness 6e-01 ;
+    mc_block:hasId 323 ;
+    mc_block:hasName "mycelium" .
+
+mc:nether_brick_fence a mc:Block ;
+    mc_block:hasDisplayName "Nether Brick Fence" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 326 ;
+    mc_block:hasName "nether_brick_fence" .
+
+mc:nether_brick_slab a mc:Block ;
+    mc_block:hasDisplayName "Nether Brick Slab" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 558 ;
+    mc_block:hasName "nether_brick_slab" .
+
+mc:nether_brick_stairs a mc:Block ;
+    mc_block:hasDisplayName "Nether Brick Stairs" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 327 ;
+    mc_block:hasName "nether_brick_stairs" .
+
+mc:nether_brick_wall a mc:Block ;
+    mc_block:hasDisplayName "Nether Brick Wall" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 766 ;
+    mc_block:hasName "nether_brick_wall" .
+
+mc:nether_bricks a mc:Block ;
+    mc_block:hasDisplayName "Nether Bricks" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 325 ;
+    mc_block:hasName "nether_bricks" .
+
+mc:nether_gold_ore a mc:Block ;
+    mc_block:hasDisplayName "Nether Gold Ore" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 45 ;
+    mc_block:hasName "nether_gold_ore" .
+
+mc:nether_portal a mc:Block ;
+    mc_block:hasDisplayName "Nether Portal" ;
+    mc_block:hasHardness -1e+00 ;
+    mc_block:hasId 264 ;
+    mc_block:hasName "nether_portal" .
+
+mc:nether_quartz_ore a mc:Block ;
+    mc_block:hasDisplayName "Nether Quartz Ore" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 417 ;
+    mc_block:hasName "nether_quartz_ore" .
+
+mc:nether_sprouts a mc:Block ;
+    mc_block:hasDisplayName "Nether Sprouts" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 797 ;
+    mc_block:hasName "nether_sprouts" .
+
+mc:nether_wart a mc:Block ;
+    mc_block:hasDisplayName "Nether Wart" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 328 ;
+    mc_block:hasName "nether_wart" .
+
+mc:nether_wart_block a mc:Block ;
+    mc_block:hasDisplayName "Nether Wart Block" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 608 ;
+    mc_block:hasName "nether_wart_block" .
+
+mc:netherite_block a mc:Block ;
+    mc_block:hasDisplayName "Block of Netherite" ;
+    mc_block:hasHardness 5e+01 ;
+    mc_block:hasId 840 ;
+    mc_block:hasName "netherite_block" .
+
+mc:netherrack a mc:Block ;
+    mc_block:hasDisplayName "Netherrack" ;
+    mc_block:hasHardness 4e-01 ;
+    mc_block:hasId 256 ;
+    mc_block:hasName "netherrack" .
+
+mc:note_block a mc:Block ;
+    mc_block:hasDisplayName "Note Block" ;
+    mc_block:hasHardness 8e-01 ;
+    mc_block:hasId 102 ;
+    mc_block:hasName "note_block" .
+
+mc:oak_button a mc:Block ;
+    mc_block:hasDisplayName "Oak Button" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 385 ;
+    mc_block:hasName "oak_button" .
+
+mc:oak_door a mc:Block ;
+    mc_block:hasDisplayName "Oak Door" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 195 ;
+    mc_block:hasName "oak_door" .
+
+mc:oak_fence a mc:Block ;
+    mc_block:hasDisplayName "Oak Fence" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 254 ;
+    mc_block:hasName "oak_fence" .
+
+mc:oak_fence_gate a mc:Block ;
+    mc_block:hasDisplayName "Oak Fence Gate" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 319 ;
+    mc_block:hasName "oak_fence_gate" .
+
+mc:oak_hanging_sign a mc:Block ;
+    mc_block:hasDisplayName "Oak Hanging Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 208 ;
+    mc_block:hasName "oak_hanging_sign" .
+
+mc:oak_leaves a mc:Block ;
+    mc_block:hasDisplayName "Oak Leaves" ;
+    mc_block:hasHardness 2e-01 ;
+    mc_block:hasId 82 ;
+    mc_block:hasName "oak_leaves" .
+
+mc:oak_log a mc:Block ;
+    mc_block:hasDisplayName "Oak Log" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 46 ;
+    mc_block:hasName "oak_log" .
+
+mc:oak_planks a mc:Block ;
+    mc_block:hasDisplayName "Oak Planks" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 13 ;
+    mc_block:hasName "oak_planks" .
+
+mc:oak_pressure_plate a mc:Block ;
+    mc_block:hasDisplayName "Oak Pressure Plate" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 233 ;
+    mc_block:hasName "oak_pressure_plate" .
+
+mc:oak_sapling a mc:Block ;
+    mc_block:hasDisplayName "Oak Sapling" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 23 ;
+    mc_block:hasName "oak_sapling" .
+
+mc:oak_sign a mc:Block ;
+    mc_block:hasDisplayName "Oak Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 186 ;
+    mc_block:hasName "oak_sign" .
+
+mc:oak_slab a mc:Block ;
+    mc_block:hasDisplayName "Oak Slab" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 539 ;
+    mc_block:hasName "oak_slab" .
+
+mc:oak_stairs a mc:Block ;
+    mc_block:hasDisplayName "Oak Stairs" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 176 ;
+    mc_block:hasName "oak_stairs" .
+
+mc:oak_trapdoor a mc:Block ;
+    mc_block:hasDisplayName "Oak Trapdoor" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 285 ;
+    mc_block:hasName "oak_trapdoor" .
+
+mc:oak_wall_hanging_sign a mc:Block ;
+    mc_block:hasDisplayName "Oak Hanging Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 219 ;
+    mc_block:hasName "oak_wall_hanging_sign" .
+
+mc:oak_wall_sign a mc:Block ;
+    mc_block:hasDisplayName "Oak Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 199 ;
+    mc_block:hasName "oak_wall_sign" .
+
+mc:oak_wood a mc:Block ;
+    mc_block:hasDisplayName "Oak Wood" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 66 ;
+    mc_block:hasName "oak_wood" .
+
+mc:observer a mc:Block ;
+    mc_block:hasDisplayName "Observer" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 612 ;
+    mc_block:hasName "observer" .
+
+mc:obsidian a mc:Block ;
+    mc_block:hasDisplayName "Obsidian" ;
+    mc_block:hasHardness 5e+01 ;
+    mc_block:hasId 170 ;
+    mc_block:hasName "obsidian" .
+
+mc:ochre_froglight a mc:Block ;
+    mc_block:hasDisplayName "Ochre Froglight" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 997 ;
+    mc_block:hasName "ochre_froglight" .
+
+mc:orange_banner a mc:Block ;
+    mc_block:hasDisplayName "Orange Banner" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 504 ;
+    mc_block:hasName "orange_banner" .
+
+mc:orange_bed a mc:Block ;
+    mc_block:hasDisplayName "Orange Bed" ;
+    mc_block:hasHardness 2e-01 ;
+    mc_block:hasId 104 ;
+    mc_block:hasName "orange_bed" .
+
+mc:orange_candle a mc:Block ;
+    mc_block:hasDisplayName "Orange Candle" ;
+    mc_block:hasHardness 1e-01 ;
+    mc_block:hasId 871 ;
+    mc_block:hasName "orange_candle" .
+
+mc:orange_candle_cake a mc:Block ;
+    mc_block:hasDisplayName "Cake with Orange Candle" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 888 ;
+    mc_block:hasName "orange_candle_cake" .
+
+mc:orange_carpet a mc:Block ;
+    mc_block:hasDisplayName "Orange Carpet" ;
+    mc_block:hasHardness 1e-01 ;
+    mc_block:hasId 479 ;
+    mc_block:hasName "orange_carpet" .
+
+mc:orange_concrete a mc:Block ;
+    mc_block:hasDisplayName "Orange Concrete" ;
+    mc_block:hasHardness 1.8e+00 ;
+    mc_block:hasId 647 ;
+    mc_block:hasName "orange_concrete" .
+
+mc:orange_concrete_powder a mc:Block ;
+    mc_block:hasDisplayName "Orange Concrete Powder" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 663 ;
+    mc_block:hasName "orange_concrete_powder" .
+
+mc:orange_glazed_terracotta a mc:Block ;
+    mc_block:hasDisplayName "Orange Glazed Terracotta" ;
+    mc_block:hasHardness 1.4e+00 ;
+    mc_block:hasId 631 ;
+    mc_block:hasName "orange_glazed_terracotta" .
+
+mc:orange_shulker_box a mc:Block ;
+    mc_block:hasDisplayName "Orange Shulker Box" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 615 ;
+    mc_block:hasName "orange_shulker_box" .
+
+mc:orange_stained_glass a mc:Block ;
+    mc_block:hasDisplayName "Orange Stained Glass" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 270 ;
+    mc_block:hasName "orange_stained_glass" .
+
+mc:orange_stained_glass_pane a mc:Block ;
+    mc_block:hasDisplayName "Orange Stained Glass Pane" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 442 ;
+    mc_block:hasName "orange_stained_glass_pane" .
+
+mc:orange_terracotta a mc:Block ;
+    mc_block:hasDisplayName "Orange Terracotta" ;
+    mc_block:hasHardness 1.25e+00 ;
+    mc_block:hasId 426 ;
+    mc_block:hasName "orange_terracotta" .
+
+mc:orange_tulip a mc:Block ;
+    mc_block:hasDisplayName "Orange Tulip" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 154 ;
+    mc_block:hasName "orange_tulip" .
+
+mc:orange_wall_banner a mc:Block ;
+    mc_block:hasDisplayName "Orange Banner" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 520 ;
+    mc_block:hasName "orange_wall_banner" .
+
+mc:orange_wool a mc:Block ;
+    mc_block:hasDisplayName "Orange Wool" ;
+    mc_block:hasHardness 8e-01 ;
+    mc_block:hasId 131 ;
+    mc_block:hasName "orange_wool" .
+
+mc:oxeye_daisy a mc:Block ;
+    mc_block:hasDisplayName "Oxeye Daisy" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 157 ;
+    mc_block:hasName "oxeye_daisy" .
+
+mc:oxidized_copper a mc:Block ;
+    mc_block:hasDisplayName "Oxidized Copper" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 919 ;
+    mc_block:hasName "oxidized_copper" .
+
+mc:oxidized_cut_copper a mc:Block ;
+    mc_block:hasDisplayName "Oxidized Cut Copper" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 925 ;
+    mc_block:hasName "oxidized_cut_copper" .
+
+mc:oxidized_cut_copper_slab a mc:Block ;
+    mc_block:hasDisplayName "Oxidized Cut Copper Slab" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 933 ;
+    mc_block:hasName "oxidized_cut_copper_slab" .
+
+mc:oxidized_cut_copper_stairs a mc:Block ;
+    mc_block:hasDisplayName "Oxidized Cut Copper Stairs" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 929 ;
+    mc_block:hasName "oxidized_cut_copper_stairs" .
+
+mc:packed_ice a mc:Block ;
+    mc_block:hasDisplayName "Packed Ice" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 496 ;
+    mc_block:hasName "packed_ice" .
+
+mc:packed_mud a mc:Block ;
+    mc_block:hasDisplayName "Packed Mud" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 298 ;
+    mc_block:hasName "packed_mud" .
+
+mc:pearlescent_froglight a mc:Block ;
+    mc_block:hasDisplayName "Pearlescent Froglight" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 999 ;
+    mc_block:hasName "pearlescent_froglight" .
+
+mc:peony a mc:Block ;
+    mc_block:hasDisplayName "Peony" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 500 ;
+    mc_block:hasName "peony" .
+
+mc:petrified_oak_slab a mc:Block ;
+    mc_block:hasDisplayName "Petrified Oak Slab" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 553 ;
+    mc_block:hasName "petrified_oak_slab" .
+
+mc:piglin_head a mc:Block ;
+    mc_block:hasDisplayName "Piglin Head" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 406 ;
+    mc_block:hasName "piglin_head" .
+
+mc:piglin_wall_head a mc:Block ;
+    mc_block:hasDisplayName "Piglin Head" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 407 ;
+    mc_block:hasName "piglin_wall_head" .
+
+mc:pink_banner a mc:Block ;
+    mc_block:hasDisplayName "Pink Banner" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 509 ;
+    mc_block:hasName "pink_banner" .
+
+mc:pink_bed a mc:Block ;
+    mc_block:hasDisplayName "Pink Bed" ;
+    mc_block:hasHardness 2e-01 ;
+    mc_block:hasId 109 ;
+    mc_block:hasName "pink_bed" .
+
+mc:pink_candle a mc:Block ;
+    mc_block:hasDisplayName "Pink Candle" ;
+    mc_block:hasHardness 1e-01 ;
+    mc_block:hasId 876 ;
+    mc_block:hasName "pink_candle" .
+
+mc:pink_candle_cake a mc:Block ;
+    mc_block:hasDisplayName "Cake with Pink Candle" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 893 ;
+    mc_block:hasName "pink_candle_cake" .
+
+mc:pink_carpet a mc:Block ;
+    mc_block:hasDisplayName "Pink Carpet" ;
+    mc_block:hasHardness 1e-01 ;
+    mc_block:hasId 484 ;
+    mc_block:hasName "pink_carpet" .
+
+mc:pink_concrete a mc:Block ;
+    mc_block:hasDisplayName "Pink Concrete" ;
+    mc_block:hasHardness 1.8e+00 ;
+    mc_block:hasId 652 ;
+    mc_block:hasName "pink_concrete" .
+
+mc:pink_concrete_powder a mc:Block ;
+    mc_block:hasDisplayName "Pink Concrete Powder" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 668 ;
+    mc_block:hasName "pink_concrete_powder" .
+
+mc:pink_glazed_terracotta a mc:Block ;
+    mc_block:hasDisplayName "Pink Glazed Terracotta" ;
+    mc_block:hasHardness 1.4e+00 ;
+    mc_block:hasId 636 ;
+    mc_block:hasName "pink_glazed_terracotta" .
+
+mc:pink_petals a mc:Block ;
+    mc_block:hasDisplayName "Pink Petals" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 962 ;
+    mc_block:hasName "pink_petals" .
+
+mc:pink_shulker_box a mc:Block ;
+    mc_block:hasDisplayName "Pink Shulker Box" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 620 ;
+    mc_block:hasName "pink_shulker_box" .
+
+mc:pink_stained_glass a mc:Block ;
+    mc_block:hasDisplayName "Pink Stained Glass" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 275 ;
+    mc_block:hasName "pink_stained_glass" .
+
+mc:pink_stained_glass_pane a mc:Block ;
+    mc_block:hasDisplayName "Pink Stained Glass Pane" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 447 ;
+    mc_block:hasName "pink_stained_glass_pane" .
+
+mc:pink_terracotta a mc:Block ;
+    mc_block:hasDisplayName "Pink Terracotta" ;
+    mc_block:hasHardness 1.25e+00 ;
+    mc_block:hasId 431 ;
+    mc_block:hasName "pink_terracotta" .
+
+mc:pink_tulip a mc:Block ;
+    mc_block:hasDisplayName "Pink Tulip" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 156 ;
+    mc_block:hasName "pink_tulip" .
+
+mc:pink_wall_banner a mc:Block ;
+    mc_block:hasDisplayName "Pink Banner" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 525 ;
+    mc_block:hasName "pink_wall_banner" .
+
+mc:pink_wool a mc:Block ;
+    mc_block:hasDisplayName "Pink Wool" ;
+    mc_block:hasHardness 8e-01 ;
+    mc_block:hasId 136 ;
+    mc_block:hasName "pink_wool" .
+
+mc:piston a mc:Block ;
+    mc_block:hasDisplayName "Piston" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 128 ;
+    mc_block:hasName "piston" .
+
+mc:piston_head a mc:Block ;
+    mc_block:hasDisplayName "Piston Head" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 129 ;
+    mc_block:hasName "piston_head" .
+
+mc:pitcher_crop a mc:Block ;
+    mc_block:hasDisplayName "Pitcher Crop" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 599 ;
+    mc_block:hasName "pitcher_crop" .
+
+mc:pitcher_plant a mc:Block ;
+    mc_block:hasDisplayName "Pitcher Plant" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 600 ;
+    mc_block:hasName "pitcher_plant" .
+
+mc:player_head a mc:Block ;
+    mc_block:hasDisplayName "Player Head" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 400 ;
+    mc_block:hasName "player_head" .
+
+mc:player_wall_head a mc:Block ;
+    mc_block:hasDisplayName "Player Head" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 401 ;
+    mc_block:hasName "player_wall_head" .
+
+mc:podzol a mc:Block ;
+    mc_block:hasDisplayName "Podzol" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 11 ;
+    mc_block:hasName "podzol" .
+
+mc:pointed_dripstone a mc:Block ;
+    mc_block:hasDisplayName "Pointed Dripstone" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 954 ;
+    mc_block:hasName "pointed_dripstone" .
+
+mc:polished_andesite a mc:Block ;
+    mc_block:hasDisplayName "Polished Andesite" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 7 ;
+    mc_block:hasName "polished_andesite" .
+
+mc:polished_andesite_slab a mc:Block ;
+    mc_block:hasDisplayName "Polished Andesite Slab" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 757 ;
+    mc_block:hasName "polished_andesite_slab" .
+
+mc:polished_andesite_stairs a mc:Block ;
+    mc_block:hasDisplayName "Polished Andesite Stairs" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 744 ;
+    mc_block:hasName "polished_andesite_stairs" .
+
+mc:polished_basalt a mc:Block ;
+    mc_block:hasDisplayName "Polished Basalt" ;
+    mc_block:hasHardness 1.25e+00 ;
+    mc_block:hasId 260 ;
+    mc_block:hasName "polished_basalt" .
+
+mc:polished_blackstone a mc:Block ;
+    mc_block:hasDisplayName "Polished Blackstone" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 853 ;
+    mc_block:hasName "polished_blackstone" .
+
+mc:polished_blackstone_brick_slab a mc:Block ;
+    mc_block:hasDisplayName "Polished Blackstone Brick Slab" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 857 ;
+    mc_block:hasName "polished_blackstone_brick_slab" .
+
+mc:polished_blackstone_brick_stairs a mc:Block ;
+    mc_block:hasDisplayName "Polished Blackstone Brick Stairs" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 858 ;
+    mc_block:hasName "polished_blackstone_brick_stairs" .
+
+mc:polished_blackstone_brick_wall a mc:Block ;
+    mc_block:hasDisplayName "Polished Blackstone Brick Wall" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 859 ;
+    mc_block:hasName "polished_blackstone_brick_wall" .
+
+mc:polished_blackstone_bricks a mc:Block ;
+    mc_block:hasDisplayName "Polished Blackstone Bricks" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 854 ;
+    mc_block:hasName "polished_blackstone_bricks" .
+
+mc:polished_blackstone_button a mc:Block ;
+    mc_block:hasDisplayName "Polished Blackstone Button" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 864 ;
+    mc_block:hasName "polished_blackstone_button" .
+
+mc:polished_blackstone_pressure_plate a mc:Block ;
+    mc_block:hasDisplayName "Polished Blackstone Pressure Plate" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 863 ;
+    mc_block:hasName "polished_blackstone_pressure_plate" .
+
+mc:polished_blackstone_slab a mc:Block ;
+    mc_block:hasDisplayName "Polished Blackstone Slab" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 862 ;
+    mc_block:hasName "polished_blackstone_slab" .
+
+mc:polished_blackstone_stairs a mc:Block ;
+    mc_block:hasDisplayName "Polished Blackstone Stairs" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 861 ;
+    mc_block:hasName "polished_blackstone_stairs" .
+
+mc:polished_blackstone_wall a mc:Block ;
+    mc_block:hasDisplayName "Polished Blackstone Wall" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 865 ;
+    mc_block:hasName "polished_blackstone_wall" .
+
+mc:polished_deepslate a mc:Block ;
+    mc_block:hasDisplayName "Polished Deepslate" ;
+    mc_block:hasHardness 3.5e+00 ;
+    mc_block:hasId 975 ;
+    mc_block:hasName "polished_deepslate" .
+
+mc:polished_deepslate_slab a mc:Block ;
+    mc_block:hasDisplayName "Polished Deepslate Slab" ;
+    mc_block:hasHardness 3.5e+00 ;
+    mc_block:hasId 977 ;
+    mc_block:hasName "polished_deepslate_slab" .
+
+mc:polished_deepslate_stairs a mc:Block ;
+    mc_block:hasDisplayName "Polished Deepslate Stairs" ;
+    mc_block:hasHardness 3.5e+00 ;
+    mc_block:hasId 976 ;
+    mc_block:hasName "polished_deepslate_stairs" .
+
+mc:polished_deepslate_wall a mc:Block ;
+    mc_block:hasDisplayName "Polished Deepslate Wall" ;
+    mc_block:hasHardness 3.5e+00 ;
+    mc_block:hasId 978 ;
+    mc_block:hasName "polished_deepslate_wall" .
+
+mc:polished_diorite a mc:Block ;
+    mc_block:hasDisplayName "Polished Diorite" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 5 ;
+    mc_block:hasName "polished_diorite" .
+
+mc:polished_diorite_slab a mc:Block ;
+    mc_block:hasDisplayName "Polished Diorite Slab" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 749 ;
+    mc_block:hasName "polished_diorite_slab" .
+
+mc:polished_diorite_stairs a mc:Block ;
+    mc_block:hasDisplayName "Polished Diorite Stairs" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 735 ;
+    mc_block:hasName "polished_diorite_stairs" .
+
+mc:polished_granite a mc:Block ;
+    mc_block:hasDisplayName "Polished Granite" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 3 ;
+    mc_block:hasName "polished_granite" .
+
+mc:polished_granite_slab a mc:Block ;
+    mc_block:hasDisplayName "Polished Granite Slab" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 746 ;
+    mc_block:hasName "polished_granite_slab" .
+
+mc:polished_granite_stairs a mc:Block ;
+    mc_block:hasDisplayName "Polished Granite Stairs" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 732 ;
+    mc_block:hasName "polished_granite_stairs" .
+
+mc:poppy a mc:Block ;
+    mc_block:hasDisplayName "Poppy" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 149 ;
+    mc_block:hasName "poppy" .
+
+mc:potatoes a mc:Block ;
+    mc_block:hasDisplayName "Potatoes" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 384 ;
+    mc_block:hasName "potatoes" .
+
+mc:potted_acacia_sapling a mc:Block ;
+    mc_block:hasDisplayName "Potted Acacia Sapling" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 361 ;
+    mc_block:hasName "potted_acacia_sapling" .
+
+mc:potted_allium a mc:Block ;
+    mc_block:hasDisplayName "Potted Allium" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 369 ;
+    mc_block:hasName "potted_allium" .
+
+mc:potted_azalea_bush a mc:Block ;
+    mc_block:hasDisplayName "Potted Azalea" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 995 ;
+    mc_block:hasName "potted_azalea_bush" .
+
+mc:potted_azure_bluet a mc:Block ;
+    mc_block:hasDisplayName "Potted Azure Bluet" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 370 ;
+    mc_block:hasName "potted_azure_bluet" .
+
+mc:potted_bamboo a mc:Block ;
+    mc_block:hasDisplayName "Potted Bamboo" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 728 ;
+    mc_block:hasName "potted_bamboo" .
+
+mc:potted_birch_sapling a mc:Block ;
+    mc_block:hasDisplayName "Potted Birch Sapling" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 359 ;
+    mc_block:hasName "potted_birch_sapling" .
+
+mc:potted_blue_orchid a mc:Block ;
+    mc_block:hasDisplayName "Potted Blue Orchid" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 368 ;
+    mc_block:hasName "potted_blue_orchid" .
+
+mc:potted_brown_mushroom a mc:Block ;
+    mc_block:hasDisplayName "Potted Brown Mushroom" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 380 ;
+    mc_block:hasName "potted_brown_mushroom" .
+
+mc:potted_cactus a mc:Block ;
+    mc_block:hasDisplayName "Potted Cactus" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 382 ;
+    mc_block:hasName "potted_cactus" .
+
+mc:potted_cherry_sapling a mc:Block ;
+    mc_block:hasDisplayName "Potted Cherry Sapling" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 362 ;
+    mc_block:hasName "potted_cherry_sapling" .
+
+mc:potted_cornflower a mc:Block ;
+    mc_block:hasDisplayName "Potted Cornflower" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 376 ;
+    mc_block:hasName "potted_cornflower" .
+
+mc:potted_crimson_fungus a mc:Block ;
+    mc_block:hasDisplayName "Potted Crimson Fungus" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 844 ;
+    mc_block:hasName "potted_crimson_fungus" .
+
+mc:potted_crimson_roots a mc:Block ;
+    mc_block:hasDisplayName "Potted Crimson Roots" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 846 ;
+    mc_block:hasName "potted_crimson_roots" .
+
+mc:potted_dandelion a mc:Block ;
+    mc_block:hasDisplayName "Potted Dandelion" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 366 ;
+    mc_block:hasName "potted_dandelion" .
+
+mc:potted_dark_oak_sapling a mc:Block ;
+    mc_block:hasDisplayName "Potted Dark Oak Sapling" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 363 ;
+    mc_block:hasName "potted_dark_oak_sapling" .
+
+mc:potted_dead_bush a mc:Block ;
+    mc_block:hasDisplayName "Potted Dead Bush" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 381 ;
+    mc_block:hasName "potted_dead_bush" .
+
+mc:potted_fern a mc:Block ;
+    mc_block:hasDisplayName "Potted Fern" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 365 ;
+    mc_block:hasName "potted_fern" .
+
+mc:potted_flowering_azalea_bush a mc:Block ;
+    mc_block:hasDisplayName "Potted Flowering Azalea" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 996 ;
+    mc_block:hasName "potted_flowering_azalea_bush" .
+
+mc:potted_jungle_sapling a mc:Block ;
+    mc_block:hasDisplayName "Potted Jungle Sapling" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 360 ;
+    mc_block:hasName "potted_jungle_sapling" .
+
+mc:potted_lily_of_the_valley a mc:Block ;
+    mc_block:hasDisplayName "Potted Lily of the Valley" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 377 ;
+    mc_block:hasName "potted_lily_of_the_valley" .
+
+mc:potted_mangrove_propagule a mc:Block ;
+    mc_block:hasDisplayName "Potted Mangrove Propagule" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 364 ;
+    mc_block:hasName "potted_mangrove_propagule" .
+
+mc:potted_oak_sapling a mc:Block ;
+    mc_block:hasDisplayName "Potted Oak Sapling" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 357 ;
+    mc_block:hasName "potted_oak_sapling" .
+
+mc:potted_orange_tulip a mc:Block ;
+    mc_block:hasDisplayName "Potted Orange Tulip" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 372 ;
+    mc_block:hasName "potted_orange_tulip" .
+
+mc:potted_oxeye_daisy a mc:Block ;
+    mc_block:hasDisplayName "Potted Oxeye Daisy" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 375 ;
+    mc_block:hasName "potted_oxeye_daisy" .
+
+mc:potted_pink_tulip a mc:Block ;
+    mc_block:hasDisplayName "Potted Pink Tulip" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 374 ;
+    mc_block:hasName "potted_pink_tulip" .
+
+mc:potted_poppy a mc:Block ;
+    mc_block:hasDisplayName "Potted Poppy" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 367 ;
+    mc_block:hasName "potted_poppy" .
+
+mc:potted_red_mushroom a mc:Block ;
+    mc_block:hasDisplayName "Potted Red Mushroom" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 379 ;
+    mc_block:hasName "potted_red_mushroom" .
+
+mc:potted_red_tulip a mc:Block ;
+    mc_block:hasDisplayName "Potted Red Tulip" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 371 ;
+    mc_block:hasName "potted_red_tulip" .
+
+mc:potted_spruce_sapling a mc:Block ;
+    mc_block:hasDisplayName "Potted Spruce Sapling" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 358 ;
+    mc_block:hasName "potted_spruce_sapling" .
+
+mc:potted_torchflower a mc:Block ;
+    mc_block:hasDisplayName "Potted Torchflower" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 356 ;
+    mc_block:hasName "potted_torchflower" .
+
+mc:potted_warped_fungus a mc:Block ;
+    mc_block:hasDisplayName "Potted Warped Fungus" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 845 ;
+    mc_block:hasName "potted_warped_fungus" .
+
+mc:potted_warped_roots a mc:Block ;
+    mc_block:hasDisplayName "Potted Warped Roots" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 847 ;
+    mc_block:hasName "potted_warped_roots" .
+
+mc:potted_white_tulip a mc:Block ;
+    mc_block:hasDisplayName "Potted White Tulip" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 373 ;
+    mc_block:hasName "potted_white_tulip" .
+
+mc:potted_wither_rose a mc:Block ;
+    mc_block:hasDisplayName "Potted Wither Rose" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 378 ;
+    mc_block:hasName "potted_wither_rose" .
+
+mc:powder_snow a mc:Block ;
+    mc_block:hasDisplayName "Powder Snow" ;
+    mc_block:hasHardness 2.5e-01 ;
+    mc_block:hasId 912 ;
+    mc_block:hasName "powder_snow" .
+
+mc:powder_snow_cauldron a mc:Block ;
+    mc_block:hasDisplayName "Powder Snow Cauldron" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 334 ;
+    mc_block:hasName "powder_snow_cauldron" .
+
+mc:powered_rail a mc:Block ;
+    mc_block:hasDisplayName "Powered Rail" ;
+    mc_block:hasHardness 7e-01 ;
+    mc_block:hasId 119 ;
+    mc_block:hasName "powered_rail" .
+
+mc:prismarine a mc:Block ;
+    mc_block:hasDisplayName "Prismarine" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 467 ;
+    mc_block:hasName "prismarine" .
+
+mc:prismarine_brick_slab a mc:Block ;
+    mc_block:hasDisplayName "Prismarine Brick Slab" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 474 ;
+    mc_block:hasName "prismarine_brick_slab" .
+
+mc:prismarine_brick_stairs a mc:Block ;
+    mc_block:hasDisplayName "Prismarine Brick Stairs" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 471 ;
+    mc_block:hasName "prismarine_brick_stairs" .
+
+mc:prismarine_bricks a mc:Block ;
+    mc_block:hasDisplayName "Prismarine Bricks" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 468 ;
+    mc_block:hasName "prismarine_bricks" .
+
+mc:prismarine_slab a mc:Block ;
+    mc_block:hasDisplayName "Prismarine Slab" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 473 ;
+    mc_block:hasName "prismarine_slab" .
+
+mc:prismarine_stairs a mc:Block ;
+    mc_block:hasDisplayName "Prismarine Stairs" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 470 ;
+    mc_block:hasName "prismarine_stairs" .
+
+mc:prismarine_wall a mc:Block ;
+    mc_block:hasDisplayName "Prismarine Wall" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 760 ;
+    mc_block:hasName "prismarine_wall" .
+
+mc:pumpkin a mc:Block ;
+    mc_block:hasDisplayName "Pumpkin" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 255 ;
+    mc_block:hasName "pumpkin" .
+
+mc:pumpkin_stem a mc:Block ;
+    mc_block:hasDisplayName "Pumpkin Stem" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 315 ;
+    mc_block:hasName "pumpkin_stem" .
+
+mc:purple_banner a mc:Block ;
+    mc_block:hasDisplayName "Purple Banner" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 513 ;
+    mc_block:hasName "purple_banner" .
+
+mc:purple_bed a mc:Block ;
+    mc_block:hasDisplayName "Purple Bed" ;
+    mc_block:hasHardness 2e-01 ;
+    mc_block:hasId 113 ;
+    mc_block:hasName "purple_bed" .
+
+mc:purple_candle a mc:Block ;
+    mc_block:hasDisplayName "Purple Candle" ;
+    mc_block:hasHardness 1e-01 ;
+    mc_block:hasId 880 ;
+    mc_block:hasName "purple_candle" .
+
+mc:purple_candle_cake a mc:Block ;
+    mc_block:hasDisplayName "Cake with Purple Candle" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 897 ;
+    mc_block:hasName "purple_candle_cake" .
+
+mc:purple_carpet a mc:Block ;
+    mc_block:hasDisplayName "Purple Carpet" ;
+    mc_block:hasHardness 1e-01 ;
+    mc_block:hasId 488 ;
+    mc_block:hasName "purple_carpet" .
+
+mc:purple_concrete a mc:Block ;
+    mc_block:hasDisplayName "Purple Concrete" ;
+    mc_block:hasHardness 1.8e+00 ;
+    mc_block:hasId 656 ;
+    mc_block:hasName "purple_concrete" .
+
+mc:purple_concrete_powder a mc:Block ;
+    mc_block:hasDisplayName "Purple Concrete Powder" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 672 ;
+    mc_block:hasName "purple_concrete_powder" .
+
+mc:purple_glazed_terracotta a mc:Block ;
+    mc_block:hasDisplayName "Purple Glazed Terracotta" ;
+    mc_block:hasHardness 1.4e+00 ;
+    mc_block:hasId 640 ;
+    mc_block:hasName "purple_glazed_terracotta" .
+
+mc:purple_shulker_box a mc:Block ;
+    mc_block:hasDisplayName "Purple Shulker Box" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 624 ;
+    mc_block:hasName "purple_shulker_box" .
+
+mc:purple_stained_glass a mc:Block ;
+    mc_block:hasDisplayName "Purple Stained Glass" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 279 ;
+    mc_block:hasName "purple_stained_glass" .
+
+mc:purple_stained_glass_pane a mc:Block ;
+    mc_block:hasDisplayName "Purple Stained Glass Pane" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 451 ;
+    mc_block:hasName "purple_stained_glass_pane" .
+
+mc:purple_terracotta a mc:Block ;
+    mc_block:hasDisplayName "Purple Terracotta" ;
+    mc_block:hasHardness 1.25e+00 ;
+    mc_block:hasId 435 ;
+    mc_block:hasName "purple_terracotta" .
+
+mc:purple_wall_banner a mc:Block ;
+    mc_block:hasDisplayName "Purple Banner" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 529 ;
+    mc_block:hasName "purple_wall_banner" .
+
+mc:purple_wool a mc:Block ;
+    mc_block:hasDisplayName "Purple Wool" ;
+    mc_block:hasHardness 8e-01 ;
+    mc_block:hasId 140 ;
+    mc_block:hasName "purple_wool" .
+
+mc:purpur_block a mc:Block ;
+    mc_block:hasDisplayName "Purpur Block" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 594 ;
+    mc_block:hasName "purpur_block" .
+
+mc:purpur_pillar a mc:Block ;
+    mc_block:hasDisplayName "Purpur Pillar" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 595 ;
+    mc_block:hasName "purpur_pillar" .
+
+mc:purpur_slab a mc:Block ;
+    mc_block:hasDisplayName "Purpur Slab" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 562 ;
+    mc_block:hasName "purpur_slab" .
+
+mc:purpur_stairs a mc:Block ;
+    mc_block:hasDisplayName "Purpur Stairs" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 596 ;
+    mc_block:hasName "purpur_stairs" .
+
+mc:quartz_block a mc:Block ;
+    mc_block:hasDisplayName "Block of Quartz" ;
+    mc_block:hasHardness 8e-01 ;
+    mc_block:hasId 419 ;
+    mc_block:hasName "quartz_block" .
+
+mc:quartz_bricks a mc:Block ;
+    mc_block:hasDisplayName "Quartz Bricks" ;
+    mc_block:hasHardness 8e-01 ;
+    mc_block:hasId 868 ;
+    mc_block:hasName "quartz_bricks" .
+
+mc:quartz_pillar a mc:Block ;
+    mc_block:hasDisplayName "Quartz Pillar" ;
+    mc_block:hasHardness 8e-01 ;
+    mc_block:hasId 421 ;
+    mc_block:hasName "quartz_pillar" .
+
+mc:quartz_slab a mc:Block ;
+    mc_block:hasDisplayName "Quartz Slab" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 559 ;
+    mc_block:hasName "quartz_slab" .
+
+mc:quartz_stairs a mc:Block ;
+    mc_block:hasDisplayName "Quartz Stairs" ;
+    mc_block:hasHardness 8e-01 ;
+    mc_block:hasId 422 ;
+    mc_block:hasName "quartz_stairs" .
+
+mc:rail a mc:Block ;
+    mc_block:hasDisplayName "Rail" ;
+    mc_block:hasHardness 7e-01 ;
+    mc_block:hasId 197 ;
+    mc_block:hasName "rail" .
+
+mc:raw_copper_block a mc:Block ;
+    mc_block:hasDisplayName "Block of Raw Copper" ;
+    mc_block:hasHardness 5e+00 ;
+    mc_block:hasId 993 ;
+    mc_block:hasName "raw_copper_block" .
+
+mc:raw_gold_block a mc:Block ;
+    mc_block:hasDisplayName "Block of Raw Gold" ;
+    mc_block:hasHardness 5e+00 ;
+    mc_block:hasId 994 ;
+    mc_block:hasName "raw_gold_block" .
+
+mc:raw_iron_block a mc:Block ;
+    mc_block:hasDisplayName "Block of Raw Iron" ;
+    mc_block:hasHardness 5e+00 ;
+    mc_block:hasId 992 ;
+    mc_block:hasName "raw_iron_block" .
+
+mc:red_banner a mc:Block ;
+    mc_block:hasDisplayName "Red Banner" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 517 ;
+    mc_block:hasName "red_banner" .
+
+mc:red_bed a mc:Block ;
+    mc_block:hasDisplayName "Red Bed" ;
+    mc_block:hasHardness 2e-01 ;
+    mc_block:hasId 117 ;
+    mc_block:hasName "red_bed" .
+
+mc:red_candle a mc:Block ;
+    mc_block:hasDisplayName "Red Candle" ;
+    mc_block:hasHardness 1e-01 ;
+    mc_block:hasId 884 ;
+    mc_block:hasName "red_candle" .
+
+mc:red_candle_cake a mc:Block ;
+    mc_block:hasDisplayName "Cake with Red Candle" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 901 ;
+    mc_block:hasName "red_candle_cake" .
+
+mc:red_carpet a mc:Block ;
+    mc_block:hasDisplayName "Red Carpet" ;
+    mc_block:hasHardness 1e-01 ;
+    mc_block:hasId 492 ;
+    mc_block:hasName "red_carpet" .
+
+mc:red_concrete a mc:Block ;
+    mc_block:hasDisplayName "Red Concrete" ;
+    mc_block:hasHardness 1.8e+00 ;
+    mc_block:hasId 660 ;
+    mc_block:hasName "red_concrete" .
+
+mc:red_concrete_powder a mc:Block ;
+    mc_block:hasDisplayName "Red Concrete Powder" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 676 ;
+    mc_block:hasName "red_concrete_powder" .
+
+mc:red_glazed_terracotta a mc:Block ;
+    mc_block:hasDisplayName "Red Glazed Terracotta" ;
+    mc_block:hasHardness 1.4e+00 ;
+    mc_block:hasId 644 ;
+    mc_block:hasName "red_glazed_terracotta" .
+
+mc:red_mushroom a mc:Block ;
+    mc_block:hasDisplayName "Red Mushroom" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 162 ;
+    mc_block:hasName "red_mushroom" .
+
+mc:red_mushroom_block a mc:Block ;
+    mc_block:hasDisplayName "Red Mushroom Block" ;
+    mc_block:hasHardness 2e-01 ;
+    mc_block:hasId 307 ;
+    mc_block:hasName "red_mushroom_block" .
+
+mc:red_nether_brick_slab a mc:Block ;
+    mc_block:hasDisplayName "Red Nether Brick Slab" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 756 ;
+    mc_block:hasName "red_nether_brick_slab" .
+
+mc:red_nether_brick_stairs a mc:Block ;
+    mc_block:hasDisplayName "Red Nether Brick Stairs" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 743 ;
+    mc_block:hasName "red_nether_brick_stairs" .
+
+mc:red_nether_brick_wall a mc:Block ;
+    mc_block:hasDisplayName "Red Nether Brick Wall" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 768 ;
+    mc_block:hasName "red_nether_brick_wall" .
+
+mc:red_nether_bricks a mc:Block ;
+    mc_block:hasDisplayName "Red Nether Bricks" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 609 ;
+    mc_block:hasName "red_nether_bricks" .
+
+mc:red_sand a mc:Block ;
+    mc_block:hasDisplayName "Red Sand" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 36 ;
+    mc_block:hasName "red_sand" .
+
+mc:red_sandstone a mc:Block ;
+    mc_block:hasDisplayName "Red Sandstone" ;
+    mc_block:hasHardness 8e-01 ;
+    mc_block:hasId 535 ;
+    mc_block:hasName "red_sandstone" .
+
+mc:red_sandstone_slab a mc:Block ;
+    mc_block:hasDisplayName "Red Sandstone Slab" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 560 ;
+    mc_block:hasName "red_sandstone_slab" .
+
+mc:red_sandstone_stairs a mc:Block ;
+    mc_block:hasDisplayName "Red Sandstone Stairs" ;
+    mc_block:hasHardness 8e-01 ;
+    mc_block:hasId 538 ;
+    mc_block:hasName "red_sandstone_stairs" .
+
+mc:red_sandstone_wall a mc:Block ;
+    mc_block:hasDisplayName "Red Sandstone Wall" ;
+    mc_block:hasHardness 8e-01 ;
+    mc_block:hasId 761 ;
+    mc_block:hasName "red_sandstone_wall" .
+
+mc:red_shulker_box a mc:Block ;
+    mc_block:hasDisplayName "Red Shulker Box" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 628 ;
+    mc_block:hasName "red_shulker_box" .
+
+mc:red_stained_glass a mc:Block ;
+    mc_block:hasDisplayName "Red Stained Glass" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 283 ;
+    mc_block:hasName "red_stained_glass" .
+
+mc:red_stained_glass_pane a mc:Block ;
+    mc_block:hasDisplayName "Red Stained Glass Pane" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 455 ;
+    mc_block:hasName "red_stained_glass_pane" .
+
+mc:red_terracotta a mc:Block ;
+    mc_block:hasDisplayName "Red Terracotta" ;
+    mc_block:hasHardness 1.25e+00 ;
+    mc_block:hasId 439 ;
+    mc_block:hasName "red_terracotta" .
+
+mc:red_tulip a mc:Block ;
+    mc_block:hasDisplayName "Red Tulip" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 153 ;
+    mc_block:hasName "red_tulip" .
+
+mc:red_wall_banner a mc:Block ;
+    mc_block:hasDisplayName "Red Banner" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 533 ;
+    mc_block:hasName "red_wall_banner" .
+
+mc:red_wool a mc:Block ;
+    mc_block:hasDisplayName "Red Wool" ;
+    mc_block:hasHardness 8e-01 ;
+    mc_block:hasId 144 ;
+    mc_block:hasName "red_wool" .
+
+mc:redstone_block a mc:Block ;
+    mc_block:hasDisplayName "Block of Redstone" ;
+    mc_block:hasHardness 5e+00 ;
+    mc_block:hasId 416 ;
+    mc_block:hasName "redstone_block" .
+
+mc:redstone_lamp a mc:Block ;
+    mc_block:hasDisplayName "Redstone Lamp" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 339 ;
+    mc_block:hasName "redstone_lamp" .
+
+mc:redstone_ore a mc:Block ;
+    mc_block:hasDisplayName "Redstone Ore" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 242 ;
+    mc_block:hasName "redstone_ore" .
+
+mc:redstone_torch a mc:Block ;
+    mc_block:hasDisplayName "Redstone Torch" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 244 ;
+    mc_block:hasName "redstone_torch" .
+
+mc:redstone_wall_torch a mc:Block ;
+    mc_block:hasDisplayName "Redstone Torch" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 245 ;
+    mc_block:hasName "redstone_wall_torch" .
+
+mc:redstone_wire a mc:Block ;
+    mc_block:hasDisplayName "Redstone Wire" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 178 ;
+    mc_block:hasName "redstone_wire" .
+
+mc:reinforced_deepslate a mc:Block ;
+    mc_block:hasDisplayName "Reinforced Deepslate" ;
+    mc_block:hasHardness 5.5e+01 ;
+    mc_block:hasId 1001 ;
+    mc_block:hasName "reinforced_deepslate" .
+
+mc:repeater a mc:Block ;
+    mc_block:hasDisplayName "Redstone Repeater" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 268 ;
+    mc_block:hasName "repeater" .
+
+mc:repeating_command_block a mc:Block ;
+    mc_block:hasDisplayName "Repeating Command Block" ;
+    mc_block:hasHardness -1e+00 ;
+    mc_block:hasId 604 ;
+    mc_block:hasName "repeating_command_block" .
+
+mc:respawn_anchor a mc:Block ;
+    mc_block:hasDisplayName "Respawn Anchor" ;
+    mc_block:hasHardness 5e+01 ;
+    mc_block:hasId 843 ;
+    mc_block:hasName "respawn_anchor" .
+
+mc:rooted_dirt a mc:Block ;
+    mc_block:hasDisplayName "Rooted Dirt" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 968 ;
+    mc_block:hasName "rooted_dirt" .
+
+mc:rose_bush a mc:Block ;
+    mc_block:hasDisplayName "Rose Bush" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 499 ;
+    mc_block:hasName "rose_bush" .
+
+mc:sand a mc:Block ;
+    mc_block:hasDisplayName "Sand" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 34 ;
+    mc_block:hasName "sand" .
+
+mc:sandstone a mc:Block ;
+    mc_block:hasDisplayName "Sandstone" ;
+    mc_block:hasHardness 8e-01 ;
+    mc_block:hasId 99 ;
+    mc_block:hasName "sandstone" .
+
+mc:sandstone_slab a mc:Block ;
+    mc_block:hasDisplayName "Sandstone Slab" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 551 ;
+    mc_block:hasName "sandstone_slab" .
+
+mc:sandstone_stairs a mc:Block ;
+    mc_block:hasDisplayName "Sandstone Stairs" ;
+    mc_block:hasHardness 8e-01 ;
+    mc_block:hasId 341 ;
+    mc_block:hasName "sandstone_stairs" .
+
+mc:sandstone_wall a mc:Block ;
+    mc_block:hasDisplayName "Sandstone Wall" ;
+    mc_block:hasHardness 8e-01 ;
+    mc_block:hasId 769 ;
+    mc_block:hasName "sandstone_wall" .
+
+mc:scaffolding a mc:Block ;
+    mc_block:hasDisplayName "Scaffolding" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 772 ;
+    mc_block:hasName "scaffolding" .
+
+mc:sculk a mc:Block ;
+    mc_block:hasDisplayName "Sculk" ;
+    mc_block:hasHardness 2e-01 ;
+    mc_block:hasId 915 ;
+    mc_block:hasName "sculk" .
+
+mc:sculk_catalyst a mc:Block ;
+    mc_block:hasDisplayName "Sculk Catalyst" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 917 ;
+    mc_block:hasName "sculk_catalyst" .
+
+mc:sculk_sensor a mc:Block ;
+    mc_block:hasDisplayName "Sculk Sensor" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 913 ;
+    mc_block:hasName "sculk_sensor" .
+
+mc:sculk_shrieker a mc:Block ;
+    mc_block:hasDisplayName "Sculk Shrieker" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 918 ;
+    mc_block:hasName "sculk_shrieker" .
+
+mc:sculk_vein a mc:Block ;
+    mc_block:hasDisplayName "Sculk Vein" ;
+    mc_block:hasHardness 2e-01 ;
+    mc_block:hasId 916 ;
+    mc_block:hasName "sculk_vein" .
+
+mc:sea_lantern a mc:Block ;
+    mc_block:hasDisplayName "Sea Lantern" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 476 ;
+    mc_block:hasName "sea_lantern" .
+
+mc:sea_pickle a mc:Block ;
+    mc_block:hasDisplayName "Sea Pickle" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 723 ;
+    mc_block:hasName "sea_pickle" .
+
+mc:seagrass a mc:Block ;
+    mc_block:hasDisplayName "Seagrass" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 126 ;
+    mc_block:hasName "seagrass" .
+
+mc:shroomlight a mc:Block ;
+    mc_block:hasDisplayName "Shroomlight" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 804 ;
+    mc_block:hasName "shroomlight" .
+
+mc:shulker_box a mc:Block ;
+    mc_block:hasDisplayName "Shulker Box" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 613 ;
+    mc_block:hasName "shulker_box" .
+
+mc:skeleton_skull a mc:Block ;
+    mc_block:hasDisplayName "Skeleton Skull" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 394 ;
+    mc_block:hasName "skeleton_skull" .
+
+mc:skeleton_wall_skull a mc:Block ;
+    mc_block:hasDisplayName "Skeleton Skull" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 395 ;
+    mc_block:hasName "skeleton_wall_skull" .
+
+mc:slime_block a mc:Block ;
+    mc_block:hasDisplayName "Slime Block" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 463 ;
+    mc_block:hasName "slime_block" .
+
+mc:small_amethyst_bud a mc:Block ;
+    mc_block:hasDisplayName "Small Amethyst Bud" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 908 ;
+    mc_block:hasName "small_amethyst_bud" .
+
+mc:small_dripleaf a mc:Block ;
+    mc_block:hasDisplayName "Small Dripleaf" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 966 ;
+    mc_block:hasName "small_dripleaf" .
+
+mc:smithing_table a mc:Block ;
+    mc_block:hasDisplayName "Smithing Table" ;
+    mc_block:hasHardness 2.5e+00 ;
+    mc_block:hasId 781 ;
+    mc_block:hasName "smithing_table" .
+
+mc:smoker a mc:Block ;
+    mc_block:hasDisplayName "Smoker" ;
+    mc_block:hasHardness 3.5e+00 ;
+    mc_block:hasId 775 ;
+    mc_block:hasName "smoker" .
+
+mc:smooth_basalt a mc:Block ;
+    mc_block:hasDisplayName "Smooth Basalt" ;
+    mc_block:hasHardness 1.25e+00 ;
+    mc_block:hasId 991 ;
+    mc_block:hasName "smooth_basalt" .
+
+mc:smooth_quartz a mc:Block ;
+    mc_block:hasDisplayName "Smooth Quartz Block" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 565 ;
+    mc_block:hasName "smooth_quartz" .
+
+mc:smooth_quartz_slab a mc:Block ;
+    mc_block:hasDisplayName "Smooth Quartz Slab" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 753 ;
+    mc_block:hasName "smooth_quartz_slab" .
+
+mc:smooth_quartz_stairs a mc:Block ;
+    mc_block:hasDisplayName "Smooth Quartz Stairs" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 740 ;
+    mc_block:hasName "smooth_quartz_stairs" .
+
+mc:smooth_red_sandstone a mc:Block ;
+    mc_block:hasDisplayName "Smooth Red Sandstone" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 566 ;
+    mc_block:hasName "smooth_red_sandstone" .
+
+mc:smooth_red_sandstone_slab a mc:Block ;
+    mc_block:hasDisplayName "Smooth Red Sandstone Slab" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 747 ;
+    mc_block:hasName "smooth_red_sandstone_slab" .
+
+mc:smooth_red_sandstone_stairs a mc:Block ;
+    mc_block:hasDisplayName "Smooth Red Sandstone Stairs" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 733 ;
+    mc_block:hasName "smooth_red_sandstone_stairs" .
+
+mc:smooth_sandstone a mc:Block ;
+    mc_block:hasDisplayName "Smooth Sandstone" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 564 ;
+    mc_block:hasName "smooth_sandstone" .
+
+mc:smooth_sandstone_slab a mc:Block ;
+    mc_block:hasDisplayName "Smooth Sandstone Slab" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 752 ;
+    mc_block:hasName "smooth_sandstone_slab" .
+
+mc:smooth_sandstone_stairs a mc:Block ;
+    mc_block:hasDisplayName "Smooth Sandstone Stairs" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 739 ;
+    mc_block:hasName "smooth_sandstone_stairs" .
+
+mc:smooth_stone a mc:Block ;
+    mc_block:hasDisplayName "Smooth Stone" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 563 ;
+    mc_block:hasName "smooth_stone" .
+
+mc:smooth_stone_slab a mc:Block ;
+    mc_block:hasDisplayName "Smooth Stone Slab" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 550 ;
+    mc_block:hasName "smooth_stone_slab" .
+
+mc:sniffer_egg a mc:Block ;
+    mc_block:hasDisplayName "Sniffer Egg" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 682 ;
+    mc_block:hasName "sniffer_egg" .
+
+mc:snow a mc:Block ;
+    mc_block:hasDisplayName "Snow" ;
+    mc_block:hasHardness 1e-01 ;
+    mc_block:hasId 247 ;
+    mc_block:hasName "snow" .
+
+mc:snow_block a mc:Block ;
+    mc_block:hasDisplayName "Snow Block" ;
+    mc_block:hasHardness 2e-01 ;
+    mc_block:hasId 249 ;
+    mc_block:hasName "snow_block" .
+
+mc:soul_campfire a mc:Block ;
+    mc_block:hasDisplayName "Soul Campfire" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 787 ;
+    mc_block:hasName "soul_campfire" .
+
+mc:soul_fire a mc:Block ;
+    mc_block:hasDisplayName "Soul Fire" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 174 ;
+    mc_block:hasName "soul_fire" .
+
+mc:soul_lantern a mc:Block ;
+    mc_block:hasDisplayName "Soul Lantern" ;
+    mc_block:hasHardness 3.5e+00 ;
+    mc_block:hasId 785 ;
+    mc_block:hasName "soul_lantern" .
+
+mc:soul_sand a mc:Block ;
+    mc_block:hasDisplayName "Soul Sand" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 257 ;
+    mc_block:hasName "soul_sand" .
+
+mc:soul_soil a mc:Block ;
+    mc_block:hasDisplayName "Soul Soil" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 258 ;
+    mc_block:hasName "soul_soil" .
+
+mc:soul_torch a mc:Block ;
+    mc_block:hasDisplayName "Soul Torch" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 261 ;
+    mc_block:hasName "soul_torch" .
+
+mc:soul_wall_torch a mc:Block ;
+    mc_block:hasDisplayName "Soul Torch" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 262 ;
+    mc_block:hasName "soul_wall_torch" .
+
+mc:spawner a mc:Block ;
+    mc_block:hasDisplayName "Monster Spawner" ;
+    mc_block:hasHardness 5e+00 ;
+    mc_block:hasId 175 ;
+    mc_block:hasName "spawner" .
+
+mc:sponge a mc:Block ;
+    mc_block:hasDisplayName "Sponge" ;
+    mc_block:hasHardness 6e-01 ;
+    mc_block:hasId 92 ;
+    mc_block:hasName "sponge" .
+
+mc:spore_blossom a mc:Block ;
+    mc_block:hasDisplayName "Spore Blossom" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 958 ;
+    mc_block:hasName "spore_blossom" .
+
+mc:spruce_button a mc:Block ;
+    mc_block:hasDisplayName "Spruce Button" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 386 ;
+    mc_block:hasName "spruce_button" .
+
+mc:spruce_door a mc:Block ;
+    mc_block:hasDisplayName "Spruce Door" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 583 ;
+    mc_block:hasName "spruce_door" .
+
+mc:spruce_fence a mc:Block ;
+    mc_block:hasDisplayName "Spruce Fence" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 575 ;
+    mc_block:hasName "spruce_fence" .
+
+mc:spruce_fence_gate a mc:Block ;
+    mc_block:hasDisplayName "Spruce Fence Gate" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 567 ;
+    mc_block:hasName "spruce_fence_gate" .
+
+mc:spruce_hanging_sign a mc:Block ;
+    mc_block:hasDisplayName "Spruce Hanging Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 209 ;
+    mc_block:hasName "spruce_hanging_sign" .
+
+mc:spruce_leaves a mc:Block ;
+    mc_block:hasDisplayName "Spruce Leaves" ;
+    mc_block:hasHardness 2e-01 ;
+    mc_block:hasId 83 ;
+    mc_block:hasName "spruce_leaves" .
+
+mc:spruce_log a mc:Block ;
+    mc_block:hasDisplayName "Spruce Log" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 47 ;
+    mc_block:hasName "spruce_log" .
+
+mc:spruce_planks a mc:Block ;
+    mc_block:hasDisplayName "Spruce Planks" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 14 ;
+    mc_block:hasName "spruce_planks" .
+
+mc:spruce_pressure_plate a mc:Block ;
+    mc_block:hasDisplayName "Spruce Pressure Plate" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 234 ;
+    mc_block:hasName "spruce_pressure_plate" .
+
+mc:spruce_sapling a mc:Block ;
+    mc_block:hasDisplayName "Spruce Sapling" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 24 ;
+    mc_block:hasName "spruce_sapling" .
+
+mc:spruce_sign a mc:Block ;
+    mc_block:hasDisplayName "Spruce Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 187 ;
+    mc_block:hasName "spruce_sign" .
+
+mc:spruce_slab a mc:Block ;
+    mc_block:hasDisplayName "Spruce Slab" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 540 ;
+    mc_block:hasName "spruce_slab" .
+
+mc:spruce_stairs a mc:Block ;
+    mc_block:hasDisplayName "Spruce Stairs" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 348 ;
+    mc_block:hasName "spruce_stairs" .
+
+mc:spruce_trapdoor a mc:Block ;
+    mc_block:hasDisplayName "Spruce Trapdoor" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 286 ;
+    mc_block:hasName "spruce_trapdoor" .
+
+mc:spruce_wall_hanging_sign a mc:Block ;
+    mc_block:hasDisplayName "Spruce Hanging Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 220 ;
+    mc_block:hasName "spruce_wall_hanging_sign" .
+
+mc:spruce_wall_sign a mc:Block ;
+    mc_block:hasDisplayName "Spruce Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 200 ;
+    mc_block:hasName "spruce_wall_sign" .
+
+mc:spruce_wood a mc:Block ;
+    mc_block:hasDisplayName "Spruce Wood" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 67 ;
+    mc_block:hasName "spruce_wood" .
+
+mc:sticky_piston a mc:Block ;
+    mc_block:hasDisplayName "Sticky Piston" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 121 ;
+    mc_block:hasName "sticky_piston" .
+
+mc:stone a mc:Block ;
+    mc_block:hasDisplayName "Stone" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 1 ;
+    mc_block:hasName "stone" .
+
+mc:stone_brick_slab a mc:Block ;
+    mc_block:hasDisplayName "Stone Brick Slab" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 556 ;
+    mc_block:hasName "stone_brick_slab" .
+
+mc:stone_brick_stairs a mc:Block ;
+    mc_block:hasDisplayName "Stone Brick Stairs" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 321 ;
+    mc_block:hasName "stone_brick_stairs" .
+
+mc:stone_brick_wall a mc:Block ;
+    mc_block:hasDisplayName "Stone Brick Wall" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 764 ;
+    mc_block:hasName "stone_brick_wall" .
+
+mc:stone_bricks a mc:Block ;
+    mc_block:hasDisplayName "Stone Bricks" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 294 ;
+    mc_block:hasName "stone_bricks" .
+
+mc:stone_button a mc:Block ;
+    mc_block:hasDisplayName "Stone Button" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 246 ;
+    mc_block:hasName "stone_button" .
+
+mc:stone_pressure_plate a mc:Block ;
+    mc_block:hasDisplayName "Stone Pressure Plate" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 231 ;
+    mc_block:hasName "stone_pressure_plate" .
+
+mc:stone_slab a mc:Block ;
+    mc_block:hasDisplayName "Stone Slab" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 549 ;
+    mc_block:hasName "stone_slab" .
+
+mc:stone_stairs a mc:Block ;
+    mc_block:hasDisplayName "Stone Stairs" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 738 ;
+    mc_block:hasName "stone_stairs" .
+
+mc:stonecutter a mc:Block ;
+    mc_block:hasDisplayName "Stonecutter" ;
+    mc_block:hasHardness 3.5e+00 ;
+    mc_block:hasId 782 ;
+    mc_block:hasName "stonecutter" .
+
+mc:stripped_acacia_log a mc:Block ;
+    mc_block:hasDisplayName "Stripped Acacia Log" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 60 ;
+    mc_block:hasName "stripped_acacia_log" .
+
+mc:stripped_acacia_wood a mc:Block ;
+    mc_block:hasDisplayName "Stripped Acacia Wood" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 78 ;
+    mc_block:hasName "stripped_acacia_wood" .
+
+mc:stripped_bamboo_block a mc:Block ;
+    mc_block:hasDisplayName "Block of Stripped Bamboo" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 65 ;
+    mc_block:hasName "stripped_bamboo_block" .
+
+mc:stripped_birch_log a mc:Block ;
+    mc_block:hasDisplayName "Stripped Birch Log" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 58 ;
+    mc_block:hasName "stripped_birch_log" .
+
+mc:stripped_birch_wood a mc:Block ;
+    mc_block:hasDisplayName "Stripped Birch Wood" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 76 ;
+    mc_block:hasName "stripped_birch_wood" .
+
+mc:stripped_cherry_log a mc:Block ;
+    mc_block:hasDisplayName "Stripped Cherry Log" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 61 ;
+    mc_block:hasName "stripped_cherry_log" .
+
+mc:stripped_cherry_wood a mc:Block ;
+    mc_block:hasDisplayName "Stripped Cherry Wood" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 79 ;
+    mc_block:hasName "stripped_cherry_wood" .
+
+mc:stripped_crimson_hyphae a mc:Block ;
+    mc_block:hasDisplayName "Stripped Crimson Hyphae" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 801 ;
+    mc_block:hasName "stripped_crimson_hyphae" .
+
+mc:stripped_crimson_stem a mc:Block ;
+    mc_block:hasDisplayName "Stripped Crimson Stem" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 799 ;
+    mc_block:hasName "stripped_crimson_stem" .
+
+mc:stripped_dark_oak_log a mc:Block ;
+    mc_block:hasDisplayName "Stripped Dark Oak Log" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 62 ;
+    mc_block:hasName "stripped_dark_oak_log" .
+
+mc:stripped_dark_oak_wood a mc:Block ;
+    mc_block:hasDisplayName "Stripped Dark Oak Wood" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 80 ;
+    mc_block:hasName "stripped_dark_oak_wood" .
+
+mc:stripped_jungle_log a mc:Block ;
+    mc_block:hasDisplayName "Stripped Jungle Log" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 59 ;
+    mc_block:hasName "stripped_jungle_log" .
+
+mc:stripped_jungle_wood a mc:Block ;
+    mc_block:hasDisplayName "Stripped Jungle Wood" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 77 ;
+    mc_block:hasName "stripped_jungle_wood" .
+
+mc:stripped_mangrove_log a mc:Block ;
+    mc_block:hasDisplayName "Stripped Mangrove Log" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 64 ;
+    mc_block:hasName "stripped_mangrove_log" .
+
+mc:stripped_mangrove_wood a mc:Block ;
+    mc_block:hasDisplayName "Stripped Mangrove Wood" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 81 ;
+    mc_block:hasName "stripped_mangrove_wood" .
+
+mc:stripped_oak_log a mc:Block ;
+    mc_block:hasDisplayName "Stripped Oak Log" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 63 ;
+    mc_block:hasName "stripped_oak_log" .
+
+mc:stripped_oak_wood a mc:Block ;
+    mc_block:hasDisplayName "Stripped Oak Wood" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 74 ;
+    mc_block:hasName "stripped_oak_wood" .
+
+mc:stripped_spruce_log a mc:Block ;
+    mc_block:hasDisplayName "Stripped Spruce Log" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 57 ;
+    mc_block:hasName "stripped_spruce_log" .
+
+mc:stripped_spruce_wood a mc:Block ;
+    mc_block:hasDisplayName "Stripped Spruce Wood" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 75 ;
+    mc_block:hasName "stripped_spruce_wood" .
+
+mc:stripped_warped_hyphae a mc:Block ;
+    mc_block:hasDisplayName "Stripped Warped Hyphae" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 792 ;
+    mc_block:hasName "stripped_warped_hyphae" .
+
+mc:stripped_warped_stem a mc:Block ;
+    mc_block:hasDisplayName "Stripped Warped Stem" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 790 ;
+    mc_block:hasName "stripped_warped_stem" .
+
+mc:structure_block a mc:Block ;
+    mc_block:hasDisplayName "Structure Block" ;
+    mc_block:hasHardness -1e+00 ;
+    mc_block:hasId 832 ;
+    mc_block:hasName "structure_block" .
+
+mc:structure_void a mc:Block ;
+    mc_block:hasDisplayName "Structure Void" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 611 ;
+    mc_block:hasName "structure_void" .
+
+mc:sugar_cane a mc:Block ;
+    mc_block:hasDisplayName "Sugar Cane" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 252 ;
+    mc_block:hasName "sugar_cane" .
+
+mc:sunflower a mc:Block ;
+    mc_block:hasDisplayName "Sunflower" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 497 ;
+    mc_block:hasName "sunflower" .
+
+mc:suspicious_gravel a mc:Block ;
+    mc_block:hasDisplayName "Suspicious Gravel" ;
+    mc_block:hasHardness 2.5e-01 ;
+    mc_block:hasId 38 ;
+    mc_block:hasName "suspicious_gravel" .
+
+mc:suspicious_sand a mc:Block ;
+    mc_block:hasDisplayName "Suspicious Sand" ;
+    mc_block:hasHardness 2.5e-01 ;
+    mc_block:hasId 35 ;
+    mc_block:hasName "suspicious_sand" .
+
+mc:sweet_berry_bush a mc:Block ;
+    mc_block:hasDisplayName "Sweet Berry Bush" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 788 ;
+    mc_block:hasName "sweet_berry_bush" .
+
+mc:tall_grass a mc:Block ;
+    mc_block:hasDisplayName "Tall Grass" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 501 ;
+    mc_block:hasName "tall_grass" .
+
+mc:tall_seagrass a mc:Block ;
+    mc_block:hasDisplayName "Tall Seagrass" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 127 ;
+    mc_block:hasName "tall_seagrass" .
+
+mc:target a mc:Block ;
+    mc_block:hasDisplayName "Target" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 835 ;
+    mc_block:hasName "target" .
+
+mc:terracotta a mc:Block ;
+    mc_block:hasDisplayName "Terracotta" ;
+    mc_block:hasHardness 1.25e+00 ;
+    mc_block:hasId 494 ;
+    mc_block:hasName "terracotta" .
+
+mc:tinted_glass a mc:Block ;
+    mc_block:hasDisplayName "Tinted Glass" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 911 ;
+    mc_block:hasName "tinted_glass" .
+
+mc:tnt a mc:Block ;
+    mc_block:hasDisplayName "TNT" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 166 ;
+    mc_block:hasName "tnt" .
+
+mc:torch a mc:Block ;
+    mc_block:hasDisplayName "Torch" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 171 ;
+    mc_block:hasName "torch" .
+
+mc:torchflower a mc:Block ;
+    mc_block:hasDisplayName "Torchflower" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 148 ;
+    mc_block:hasName "torchflower" .
+
+mc:torchflower_crop a mc:Block ;
+    mc_block:hasDisplayName "Torchflower Crop" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 598 ;
+    mc_block:hasName "torchflower_crop" .
+
+mc:trapped_chest a mc:Block ;
+    mc_block:hasDisplayName "Trapped Chest" ;
+    mc_block:hasHardness 2.5e+00 ;
+    mc_block:hasId 411 ;
+    mc_block:hasName "trapped_chest" .
+
+mc:tripwire a mc:Block ;
+    mc_block:hasDisplayName "Tripwire" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 346 ;
+    mc_block:hasName "tripwire" .
+
+mc:tripwire_hook a mc:Block ;
+    mc_block:hasDisplayName "Tripwire Hook" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 345 ;
+    mc_block:hasName "tripwire_hook" .
+
+mc:tube_coral a mc:Block ;
+    mc_block:hasDisplayName "Tube Coral" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 698 ;
+    mc_block:hasName "tube_coral" .
+
+mc:tube_coral_block a mc:Block ;
+    mc_block:hasDisplayName "Tube Coral Block" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 688 ;
+    mc_block:hasName "tube_coral_block" .
+
+mc:tube_coral_fan a mc:Block ;
+    mc_block:hasDisplayName "Tube Coral Fan" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 708 ;
+    mc_block:hasName "tube_coral_fan" .
+
+mc:tube_coral_wall_fan a mc:Block ;
+    mc_block:hasDisplayName "Tube Coral Wall Fan" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 718 ;
+    mc_block:hasName "tube_coral_wall_fan" .
+
+mc:tuff a mc:Block ;
+    mc_block:hasDisplayName "Tuff" ;
+    mc_block:hasHardness 1.5e+00 ;
+    mc_block:hasId 909 ;
+    mc_block:hasName "tuff" .
+
+mc:turtle_egg a mc:Block ;
+    mc_block:hasDisplayName "Turtle Egg" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 681 ;
+    mc_block:hasName "turtle_egg" .
+
+mc:twisting_vines a mc:Block ;
+    mc_block:hasDisplayName "Twisting Vines" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 807 ;
+    mc_block:hasName "twisting_vines" .
+
+mc:twisting_vines_plant a mc:Block ;
+    mc_block:hasDisplayName "Twisting Vines Plant" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 808 ;
+    mc_block:hasName "twisting_vines_plant" .
+
+mc:verdant_froglight a mc:Block ;
+    mc_block:hasDisplayName "Verdant Froglight" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 998 ;
+    mc_block:hasName "verdant_froglight" .
+
+mc:vine a mc:Block ;
+    mc_block:hasDisplayName "Vines" ;
+    mc_block:hasHardness 2e-01 ;
+    mc_block:hasId 317 ;
+    mc_block:hasName "vine" .
+
+mc:void_air a mc:Block ;
+    mc_block:hasDisplayName "Void Air" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 729 ;
+    mc_block:hasName "void_air" .
+
+mc:wall_torch a mc:Block ;
+    mc_block:hasDisplayName "Torch" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 172 ;
+    mc_block:hasName "wall_torch" .
+
+mc:warped_button a mc:Block ;
+    mc_block:hasDisplayName "Warped Button" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 825 ;
+    mc_block:hasName "warped_button" .
+
+mc:warped_door a mc:Block ;
+    mc_block:hasDisplayName "Warped Door" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 827 ;
+    mc_block:hasName "warped_door" .
+
+mc:warped_fence a mc:Block ;
+    mc_block:hasDisplayName "Warped Fence" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 817 ;
+    mc_block:hasName "warped_fence" .
+
+mc:warped_fence_gate a mc:Block ;
+    mc_block:hasDisplayName "Warped Fence Gate" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 821 ;
+    mc_block:hasName "warped_fence_gate" .
+
+mc:warped_fungus a mc:Block ;
+    mc_block:hasDisplayName "Warped Fungus" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 794 ;
+    mc_block:hasName "warped_fungus" .
+
+mc:warped_hanging_sign a mc:Block ;
+    mc_block:hasDisplayName "Warped Hanging Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 216 ;
+    mc_block:hasName "warped_hanging_sign" .
+
+mc:warped_hyphae a mc:Block ;
+    mc_block:hasDisplayName "Warped Hyphae" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 791 ;
+    mc_block:hasName "warped_hyphae" .
+
+mc:warped_nylium a mc:Block ;
+    mc_block:hasDisplayName "Warped Nylium" ;
+    mc_block:hasHardness 4e-01 ;
+    mc_block:hasId 793 ;
+    mc_block:hasName "warped_nylium" .
+
+mc:warped_planks a mc:Block ;
+    mc_block:hasDisplayName "Warped Planks" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 811 ;
+    mc_block:hasName "warped_planks" .
+
+mc:warped_pressure_plate a mc:Block ;
+    mc_block:hasDisplayName "Warped Pressure Plate" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 815 ;
+    mc_block:hasName "warped_pressure_plate" .
+
+mc:warped_roots a mc:Block ;
+    mc_block:hasDisplayName "Warped Roots" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 796 ;
+    mc_block:hasName "warped_roots" .
+
+mc:warped_sign a mc:Block ;
+    mc_block:hasDisplayName "Warped Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 829 ;
+    mc_block:hasName "warped_sign" .
+
+mc:warped_slab a mc:Block ;
+    mc_block:hasDisplayName "Warped Slab" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 813 ;
+    mc_block:hasName "warped_slab" .
+
+mc:warped_stairs a mc:Block ;
+    mc_block:hasDisplayName "Warped Stairs" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 823 ;
+    mc_block:hasName "warped_stairs" .
+
+mc:warped_stem a mc:Block ;
+    mc_block:hasDisplayName "Warped Stem" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 789 ;
+    mc_block:hasName "warped_stem" .
+
+mc:warped_trapdoor a mc:Block ;
+    mc_block:hasDisplayName "Warped Trapdoor" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 819 ;
+    mc_block:hasName "warped_trapdoor" .
+
+mc:warped_wall_hanging_sign a mc:Block ;
+    mc_block:hasDisplayName "Warped Hanging Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 228 ;
+    mc_block:hasName "warped_wall_hanging_sign" .
+
+mc:warped_wall_sign a mc:Block ;
+    mc_block:hasDisplayName "Warped Sign" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 831 ;
+    mc_block:hasName "warped_wall_sign" .
+
+mc:warped_wart_block a mc:Block ;
+    mc_block:hasDisplayName "Warped Wart Block" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 795 ;
+    mc_block:hasName "warped_wart_block" .
+
+mc:water a mc:Block ;
+    mc_block:hasDisplayName "Water" ;
+    mc_block:hasHardness 1e+02 ;
+    mc_block:hasId 32 ;
+    mc_block:hasName "water" .
+
+mc:water_cauldron a mc:Block ;
+    mc_block:hasDisplayName "Water Cauldron" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 332 ;
+    mc_block:hasName "water_cauldron" .
+
+mc:waxed_copper_block a mc:Block ;
+    mc_block:hasDisplayName "Waxed Block of Copper" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 937 ;
+    mc_block:hasName "waxed_copper_block" .
+
+mc:waxed_cut_copper a mc:Block ;
+    mc_block:hasDisplayName "Waxed Cut Copper" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 944 ;
+    mc_block:hasName "waxed_cut_copper" .
+
+mc:waxed_cut_copper_slab a mc:Block ;
+    mc_block:hasDisplayName "Waxed Cut Copper Slab" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 952 ;
+    mc_block:hasName "waxed_cut_copper_slab" .
+
+mc:waxed_cut_copper_stairs a mc:Block ;
+    mc_block:hasDisplayName "Waxed Cut Copper Stairs" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 948 ;
+    mc_block:hasName "waxed_cut_copper_stairs" .
+
+mc:waxed_exposed_copper a mc:Block ;
+    mc_block:hasDisplayName "Waxed Exposed Copper" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 939 ;
+    mc_block:hasName "waxed_exposed_copper" .
+
+mc:waxed_exposed_cut_copper a mc:Block ;
+    mc_block:hasDisplayName "Waxed Exposed Cut Copper" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 943 ;
+    mc_block:hasName "waxed_exposed_cut_copper" .
+
+mc:waxed_exposed_cut_copper_slab a mc:Block ;
+    mc_block:hasDisplayName "Waxed Exposed Cut Copper Slab" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 951 ;
+    mc_block:hasName "waxed_exposed_cut_copper_slab" .
+
+mc:waxed_exposed_cut_copper_stairs a mc:Block ;
+    mc_block:hasDisplayName "Waxed Exposed Cut Copper Stairs" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 947 ;
+    mc_block:hasName "waxed_exposed_cut_copper_stairs" .
+
+mc:waxed_oxidized_copper a mc:Block ;
+    mc_block:hasDisplayName "Waxed Oxidized Copper" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 940 ;
+    mc_block:hasName "waxed_oxidized_copper" .
+
+mc:waxed_oxidized_cut_copper a mc:Block ;
+    mc_block:hasDisplayName "Waxed Oxidized Cut Copper" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 941 ;
+    mc_block:hasName "waxed_oxidized_cut_copper" .
+
+mc:waxed_oxidized_cut_copper_slab a mc:Block ;
+    mc_block:hasDisplayName "Waxed Oxidized Cut Copper Slab" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 949 ;
+    mc_block:hasName "waxed_oxidized_cut_copper_slab" .
+
+mc:waxed_oxidized_cut_copper_stairs a mc:Block ;
+    mc_block:hasDisplayName "Waxed Oxidized Cut Copper Stairs" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 945 ;
+    mc_block:hasName "waxed_oxidized_cut_copper_stairs" .
+
+mc:waxed_weathered_copper a mc:Block ;
+    mc_block:hasDisplayName "Waxed Weathered Copper" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 938 ;
+    mc_block:hasName "waxed_weathered_copper" .
+
+mc:waxed_weathered_cut_copper a mc:Block ;
+    mc_block:hasDisplayName "Waxed Weathered Cut Copper" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 942 ;
+    mc_block:hasName "waxed_weathered_cut_copper" .
+
+mc:waxed_weathered_cut_copper_slab a mc:Block ;
+    mc_block:hasDisplayName "Waxed Weathered Cut Copper Slab" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 950 ;
+    mc_block:hasName "waxed_weathered_cut_copper_slab" .
+
+mc:waxed_weathered_cut_copper_stairs a mc:Block ;
+    mc_block:hasDisplayName "Waxed Weathered Cut Copper Stairs" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 946 ;
+    mc_block:hasName "waxed_weathered_cut_copper_stairs" .
+
+mc:weathered_copper a mc:Block ;
+    mc_block:hasDisplayName "Weathered Copper" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 920 ;
+    mc_block:hasName "weathered_copper" .
+
+mc:weathered_cut_copper a mc:Block ;
+    mc_block:hasDisplayName "Weathered Cut Copper" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 926 ;
+    mc_block:hasName "weathered_cut_copper" .
+
+mc:weathered_cut_copper_slab a mc:Block ;
+    mc_block:hasDisplayName "Weathered Cut Copper Slab" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 934 ;
+    mc_block:hasName "weathered_cut_copper_slab" .
+
+mc:weathered_cut_copper_stairs a mc:Block ;
+    mc_block:hasDisplayName "Weathered Cut Copper Stairs" ;
+    mc_block:hasHardness 3e+00 ;
+    mc_block:hasId 930 ;
+    mc_block:hasName "weathered_cut_copper_stairs" .
+
+mc:weeping_vines a mc:Block ;
+    mc_block:hasDisplayName "Weeping Vines" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 805 ;
+    mc_block:hasName "weeping_vines" .
+
+mc:weeping_vines_plant a mc:Block ;
+    mc_block:hasDisplayName "Weeping Vines Plant" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 806 ;
+    mc_block:hasName "weeping_vines_plant" .
+
+mc:wet_sponge a mc:Block ;
+    mc_block:hasDisplayName "Wet Sponge" ;
+    mc_block:hasHardness 6e-01 ;
+    mc_block:hasId 93 ;
+    mc_block:hasName "wet_sponge" .
+
+mc:wheat a mc:Block ;
+    mc_block:hasDisplayName "Wheat Crops" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 183 ;
+    mc_block:hasName "wheat" .
+
+mc:white_banner a mc:Block ;
+    mc_block:hasDisplayName "White Banner" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 503 ;
+    mc_block:hasName "white_banner" .
+
+mc:white_bed a mc:Block ;
+    mc_block:hasDisplayName "White Bed" ;
+    mc_block:hasHardness 2e-01 ;
+    mc_block:hasId 103 ;
+    mc_block:hasName "white_bed" .
+
+mc:white_candle a mc:Block ;
+    mc_block:hasDisplayName "White Candle" ;
+    mc_block:hasHardness 1e-01 ;
+    mc_block:hasId 870 ;
+    mc_block:hasName "white_candle" .
+
+mc:white_candle_cake a mc:Block ;
+    mc_block:hasDisplayName "Cake with White Candle" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 887 ;
+    mc_block:hasName "white_candle_cake" .
+
+mc:white_carpet a mc:Block ;
+    mc_block:hasDisplayName "White Carpet" ;
+    mc_block:hasHardness 1e-01 ;
+    mc_block:hasId 478 ;
+    mc_block:hasName "white_carpet" .
+
+mc:white_concrete a mc:Block ;
+    mc_block:hasDisplayName "White Concrete" ;
+    mc_block:hasHardness 1.8e+00 ;
+    mc_block:hasId 646 ;
+    mc_block:hasName "white_concrete" .
+
+mc:white_concrete_powder a mc:Block ;
+    mc_block:hasDisplayName "White Concrete Powder" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 662 ;
+    mc_block:hasName "white_concrete_powder" .
+
+mc:white_glazed_terracotta a mc:Block ;
+    mc_block:hasDisplayName "White Glazed Terracotta" ;
+    mc_block:hasHardness 1.4e+00 ;
+    mc_block:hasId 630 ;
+    mc_block:hasName "white_glazed_terracotta" .
+
+mc:white_shulker_box a mc:Block ;
+    mc_block:hasDisplayName "White Shulker Box" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 614 ;
+    mc_block:hasName "white_shulker_box" .
+
+mc:white_stained_glass a mc:Block ;
+    mc_block:hasDisplayName "White Stained Glass" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 269 ;
+    mc_block:hasName "white_stained_glass" .
+
+mc:white_stained_glass_pane a mc:Block ;
+    mc_block:hasDisplayName "White Stained Glass Pane" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 441 ;
+    mc_block:hasName "white_stained_glass_pane" .
+
+mc:white_terracotta a mc:Block ;
+    mc_block:hasDisplayName "White Terracotta" ;
+    mc_block:hasHardness 1.25e+00 ;
+    mc_block:hasId 425 ;
+    mc_block:hasName "white_terracotta" .
+
+mc:white_tulip a mc:Block ;
+    mc_block:hasDisplayName "White Tulip" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 155 ;
+    mc_block:hasName "white_tulip" .
+
+mc:white_wall_banner a mc:Block ;
+    mc_block:hasDisplayName "White Banner" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 519 ;
+    mc_block:hasName "white_wall_banner" .
+
+mc:white_wool a mc:Block ;
+    mc_block:hasDisplayName "White Wool" ;
+    mc_block:hasHardness 8e-01 ;
+    mc_block:hasId 130 ;
+    mc_block:hasName "white_wool" .
+
+mc:wither_rose a mc:Block ;
+    mc_block:hasDisplayName "Wither Rose" ;
+    mc_block:hasHardness 0e+00 ;
+    mc_block:hasId 159 ;
+    mc_block:hasName "wither_rose" .
+
+mc:wither_skeleton_skull a mc:Block ;
+    mc_block:hasDisplayName "Wither Skeleton Skull" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 396 ;
+    mc_block:hasName "wither_skeleton_skull" .
+
+mc:wither_skeleton_wall_skull a mc:Block ;
+    mc_block:hasDisplayName "Wither Skeleton Skull" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 397 ;
+    mc_block:hasName "wither_skeleton_wall_skull" .
+
+mc:yellow_banner a mc:Block ;
+    mc_block:hasDisplayName "Yellow Banner" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 507 ;
+    mc_block:hasName "yellow_banner" .
+
+mc:yellow_bed a mc:Block ;
+    mc_block:hasDisplayName "Yellow Bed" ;
+    mc_block:hasHardness 2e-01 ;
+    mc_block:hasId 107 ;
+    mc_block:hasName "yellow_bed" .
+
+mc:yellow_candle a mc:Block ;
+    mc_block:hasDisplayName "Yellow Candle" ;
+    mc_block:hasHardness 1e-01 ;
+    mc_block:hasId 874 ;
+    mc_block:hasName "yellow_candle" .
+
+mc:yellow_candle_cake a mc:Block ;
+    mc_block:hasDisplayName "Cake with Yellow Candle" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 891 ;
+    mc_block:hasName "yellow_candle_cake" .
+
+mc:yellow_carpet a mc:Block ;
+    mc_block:hasDisplayName "Yellow Carpet" ;
+    mc_block:hasHardness 1e-01 ;
+    mc_block:hasId 482 ;
+    mc_block:hasName "yellow_carpet" .
+
+mc:yellow_concrete a mc:Block ;
+    mc_block:hasDisplayName "Yellow Concrete" ;
+    mc_block:hasHardness 1.8e+00 ;
+    mc_block:hasId 650 ;
+    mc_block:hasName "yellow_concrete" .
+
+mc:yellow_concrete_powder a mc:Block ;
+    mc_block:hasDisplayName "Yellow Concrete Powder" ;
+    mc_block:hasHardness 5e-01 ;
+    mc_block:hasId 666 ;
+    mc_block:hasName "yellow_concrete_powder" .
+
+mc:yellow_glazed_terracotta a mc:Block ;
+    mc_block:hasDisplayName "Yellow Glazed Terracotta" ;
+    mc_block:hasHardness 1.4e+00 ;
+    mc_block:hasId 634 ;
+    mc_block:hasName "yellow_glazed_terracotta" .
+
+mc:yellow_shulker_box a mc:Block ;
+    mc_block:hasDisplayName "Yellow Shulker Box" ;
+    mc_block:hasHardness 2e+00 ;
+    mc_block:hasId 618 ;
+    mc_block:hasName "yellow_shulker_box" .
+
+mc:yellow_stained_glass a mc:Block ;
+    mc_block:hasDisplayName "Yellow Stained Glass" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 273 ;
+    mc_block:hasName "yellow_stained_glass" .
+
+mc:yellow_stained_glass_pane a mc:Block ;
+    mc_block:hasDisplayName "Yellow Stained Glass Pane" ;
+    mc_block:hasHardness 3e-01 ;
+    mc_block:hasId 445 ;
+    mc_block:hasName "yellow_stained_glass_pane" .
+
+mc:yellow_terracotta a mc:Block ;
+    mc_block:hasDisplayName "Yellow Terracotta" ;
+    mc_block:hasHardness 1.25e+00 ;
+    mc_block:hasId 429 ;
+    mc_block:hasName "yellow_terracotta" .
+
+mc:yellow_wall_banner a mc:Block ;
+    mc_block:hasDisplayName "Yellow Banner" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 523 ;
+    mc_block:hasName "yellow_wall_banner" .
+
+mc:yellow_wool a mc:Block ;
+    mc_block:hasDisplayName "Yellow Wool" ;
+    mc_block:hasHardness 8e-01 ;
+    mc_block:hasId 134 ;
+    mc_block:hasName "yellow_wool" .
+
+mc:zombie_head a mc:Block ;
+    mc_block:hasDisplayName "Zombie Head" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 398 ;
+    mc_block:hasName "zombie_head" .
+
+mc:zombie_wall_head a mc:Block ;
+    mc_block:hasDisplayName "Zombie Head" ;
+    mc_block:hasHardness 1e+00 ;
+    mc_block:hasId 399 ;
+    mc_block:hasName "zombie_wall_head" .
+

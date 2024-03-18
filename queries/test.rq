@@ -1,0 +1,5 @@
+SELECT ?displayName
+WHERE {
+  ?block a mc:Block ;
+        mc_block:hasDisplayName ?displayName .
+}
