@@ -1,5 +1,16 @@
-SELECT ?displayName
+PREFIX mc: <http://example.org/minecraft/>
+PREFIX mc_block: <http://example.org/minecraft/block/>
+PREFIX mc_block_drop: <http://example.org/minecraft/block_drop/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?blockName ?droppedItemName ?silkTouch
 WHERE {
-  ?block a mc:Block ;
-        mc_block:hasDisplayName ?displayName .
+  ?block rdf:type mc:Block .
+  ?block mc_block:hasName ?blockName .
+  ?block mc_block:hasDrop ?drop .
+  ?drop rdf:type mc:BlockLoot .
+  ?drop mc_block_drop:hasItem ?droppedItem .
+  ?droppedItem mc_item:hasName ?droppedItemName .
+  ?drop mc_block_drop:hasSilkTouchRule ?silkTouch .
+  FILTER(?silkTouch = "required"^^xsd:string)
 }
