@@ -3,10 +3,11 @@ PREFIX mc_block: <http://example.org/minecraft/block/>
 PREFIX mc_block_drop: <http://example.org/minecraft/block_drop/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
-SELECT ?enchantmentName ?excludeName
+SELECT ?itemName ?count
 WHERE {
-  ?enchantment rdf:type mc:Enchantment .
-  ?enchantment mc:hasName ?enchantmentName .
-  ?enchantment mc_enchantment:hasExclude ?exclude .
-  ?exclude mc:hasName ?excludeName .
+  ?item rdf:type mc:Item .
+  ?item mc:hasDisplayName ?itemName .
+  ?item mc_item:hasRecipe ?recipe .
+  ?recipe rdf:type mc:Recipe .
+  ?recipe mc_recipe:hasCount ?count .
 }
