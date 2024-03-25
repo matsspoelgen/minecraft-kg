@@ -1,0 +1,200 @@
+{
+    "22": {
+        "minecraft_id": "minecraft:absorption",
+        "display_name": "Absorption",
+        "type": "good",
+        "instantaneous": false
+    },
+    "31": {
+        "minecraft_id": "minecraft:bad_omen",
+        "display_name": "Bad Omen",
+        "type": "bad",
+        "instantaneous": false
+    },
+    "15": {
+        "minecraft_id": "minecraft:blindness",
+        "display_name": "Blindness",
+        "type": "bad",
+        "instantaneous": false
+    },
+    "29": {
+        "minecraft_id": "minecraft:conduit_power",
+        "display_name": "Conduit Power",
+        "type": "good",
+        "instantaneous": false
+    },
+    "33": {
+        "minecraft_id": "minecraft:darkness",
+        "display_name": "Darkness",
+        "type": "bad",
+        "instantaneous": false
+    },
+    "30": {
+        "minecraft_id": "minecraft:dolphins_grace",
+        "display_name": "Dolphin's Grace",
+        "type": "good",
+        "instantaneous": false
+    },
+    "12": {
+        "minecraft_id": "minecraft:fire_resistance",
+        "display_name": "Fire Resistance",
+        "type": "good",
+        "instantaneous": false
+    },
+    "24": {
+        "minecraft_id": "minecraft:glowing",
+        "display_name": "Glowing",
+        "type": "bad",
+        "instantaneous": false
+    },
+    "3": {
+        "minecraft_id": "minecraft:haste",
+        "display_name": "Haste",
+        "type": "good",
+        "instantaneous": false
+    },
+    "21": {
+        "minecraft_id": "minecraft:health_boost",
+        "display_name": "Health Boost",
+        "type": "good",
+        "instantaneous": false
+    },
+    "32": {
+        "minecraft_id": "minecraft:hero_of_the_village",
+        "display_name": "Hero of the Village",
+        "type": "good",
+        "instantaneous": false
+    },
+    "17": {
+        "minecraft_id": "minecraft:hunger",
+        "display_name": "Hunger",
+        "type": "bad",
+        "instantaneous": false
+    },
+    "7": {
+        "minecraft_id": "minecraft:instant_damage",
+        "display_name": "Instant Damage",
+        "type": "bad",
+        "instantaneous": true
+    },
+    "6": {
+        "minecraft_id": "minecraft:instant_health",
+        "display_name": "Instant Health",
+        "type": "good",
+        "instantaneous": true
+    },
+    "14": {
+        "minecraft_id": "minecraft:invisibility",
+        "display_name": "Invisibility",
+        "type": "good",
+        "instantaneous": false
+    },
+    "8": {
+        "minecraft_id": "minecraft:jump_boost",
+        "display_name": "Jump Boost",
+        "type": "good",
+        "instantaneous": false
+    },
+    "25": {
+        "minecraft_id": "minecraft:levitation",
+        "display_name": "Levitation",
+        "type": "bad",
+        "instantaneous": false
+    },
+    "26": {
+        "minecraft_id": "minecraft:luck",
+        "display_name": "Luck",
+        "type": "good",
+        "instantaneous": false
+    },
+    "4": {
+        "minecraft_id": "minecraft:mining_fatigue",
+        "display_name": "Mining Fatigue",
+        "type": "bad",
+        "instantaneous": false
+    },
+    "9": {
+        "minecraft_id": "minecraft:nausea",
+        "display_name": "Nausea",
+        "type": "bad",
+        "instantaneous": false
+    },
+    "16": {
+        "minecraft_id": "minecraft:night_vision",
+        "display_name": "Night Vision",
+        "type": "good",
+        "instantaneous": false
+    },
+    "19": {
+        "minecraft_id": "minecraft:poison",
+        "display_name": "Poison",
+        "type": "bad",
+        "instantaneous": false
+    },
+    "10": {
+        "minecraft_id": "minecraft:regeneration",
+        "display_name": "Regeneration",
+        "type": "good",
+        "instantaneous": false
+    },
+    "11": {
+        "minecraft_id": "minecraft:resistance",
+        "display_name": "Resistance",
+        "type": "good",
+        "instantaneous": false
+    },
+    "23": {
+        "minecraft_id": "minecraft:saturation",
+        "display_name": "Saturation",
+        "type": "good",
+        "instantaneous": true
+    },
+    "28": {
+        "minecraft_id": "minecraft:slow_falling",
+        "display_name": "Slow Falling",
+        "type": "good",
+        "instantaneous": false
+    },
+    "2": {
+        "minecraft_id": "minecraft:slowness",
+        "display_name": "Slowness",
+        "type": "bad",
+        "instantaneous": false
+    },
+    "1": {
+        "minecraft_id": "minecraft:speed",
+        "display_name": "Speed",
+        "type": "good",
+        "instantaneous": false
+    },
+    "5": {
+        "minecraft_id": "minecraft:strength",
+        "display_name": "Strength",
+        "type": "good",
+        "instantaneous": false
+    },
+    "27": {
+        "minecraft_id": "minecraft:unluck",
+        "display_name": "Bad Luck",
+        "type": "bad",
+        "instantaneous": false
+    },
+    "13": {
+        "minecraft_id": "minecraft:water_breathing",
+        "display_name": "Water Breathing",
+        "type": "good",
+        "instantaneous": false
+    },
+    "18": {
+        "minecraft_id": "minecraft:weakness",
+        "display_name": "Weakness",
+        "type": "bad",
+        "instantaneous": false
+    },
+    "20": {
+        "minecraft_id": "minecraft:wither",
+        "display_name": "Wither",
+        "type": "bad",
+        "instantaneous": false
+    }
+}

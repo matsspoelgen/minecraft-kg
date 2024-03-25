@@ -1,0 +1,602 @@
+{
+    "6": {
+        "minecraft_id": "minecraft:aqua_affinity",
+        "display_name": "Aqua Affinity",
+        "min_level": 1,
+        "max_level": 1,
+        "rarity": "RARE",
+        "category": "ARMOR_HEAD",
+        "weight": 2,
+        "curse": false,
+        "discoverable": true,
+        "tradeable": true,
+        "treasure_only": false,
+        "exclude": []
+    },
+    "15": {
+        "minecraft_id": "minecraft:bane_of_arthropods",
+        "display_name": "Bane of Arthropods",
+        "min_level": 1,
+        "max_level": 5,
+        "rarity": "UNCOMMON",
+        "category": "WEAPON",
+        "weight": 5,
+        "curse": false,
+        "discoverable": true,
+        "tradeable": true,
+        "treasure_only": false,
+        "exclude": [
+            13,
+            14
+        ]
+    },
+    "10": {
+        "minecraft_id": "minecraft:binding_curse",
+        "display_name": "Curse of Binding",
+        "min_level": 1,
+        "max_level": 1,
+        "rarity": "VERY_RARE",
+        "category": "WEARABLE",
+        "weight": 1,
+        "curse": true,
+        "discoverable": true,
+        "tradeable": true,
+        "treasure_only": true,
+        "exclude": []
+    },
+    "3": {
+        "minecraft_id": "minecraft:blast_protection",
+        "display_name": "Blast Protection",
+        "min_level": 1,
+        "max_level": 4,
+        "rarity": "RARE",
+        "category": "ARMOR",
+        "weight": 2,
+        "curse": false,
+        "discoverable": true,
+        "tradeable": true,
+        "treasure_only": false,
+        "exclude": [
+            0,
+            1,
+            4
+        ]
+    },
+    "33": {
+        "minecraft_id": "minecraft:channeling",
+        "display_name": "Channeling",
+        "min_level": 1,
+        "max_level": 1,
+        "rarity": "VERY_RARE",
+        "category": "TRIDENT",
+        "weight": 1,
+        "curse": false,
+        "discoverable": true,
+        "tradeable": true,
+        "treasure_only": false,
+        "exclude": [
+            32
+        ]
+    },
+    "8": {
+        "minecraft_id": "minecraft:depth_strider",
+        "display_name": "Depth Strider",
+        "min_level": 1,
+        "max_level": 3,
+        "rarity": "RARE",
+        "category": "ARMOR_FEET",
+        "weight": 2,
+        "curse": false,
+        "discoverable": true,
+        "tradeable": true,
+        "treasure_only": false,
+        "exclude": [
+            9
+        ]
+    },
+    "20": {
+        "minecraft_id": "minecraft:efficiency",
+        "display_name": "Efficiency",
+        "min_level": 1,
+        "max_level": 5,
+        "rarity": "COMMON",
+        "category": "DIGGER",
+        "weight": 10,
+        "curse": false,
+        "discoverable": true,
+        "tradeable": true,
+        "treasure_only": false,
+        "exclude": []
+    },
+    "2": {
+        "minecraft_id": "minecraft:feather_falling",
+        "display_name": "Feather Falling",
+        "min_level": 1,
+        "max_level": 4,
+        "rarity": "UNCOMMON",
+        "category": "ARMOR_FEET",
+        "weight": 5,
+        "curse": false,
+        "discoverable": true,
+        "tradeable": true,
+        "treasure_only": false,
+        "exclude": []
+    },
+    "17": {
+        "minecraft_id": "minecraft:fire_aspect",
+        "display_name": "Fire Aspect",
+        "min_level": 1,
+        "max_level": 2,
+        "rarity": "RARE",
+        "category": "WEAPON",
+        "weight": 2,
+        "curse": false,
+        "discoverable": true,
+        "tradeable": true,
+        "treasure_only": false,
+        "exclude": []
+    },
+    "1": {
+        "minecraft_id": "minecraft:fire_protection",
+        "display_name": "Fire Protection",
+        "min_level": 1,
+        "max_level": 4,
+        "rarity": "UNCOMMON",
+        "category": "ARMOR",
+        "weight": 5,
+        "curse": false,
+        "discoverable": true,
+        "tradeable": true,
+        "treasure_only": false,
+        "exclude": [
+            0,
+            3,
+            4
+        ]
+    },
+    "26": {
+        "minecraft_id": "minecraft:flame",
+        "display_name": "Flame",
+        "min_level": 1,
+        "max_level": 1,
+        "rarity": "RARE",
+        "category": "BOW",
+        "weight": 2,
+        "curse": false,
+        "discoverable": true,
+        "tradeable": true,
+        "treasure_only": false,
+        "exclude": []
+    },
+    "23": {
+        "minecraft_id": "minecraft:fortune",
+        "display_name": "Fortune",
+        "min_level": 1,
+        "max_level": 3,
+        "rarity": "RARE",
+        "category": "DIGGER",
+        "weight": 2,
+        "curse": false,
+        "discoverable": true,
+        "tradeable": true,
+        "treasure_only": false,
+        "exclude": [
+            21
+        ]
+    },
+    "9": {
+        "minecraft_id": "minecraft:frost_walker",
+        "display_name": "Frost Walker",
+        "min_level": 1,
+        "max_level": 2,
+        "rarity": "RARE",
+        "category": "ARMOR_FEET",
+        "weight": 2,
+        "curse": false,
+        "discoverable": true,
+        "tradeable": true,
+        "treasure_only": true,
+        "exclude": [
+            8
+        ]
+    },
+    "31": {
+        "minecraft_id": "minecraft:impaling",
+        "display_name": "Impaling",
+        "min_level": 1,
+        "max_level": 5,
+        "rarity": "RARE",
+        "category": "TRIDENT",
+        "weight": 2,
+        "curse": false,
+        "discoverable": true,
+        "tradeable": true,
+        "treasure_only": false,
+        "exclude": []
+    },
+    "27": {
+        "minecraft_id": "minecraft:infinity",
+        "display_name": "Infinity",
+        "min_level": 1,
+        "max_level": 1,
+        "rarity": "VERY_RARE",
+        "category": "BOW",
+        "weight": 1,
+        "curse": false,
+        "discoverable": true,
+        "tradeable": true,
+        "treasure_only": false,
+        "exclude": [
+            37
+        ]
+    },
+    "16": {
+        "minecraft_id": "minecraft:knockback",
+        "display_name": "Knockback",
+        "min_level": 1,
+        "max_level": 2,
+        "rarity": "UNCOMMON",
+        "category": "WEAPON",
+        "weight": 5,
+        "curse": false,
+        "discoverable": true,
+        "tradeable": true,
+        "treasure_only": false,
+        "exclude": []
+    },
+    "18": {
+        "minecraft_id": "minecraft:looting",
+        "display_name": "Looting",
+        "min_level": 1,
+        "max_level": 3,
+        "rarity": "RARE",
+        "category": "WEAPON",
+        "weight": 2,
+        "curse": false,
+        "discoverable": true,
+        "tradeable": true,
+        "treasure_only": false,
+        "exclude": [
+            21
+        ]
+    },
+    "30": {
+        "minecraft_id": "minecraft:loyalty",
+        "display_name": "Loyalty",
+        "min_level": 1,
+        "max_level": 3,
+        "rarity": "UNCOMMON",
+        "category": "TRIDENT",
+        "weight": 5,
+        "curse": false,
+        "discoverable": true,
+        "tradeable": true,
+        "treasure_only": false,
+        "exclude": [
+            32
+        ]
+    },
+    "28": {
+        "minecraft_id": "minecraft:luck_of_the_sea",
+        "display_name": "Luck of the Sea",
+        "min_level": 1,
+        "max_level": 3,
+        "rarity": "RARE",
+        "category": "FISHING_ROD",
+        "weight": 2,
+        "curse": false,
+        "discoverable": true,
+        "tradeable": true,
+        "treasure_only": false,
+        "exclude": [
+            21
+        ]
+    },
+    "29": {
+        "minecraft_id": "minecraft:lure",
+        "display_name": "Lure",
+        "min_level": 1,
+        "max_level": 3,
+        "rarity": "RARE",
+        "category": "FISHING_ROD",
+        "weight": 2,
+        "curse": false,
+        "discoverable": true,
+        "tradeable": true,
+        "treasure_only": false,
+        "exclude": []
+    },
+    "37": {
+        "minecraft_id": "minecraft:mending",
+        "display_name": "Mending",
+        "min_level": 1,
+        "max_level": 1,
+        "rarity": "RARE",
+        "category": "BREAKABLE",
+        "weight": 2,
+        "curse": false,
+        "discoverable": true,
+        "tradeable": true,
+        "treasure_only": true,
+        "exclude": [
+            27
+        ]
+    },
+    "34": {
+        "minecraft_id": "minecraft:multishot",
+        "display_name": "Multishot",
+        "min_level": 1,
+        "max_level": 1,
+        "rarity": "RARE",
+        "category": "CROSSBOW",
+        "weight": 2,
+        "curse": false,
+        "discoverable": true,
+        "tradeable": true,
+        "treasure_only": false,
+        "exclude": [
+            36
+        ]
+    },
+    "36": {
+        "minecraft_id": "minecraft:piercing",
+        "display_name": "Piercing",
+        "min_level": 1,
+        "max_level": 4,
+        "rarity": "COMMON",
+        "category": "CROSSBOW",
+        "weight": 10,
+        "curse": false,
+        "discoverable": true,
+        "tradeable": true,
+        "treasure_only": false,
+        "exclude": [
+            34
+        ]
+    },
+    "24": {
+        "minecraft_id": "minecraft:power",
+        "display_name": "Power",
+        "min_level": 1,
+        "max_level": 5,
+        "rarity": "COMMON",
+        "category": "BOW",
+        "weight": 10,
+        "curse": false,
+        "discoverable": true,
+        "tradeable": true,
+        "treasure_only": false,
+        "exclude": []
+    },
+    "4": {
+        "minecraft_id": "minecraft:projectile_protection",
+        "display_name": "Projectile Protection",
+        "min_level": 1,
+        "max_level": 4,
+        "rarity": "UNCOMMON",
+        "category": "ARMOR",
+        "weight": 5,
+        "curse": false,
+        "discoverable": true,
+        "tradeable": true,
+        "treasure_only": false,
+        "exclude": [
+            0,
+            1,
+            3
+        ]
+    },
+    "0": {
+        "minecraft_id": "minecraft:protection",
+        "display_name": "Protection",
+        "min_level": 1,
+        "max_level": 4,
+        "rarity": "COMMON",
+        "category": "ARMOR",
+        "weight": 10,
+        "curse": false,
+        "discoverable": true,
+        "tradeable": true,
+        "treasure_only": false,
+        "exclude": [
+            1,
+            3,
+            4
+        ]
+    },
+    "25": {
+        "minecraft_id": "minecraft:punch",
+        "display_name": "Punch",
+        "min_level": 1,
+        "max_level": 2,
+        "rarity": "RARE",
+        "category": "BOW",
+        "weight": 2,
+        "curse": false,
+        "discoverable": true,
+        "tradeable": true,
+        "treasure_only": false,
+        "exclude": []
+    },
+    "35": {
+        "minecraft_id": "minecraft:quick_charge",
+        "display_name": "Quick Charge",
+        "min_level": 1,
+        "max_level": 3,
+        "rarity": "UNCOMMON",
+        "category": "CROSSBOW",
+        "weight": 5,
+        "curse": false,
+        "discoverable": true,
+        "tradeable": true,
+        "treasure_only": false,
+        "exclude": []
+    },
+    "5": {
+        "minecraft_id": "minecraft:respiration",
+        "display_name": "Respiration",
+        "min_level": 1,
+        "max_level": 3,
+        "rarity": "RARE",
+        "category": "ARMOR_HEAD",
+        "weight": 2,
+        "curse": false,
+        "discoverable": true,
+        "tradeable": true,
+        "treasure_only": false,
+        "exclude": []
+    },
+    "32": {
+        "minecraft_id": "minecraft:riptide",
+        "display_name": "Riptide",
+        "min_level": 1,
+        "max_level": 3,
+        "rarity": "RARE",
+        "category": "TRIDENT",
+        "weight": 2,
+        "curse": false,
+        "discoverable": true,
+        "tradeable": true,
+        "treasure_only": false,
+        "exclude": [
+            30,
+            33
+        ]
+    },
+    "13": {
+        "minecraft_id": "minecraft:sharpness",
+        "display_name": "Sharpness",
+        "min_level": 1,
+        "max_level": 5,
+        "rarity": "COMMON",
+        "category": "WEAPON",
+        "weight": 10,
+        "curse": false,
+        "discoverable": true,
+        "tradeable": true,
+        "treasure_only": false,
+        "exclude": [
+            14,
+            15
+        ]
+    },
+    "21": {
+        "minecraft_id": "minecraft:silk_touch",
+        "display_name": "Silk Touch",
+        "min_level": 1,
+        "max_level": 1,
+        "rarity": "VERY_RARE",
+        "category": "DIGGER",
+        "weight": 1,
+        "curse": false,
+        "discoverable": true,
+        "tradeable": true,
+        "treasure_only": false,
+        "exclude": [
+            18,
+            23,
+            28
+        ]
+    },
+    "14": {
+        "minecraft_id": "minecraft:smite",
+        "display_name": "Smite",
+        "min_level": 1,
+        "max_level": 5,
+        "rarity": "UNCOMMON",
+        "category": "WEAPON",
+        "weight": 5,
+        "curse": false,
+        "discoverable": true,
+        "tradeable": true,
+        "treasure_only": false,
+        "exclude": [
+            13,
+            15
+        ]
+    },
+    "11": {
+        "minecraft_id": "minecraft:soul_speed",
+        "display_name": "Soul Speed",
+        "min_level": 1,
+        "max_level": 3,
+        "rarity": "VERY_RARE",
+        "category": "ARMOR_FEET",
+        "weight": 1,
+        "curse": false,
+        "discoverable": false,
+        "tradeable": false,
+        "treasure_only": true,
+        "exclude": []
+    },
+    "19": {
+        "minecraft_id": "minecraft:sweeping",
+        "display_name": "Sweeping Edge",
+        "min_level": 1,
+        "max_level": 3,
+        "rarity": "RARE",
+        "category": "WEAPON",
+        "weight": 2,
+        "curse": false,
+        "discoverable": true,
+        "tradeable": true,
+        "treasure_only": false,
+        "exclude": []
+    },
+    "12": {
+        "minecraft_id": "minecraft:swift_sneak",
+        "display_name": "Swift Sneak",
+        "min_level": 1,
+        "max_level": 3,
+        "rarity": "VERY_RARE",
+        "category": "ARMOR_LEGS",
+        "weight": 1,
+        "curse": false,
+        "discoverable": false,
+        "tradeable": false,
+        "treasure_only": true,
+        "exclude": []
+    },
+    "7": {
+        "minecraft_id": "minecraft:thorns",
+        "display_name": "Thorns",
+        "min_level": 1,
+        "max_level": 3,
+        "rarity": "VERY_RARE",
+        "category": "ARMOR_CHEST",
+        "weight": 1,
+        "curse": false,
+        "discoverable": true,
+        "tradeable": true,
+        "treasure_only": false,
+        "exclude": []
+    },
+    "22": {
+        "minecraft_id": "minecraft:unbreaking",
+        "display_name": "Unbreaking",
+        "min_level": 1,
+        "max_level": 3,
+        "rarity": "UNCOMMON",
+        "category": "BREAKABLE",
+        "weight": 5,
+        "curse": false,
+        "discoverable": true,
+        "tradeable": true,
+        "treasure_only": false,
+        "exclude": []
+    },
+    "38": {
+        "minecraft_id": "minecraft:vanishing_curse",
+        "display_name": "Curse of Vanishing",
+        "min_level": 1,
+        "max_level": 1,
+        "rarity": "VERY_RARE",
+        "category": "VANISHABLE",
+        "weight": 1,
+        "curse": true,
+        "discoverable": true,
+        "tradeable": true,
+        "treasure_only": true,
+        "exclude": []
+    }
+}
