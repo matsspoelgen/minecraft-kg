@@ -1,5 +1,6 @@
 {
-    "minecraft:allay": {
+    "allay": {
+        "name": "allay",
         "minecraft_id": "minecraft:allay",
         "display_name": "Allay",
         "type": "mob",
@@ -10,7 +11,8 @@
         "fire_immune": false,
         "drops": {}
     },
-    "minecraft:area_effect_cloud": {
+    "area_effect_cloud": {
+        "name": "area_effect_cloud",
         "minecraft_id": "minecraft:area_effect_cloud",
         "display_name": "Area Effect Cloud",
         "type": "other",
@@ -19,9 +21,10 @@
         "height": 0.5,
         "width": 6.0,
         "fire_immune": true,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:armor_stand": {
+    "armor_stand": {
+        "name": "armor_stand",
         "minecraft_id": "minecraft:armor_stand",
         "display_name": "Armor Stand",
         "type": "living",
@@ -32,7 +35,8 @@
         "fire_immune": false,
         "drops": {}
     },
-    "minecraft:arrow": {
+    "arrow": {
+        "name": "arrow",
         "minecraft_id": "minecraft:arrow",
         "display_name": "Arrow",
         "type": "projectile",
@@ -41,9 +45,10 @@
         "height": 0.5,
         "width": 0.5,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:axolotl": {
+    "axolotl": {
+        "name": "axolotl",
         "minecraft_id": "minecraft:axolotl",
         "display_name": "Axolotl",
         "type": "animal",
@@ -54,7 +59,8 @@
         "fire_immune": false,
         "drops": {}
     },
-    "minecraft:bat": {
+    "bat": {
+        "name": "bat",
         "minecraft_id": "minecraft:bat",
         "display_name": "Bat",
         "type": "ambient",
@@ -65,7 +71,8 @@
         "fire_immune": false,
         "drops": {}
     },
-    "minecraft:bee": {
+    "bee": {
+        "name": "bee",
         "minecraft_id": "minecraft:bee",
         "display_name": "Bee",
         "type": "animal",
@@ -76,7 +83,8 @@
         "fire_immune": false,
         "drops": {}
     },
-    "minecraft:blaze": {
+    "blaze": {
+        "name": "blaze",
         "minecraft_id": "minecraft:blaze",
         "display_name": "Blaze",
         "type": "hostile",
@@ -86,7 +94,7 @@
         "width": 0.6,
         "fire_immune": true,
         "drops": {
-            "minecraft:blaze_rod": {
+            "blaze_rod": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
@@ -94,7 +102,8 @@
             }
         }
     },
-    "minecraft:block_display": {
+    "block_display": {
+        "name": "block_display",
         "minecraft_id": "minecraft:block_display",
         "display_name": "Block Display",
         "type": "other",
@@ -103,9 +112,10 @@
         "height": 0.0,
         "width": 0.0,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:boat": {
+    "boat": {
+        "name": "boat",
         "minecraft_id": "minecraft:boat",
         "display_name": "Boat",
         "type": "other",
@@ -114,9 +124,10 @@
         "height": 0.5625,
         "width": 1.375,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:camel": {
+    "camel": {
+        "name": "camel",
         "minecraft_id": "minecraft:camel",
         "display_name": "Camel",
         "type": "animal",
@@ -127,7 +138,8 @@
         "fire_immune": false,
         "drops": {}
     },
-    "minecraft:cat": {
+    "cat": {
+        "name": "cat",
         "minecraft_id": "minecraft:cat",
         "display_name": "Cat",
         "type": "animal",
@@ -137,7 +149,7 @@
         "width": 0.6,
         "fire_immune": false,
         "drops": {
-            "minecraft:string": {
+            "string": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
@@ -145,7 +157,8 @@
             }
         }
     },
-    "minecraft:cave_spider": {
+    "cave_spider": {
+        "name": "cave_spider",
         "minecraft_id": "minecraft:cave_spider",
         "display_name": "Cave Spider",
         "type": "hostile",
@@ -155,13 +168,13 @@
         "width": 0.7,
         "fire_immune": false,
         "drops": {
-            "minecraft:string": {
+            "string": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
                 "requires_player_kill": false
             },
-            "minecraft:spider_eye": {
+            "spider_eye": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
@@ -169,7 +182,8 @@
             }
         }
     },
-    "minecraft:chest_boat": {
+    "chest_boat": {
+        "name": "chest_boat",
         "minecraft_id": "minecraft:chest_boat",
         "display_name": "Boat with Chest",
         "type": "other",
@@ -178,9 +192,10 @@
         "height": 0.5625,
         "width": 1.375,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:chest_minecart": {
+    "chest_minecart": {
+        "name": "chest_minecart",
         "minecraft_id": "minecraft:chest_minecart",
         "display_name": "Minecart with Chest",
         "type": "other",
@@ -189,9 +204,10 @@
         "height": 0.7,
         "width": 0.98,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:chicken": {
+    "chicken": {
+        "name": "chicken",
         "minecraft_id": "minecraft:chicken",
         "display_name": "Chicken",
         "type": "animal",
@@ -201,13 +217,13 @@
         "width": 0.4,
         "fire_immune": false,
         "drops": {
-            "minecraft:feather": {
+            "feather": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
                 "requires_player_kill": false
             },
-            "minecraft:chicken": {
+            "chicken": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
@@ -215,7 +231,8 @@
             }
         }
     },
-    "minecraft:cod": {
+    "cod": {
+        "name": "cod",
         "minecraft_id": "minecraft:cod",
         "display_name": "Cod",
         "type": "water_creature",
@@ -225,13 +242,13 @@
         "width": 0.5,
         "fire_immune": false,
         "drops": {
-            "minecraft:cod": {
+            "cod": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
                 "requires_player_kill": false
             },
-            "minecraft:bone_meal": {
+            "bone_meal": {
                 "min": 1,
                 "max": 1,
                 "chance": 0.05,
@@ -239,7 +256,8 @@
             }
         }
     },
-    "minecraft:command_block_minecart": {
+    "command_block_minecart": {
+        "name": "command_block_minecart",
         "minecraft_id": "minecraft:command_block_minecart",
         "display_name": "Minecart with Command Block",
         "type": "other",
@@ -248,9 +266,10 @@
         "height": 0.7,
         "width": 0.98,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:cow": {
+    "cow": {
+        "name": "cow",
         "minecraft_id": "minecraft:cow",
         "display_name": "Cow",
         "type": "animal",
@@ -260,13 +279,13 @@
         "width": 0.9,
         "fire_immune": false,
         "drops": {
-            "minecraft:leather": {
+            "leather": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
                 "requires_player_kill": false
             },
-            "minecraft:beef": {
+            "beef": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
@@ -274,7 +293,8 @@
             }
         }
     },
-    "minecraft:creeper": {
+    "creeper": {
+        "name": "creeper",
         "minecraft_id": "minecraft:creeper",
         "display_name": "Creeper",
         "type": "hostile",
@@ -284,7 +304,7 @@
         "width": 0.6,
         "fire_immune": false,
         "drops": {
-            "minecraft:gunpowder": {
+            "gunpowder": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
@@ -292,7 +312,8 @@
             }
         }
     },
-    "minecraft:dolphin": {
+    "dolphin": {
+        "name": "dolphin",
         "minecraft_id": "minecraft:dolphin",
         "display_name": "Dolphin",
         "type": "water_creature",
@@ -302,7 +323,7 @@
         "width": 0.9,
         "fire_immune": false,
         "drops": {
-            "minecraft:cod": {
+            "cod": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
@@ -310,7 +331,8 @@
             }
         }
     },
-    "minecraft:donkey": {
+    "donkey": {
+        "name": "donkey",
         "minecraft_id": "minecraft:donkey",
         "display_name": "Donkey",
         "type": "animal",
@@ -320,7 +342,7 @@
         "width": 1.3964844,
         "fire_immune": false,
         "drops": {
-            "minecraft:leather": {
+            "leather": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
@@ -328,7 +350,8 @@
             }
         }
     },
-    "minecraft:dragon_fireball": {
+    "dragon_fireball": {
+        "name": "dragon_fireball",
         "minecraft_id": "minecraft:dragon_fireball",
         "display_name": "Dragon Fireball",
         "type": "projectile",
@@ -337,9 +360,10 @@
         "height": 1.0,
         "width": 1.0,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:drowned": {
+    "drowned": {
+        "name": "drowned",
         "minecraft_id": "minecraft:drowned",
         "display_name": "Drowned",
         "type": "hostile",
@@ -349,13 +373,13 @@
         "width": 0.6,
         "fire_immune": false,
         "drops": {
-            "minecraft:rotten_flesh": {
+            "rotten_flesh": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
                 "requires_player_kill": false
             },
-            "minecraft:copper_ingot": {
+            "copper_ingot": {
                 "min": 1,
                 "max": 1,
                 "chance": 0.11,
@@ -363,7 +387,8 @@
             }
         }
     },
-    "minecraft:egg": {
+    "egg": {
+        "name": "egg",
         "minecraft_id": "minecraft:egg",
         "display_name": "Thrown Egg",
         "type": "projectile",
@@ -372,9 +397,10 @@
         "height": 0.25,
         "width": 0.25,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:elder_guardian": {
+    "elder_guardian": {
+        "name": "elder_guardian",
         "minecraft_id": "minecraft:elder_guardian",
         "display_name": "Elder Guardian",
         "type": "hostile",
@@ -384,31 +410,31 @@
         "width": 1.9975,
         "fire_immune": false,
         "drops": {
-            "minecraft:prismarine_shard": {
+            "prismarine_shard": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
                 "requires_player_kill": false
             },
-            "minecraft:cod": {
+            "cod": {
                 "min": 1,
                 "max": 1,
                 "chance": 0.6,
                 "requires_player_kill": false
             },
-            "minecraft:prismarine_crystals": {
+            "prismarine_crystals": {
                 "min": 1,
                 "max": 1,
                 "chance": 0.4,
                 "requires_player_kill": false
             },
-            "minecraft:wet_sponge": {
+            "wet_sponge": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
                 "requires_player_kill": false
             },
-            "minecraft:tide_armor_trim_smithing_template": {
+            "tide_armor_trim_smithing_template": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
@@ -416,7 +442,8 @@
             }
         }
     },
-    "minecraft:end_crystal": {
+    "end_crystal": {
+        "name": "end_crystal",
         "minecraft_id": "minecraft:end_crystal",
         "display_name": "End Crystal",
         "type": "other",
@@ -425,9 +452,10 @@
         "height": 2.0,
         "width": 2.0,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:ender_dragon": {
+    "ender_dragon": {
+        "name": "ender_dragon",
         "minecraft_id": "minecraft:ender_dragon",
         "display_name": "Ender Dragon",
         "type": "mob",
@@ -438,7 +466,8 @@
         "fire_immune": true,
         "drops": {}
     },
-    "minecraft:ender_pearl": {
+    "ender_pearl": {
+        "name": "ender_pearl",
         "minecraft_id": "minecraft:ender_pearl",
         "display_name": "Thrown Ender Pearl",
         "type": "projectile",
@@ -447,9 +476,10 @@
         "height": 0.25,
         "width": 0.25,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:enderman": {
+    "enderman": {
+        "name": "enderman",
         "minecraft_id": "minecraft:enderman",
         "display_name": "Enderman",
         "type": "hostile",
@@ -459,7 +489,7 @@
         "width": 0.6,
         "fire_immune": false,
         "drops": {
-            "minecraft:ender_pearl": {
+            "ender_pearl": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
@@ -467,7 +497,8 @@
             }
         }
     },
-    "minecraft:endermite": {
+    "endermite": {
+        "name": "endermite",
         "minecraft_id": "minecraft:endermite",
         "display_name": "Endermite",
         "type": "hostile",
@@ -478,7 +509,8 @@
         "fire_immune": false,
         "drops": {}
     },
-    "minecraft:evoker": {
+    "evoker": {
+        "name": "evoker",
         "minecraft_id": "minecraft:evoker",
         "display_name": "Evoker",
         "type": "hostile",
@@ -488,13 +520,13 @@
         "width": 0.6,
         "fire_immune": false,
         "drops": {
-            "minecraft:totem_of_undying": {
+            "totem_of_undying": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
                 "requires_player_kill": false
             },
-            "minecraft:emerald": {
+            "emerald": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
@@ -502,7 +534,8 @@
             }
         }
     },
-    "minecraft:evoker_fangs": {
+    "evoker_fangs": {
+        "name": "evoker_fangs",
         "minecraft_id": "minecraft:evoker_fangs",
         "display_name": "Evoker Fangs",
         "type": "other",
@@ -511,9 +544,10 @@
         "height": 0.8,
         "width": 0.5,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:experience_bottle": {
+    "experience_bottle": {
+        "name": "experience_bottle",
         "minecraft_id": "minecraft:experience_bottle",
         "display_name": "Thrown Bottle o' Enchanting",
         "type": "projectile",
@@ -522,9 +556,10 @@
         "height": 0.25,
         "width": 0.25,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:experience_orb": {
+    "experience_orb": {
+        "name": "experience_orb",
         "minecraft_id": "minecraft:experience_orb",
         "display_name": "Experience Orb",
         "type": "other",
@@ -533,9 +568,10 @@
         "height": 0.5,
         "width": 0.5,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:eye_of_ender": {
+    "eye_of_ender": {
+        "name": "eye_of_ender",
         "minecraft_id": "minecraft:eye_of_ender",
         "display_name": "Eye of Ender",
         "type": "other",
@@ -544,9 +580,10 @@
         "height": 0.25,
         "width": 0.25,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:falling_block": {
+    "falling_block": {
+        "name": "falling_block",
         "minecraft_id": "minecraft:falling_block",
         "display_name": "Falling Block",
         "type": "other",
@@ -555,9 +592,10 @@
         "height": 0.98,
         "width": 0.98,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:fireball": {
+    "fireball": {
+        "name": "fireball",
         "minecraft_id": "minecraft:fireball",
         "display_name": "Fireball",
         "type": "projectile",
@@ -566,9 +604,10 @@
         "height": 1.0,
         "width": 1.0,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:firework_rocket": {
+    "firework_rocket": {
+        "name": "firework_rocket",
         "minecraft_id": "minecraft:firework_rocket",
         "display_name": "Firework Rocket",
         "type": "projectile",
@@ -577,9 +616,10 @@
         "height": 0.25,
         "width": 0.25,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:fishing_bobber": {
+    "fishing_bobber": {
+        "name": "fishing_bobber",
         "minecraft_id": "minecraft:fishing_bobber",
         "display_name": "Fishing Bobber",
         "type": "projectile",
@@ -588,9 +628,10 @@
         "height": 0.25,
         "width": 0.25,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:fox": {
+    "fox": {
+        "name": "fox",
         "minecraft_id": "minecraft:fox",
         "display_name": "Fox",
         "type": "animal",
@@ -601,7 +642,8 @@
         "fire_immune": false,
         "drops": {}
     },
-    "minecraft:frog": {
+    "frog": {
+        "name": "frog",
         "minecraft_id": "minecraft:frog",
         "display_name": "Frog",
         "type": "animal",
@@ -612,7 +654,8 @@
         "fire_immune": false,
         "drops": {}
     },
-    "minecraft:furnace_minecart": {
+    "furnace_minecart": {
+        "name": "furnace_minecart",
         "minecraft_id": "minecraft:furnace_minecart",
         "display_name": "Minecart with Furnace",
         "type": "other",
@@ -621,9 +664,10 @@
         "height": 0.7,
         "width": 0.98,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:ghast": {
+    "ghast": {
+        "name": "ghast",
         "minecraft_id": "minecraft:ghast",
         "display_name": "Ghast",
         "type": "mob",
@@ -633,13 +677,13 @@
         "width": 4.0,
         "fire_immune": true,
         "drops": {
-            "minecraft:ghast_tear": {
+            "ghast_tear": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
                 "requires_player_kill": false
             },
-            "minecraft:gunpowder": {
+            "gunpowder": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
@@ -647,7 +691,8 @@
             }
         }
     },
-    "minecraft:giant": {
+    "giant": {
+        "name": "giant",
         "minecraft_id": "minecraft:giant",
         "display_name": "Giant",
         "type": "hostile",
@@ -658,7 +703,8 @@
         "fire_immune": false,
         "drops": {}
     },
-    "minecraft:glow_item_frame": {
+    "glow_item_frame": {
+        "name": "glow_item_frame",
         "minecraft_id": "minecraft:glow_item_frame",
         "display_name": "Glow Item Frame",
         "type": "other",
@@ -667,9 +713,10 @@
         "height": 0.5,
         "width": 0.5,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:glow_squid": {
+    "glow_squid": {
+        "name": "glow_squid",
         "minecraft_id": "minecraft:glow_squid",
         "display_name": "Glow Squid",
         "type": "water_creature",
@@ -679,7 +726,7 @@
         "width": 0.8,
         "fire_immune": false,
         "drops": {
-            "minecraft:glow_ink_sac": {
+            "glow_ink_sac": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
@@ -687,7 +734,8 @@
             }
         }
     },
-    "minecraft:goat": {
+    "goat": {
+        "name": "goat",
         "minecraft_id": "minecraft:goat",
         "display_name": "Goat",
         "type": "animal",
@@ -698,7 +746,8 @@
         "fire_immune": false,
         "drops": {}
     },
-    "minecraft:guardian": {
+    "guardian": {
+        "name": "guardian",
         "minecraft_id": "minecraft:guardian",
         "display_name": "Guardian",
         "type": "hostile",
@@ -708,19 +757,19 @@
         "width": 0.85,
         "fire_immune": false,
         "drops": {
-            "minecraft:prismarine_shard": {
+            "prismarine_shard": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
                 "requires_player_kill": false
             },
-            "minecraft:cod": {
+            "cod": {
                 "min": 1,
                 "max": 1,
                 "chance": 0.5,
                 "requires_player_kill": false
             },
-            "minecraft:prismarine_crystals": {
+            "prismarine_crystals": {
                 "min": 1,
                 "max": 1,
                 "chance": 0.5,
@@ -728,7 +777,8 @@
             }
         }
     },
-    "minecraft:hoglin": {
+    "hoglin": {
+        "name": "hoglin",
         "minecraft_id": "minecraft:hoglin",
         "display_name": "Hoglin",
         "type": "animal",
@@ -738,13 +788,13 @@
         "width": 1.3964844,
         "fire_immune": false,
         "drops": {
-            "minecraft:porkchop": {
+            "porkchop": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
                 "requires_player_kill": false
             },
-            "minecraft:leather": {
+            "leather": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
@@ -752,7 +802,8 @@
             }
         }
     },
-    "minecraft:hopper_minecart": {
+    "hopper_minecart": {
+        "name": "hopper_minecart",
         "minecraft_id": "minecraft:hopper_minecart",
         "display_name": "Minecart with Hopper",
         "type": "other",
@@ -761,9 +812,10 @@
         "height": 0.7,
         "width": 0.98,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:horse": {
+    "horse": {
+        "name": "horse",
         "minecraft_id": "minecraft:horse",
         "display_name": "Horse",
         "type": "animal",
@@ -773,7 +825,7 @@
         "width": 1.3964844,
         "fire_immune": false,
         "drops": {
-            "minecraft:leather": {
+            "leather": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
@@ -781,7 +833,8 @@
             }
         }
     },
-    "minecraft:husk": {
+    "husk": {
+        "name": "husk",
         "minecraft_id": "minecraft:husk",
         "display_name": "Husk",
         "type": "hostile",
@@ -791,25 +844,25 @@
         "width": 0.6,
         "fire_immune": false,
         "drops": {
-            "minecraft:rotten_flesh": {
+            "rotten_flesh": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
                 "requires_player_kill": false
             },
-            "minecraft:iron_ingot": {
+            "iron_ingot": {
                 "min": 1,
                 "max": 1,
                 "chance": 0.008333333333333333,
                 "requires_player_kill": false
             },
-            "minecraft:carrot": {
+            "carrot": {
                 "min": 1,
                 "max": 1,
                 "chance": 0.008333333333333333,
                 "requires_player_kill": false
             },
-            "minecraft:potato": {
+            "potato": {
                 "min": 1,
                 "max": 1,
                 "chance": 0.008333333333333333,
@@ -817,7 +870,8 @@
             }
         }
     },
-    "minecraft:illusioner": {
+    "illusioner": {
+        "name": "illusioner",
         "minecraft_id": "minecraft:illusioner",
         "display_name": "Illusioner",
         "type": "hostile",
@@ -828,7 +882,8 @@
         "fire_immune": false,
         "drops": {}
     },
-    "minecraft:interaction": {
+    "interaction": {
+        "name": "interaction",
         "minecraft_id": "minecraft:interaction",
         "display_name": "Interaction",
         "type": "other",
@@ -837,9 +892,10 @@
         "height": 0.0,
         "width": 0.0,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:iron_golem": {
+    "iron_golem": {
+        "name": "iron_golem",
         "minecraft_id": "minecraft:iron_golem",
         "display_name": "Iron Golem",
         "type": "mob",
@@ -849,13 +905,13 @@
         "width": 1.4,
         "fire_immune": false,
         "drops": {
-            "minecraft:poppy": {
+            "poppy": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
                 "requires_player_kill": false
             },
-            "minecraft:iron_ingot": {
+            "iron_ingot": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
@@ -863,7 +919,8 @@
             }
         }
     },
-    "minecraft:item": {
+    "item": {
+        "name": "item",
         "minecraft_id": "minecraft:item",
         "display_name": "Item",
         "type": "other",
@@ -872,9 +929,10 @@
         "height": 0.25,
         "width": 0.25,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:item_display": {
+    "item_display": {
+        "name": "item_display",
         "minecraft_id": "minecraft:item_display",
         "display_name": "Item Display",
         "type": "other",
@@ -883,9 +941,10 @@
         "height": 0.0,
         "width": 0.0,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:item_frame": {
+    "item_frame": {
+        "name": "item_frame",
         "minecraft_id": "minecraft:item_frame",
         "display_name": "Item Frame",
         "type": "other",
@@ -894,9 +953,10 @@
         "height": 0.5,
         "width": 0.5,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:leash_knot": {
+    "leash_knot": {
+        "name": "leash_knot",
         "minecraft_id": "minecraft:leash_knot",
         "display_name": "Leash Knot",
         "type": "other",
@@ -905,9 +965,10 @@
         "height": 0.5,
         "width": 0.375,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:lightning_bolt": {
+    "lightning_bolt": {
+        "name": "lightning_bolt",
         "minecraft_id": "minecraft:lightning_bolt",
         "display_name": "Lightning Bolt",
         "type": "other",
@@ -916,9 +977,10 @@
         "height": 0.0,
         "width": 0.0,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:llama": {
+    "llama": {
+        "name": "llama",
         "minecraft_id": "minecraft:llama",
         "display_name": "Llama",
         "type": "animal",
@@ -928,7 +990,7 @@
         "width": 0.9,
         "fire_immune": false,
         "drops": {
-            "minecraft:leather": {
+            "leather": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
@@ -936,7 +998,8 @@
             }
         }
     },
-    "minecraft:llama_spit": {
+    "llama_spit": {
+        "name": "llama_spit",
         "minecraft_id": "minecraft:llama_spit",
         "display_name": "Llama Spit",
         "type": "projectile",
@@ -945,9 +1008,10 @@
         "height": 0.25,
         "width": 0.25,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:magma_cube": {
+    "magma_cube": {
+        "name": "magma_cube",
         "minecraft_id": "minecraft:magma_cube",
         "display_name": "Magma Cube",
         "type": "mob",
@@ -957,25 +1021,25 @@
         "width": 2.04,
         "fire_immune": true,
         "drops": {
-            "minecraft:magma_cream": {
+            "magma_cream": {
                 "min": 1,
                 "max": 1,
                 "chance": 0.25,
                 "requires_player_kill": false
             },
-            "minecraft:pearlescent_froglight": {
+            "pearlescent_froglight": {
                 "min": 1,
                 "max": 1,
                 "chance": 0.25,
                 "requires_player_kill": false
             },
-            "minecraft:verdant_froglight": {
+            "verdant_froglight": {
                 "min": 1,
                 "max": 1,
                 "chance": 0.25,
                 "requires_player_kill": false
             },
-            "minecraft:ochre_froglight": {
+            "ochre_froglight": {
                 "min": 1,
                 "max": 1,
                 "chance": 0.25,
@@ -983,7 +1047,8 @@
             }
         }
     },
-    "minecraft:marker": {
+    "marker": {
+        "name": "marker",
         "minecraft_id": "minecraft:marker",
         "display_name": "Marker",
         "type": "other",
@@ -992,9 +1057,10 @@
         "height": 0.0,
         "width": 0.0,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:minecart": {
+    "minecart": {
+        "name": "minecart",
         "minecraft_id": "minecraft:minecart",
         "display_name": "Minecart",
         "type": "other",
@@ -1003,9 +1069,10 @@
         "height": 0.7,
         "width": 0.98,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:mooshroom": {
+    "mooshroom": {
+        "name": "mooshroom",
         "minecraft_id": "minecraft:mooshroom",
         "display_name": "Mooshroom",
         "type": "animal",
@@ -1015,13 +1082,13 @@
         "width": 0.9,
         "fire_immune": false,
         "drops": {
-            "minecraft:leather": {
+            "leather": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
                 "requires_player_kill": false
             },
-            "minecraft:beef": {
+            "beef": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
@@ -1029,7 +1096,8 @@
             }
         }
     },
-    "minecraft:mule": {
+    "mule": {
+        "name": "mule",
         "minecraft_id": "minecraft:mule",
         "display_name": "Mule",
         "type": "animal",
@@ -1039,7 +1107,7 @@
         "width": 1.3964844,
         "fire_immune": false,
         "drops": {
-            "minecraft:leather": {
+            "leather": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
@@ -1047,7 +1115,8 @@
             }
         }
     },
-    "minecraft:ocelot": {
+    "ocelot": {
+        "name": "ocelot",
         "minecraft_id": "minecraft:ocelot",
         "display_name": "Ocelot",
         "type": "animal",
@@ -1058,7 +1127,8 @@
         "fire_immune": false,
         "drops": {}
     },
-    "minecraft:painting": {
+    "painting": {
+        "name": "painting",
         "minecraft_id": "minecraft:painting",
         "display_name": "Painting",
         "type": "other",
@@ -1067,9 +1137,10 @@
         "height": 0.5,
         "width": 0.5,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:panda": {
+    "panda": {
+        "name": "panda",
         "minecraft_id": "minecraft:panda",
         "display_name": "Panda",
         "type": "animal",
@@ -1079,7 +1150,7 @@
         "width": 1.3,
         "fire_immune": false,
         "drops": {
-            "minecraft:bamboo": {
+            "bamboo": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
@@ -1087,7 +1158,8 @@
             }
         }
     },
-    "minecraft:parrot": {
+    "parrot": {
+        "name": "parrot",
         "minecraft_id": "minecraft:parrot",
         "display_name": "Parrot",
         "type": "animal",
@@ -1097,7 +1169,7 @@
         "width": 0.5,
         "fire_immune": false,
         "drops": {
-            "minecraft:feather": {
+            "feather": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
@@ -1105,7 +1177,8 @@
             }
         }
     },
-    "minecraft:phantom": {
+    "phantom": {
+        "name": "phantom",
         "minecraft_id": "minecraft:phantom",
         "display_name": "Phantom",
         "type": "mob",
@@ -1115,7 +1188,7 @@
         "width": 0.9,
         "fire_immune": false,
         "drops": {
-            "minecraft:phantom_membrane": {
+            "phantom_membrane": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
@@ -1123,7 +1196,8 @@
             }
         }
     },
-    "minecraft:pig": {
+    "pig": {
+        "name": "pig",
         "minecraft_id": "minecraft:pig",
         "display_name": "Pig",
         "type": "animal",
@@ -1133,7 +1207,7 @@
         "width": 0.9,
         "fire_immune": false,
         "drops": {
-            "minecraft:porkchop": {
+            "porkchop": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
@@ -1141,7 +1215,8 @@
             }
         }
     },
-    "minecraft:piglin": {
+    "piglin": {
+        "name": "piglin",
         "minecraft_id": "minecraft:piglin",
         "display_name": "Piglin",
         "type": "hostile",
@@ -1152,7 +1227,8 @@
         "fire_immune": false,
         "drops": {}
     },
-    "minecraft:piglin_brute": {
+    "piglin_brute": {
+        "name": "piglin_brute",
         "minecraft_id": "minecraft:piglin_brute",
         "display_name": "Piglin Brute",
         "type": "hostile",
@@ -1163,7 +1239,8 @@
         "fire_immune": false,
         "drops": {}
     },
-    "minecraft:pillager": {
+    "pillager": {
+        "name": "pillager",
         "minecraft_id": "minecraft:pillager",
         "display_name": "Pillager",
         "type": "hostile",
@@ -1174,7 +1251,8 @@
         "fire_immune": false,
         "drops": {}
     },
-    "minecraft:player": {
+    "player": {
+        "name": "player",
         "minecraft_id": "minecraft:player",
         "display_name": "Player",
         "type": "player",
@@ -1185,7 +1263,8 @@
         "fire_immune": false,
         "drops": {}
     },
-    "minecraft:polar_bear": {
+    "polar_bear": {
+        "name": "polar_bear",
         "minecraft_id": "minecraft:polar_bear",
         "display_name": "Polar Bear",
         "type": "animal",
@@ -1195,13 +1274,13 @@
         "width": 1.4,
         "fire_immune": false,
         "drops": {
-            "minecraft:cod": {
+            "cod": {
                 "min": 1,
                 "max": 1,
                 "chance": 0.75,
                 "requires_player_kill": false
             },
-            "minecraft:salmon": {
+            "salmon": {
                 "min": 1,
                 "max": 1,
                 "chance": 0.25,
@@ -1209,7 +1288,8 @@
             }
         }
     },
-    "minecraft:potion": {
+    "potion": {
+        "name": "potion",
         "minecraft_id": "minecraft:potion",
         "display_name": "Potion",
         "type": "projectile",
@@ -1218,9 +1298,10 @@
         "height": 0.25,
         "width": 0.25,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:pufferfish": {
+    "pufferfish": {
+        "name": "pufferfish",
         "minecraft_id": "minecraft:pufferfish",
         "display_name": "Pufferfish",
         "type": "water_creature",
@@ -1230,13 +1311,13 @@
         "width": 0.7,
         "fire_immune": false,
         "drops": {
-            "minecraft:pufferfish": {
+            "pufferfish": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
                 "requires_player_kill": false
             },
-            "minecraft:bone_meal": {
+            "bone_meal": {
                 "min": 1,
                 "max": 1,
                 "chance": 0.05,
@@ -1244,7 +1325,8 @@
             }
         }
     },
-    "minecraft:rabbit": {
+    "rabbit": {
+        "name": "rabbit",
         "minecraft_id": "minecraft:rabbit",
         "display_name": "Rabbit",
         "type": "animal",
@@ -1254,19 +1336,19 @@
         "width": 0.4,
         "fire_immune": false,
         "drops": {
-            "minecraft:rabbit_hide": {
+            "rabbit_hide": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
                 "requires_player_kill": false
             },
-            "minecraft:rabbit": {
+            "rabbit": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
                 "requires_player_kill": false
             },
-            "minecraft:rabbit_foot": {
+            "rabbit_foot": {
                 "min": 1,
                 "max": 1,
                 "chance": 0.1,
@@ -1274,7 +1356,8 @@
             }
         }
     },
-    "minecraft:ravager": {
+    "ravager": {
+        "name": "ravager",
         "minecraft_id": "minecraft:ravager",
         "display_name": "Ravager",
         "type": "hostile",
@@ -1284,7 +1367,7 @@
         "width": 1.95,
         "fire_immune": false,
         "drops": {
-            "minecraft:saddle": {
+            "saddle": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
@@ -1292,7 +1375,8 @@
             }
         }
     },
-    "minecraft:salmon": {
+    "salmon": {
+        "name": "salmon",
         "minecraft_id": "minecraft:salmon",
         "display_name": "Salmon",
         "type": "water_creature",
@@ -1302,13 +1386,13 @@
         "width": 0.7,
         "fire_immune": false,
         "drops": {
-            "minecraft:salmon": {
+            "salmon": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
                 "requires_player_kill": false
             },
-            "minecraft:bone_meal": {
+            "bone_meal": {
                 "min": 1,
                 "max": 1,
                 "chance": 0.05,
@@ -1316,7 +1400,8 @@
             }
         }
     },
-    "minecraft:sheep": {
+    "sheep": {
+        "name": "sheep",
         "minecraft_id": "minecraft:sheep",
         "display_name": "Sheep",
         "type": "animal",
@@ -1326,7 +1411,7 @@
         "width": 0.9,
         "fire_immune": false,
         "drops": {
-            "minecraft:mutton": {
+            "mutton": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
@@ -1334,7 +1419,8 @@
             }
         }
     },
-    "minecraft:shulker": {
+    "shulker": {
+        "name": "shulker",
         "minecraft_id": "minecraft:shulker",
         "display_name": "Shulker",
         "type": "mob",
@@ -1344,7 +1430,7 @@
         "width": 1.0,
         "fire_immune": true,
         "drops": {
-            "minecraft:shulker_shell": {
+            "shulker_shell": {
                 "min": 1,
                 "max": 1,
                 "chance": 0.5,
@@ -1352,7 +1438,8 @@
             }
         }
     },
-    "minecraft:shulker_bullet": {
+    "shulker_bullet": {
+        "name": "shulker_bullet",
         "minecraft_id": "minecraft:shulker_bullet",
         "display_name": "Shulker Bullet",
         "type": "projectile",
@@ -1361,9 +1448,10 @@
         "height": 0.3125,
         "width": 0.3125,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:silverfish": {
+    "silverfish": {
+        "name": "silverfish",
         "minecraft_id": "minecraft:silverfish",
         "display_name": "Silverfish",
         "type": "hostile",
@@ -1374,7 +1462,8 @@
         "fire_immune": false,
         "drops": {}
     },
-    "minecraft:skeleton": {
+    "skeleton": {
+        "name": "skeleton",
         "minecraft_id": "minecraft:skeleton",
         "display_name": "Skeleton",
         "type": "hostile",
@@ -1384,13 +1473,13 @@
         "width": 0.6,
         "fire_immune": false,
         "drops": {
-            "minecraft:arrow": {
+            "arrow": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
                 "requires_player_kill": false
             },
-            "minecraft:bone": {
+            "bone": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
@@ -1398,7 +1487,8 @@
             }
         }
     },
-    "minecraft:skeleton_horse": {
+    "skeleton_horse": {
+        "name": "skeleton_horse",
         "minecraft_id": "minecraft:skeleton_horse",
         "display_name": "Skeleton Horse",
         "type": "animal",
@@ -1408,7 +1498,7 @@
         "width": 1.3964844,
         "fire_immune": false,
         "drops": {
-            "minecraft:bone": {
+            "bone": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
@@ -1416,7 +1506,8 @@
             }
         }
     },
-    "minecraft:slime": {
+    "slime": {
+        "name": "slime",
         "minecraft_id": "minecraft:slime",
         "display_name": "Slime",
         "type": "mob",
@@ -1426,7 +1517,7 @@
         "width": 2.04,
         "fire_immune": false,
         "drops": {
-            "minecraft:slime_ball": {
+            "slime_ball": {
                 "min": 1,
                 "max": 1,
                 "chance": 0.5,
@@ -1434,7 +1525,8 @@
             }
         }
     },
-    "minecraft:small_fireball": {
+    "small_fireball": {
+        "name": "small_fireball",
         "minecraft_id": "minecraft:small_fireball",
         "display_name": "Small Fireball",
         "type": "projectile",
@@ -1443,9 +1535,10 @@
         "height": 0.3125,
         "width": 0.3125,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:sniffer": {
+    "sniffer": {
+        "name": "sniffer",
         "minecraft_id": "minecraft:sniffer",
         "display_name": "Sniffer",
         "type": "animal",
@@ -1456,7 +1549,8 @@
         "fire_immune": false,
         "drops": {}
     },
-    "minecraft:snow_golem": {
+    "snow_golem": {
+        "name": "snow_golem",
         "minecraft_id": "minecraft:snow_golem",
         "display_name": "Snow Golem",
         "type": "mob",
@@ -1466,7 +1560,7 @@
         "width": 0.7,
         "fire_immune": false,
         "drops": {
-            "minecraft:snowball": {
+            "snowball": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
@@ -1474,7 +1568,8 @@
             }
         }
     },
-    "minecraft:snowball": {
+    "snowball": {
+        "name": "snowball",
         "minecraft_id": "minecraft:snowball",
         "display_name": "Snowball",
         "type": "projectile",
@@ -1483,9 +1578,10 @@
         "height": 0.25,
         "width": 0.25,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:spawner_minecart": {
+    "spawner_minecart": {
+        "name": "spawner_minecart",
         "minecraft_id": "minecraft:spawner_minecart",
         "display_name": "Minecart with Monster Spawner",
         "type": "other",
@@ -1494,9 +1590,10 @@
         "height": 0.7,
         "width": 0.98,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:spectral_arrow": {
+    "spectral_arrow": {
+        "name": "spectral_arrow",
         "minecraft_id": "minecraft:spectral_arrow",
         "display_name": "Spectral Arrow",
         "type": "projectile",
@@ -1505,9 +1602,10 @@
         "height": 0.5,
         "width": 0.5,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:spider": {
+    "spider": {
+        "name": "spider",
         "minecraft_id": "minecraft:spider",
         "display_name": "Spider",
         "type": "hostile",
@@ -1517,13 +1615,13 @@
         "width": 1.4,
         "fire_immune": false,
         "drops": {
-            "minecraft:string": {
+            "string": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
                 "requires_player_kill": false
             },
-            "minecraft:spider_eye": {
+            "spider_eye": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
@@ -1531,7 +1629,8 @@
             }
         }
     },
-    "minecraft:squid": {
+    "squid": {
+        "name": "squid",
         "minecraft_id": "minecraft:squid",
         "display_name": "Squid",
         "type": "water_creature",
@@ -1541,7 +1640,7 @@
         "width": 0.8,
         "fire_immune": false,
         "drops": {
-            "minecraft:ink_sac": {
+            "ink_sac": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
@@ -1549,7 +1648,8 @@
             }
         }
     },
-    "minecraft:stray": {
+    "stray": {
+        "name": "stray",
         "minecraft_id": "minecraft:stray",
         "display_name": "Stray",
         "type": "hostile",
@@ -1559,19 +1659,19 @@
         "width": 0.6,
         "fire_immune": false,
         "drops": {
-            "minecraft:arrow": {
+            "arrow": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
                 "requires_player_kill": false
             },
-            "minecraft:bone": {
+            "bone": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
                 "requires_player_kill": false
             },
-            "minecraft:tipped_arrow": {
+            "tipped_arrow": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
@@ -1579,7 +1679,8 @@
             }
         }
     },
-    "minecraft:strider": {
+    "strider": {
+        "name": "strider",
         "minecraft_id": "minecraft:strider",
         "display_name": "Strider",
         "type": "animal",
@@ -1589,7 +1690,7 @@
         "width": 0.9,
         "fire_immune": true,
         "drops": {
-            "minecraft:string": {
+            "string": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
@@ -1597,7 +1698,8 @@
             }
         }
     },
-    "minecraft:tadpole": {
+    "tadpole": {
+        "name": "tadpole",
         "minecraft_id": "minecraft:tadpole",
         "display_name": "Tadpole",
         "type": "water_creature",
@@ -1608,7 +1710,8 @@
         "fire_immune": false,
         "drops": {}
     },
-    "minecraft:text_display": {
+    "text_display": {
+        "name": "text_display",
         "minecraft_id": "minecraft:text_display",
         "display_name": "Text Display",
         "type": "other",
@@ -1617,9 +1720,10 @@
         "height": 0.0,
         "width": 0.0,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:tnt": {
+    "tnt": {
+        "name": "tnt",
         "minecraft_id": "minecraft:tnt",
         "display_name": "Primed TNT",
         "type": "other",
@@ -1628,9 +1732,10 @@
         "height": 0.98,
         "width": 0.98,
         "fire_immune": true,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:tnt_minecart": {
+    "tnt_minecart": {
+        "name": "tnt_minecart",
         "minecraft_id": "minecraft:tnt_minecart",
         "display_name": "Minecart with TNT",
         "type": "other",
@@ -1639,9 +1744,10 @@
         "height": 0.7,
         "width": 0.98,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:trader_llama": {
+    "trader_llama": {
+        "name": "trader_llama",
         "minecraft_id": "minecraft:trader_llama",
         "display_name": "Trader Llama",
         "type": "animal",
@@ -1651,7 +1757,7 @@
         "width": 0.9,
         "fire_immune": false,
         "drops": {
-            "minecraft:leather": {
+            "leather": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
@@ -1659,7 +1765,8 @@
             }
         }
     },
-    "minecraft:trident": {
+    "trident": {
+        "name": "trident",
         "minecraft_id": "minecraft:trident",
         "display_name": "Trident",
         "type": "projectile",
@@ -1668,9 +1775,10 @@
         "height": 0.5,
         "width": 0.5,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:tropical_fish": {
+    "tropical_fish": {
+        "name": "tropical_fish",
         "minecraft_id": "minecraft:tropical_fish",
         "display_name": "Tropical Fish",
         "type": "water_creature",
@@ -1680,13 +1788,13 @@
         "width": 0.5,
         "fire_immune": false,
         "drops": {
-            "minecraft:tropical_fish": {
+            "tropical_fish": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
                 "requires_player_kill": false
             },
-            "minecraft:bone_meal": {
+            "bone_meal": {
                 "min": 1,
                 "max": 1,
                 "chance": 0.05,
@@ -1694,7 +1802,8 @@
             }
         }
     },
-    "minecraft:turtle": {
+    "turtle": {
+        "name": "turtle",
         "minecraft_id": "minecraft:turtle",
         "display_name": "Turtle",
         "type": "animal",
@@ -1704,13 +1813,13 @@
         "width": 1.2,
         "fire_immune": false,
         "drops": {
-            "minecraft:seagrass": {
+            "seagrass": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
                 "requires_player_kill": false
             },
-            "minecraft:bowl": {
+            "bowl": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
@@ -1718,7 +1827,8 @@
             }
         }
     },
-    "minecraft:vex": {
+    "vex": {
+        "name": "vex",
         "minecraft_id": "minecraft:vex",
         "display_name": "Vex",
         "type": "hostile",
@@ -1729,7 +1839,8 @@
         "fire_immune": true,
         "drops": {}
     },
-    "minecraft:villager": {
+    "villager": {
+        "name": "villager",
         "minecraft_id": "minecraft:villager",
         "display_name": "Villager",
         "type": "passive",
@@ -1740,7 +1851,8 @@
         "fire_immune": false,
         "drops": {}
     },
-    "minecraft:vindicator": {
+    "vindicator": {
+        "name": "vindicator",
         "minecraft_id": "minecraft:vindicator",
         "display_name": "Vindicator",
         "type": "hostile",
@@ -1750,7 +1862,7 @@
         "width": 0.6,
         "fire_immune": false,
         "drops": {
-            "minecraft:emerald": {
+            "emerald": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
@@ -1758,7 +1870,8 @@
             }
         }
     },
-    "minecraft:wandering_trader": {
+    "wandering_trader": {
+        "name": "wandering_trader",
         "minecraft_id": "minecraft:wandering_trader",
         "display_name": "Wandering Trader",
         "type": "passive",
@@ -1769,7 +1882,8 @@
         "fire_immune": false,
         "drops": {}
     },
-    "minecraft:warden": {
+    "warden": {
+        "name": "warden",
         "minecraft_id": "minecraft:warden",
         "display_name": "Warden",
         "type": "hostile",
@@ -1779,7 +1893,7 @@
         "width": 0.9,
         "fire_immune": true,
         "drops": {
-            "minecraft:sculk_catalyst": {
+            "sculk_catalyst": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
@@ -1787,7 +1901,8 @@
             }
         }
     },
-    "minecraft:witch": {
+    "witch": {
+        "name": "witch",
         "minecraft_id": "minecraft:witch",
         "display_name": "Witch",
         "type": "hostile",
@@ -1797,43 +1912,43 @@
         "width": 0.6,
         "fire_immune": false,
         "drops": {
-            "minecraft:glowstone_dust": {
+            "glowstone_dust": {
                 "min": 1,
                 "max": 1,
                 "chance": 0.125,
                 "requires_player_kill": false
             },
-            "minecraft:sugar": {
+            "sugar": {
                 "min": 1,
                 "max": 1,
                 "chance": 0.125,
                 "requires_player_kill": false
             },
-            "minecraft:redstone": {
+            "redstone": {
                 "min": 1,
                 "max": 1,
                 "chance": 0.125,
                 "requires_player_kill": false
             },
-            "minecraft:spider_eye": {
+            "spider_eye": {
                 "min": 1,
                 "max": 1,
                 "chance": 0.125,
                 "requires_player_kill": false
             },
-            "minecraft:glass_bottle": {
+            "glass_bottle": {
                 "min": 1,
                 "max": 1,
                 "chance": 0.125,
                 "requires_player_kill": false
             },
-            "minecraft:gunpowder": {
+            "gunpowder": {
                 "min": 1,
                 "max": 1,
                 "chance": 0.125,
                 "requires_player_kill": false
             },
-            "minecraft:stick": {
+            "stick": {
                 "min": 1,
                 "max": 1,
                 "chance": 0.25,
@@ -1841,7 +1956,8 @@
             }
         }
     },
-    "minecraft:wither": {
+    "wither": {
+        "name": "wither",
         "minecraft_id": "minecraft:wither",
         "display_name": "Wither",
         "type": "hostile",
@@ -1852,7 +1968,8 @@
         "fire_immune": true,
         "drops": {}
     },
-    "minecraft:wither_skeleton": {
+    "wither_skeleton": {
+        "name": "wither_skeleton",
         "minecraft_id": "minecraft:wither_skeleton",
         "display_name": "Wither Skeleton",
         "type": "hostile",
@@ -1862,19 +1979,19 @@
         "width": 0.7,
         "fire_immune": true,
         "drops": {
-            "minecraft:coal": {
+            "coal": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
                 "requires_player_kill": false
             },
-            "minecraft:bone": {
+            "bone": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
                 "requires_player_kill": false
             },
-            "minecraft:wither_skeleton_skull": {
+            "wither_skeleton_skull": {
                 "min": 1,
                 "max": 1,
                 "chance": 0.025,
@@ -1882,7 +1999,8 @@
             }
         }
     },
-    "minecraft:wither_skull": {
+    "wither_skull": {
+        "name": "wither_skull",
         "minecraft_id": "minecraft:wither_skull",
         "display_name": "Wither Skull",
         "type": "projectile",
@@ -1891,9 +2009,10 @@
         "height": 0.3125,
         "width": 0.3125,
         "fire_immune": false,
-        "drops": []
+        "drops": {}
     },
-    "minecraft:wolf": {
+    "wolf": {
+        "name": "wolf",
         "minecraft_id": "minecraft:wolf",
         "display_name": "Wolf",
         "type": "animal",
@@ -1904,7 +2023,8 @@
         "fire_immune": false,
         "drops": {}
     },
-    "minecraft:zoglin": {
+    "zoglin": {
+        "name": "zoglin",
         "minecraft_id": "minecraft:zoglin",
         "display_name": "Zoglin",
         "type": "hostile",
@@ -1914,7 +2034,7 @@
         "width": 1.3964844,
         "fire_immune": true,
         "drops": {
-            "minecraft:rotten_flesh": {
+            "rotten_flesh": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
@@ -1922,7 +2042,8 @@
             }
         }
     },
-    "minecraft:zombie": {
+    "zombie": {
+        "name": "zombie",
         "minecraft_id": "minecraft:zombie",
         "display_name": "Zombie",
         "type": "hostile",
@@ -1932,25 +2053,25 @@
         "width": 0.6,
         "fire_immune": false,
         "drops": {
-            "minecraft:rotten_flesh": {
+            "rotten_flesh": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
                 "requires_player_kill": false
             },
-            "minecraft:iron_ingot": {
+            "iron_ingot": {
                 "min": 1,
                 "max": 1,
                 "chance": 0.008333333333333333,
                 "requires_player_kill": false
             },
-            "minecraft:carrot": {
+            "carrot": {
                 "min": 1,
                 "max": 1,
                 "chance": 0.008333333333333333,
                 "requires_player_kill": false
             },
-            "minecraft:potato": {
+            "potato": {
                 "min": 1,
                 "max": 1,
                 "chance": 0.008333333333333333,
@@ -1958,7 +2079,8 @@
             }
         }
     },
-    "minecraft:zombie_horse": {
+    "zombie_horse": {
+        "name": "zombie_horse",
         "minecraft_id": "minecraft:zombie_horse",
         "display_name": "Zombie Horse",
         "type": "animal",
@@ -1968,7 +2090,7 @@
         "width": 1.3964844,
         "fire_immune": false,
         "drops": {
-            "minecraft:rotten_flesh": {
+            "rotten_flesh": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
@@ -1976,7 +2098,8 @@
             }
         }
     },
-    "minecraft:zombie_villager": {
+    "zombie_villager": {
+        "name": "zombie_villager",
         "minecraft_id": "minecraft:zombie_villager",
         "display_name": "Zombie Villager",
         "type": "hostile",
@@ -1986,25 +2109,25 @@
         "width": 0.6,
         "fire_immune": false,
         "drops": {
-            "minecraft:rotten_flesh": {
+            "rotten_flesh": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
                 "requires_player_kill": false
             },
-            "minecraft:iron_ingot": {
+            "iron_ingot": {
                 "min": 1,
                 "max": 1,
                 "chance": 0.008333333333333333,
                 "requires_player_kill": false
             },
-            "minecraft:carrot": {
+            "carrot": {
                 "min": 1,
                 "max": 1,
                 "chance": 0.008333333333333333,
                 "requires_player_kill": false
             },
-            "minecraft:potato": {
+            "potato": {
                 "min": 1,
                 "max": 1,
                 "chance": 0.008333333333333333,
@@ -2012,7 +2135,8 @@
             }
         }
     },
-    "minecraft:zombified_piglin": {
+    "zombified_piglin": {
+        "name": "zombified_piglin",
         "minecraft_id": "minecraft:zombified_piglin",
         "display_name": "Zombified Piglin",
         "type": "hostile",
@@ -2022,19 +2146,19 @@
         "width": 0.6,
         "fire_immune": true,
         "drops": {
-            "minecraft:rotten_flesh": {
+            "rotten_flesh": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
                 "requires_player_kill": false
             },
-            "minecraft:gold_nugget": {
+            "gold_nugget": {
                 "min": 1,
                 "max": 1,
                 "chance": 1,
                 "requires_player_kill": false
             },
-            "minecraft:gold_ingot": {
+            "gold_ingot": {
                 "min": 1,
                 "max": 1,
                 "chance": 0.025,

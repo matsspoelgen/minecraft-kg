@@ -1,13 +1,5 @@
-PREFIX mc: <http://example.org/minecraft/>
-PREFIX mc_block: <http://example.org/minecraft/block/>
-PREFIX mc_block_drop: <http://example.org/minecraft/block_drop/>
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-
-SELECT ?itemName ?count
+SELECT (COUNT(?a) AS ?count)
 WHERE {
-  ?item rdf:type mc:Item .
-  ?item mc:hasDisplayName ?itemName .
-  ?item mc_item:hasRecipe ?recipe .
-  ?recipe rdf:type mc:Recipe .
-  ?recipe mc_recipe:hasCount ?count .
+  ?a rdf:type mc:Item .
+  ?a rdf:type mc:Block .
 }

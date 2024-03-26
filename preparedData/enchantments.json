@@ -1,5 +1,6 @@
 {
-    "minecraft:aqua_affinity": {
+    "aqua_affinity": {
+        "name": "aqua_affinity",
         "id": 6,
         "minecraft_id": "minecraft:aqua_affinity",
         "display_name": "Aqua Affinity",
@@ -12,9 +13,10 @@
         "discoverable": true,
         "tradeable": true,
         "treasure_only": false,
-        "exclude": []
+        "excludes": []
     },
-    "minecraft:bane_of_arthropods": {
+    "bane_of_arthropods": {
+        "name": "bane_of_arthropods",
         "id": 15,
         "minecraft_id": "minecraft:bane_of_arthropods",
         "display_name": "Bane of Arthropods",
@@ -27,12 +29,13 @@
         "discoverable": true,
         "tradeable": true,
         "treasure_only": false,
-        "exclude": [
-            "minecraft:sharpness",
-            "minecraft:smite"
+        "excludes": [
+            "sharpness",
+            "smite"
         ]
     },
-    "minecraft:binding_curse": {
+    "binding_curse": {
+        "name": "binding_curse",
         "id": 10,
         "minecraft_id": "minecraft:binding_curse",
         "display_name": "Curse of Binding",
@@ -45,9 +48,10 @@
         "discoverable": true,
         "tradeable": true,
         "treasure_only": true,
-        "exclude": []
+        "excludes": []
     },
-    "minecraft:blast_protection": {
+    "blast_protection": {
+        "name": "blast_protection",
         "id": 3,
         "minecraft_id": "minecraft:blast_protection",
         "display_name": "Blast Protection",
@@ -60,13 +64,14 @@
         "discoverable": true,
         "tradeable": true,
         "treasure_only": false,
-        "exclude": [
-            "minecraft:protection",
-            "minecraft:fire_protection",
-            "minecraft:projectile_protection"
+        "excludes": [
+            "protection",
+            "fire_protection",
+            "projectile_protection"
         ]
     },
-    "minecraft:channeling": {
+    "channeling": {
+        "name": "channeling",
         "id": 33,
         "minecraft_id": "minecraft:channeling",
         "display_name": "Channeling",
@@ -79,11 +84,12 @@
         "discoverable": true,
         "tradeable": true,
         "treasure_only": false,
-        "exclude": [
-            "minecraft:riptide"
+        "excludes": [
+            "riptide"
         ]
     },
-    "minecraft:depth_strider": {
+    "depth_strider": {
+        "name": "depth_strider",
         "id": 8,
         "minecraft_id": "minecraft:depth_strider",
         "display_name": "Depth Strider",
@@ -96,11 +102,12 @@
         "discoverable": true,
         "tradeable": true,
         "treasure_only": false,
-        "exclude": [
-            "minecraft:frost_walker"
+        "excludes": [
+            "frost_walker"
         ]
     },
-    "minecraft:efficiency": {
+    "efficiency": {
+        "name": "efficiency",
         "id": 20,
         "minecraft_id": "minecraft:efficiency",
         "display_name": "Efficiency",
@@ -113,9 +120,10 @@
         "discoverable": true,
         "tradeable": true,
         "treasure_only": false,
-        "exclude": []
+        "excludes": []
     },
-    "minecraft:feather_falling": {
+    "feather_falling": {
+        "name": "feather_falling",
         "id": 2,
         "minecraft_id": "minecraft:feather_falling",
         "display_name": "Feather Falling",
@@ -128,9 +136,10 @@
         "discoverable": true,
         "tradeable": true,
         "treasure_only": false,
-        "exclude": []
+        "excludes": []
     },
-    "minecraft:fire_aspect": {
+    "fire_aspect": {
+        "name": "fire_aspect",
         "id": 17,
         "minecraft_id": "minecraft:fire_aspect",
         "display_name": "Fire Aspect",
@@ -143,9 +152,10 @@
         "discoverable": true,
         "tradeable": true,
         "treasure_only": false,
-        "exclude": []
+        "excludes": []
     },
-    "minecraft:fire_protection": {
+    "fire_protection": {
+        "name": "fire_protection",
         "id": 1,
         "minecraft_id": "minecraft:fire_protection",
         "display_name": "Fire Protection",
@@ -158,13 +168,14 @@
         "discoverable": true,
         "tradeable": true,
         "treasure_only": false,
-        "exclude": [
-            "minecraft:protection",
-            "minecraft:blast_protection",
-            "minecraft:projectile_protection"
+        "excludes": [
+            "protection",
+            "blast_protection",
+            "projectile_protection"
         ]
     },
-    "minecraft:flame": {
+    "flame": {
+        "name": "flame",
         "id": 26,
         "minecraft_id": "minecraft:flame",
         "display_name": "Flame",
@@ -177,9 +188,10 @@
         "discoverable": true,
         "tradeable": true,
         "treasure_only": false,
-        "exclude": []
+        "excludes": []
     },
-    "minecraft:fortune": {
+    "fortune": {
+        "name": "fortune",
         "id": 23,
         "minecraft_id": "minecraft:fortune",
         "display_name": "Fortune",
@@ -192,11 +204,12 @@
         "discoverable": true,
         "tradeable": true,
         "treasure_only": false,
-        "exclude": [
-            "minecraft:silk_touch"
+        "excludes": [
+            "silk_touch"
         ]
     },
-    "minecraft:frost_walker": {
+    "frost_walker": {
+        "name": "frost_walker",
         "id": 9,
         "minecraft_id": "minecraft:frost_walker",
         "display_name": "Frost Walker",
@@ -209,11 +222,12 @@
         "discoverable": true,
         "tradeable": true,
         "treasure_only": true,
-        "exclude": [
-            "minecraft:depth_strider"
+        "excludes": [
+            "depth_strider"
         ]
     },
-    "minecraft:impaling": {
+    "impaling": {
+        "name": "impaling",
         "id": 31,
         "minecraft_id": "minecraft:impaling",
         "display_name": "Impaling",
@@ -226,9 +240,10 @@
         "discoverable": true,
         "tradeable": true,
         "treasure_only": false,
-        "exclude": []
+        "excludes": []
     },
-    "minecraft:infinity": {
+    "infinity": {
+        "name": "infinity",
         "id": 27,
         "minecraft_id": "minecraft:infinity",
         "display_name": "Infinity",
@@ -241,11 +256,12 @@
         "discoverable": true,
         "tradeable": true,
         "treasure_only": false,
-        "exclude": [
-            "minecraft:mending"
+        "excludes": [
+            "mending"
         ]
     },
-    "minecraft:knockback": {
+    "knockback": {
+        "name": "knockback",
         "id": 16,
         "minecraft_id": "minecraft:knockback",
         "display_name": "Knockback",
@@ -258,9 +274,10 @@
         "discoverable": true,
         "tradeable": true,
         "treasure_only": false,
-        "exclude": []
+        "excludes": []
     },
-    "minecraft:looting": {
+    "looting": {
+        "name": "looting",
         "id": 18,
         "minecraft_id": "minecraft:looting",
         "display_name": "Looting",
@@ -273,11 +290,12 @@
         "discoverable": true,
         "tradeable": true,
         "treasure_only": false,
-        "exclude": [
-            "minecraft:silk_touch"
+        "excludes": [
+            "silk_touch"
         ]
     },
-    "minecraft:loyalty": {
+    "loyalty": {
+        "name": "loyalty",
         "id": 30,
         "minecraft_id": "minecraft:loyalty",
         "display_name": "Loyalty",
@@ -290,11 +308,12 @@
         "discoverable": true,
         "tradeable": true,
         "treasure_only": false,
-        "exclude": [
-            "minecraft:riptide"
+        "excludes": [
+            "riptide"
         ]
     },
-    "minecraft:luck_of_the_sea": {
+    "luck_of_the_sea": {
+        "name": "luck_of_the_sea",
         "id": 28,
         "minecraft_id": "minecraft:luck_of_the_sea",
         "display_name": "Luck of the Sea",
@@ -307,11 +326,12 @@
         "discoverable": true,
         "tradeable": true,
         "treasure_only": false,
-        "exclude": [
-            "minecraft:silk_touch"
+        "excludes": [
+            "silk_touch"
         ]
     },
-    "minecraft:lure": {
+    "lure": {
+        "name": "lure",
         "id": 29,
         "minecraft_id": "minecraft:lure",
         "display_name": "Lure",
@@ -324,9 +344,10 @@
         "discoverable": true,
         "tradeable": true,
         "treasure_only": false,
-        "exclude": []
+        "excludes": []
     },
-    "minecraft:mending": {
+    "mending": {
+        "name": "mending",
         "id": 37,
         "minecraft_id": "minecraft:mending",
         "display_name": "Mending",
@@ -339,11 +360,12 @@
         "discoverable": true,
         "tradeable": true,
         "treasure_only": true,
-        "exclude": [
-            "minecraft:infinity"
+        "excludes": [
+            "infinity"
         ]
     },
-    "minecraft:multishot": {
+    "multishot": {
+        "name": "multishot",
         "id": 34,
         "minecraft_id": "minecraft:multishot",
         "display_name": "Multishot",
@@ -356,11 +378,12 @@
         "discoverable": true,
         "tradeable": true,
         "treasure_only": false,
-        "exclude": [
-            "minecraft:piercing"
+        "excludes": [
+            "piercing"
         ]
     },
-    "minecraft:piercing": {
+    "piercing": {
+        "name": "piercing",
         "id": 36,
         "minecraft_id": "minecraft:piercing",
         "display_name": "Piercing",
@@ -373,11 +396,12 @@
         "discoverable": true,
         "tradeable": true,
         "treasure_only": false,
-        "exclude": [
-            "minecraft:multishot"
+        "excludes": [
+            "multishot"
         ]
     },
-    "minecraft:power": {
+    "power": {
+        "name": "power",
         "id": 24,
         "minecraft_id": "minecraft:power",
         "display_name": "Power",
@@ -390,9 +414,10 @@
         "discoverable": true,
         "tradeable": true,
         "treasure_only": false,
-        "exclude": []
+        "excludes": []
     },
-    "minecraft:projectile_protection": {
+    "projectile_protection": {
+        "name": "projectile_protection",
         "id": 4,
         "minecraft_id": "minecraft:projectile_protection",
         "display_name": "Projectile Protection",
@@ -405,13 +430,14 @@
         "discoverable": true,
         "tradeable": true,
         "treasure_only": false,
-        "exclude": [
-            "minecraft:protection",
-            "minecraft:fire_protection",
-            "minecraft:blast_protection"
+        "excludes": [
+            "protection",
+            "fire_protection",
+            "blast_protection"
         ]
     },
-    "minecraft:protection": {
+    "protection": {
+        "name": "protection",
         "id": 0,
         "minecraft_id": "minecraft:protection",
         "display_name": "Protection",
@@ -424,13 +450,14 @@
         "discoverable": true,
         "tradeable": true,
         "treasure_only": false,
-        "exclude": [
-            "minecraft:fire_protection",
-            "minecraft:blast_protection",
-            "minecraft:projectile_protection"
+        "excludes": [
+            "fire_protection",
+            "blast_protection",
+            "projectile_protection"
         ]
     },
-    "minecraft:punch": {
+    "punch": {
+        "name": "punch",
         "id": 25,
         "minecraft_id": "minecraft:punch",
         "display_name": "Punch",
@@ -443,9 +470,10 @@
         "discoverable": true,
         "tradeable": true,
         "treasure_only": false,
-        "exclude": []
+        "excludes": []
     },
-    "minecraft:quick_charge": {
+    "quick_charge": {
+        "name": "quick_charge",
         "id": 35,
         "minecraft_id": "minecraft:quick_charge",
         "display_name": "Quick Charge",
@@ -458,9 +486,10 @@
         "discoverable": true,
         "tradeable": true,
         "treasure_only": false,
-        "exclude": []
+        "excludes": []
     },
-    "minecraft:respiration": {
+    "respiration": {
+        "name": "respiration",
         "id": 5,
         "minecraft_id": "minecraft:respiration",
         "display_name": "Respiration",
@@ -473,9 +502,10 @@
         "discoverable": true,
         "tradeable": true,
         "treasure_only": false,
-        "exclude": []
+        "excludes": []
     },
-    "minecraft:riptide": {
+    "riptide": {
+        "name": "riptide",
         "id": 32,
         "minecraft_id": "minecraft:riptide",
         "display_name": "Riptide",
@@ -488,12 +518,13 @@
         "discoverable": true,
         "tradeable": true,
         "treasure_only": false,
-        "exclude": [
-            "minecraft:loyalty",
-            "minecraft:channeling"
+        "excludes": [
+            "loyalty",
+            "channeling"
         ]
     },
-    "minecraft:sharpness": {
+    "sharpness": {
+        "name": "sharpness",
         "id": 13,
         "minecraft_id": "minecraft:sharpness",
         "display_name": "Sharpness",
@@ -506,12 +537,13 @@
         "discoverable": true,
         "tradeable": true,
         "treasure_only": false,
-        "exclude": [
-            "minecraft:smite",
-            "minecraft:bane_of_arthropods"
+        "excludes": [
+            "smite",
+            "bane_of_arthropods"
         ]
     },
-    "minecraft:silk_touch": {
+    "silk_touch": {
+        "name": "silk_touch",
         "id": 21,
         "minecraft_id": "minecraft:silk_touch",
         "display_name": "Silk Touch",
@@ -524,13 +556,14 @@
         "discoverable": true,
         "tradeable": true,
         "treasure_only": false,
-        "exclude": [
-            "minecraft:looting",
-            "minecraft:fortune",
-            "minecraft:luck_of_the_sea"
+        "excludes": [
+            "looting",
+            "fortune",
+            "luck_of_the_sea"
         ]
     },
-    "minecraft:smite": {
+    "smite": {
+        "name": "smite",
         "id": 14,
         "minecraft_id": "minecraft:smite",
         "display_name": "Smite",
@@ -543,12 +576,13 @@
         "discoverable": true,
         "tradeable": true,
         "treasure_only": false,
-        "exclude": [
-            "minecraft:sharpness",
-            "minecraft:bane_of_arthropods"
+        "excludes": [
+            "sharpness",
+            "bane_of_arthropods"
         ]
     },
-    "minecraft:soul_speed": {
+    "soul_speed": {
+        "name": "soul_speed",
         "id": 11,
         "minecraft_id": "minecraft:soul_speed",
         "display_name": "Soul Speed",
@@ -561,9 +595,10 @@
         "discoverable": false,
         "tradeable": false,
         "treasure_only": true,
-        "exclude": []
+        "excludes": []
     },
-    "minecraft:sweeping": {
+    "sweeping": {
+        "name": "sweeping",
         "id": 19,
         "minecraft_id": "minecraft:sweeping",
         "display_name": "Sweeping Edge",
@@ -576,9 +611,10 @@
         "discoverable": true,
         "tradeable": true,
         "treasure_only": false,
-        "exclude": []
+        "excludes": []
     },
-    "minecraft:swift_sneak": {
+    "swift_sneak": {
+        "name": "swift_sneak",
         "id": 12,
         "minecraft_id": "minecraft:swift_sneak",
         "display_name": "Swift Sneak",
@@ -591,9 +627,10 @@
         "discoverable": false,
         "tradeable": false,
         "treasure_only": true,
-        "exclude": []
+        "excludes": []
     },
-    "minecraft:thorns": {
+    "thorns": {
+        "name": "thorns",
         "id": 7,
         "minecraft_id": "minecraft:thorns",
         "display_name": "Thorns",
@@ -606,9 +643,10 @@
         "discoverable": true,
         "tradeable": true,
         "treasure_only": false,
-        "exclude": []
+        "excludes": []
     },
-    "minecraft:unbreaking": {
+    "unbreaking": {
+        "name": "unbreaking",
         "id": 22,
         "minecraft_id": "minecraft:unbreaking",
         "display_name": "Unbreaking",
@@ -621,9 +659,10 @@
         "discoverable": true,
         "tradeable": true,
         "treasure_only": false,
-        "exclude": []
+        "excludes": []
     },
-    "minecraft:vanishing_curse": {
+    "vanishing_curse": {
+        "name": "vanishing_curse",
         "id": 38,
         "minecraft_id": "minecraft:vanishing_curse",
         "display_name": "Curse of Vanishing",
@@ -636,6 +675,6 @@
         "discoverable": true,
         "tradeable": true,
         "treasure_only": true,
-        "exclude": []
+        "excludes": []
     }
 }
