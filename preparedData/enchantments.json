@@ -1,5 +1,6 @@
 {
-    "6": {
+    "minecraft:aqua_affinity": {
+        "id": 6,
         "minecraft_id": "minecraft:aqua_affinity",
         "display_name": "Aqua Affinity",
         "min_level": 1,
@@ -13,7 +14,8 @@
         "treasure_only": false,
         "exclude": []
     },
-    "15": {
+    "minecraft:bane_of_arthropods": {
+        "id": 15,
         "minecraft_id": "minecraft:bane_of_arthropods",
         "display_name": "Bane of Arthropods",
         "min_level": 1,
@@ -26,11 +28,12 @@
         "tradeable": true,
         "treasure_only": false,
         "exclude": [
-            13,
-            14
+            "minecraft:sharpness",
+            "minecraft:smite"
         ]
     },
-    "10": {
+    "minecraft:binding_curse": {
+        "id": 10,
         "minecraft_id": "minecraft:binding_curse",
         "display_name": "Curse of Binding",
         "min_level": 1,
@@ -44,7 +47,8 @@
         "treasure_only": true,
         "exclude": []
     },
-    "3": {
+    "minecraft:blast_protection": {
+        "id": 3,
         "minecraft_id": "minecraft:blast_protection",
         "display_name": "Blast Protection",
         "min_level": 1,
@@ -57,12 +61,13 @@
         "tradeable": true,
         "treasure_only": false,
         "exclude": [
-            0,
-            1,
-            4
+            "minecraft:protection",
+            "minecraft:fire_protection",
+            "minecraft:projectile_protection"
         ]
     },
-    "33": {
+    "minecraft:channeling": {
+        "id": 33,
         "minecraft_id": "minecraft:channeling",
         "display_name": "Channeling",
         "min_level": 1,
@@ -75,10 +80,11 @@
         "tradeable": true,
         "treasure_only": false,
         "exclude": [
-            32
+            "minecraft:riptide"
         ]
     },
-    "8": {
+    "minecraft:depth_strider": {
+        "id": 8,
         "minecraft_id": "minecraft:depth_strider",
         "display_name": "Depth Strider",
         "min_level": 1,
@@ -91,10 +97,11 @@
         "tradeable": true,
         "treasure_only": false,
         "exclude": [
-            9
+            "minecraft:frost_walker"
         ]
     },
-    "20": {
+    "minecraft:efficiency": {
+        "id": 20,
         "minecraft_id": "minecraft:efficiency",
         "display_name": "Efficiency",
         "min_level": 1,
@@ -108,7 +115,8 @@
         "treasure_only": false,
         "exclude": []
     },
-    "2": {
+    "minecraft:feather_falling": {
+        "id": 2,
         "minecraft_id": "minecraft:feather_falling",
         "display_name": "Feather Falling",
         "min_level": 1,
@@ -122,7 +130,8 @@
         "treasure_only": false,
         "exclude": []
     },
-    "17": {
+    "minecraft:fire_aspect": {
+        "id": 17,
         "minecraft_id": "minecraft:fire_aspect",
         "display_name": "Fire Aspect",
         "min_level": 1,
@@ -136,7 +145,8 @@
         "treasure_only": false,
         "exclude": []
     },
-    "1": {
+    "minecraft:fire_protection": {
+        "id": 1,
         "minecraft_id": "minecraft:fire_protection",
         "display_name": "Fire Protection",
         "min_level": 1,
@@ -149,12 +159,13 @@
         "tradeable": true,
         "treasure_only": false,
         "exclude": [
-            0,
-            3,
-            4
+            "minecraft:protection",
+            "minecraft:blast_protection",
+            "minecraft:projectile_protection"
         ]
     },
-    "26": {
+    "minecraft:flame": {
+        "id": 26,
         "minecraft_id": "minecraft:flame",
         "display_name": "Flame",
         "min_level": 1,
@@ -168,7 +179,8 @@
         "treasure_only": false,
         "exclude": []
     },
-    "23": {
+    "minecraft:fortune": {
+        "id": 23,
         "minecraft_id": "minecraft:fortune",
         "display_name": "Fortune",
         "min_level": 1,
@@ -181,10 +193,11 @@
         "tradeable": true,
         "treasure_only": false,
         "exclude": [
-            21
+            "minecraft:silk_touch"
         ]
     },
-    "9": {
+    "minecraft:frost_walker": {
+        "id": 9,
         "minecraft_id": "minecraft:frost_walker",
         "display_name": "Frost Walker",
         "min_level": 1,
@@ -197,10 +210,11 @@
         "tradeable": true,
         "treasure_only": true,
         "exclude": [
-            8
+            "minecraft:depth_strider"
         ]
     },
-    "31": {
+    "minecraft:impaling": {
+        "id": 31,
         "minecraft_id": "minecraft:impaling",
         "display_name": "Impaling",
         "min_level": 1,
@@ -214,7 +228,8 @@
         "treasure_only": false,
         "exclude": []
     },
-    "27": {
+    "minecraft:infinity": {
+        "id": 27,
         "minecraft_id": "minecraft:infinity",
         "display_name": "Infinity",
         "min_level": 1,
@@ -227,10 +242,11 @@
         "tradeable": true,
         "treasure_only": false,
         "exclude": [
-            37
+            "minecraft:mending"
         ]
     },
-    "16": {
+    "minecraft:knockback": {
+        "id": 16,
         "minecraft_id": "minecraft:knockback",
         "display_name": "Knockback",
         "min_level": 1,
@@ -244,7 +260,8 @@
         "treasure_only": false,
         "exclude": []
     },
-    "18": {
+    "minecraft:looting": {
+        "id": 18,
         "minecraft_id": "minecraft:looting",
         "display_name": "Looting",
         "min_level": 1,
@@ -257,10 +274,11 @@
         "tradeable": true,
         "treasure_only": false,
         "exclude": [
-            21
+            "minecraft:silk_touch"
         ]
     },
-    "30": {
+    "minecraft:loyalty": {
+        "id": 30,
         "minecraft_id": "minecraft:loyalty",
         "display_name": "Loyalty",
         "min_level": 1,
@@ -273,10 +291,11 @@
         "tradeable": true,
         "treasure_only": false,
         "exclude": [
-            32
+            "minecraft:riptide"
         ]
     },
-    "28": {
+    "minecraft:luck_of_the_sea": {
+        "id": 28,
         "minecraft_id": "minecraft:luck_of_the_sea",
         "display_name": "Luck of the Sea",
         "min_level": 1,
@@ -289,10 +308,11 @@
         "tradeable": true,
         "treasure_only": false,
         "exclude": [
-            21
+            "minecraft:silk_touch"
         ]
     },
-    "29": {
+    "minecraft:lure": {
+        "id": 29,
         "minecraft_id": "minecraft:lure",
         "display_name": "Lure",
         "min_level": 1,
@@ -306,7 +326,8 @@
         "treasure_only": false,
         "exclude": []
     },
-    "37": {
+    "minecraft:mending": {
+        "id": 37,
         "minecraft_id": "minecraft:mending",
         "display_name": "Mending",
         "min_level": 1,
@@ -319,10 +340,11 @@
         "tradeable": true,
         "treasure_only": true,
         "exclude": [
-            27
+            "minecraft:infinity"
         ]
     },
-    "34": {
+    "minecraft:multishot": {
+        "id": 34,
         "minecraft_id": "minecraft:multishot",
         "display_name": "Multishot",
         "min_level": 1,
@@ -335,10 +357,11 @@
         "tradeable": true,
         "treasure_only": false,
         "exclude": [
-            36
+            "minecraft:piercing"
         ]
     },
-    "36": {
+    "minecraft:piercing": {
+        "id": 36,
         "minecraft_id": "minecraft:piercing",
         "display_name": "Piercing",
         "min_level": 1,
@@ -351,10 +374,11 @@
         "tradeable": true,
         "treasure_only": false,
         "exclude": [
-            34
+            "minecraft:multishot"
         ]
     },
-    "24": {
+    "minecraft:power": {
+        "id": 24,
         "minecraft_id": "minecraft:power",
         "display_name": "Power",
         "min_level": 1,
@@ -368,7 +392,8 @@
         "treasure_only": false,
         "exclude": []
     },
-    "4": {
+    "minecraft:projectile_protection": {
+        "id": 4,
         "minecraft_id": "minecraft:projectile_protection",
         "display_name": "Projectile Protection",
         "min_level": 1,
@@ -381,12 +406,13 @@
         "tradeable": true,
         "treasure_only": false,
         "exclude": [
-            0,
-            1,
-            3
+            "minecraft:protection",
+            "minecraft:fire_protection",
+            "minecraft:blast_protection"
         ]
     },
-    "0": {
+    "minecraft:protection": {
+        "id": 0,
         "minecraft_id": "minecraft:protection",
         "display_name": "Protection",
         "min_level": 1,
@@ -399,12 +425,13 @@
         "tradeable": true,
         "treasure_only": false,
         "exclude": [
-            1,
-            3,
-            4
+            "minecraft:fire_protection",
+            "minecraft:blast_protection",
+            "minecraft:projectile_protection"
         ]
     },
-    "25": {
+    "minecraft:punch": {
+        "id": 25,
         "minecraft_id": "minecraft:punch",
         "display_name": "Punch",
         "min_level": 1,
@@ -418,7 +445,8 @@
         "treasure_only": false,
         "exclude": []
     },
-    "35": {
+    "minecraft:quick_charge": {
+        "id": 35,
         "minecraft_id": "minecraft:quick_charge",
         "display_name": "Quick Charge",
         "min_level": 1,
@@ -432,7 +460,8 @@
         "treasure_only": false,
         "exclude": []
     },
-    "5": {
+    "minecraft:respiration": {
+        "id": 5,
         "minecraft_id": "minecraft:respiration",
         "display_name": "Respiration",
         "min_level": 1,
@@ -446,7 +475,8 @@
         "treasure_only": false,
         "exclude": []
     },
-    "32": {
+    "minecraft:riptide": {
+        "id": 32,
         "minecraft_id": "minecraft:riptide",
         "display_name": "Riptide",
         "min_level": 1,
@@ -459,11 +489,12 @@
         "tradeable": true,
         "treasure_only": false,
         "exclude": [
-            30,
-            33
+            "minecraft:loyalty",
+            "minecraft:channeling"
         ]
     },
-    "13": {
+    "minecraft:sharpness": {
+        "id": 13,
         "minecraft_id": "minecraft:sharpness",
         "display_name": "Sharpness",
         "min_level": 1,
@@ -476,11 +507,12 @@
         "tradeable": true,
         "treasure_only": false,
         "exclude": [
-            14,
-            15
+            "minecraft:smite",
+            "minecraft:bane_of_arthropods"
         ]
     },
-    "21": {
+    "minecraft:silk_touch": {
+        "id": 21,
         "minecraft_id": "minecraft:silk_touch",
         "display_name": "Silk Touch",
         "min_level": 1,
@@ -493,12 +525,13 @@
         "tradeable": true,
         "treasure_only": false,
         "exclude": [
-            18,
-            23,
-            28
+            "minecraft:looting",
+            "minecraft:fortune",
+            "minecraft:luck_of_the_sea"
         ]
     },
-    "14": {
+    "minecraft:smite": {
+        "id": 14,
         "minecraft_id": "minecraft:smite",
         "display_name": "Smite",
         "min_level": 1,
@@ -511,11 +544,12 @@
         "tradeable": true,
         "treasure_only": false,
         "exclude": [
-            13,
-            15
+            "minecraft:sharpness",
+            "minecraft:bane_of_arthropods"
         ]
     },
-    "11": {
+    "minecraft:soul_speed": {
+        "id": 11,
         "minecraft_id": "minecraft:soul_speed",
         "display_name": "Soul Speed",
         "min_level": 1,
@@ -529,7 +563,8 @@
         "treasure_only": true,
         "exclude": []
     },
-    "19": {
+    "minecraft:sweeping": {
+        "id": 19,
         "minecraft_id": "minecraft:sweeping",
         "display_name": "Sweeping Edge",
         "min_level": 1,
@@ -543,7 +578,8 @@
         "treasure_only": false,
         "exclude": []
     },
-    "12": {
+    "minecraft:swift_sneak": {
+        "id": 12,
         "minecraft_id": "minecraft:swift_sneak",
         "display_name": "Swift Sneak",
         "min_level": 1,
@@ -557,7 +593,8 @@
         "treasure_only": true,
         "exclude": []
     },
-    "7": {
+    "minecraft:thorns": {
+        "id": 7,
         "minecraft_id": "minecraft:thorns",
         "display_name": "Thorns",
         "min_level": 1,
@@ -571,7 +608,8 @@
         "treasure_only": false,
         "exclude": []
     },
-    "22": {
+    "minecraft:unbreaking": {
+        "id": 22,
         "minecraft_id": "minecraft:unbreaking",
         "display_name": "Unbreaking",
         "min_level": 1,
@@ -585,7 +623,8 @@
         "treasure_only": false,
         "exclude": []
     },
-    "38": {
+    "minecraft:vanishing_curse": {
+        "id": 38,
         "minecraft_id": "minecraft:vanishing_curse",
         "display_name": "Curse of Vanishing",
         "min_level": 1,

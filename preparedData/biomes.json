@@ -1,0 +1,578 @@
+{
+    "minecraft:badlands": {
+        "minecraft_id": "minecraft:badlands",
+        "display_name": "Badlands",
+        "downfall": 0.0,
+        "has_pericpitation": false,
+        "temperature": 2.0,
+        "category": "mesa",
+        "dimension": "overworld"
+    },
+    "minecraft:bamboo_jungle": {
+        "minecraft_id": "minecraft:bamboo_jungle",
+        "display_name": "Bamboo Jungle",
+        "downfall": 0.9,
+        "has_pericpitation": true,
+        "temperature": 0.95,
+        "category": "jungle",
+        "dimension": "overworld"
+    },
+    "minecraft:basalt_deltas": {
+        "minecraft_id": "minecraft:basalt_deltas",
+        "display_name": "Basalt Deltas",
+        "downfall": 0.0,
+        "has_pericpitation": false,
+        "temperature": 2.0,
+        "category": "nether",
+        "dimension": "nether"
+    },
+    "minecraft:beach": {
+        "minecraft_id": "minecraft:beach",
+        "display_name": "Beach",
+        "downfall": 0.4,
+        "has_pericpitation": true,
+        "temperature": 0.8,
+        "category": "beach",
+        "dimension": "overworld"
+    },
+    "minecraft:birch_forest": {
+        "minecraft_id": "minecraft:birch_forest",
+        "display_name": "Birch Forest",
+        "downfall": 0.6,
+        "has_pericpitation": true,
+        "temperature": 0.6,
+        "category": "forest",
+        "dimension": "overworld"
+    },
+    "minecraft:cherry_grove": {
+        "minecraft_id": "minecraft:cherry_grove",
+        "display_name": "Cherry Grove",
+        "downfall": 0.8,
+        "has_pericpitation": true,
+        "temperature": 0.5,
+        "category": "forest",
+        "dimension": "overworld"
+    },
+    "minecraft:cold_ocean": {
+        "minecraft_id": "minecraft:cold_ocean",
+        "display_name": "Cold Ocean",
+        "downfall": 0.5,
+        "has_pericpitation": true,
+        "temperature": 0.5,
+        "category": "ocean",
+        "dimension": "overworld"
+    },
+    "minecraft:crimson_forest": {
+        "minecraft_id": "minecraft:crimson_forest",
+        "display_name": "Crimson Forest",
+        "downfall": 0.0,
+        "has_pericpitation": false,
+        "temperature": 2.0,
+        "category": "nether",
+        "dimension": "nether"
+    },
+    "minecraft:dark_forest": {
+        "minecraft_id": "minecraft:dark_forest",
+        "display_name": "Dark Forest",
+        "downfall": 0.8,
+        "has_pericpitation": true,
+        "temperature": 0.7,
+        "category": "forest",
+        "dimension": "overworld"
+    },
+    "minecraft:deep_cold_ocean": {
+        "minecraft_id": "minecraft:deep_cold_ocean",
+        "display_name": "Deep Cold Ocean",
+        "downfall": 0.5,
+        "has_pericpitation": true,
+        "temperature": 0.5,
+        "category": "ocean",
+        "dimension": "overworld"
+    },
+    "minecraft:deep_dark": {
+        "minecraft_id": "minecraft:deep_dark",
+        "display_name": "Deep Dark",
+        "downfall": 0.4,
+        "has_pericpitation": true,
+        "temperature": 0.8,
+        "category": "underground",
+        "dimension": "overworld"
+    },
+    "minecraft:deep_frozen_ocean": {
+        "minecraft_id": "minecraft:deep_frozen_ocean",
+        "display_name": "Deep Frozen Ocean",
+        "downfall": 0.5,
+        "has_pericpitation": true,
+        "temperature": 0.5,
+        "category": "ocean",
+        "dimension": "overworld"
+    },
+    "minecraft:deep_lukewarm_ocean": {
+        "minecraft_id": "minecraft:deep_lukewarm_ocean",
+        "display_name": "Deep Lukewarm Ocean",
+        "downfall": 0.5,
+        "has_pericpitation": true,
+        "temperature": 0.5,
+        "category": "ocean",
+        "dimension": "overworld"
+    },
+    "minecraft:deep_ocean": {
+        "minecraft_id": "minecraft:deep_ocean",
+        "display_name": "Deep Ocean",
+        "downfall": 0.5,
+        "has_pericpitation": true,
+        "temperature": 0.5,
+        "category": "ocean",
+        "dimension": "overworld"
+    },
+    "minecraft:desert": {
+        "minecraft_id": "minecraft:desert",
+        "display_name": "Desert",
+        "downfall": 0.0,
+        "has_pericpitation": false,
+        "temperature": 2.0,
+        "category": "desert",
+        "dimension": "overworld"
+    },
+    "minecraft:dripstone_caves": {
+        "minecraft_id": "minecraft:dripstone_caves",
+        "display_name": "Dripstone Caves",
+        "downfall": 0.4,
+        "has_pericpitation": true,
+        "temperature": 0.8,
+        "category": "underground",
+        "dimension": "overworld"
+    },
+    "minecraft:end_barrens": {
+        "minecraft_id": "minecraft:end_barrens",
+        "display_name": "End Barrens",
+        "downfall": 0.5,
+        "has_pericpitation": false,
+        "temperature": 0.5,
+        "category": "the_end",
+        "dimension": "end"
+    },
+    "minecraft:end_highlands": {
+        "minecraft_id": "minecraft:end_highlands",
+        "display_name": "End Highlands",
+        "downfall": 0.5,
+        "has_pericpitation": false,
+        "temperature": 0.5,
+        "category": "the_end",
+        "dimension": "end"
+    },
+    "minecraft:end_midlands": {
+        "minecraft_id": "minecraft:end_midlands",
+        "display_name": "End Midlands",
+        "downfall": 0.5,
+        "has_pericpitation": false,
+        "temperature": 0.5,
+        "category": "the_end",
+        "dimension": "end"
+    },
+    "minecraft:eroded_badlands": {
+        "minecraft_id": "minecraft:eroded_badlands",
+        "display_name": "Eroded Badlands",
+        "downfall": 0.0,
+        "has_pericpitation": false,
+        "temperature": 2.0,
+        "category": "mesa",
+        "dimension": "overworld"
+    },
+    "minecraft:flower_forest": {
+        "minecraft_id": "minecraft:flower_forest",
+        "display_name": "Flower Forest",
+        "downfall": 0.8,
+        "has_pericpitation": true,
+        "temperature": 0.7,
+        "category": "forest",
+        "dimension": "overworld"
+    },
+    "minecraft:forest": {
+        "minecraft_id": "minecraft:forest",
+        "display_name": "Forest",
+        "downfall": 0.8,
+        "has_pericpitation": true,
+        "temperature": 0.7,
+        "category": "forest",
+        "dimension": "overworld"
+    },
+    "minecraft:frozen_ocean": {
+        "minecraft_id": "minecraft:frozen_ocean",
+        "display_name": "Frozen Ocean",
+        "downfall": 0.5,
+        "has_pericpitation": true,
+        "temperature": 0.0,
+        "category": "ocean",
+        "dimension": "overworld"
+    },
+    "minecraft:frozen_peaks": {
+        "minecraft_id": "minecraft:frozen_peaks",
+        "display_name": "Frozen Peaks",
+        "downfall": 0.9,
+        "has_pericpitation": true,
+        "temperature": -0.7,
+        "category": "ice",
+        "dimension": "overworld"
+    },
+    "minecraft:frozen_river": {
+        "minecraft_id": "minecraft:frozen_river",
+        "display_name": "Frozen River",
+        "downfall": 0.5,
+        "has_pericpitation": true,
+        "temperature": 0.0,
+        "category": "ice",
+        "dimension": "overworld"
+    },
+    "minecraft:grove": {
+        "minecraft_id": "minecraft:grove",
+        "display_name": "Grove",
+        "downfall": 0.8,
+        "has_pericpitation": true,
+        "temperature": -0.2,
+        "category": "forest",
+        "dimension": "overworld"
+    },
+    "minecraft:ice_spikes": {
+        "minecraft_id": "minecraft:ice_spikes",
+        "display_name": "Ice Spikes",
+        "downfall": 0.5,
+        "has_pericpitation": true,
+        "temperature": 0.0,
+        "category": "ice",
+        "dimension": "overworld"
+    },
+    "minecraft:jagged_peaks": {
+        "minecraft_id": "minecraft:jagged_peaks",
+        "display_name": "Jagged Peaks",
+        "downfall": 0.9,
+        "has_pericpitation": true,
+        "temperature": -0.7,
+        "category": "mountain",
+        "dimension": "overworld"
+    },
+    "minecraft:jungle": {
+        "minecraft_id": "minecraft:jungle",
+        "display_name": "Jungle",
+        "downfall": 0.9,
+        "has_pericpitation": true,
+        "temperature": 0.95,
+        "category": "jungle",
+        "dimension": "overworld"
+    },
+    "minecraft:lukewarm_ocean": {
+        "minecraft_id": "minecraft:lukewarm_ocean",
+        "display_name": "Lukewarm Ocean",
+        "downfall": 0.5,
+        "has_pericpitation": true,
+        "temperature": 0.5,
+        "category": "ocean",
+        "dimension": "overworld"
+    },
+    "minecraft:lush_caves": {
+        "minecraft_id": "minecraft:lush_caves",
+        "display_name": "Lush Caves",
+        "downfall": 0.5,
+        "has_pericpitation": true,
+        "temperature": 0.5,
+        "category": "underground",
+        "dimension": "overworld"
+    },
+    "minecraft:mangrove_swamp": {
+        "minecraft_id": "minecraft:mangrove_swamp",
+        "display_name": "Mangrove Swamp",
+        "downfall": 0.9,
+        "has_pericpitation": true,
+        "temperature": 0.8,
+        "category": "forest",
+        "dimension": "overworld"
+    },
+    "minecraft:meadow": {
+        "minecraft_id": "minecraft:meadow",
+        "display_name": "Meadow",
+        "downfall": 0.8,
+        "has_pericpitation": true,
+        "temperature": 0.5,
+        "category": "mountain",
+        "dimension": "overworld"
+    },
+    "minecraft:mushroom_fields": {
+        "minecraft_id": "minecraft:mushroom_fields",
+        "display_name": "Mushroom Fields",
+        "downfall": 1.0,
+        "has_pericpitation": true,
+        "temperature": 0.9,
+        "category": "mushroom",
+        "dimension": "overworld"
+    },
+    "minecraft:nether_wastes": {
+        "minecraft_id": "minecraft:nether_wastes",
+        "display_name": "Nether Wastes",
+        "downfall": 0.0,
+        "has_pericpitation": false,
+        "temperature": 2.0,
+        "category": "nether",
+        "dimension": "nether"
+    },
+    "minecraft:ocean": {
+        "minecraft_id": "minecraft:ocean",
+        "display_name": "Ocean",
+        "downfall": 0.5,
+        "has_pericpitation": true,
+        "temperature": 0.5,
+        "category": "ocean",
+        "dimension": "overworld"
+    },
+    "minecraft:old_growth_birch_forest": {
+        "minecraft_id": "minecraft:old_growth_birch_forest",
+        "display_name": "Old Growth Birch Forest",
+        "downfall": 0.6,
+        "has_pericpitation": true,
+        "temperature": 0.6,
+        "category": "forest",
+        "dimension": "overworld"
+    },
+    "minecraft:old_growth_pine_taiga": {
+        "minecraft_id": "minecraft:old_growth_pine_taiga",
+        "display_name": "Old Growth Pine Taiga",
+        "downfall": 0.8,
+        "has_pericpitation": true,
+        "temperature": 0.3,
+        "category": "taiga",
+        "dimension": "overworld"
+    },
+    "minecraft:old_growth_spruce_taiga": {
+        "minecraft_id": "minecraft:old_growth_spruce_taiga",
+        "display_name": "Old Growth Spruce Taiga",
+        "downfall": 0.8,
+        "has_pericpitation": true,
+        "temperature": 0.25,
+        "category": "taiga",
+        "dimension": "overworld"
+    },
+    "minecraft:plains": {
+        "minecraft_id": "minecraft:plains",
+        "display_name": "Plains",
+        "downfall": 0.4,
+        "has_pericpitation": true,
+        "temperature": 0.8,
+        "category": "plains",
+        "dimension": "overworld"
+    },
+    "minecraft:river": {
+        "minecraft_id": "minecraft:river",
+        "display_name": "River",
+        "downfall": 0.5,
+        "has_pericpitation": true,
+        "temperature": 0.5,
+        "category": "river",
+        "dimension": "overworld"
+    },
+    "minecraft:savanna": {
+        "minecraft_id": "minecraft:savanna",
+        "display_name": "Savanna",
+        "downfall": 0.0,
+        "has_pericpitation": false,
+        "temperature": 2.0,
+        "category": "savanna",
+        "dimension": "overworld"
+    },
+    "minecraft:savanna_plateau": {
+        "minecraft_id": "minecraft:savanna_plateau",
+        "display_name": "Savanna Plateau",
+        "downfall": 0.0,
+        "has_pericpitation": false,
+        "temperature": 2.0,
+        "category": "savanna",
+        "dimension": "overworld"
+    },
+    "minecraft:small_end_islands": {
+        "minecraft_id": "minecraft:small_end_islands",
+        "display_name": "Small End Islands",
+        "downfall": 0.5,
+        "has_pericpitation": false,
+        "temperature": 0.5,
+        "category": "the_end",
+        "dimension": "end"
+    },
+    "minecraft:snowy_beach": {
+        "minecraft_id": "minecraft:snowy_beach",
+        "display_name": "Snowy Beach",
+        "downfall": 0.3,
+        "has_pericpitation": true,
+        "temperature": 0.05,
+        "category": "beach",
+        "dimension": "overworld"
+    },
+    "minecraft:snowy_plains": {
+        "minecraft_id": "minecraft:snowy_plains",
+        "display_name": "Snowy Plains",
+        "downfall": 0.5,
+        "has_pericpitation": true,
+        "temperature": 0.0,
+        "category": "plains",
+        "dimension": "overworld"
+    },
+    "minecraft:snowy_slopes": {
+        "minecraft_id": "minecraft:snowy_slopes",
+        "display_name": "Snowy Slopes",
+        "downfall": 0.9,
+        "has_pericpitation": true,
+        "temperature": -0.3,
+        "category": "mountain",
+        "dimension": "overworld"
+    },
+    "minecraft:snowy_taiga": {
+        "minecraft_id": "minecraft:snowy_taiga",
+        "display_name": "Snowy Taiga",
+        "downfall": 0.4,
+        "has_pericpitation": true,
+        "temperature": -0.5,
+        "category": "taiga",
+        "dimension": "overworld"
+    },
+    "minecraft:soul_sand_valley": {
+        "minecraft_id": "minecraft:soul_sand_valley",
+        "display_name": "Soul Sand Valley",
+        "downfall": 0.0,
+        "has_pericpitation": false,
+        "temperature": 2.0,
+        "category": "nether",
+        "dimension": "nether"
+    },
+    "minecraft:sparse_jungle": {
+        "minecraft_id": "minecraft:sparse_jungle",
+        "display_name": "Sparse Jungle",
+        "downfall": 0.8,
+        "has_pericpitation": true,
+        "temperature": 0.95,
+        "category": "jungle",
+        "dimension": "overworld"
+    },
+    "minecraft:stony_peaks": {
+        "minecraft_id": "minecraft:stony_peaks",
+        "display_name": "Stony Peaks",
+        "downfall": 0.3,
+        "has_pericpitation": true,
+        "temperature": 1.0,
+        "category": "mountain",
+        "dimension": "overworld"
+    },
+    "minecraft:stony_shore": {
+        "minecraft_id": "minecraft:stony_shore",
+        "display_name": "Stony Shore",
+        "downfall": 0.3,
+        "has_pericpitation": true,
+        "temperature": 0.2,
+        "category": "beach",
+        "dimension": "overworld"
+    },
+    "minecraft:sunflower_plains": {
+        "minecraft_id": "minecraft:sunflower_plains",
+        "display_name": "Sunflower Plains",
+        "downfall": 0.4,
+        "has_pericpitation": true,
+        "temperature": 0.8,
+        "category": "plains",
+        "dimension": "overworld"
+    },
+    "minecraft:swamp": {
+        "minecraft_id": "minecraft:swamp",
+        "display_name": "Swamp",
+        "downfall": 0.9,
+        "has_pericpitation": true,
+        "temperature": 0.8,
+        "category": "swamp",
+        "dimension": "overworld"
+    },
+    "minecraft:taiga": {
+        "minecraft_id": "minecraft:taiga",
+        "display_name": "Taiga",
+        "downfall": 0.8,
+        "has_pericpitation": true,
+        "temperature": 0.25,
+        "category": "taiga",
+        "dimension": "overworld"
+    },
+    "minecraft:the_end": {
+        "minecraft_id": "minecraft:the_end",
+        "display_name": "The End",
+        "downfall": 0.5,
+        "has_pericpitation": false,
+        "temperature": 0.5,
+        "category": "the_end",
+        "dimension": "end"
+    },
+    "minecraft:the_void": {
+        "minecraft_id": "minecraft:the_void",
+        "display_name": "The Void",
+        "downfall": 0.5,
+        "has_pericpitation": false,
+        "temperature": 0.5,
+        "category": "none",
+        "dimension": "overworld"
+    },
+    "minecraft:warm_ocean": {
+        "minecraft_id": "minecraft:warm_ocean",
+        "display_name": "Warm Ocean",
+        "downfall": 0.5,
+        "has_pericpitation": true,
+        "temperature": 0.5,
+        "category": "ocean",
+        "dimension": "overworld"
+    },
+    "minecraft:warped_forest": {
+        "minecraft_id": "minecraft:warped_forest",
+        "display_name": "Warped Forest",
+        "downfall": 0.0,
+        "has_pericpitation": false,
+        "temperature": 2.0,
+        "category": "nether",
+        "dimension": "nether"
+    },
+    "minecraft:windswept_forest": {
+        "minecraft_id": "minecraft:windswept_forest",
+        "display_name": "Windswept Forest",
+        "downfall": 0.3,
+        "has_pericpitation": true,
+        "temperature": 0.2,
+        "category": "forest",
+        "dimension": "overworld"
+    },
+    "minecraft:windswept_gravelly_hills": {
+        "minecraft_id": "minecraft:windswept_gravelly_hills",
+        "display_name": "Windswept Gravelly Hills",
+        "downfall": 0.3,
+        "has_pericpitation": true,
+        "temperature": 0.2,
+        "category": "extreme_hills",
+        "dimension": "overworld"
+    },
+    "minecraft:windswept_hills": {
+        "minecraft_id": "minecraft:windswept_hills",
+        "display_name": "Windswept Hills",
+        "downfall": 0.3,
+        "has_pericpitation": true,
+        "temperature": 0.2,
+        "category": "extreme_hills",
+        "dimension": "overworld"
+    },
+    "minecraft:windswept_savanna": {
+        "minecraft_id": "minecraft:windswept_savanna",
+        "display_name": "Windswept Savanna",
+        "downfall": 0.0,
+        "has_pericpitation": false,
+        "temperature": 2.0,
+        "category": "savanna",
+        "dimension": "overworld"
+    },
+    "minecraft:wooded_badlands": {
+        "minecraft_id": "minecraft:wooded_badlands",
+        "display_name": "Wooded Badlands",
+        "downfall": 0.0,
+        "has_pericpitation": false,
+        "temperature": 2.0,
+        "category": "mesa",
+        "dimension": "overworld"
+    }
+}

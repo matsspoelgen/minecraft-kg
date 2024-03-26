@@ -1,0 +1,2045 @@
+{
+    "minecraft:allay": {
+        "minecraft_id": "minecraft:allay",
+        "display_name": "Allay",
+        "type": "mob",
+        "packet_type": "LIVING",
+        "category": "Passive mobs",
+        "height": 0.6,
+        "width": 0.35,
+        "fire_immune": false,
+        "drops": {}
+    },
+    "minecraft:area_effect_cloud": {
+        "minecraft_id": "minecraft:area_effect_cloud",
+        "display_name": "Area Effect Cloud",
+        "type": "other",
+        "packet_type": "BASE",
+        "category": "UNKNOWN",
+        "height": 0.5,
+        "width": 6.0,
+        "fire_immune": true,
+        "drops": []
+    },
+    "minecraft:armor_stand": {
+        "minecraft_id": "minecraft:armor_stand",
+        "display_name": "Armor Stand",
+        "type": "living",
+        "packet_type": "LIVING",
+        "category": "Immobile",
+        "height": 1.975,
+        "width": 0.5,
+        "fire_immune": false,
+        "drops": {}
+    },
+    "minecraft:arrow": {
+        "minecraft_id": "minecraft:arrow",
+        "display_name": "Arrow",
+        "type": "projectile",
+        "packet_type": "BASE",
+        "category": "Projectiles",
+        "height": 0.5,
+        "width": 0.5,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:axolotl": {
+        "minecraft_id": "minecraft:axolotl",
+        "display_name": "Axolotl",
+        "type": "animal",
+        "packet_type": "LIVING",
+        "category": "Passive mobs",
+        "height": 0.42,
+        "width": 0.75,
+        "fire_immune": false,
+        "drops": {}
+    },
+    "minecraft:bat": {
+        "minecraft_id": "minecraft:bat",
+        "display_name": "Bat",
+        "type": "ambient",
+        "packet_type": "LIVING",
+        "category": "Passive mobs",
+        "height": 0.9,
+        "width": 0.5,
+        "fire_immune": false,
+        "drops": {}
+    },
+    "minecraft:bee": {
+        "minecraft_id": "minecraft:bee",
+        "display_name": "Bee",
+        "type": "animal",
+        "packet_type": "LIVING",
+        "category": "Passive mobs",
+        "height": 0.6,
+        "width": 0.7,
+        "fire_immune": false,
+        "drops": {}
+    },
+    "minecraft:blaze": {
+        "minecraft_id": "minecraft:blaze",
+        "display_name": "Blaze",
+        "type": "hostile",
+        "packet_type": "LIVING",
+        "category": "Hostile mobs",
+        "height": 1.8,
+        "width": 0.6,
+        "fire_immune": true,
+        "drops": {
+            "minecraft:blaze_rod": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:block_display": {
+        "minecraft_id": "minecraft:block_display",
+        "display_name": "Block Display",
+        "type": "other",
+        "packet_type": "BASE",
+        "category": "Immobile",
+        "height": 0.0,
+        "width": 0.0,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:boat": {
+        "minecraft_id": "minecraft:boat",
+        "display_name": "Boat",
+        "type": "other",
+        "packet_type": "BASE",
+        "category": "Vehicles",
+        "height": 0.5625,
+        "width": 1.375,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:camel": {
+        "minecraft_id": "minecraft:camel",
+        "display_name": "Camel",
+        "type": "animal",
+        "packet_type": "LIVING",
+        "category": "Passive mobs",
+        "height": 2.375,
+        "width": 1.7,
+        "fire_immune": false,
+        "drops": {}
+    },
+    "minecraft:cat": {
+        "minecraft_id": "minecraft:cat",
+        "display_name": "Cat",
+        "type": "animal",
+        "packet_type": "LIVING",
+        "category": "Passive mobs",
+        "height": 0.7,
+        "width": 0.6,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:string": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:cave_spider": {
+        "minecraft_id": "minecraft:cave_spider",
+        "display_name": "Cave Spider",
+        "type": "hostile",
+        "packet_type": "LIVING",
+        "category": "Hostile mobs",
+        "height": 0.5,
+        "width": 0.7,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:string": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            },
+            "minecraft:spider_eye": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:chest_boat": {
+        "minecraft_id": "minecraft:chest_boat",
+        "display_name": "Boat with Chest",
+        "type": "other",
+        "packet_type": "BASE",
+        "category": "Vehicles",
+        "height": 0.5625,
+        "width": 1.375,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:chest_minecart": {
+        "minecraft_id": "minecraft:chest_minecart",
+        "display_name": "Minecart with Chest",
+        "type": "other",
+        "packet_type": "BASE",
+        "category": "Vehicles",
+        "height": 0.7,
+        "width": 0.98,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:chicken": {
+        "minecraft_id": "minecraft:chicken",
+        "display_name": "Chicken",
+        "type": "animal",
+        "packet_type": "LIVING",
+        "category": "Passive mobs",
+        "height": 0.7,
+        "width": 0.4,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:feather": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            },
+            "minecraft:chicken": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:cod": {
+        "minecraft_id": "minecraft:cod",
+        "display_name": "Cod",
+        "type": "water_creature",
+        "packet_type": "LIVING",
+        "category": "Passive mobs",
+        "height": 0.3,
+        "width": 0.5,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:cod": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            },
+            "minecraft:bone_meal": {
+                "min": 1,
+                "max": 1,
+                "chance": 0.05,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:command_block_minecart": {
+        "minecraft_id": "minecraft:command_block_minecart",
+        "display_name": "Minecart with Command Block",
+        "type": "other",
+        "packet_type": "BASE",
+        "category": "Vehicles",
+        "height": 0.7,
+        "width": 0.98,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:cow": {
+        "minecraft_id": "minecraft:cow",
+        "display_name": "Cow",
+        "type": "animal",
+        "packet_type": "LIVING",
+        "category": "Passive mobs",
+        "height": 1.4,
+        "width": 0.9,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:leather": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            },
+            "minecraft:beef": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:creeper": {
+        "minecraft_id": "minecraft:creeper",
+        "display_name": "Creeper",
+        "type": "hostile",
+        "packet_type": "LIVING",
+        "category": "Hostile mobs",
+        "height": 1.7,
+        "width": 0.6,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:gunpowder": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:dolphin": {
+        "minecraft_id": "minecraft:dolphin",
+        "display_name": "Dolphin",
+        "type": "water_creature",
+        "packet_type": "LIVING",
+        "category": "Passive mobs",
+        "height": 0.6,
+        "width": 0.9,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:cod": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:donkey": {
+        "minecraft_id": "minecraft:donkey",
+        "display_name": "Donkey",
+        "type": "animal",
+        "packet_type": "LIVING",
+        "category": "Passive mobs",
+        "height": 1.5,
+        "width": 1.3964844,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:leather": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:dragon_fireball": {
+        "minecraft_id": "minecraft:dragon_fireball",
+        "display_name": "Dragon Fireball",
+        "type": "projectile",
+        "packet_type": "BASE",
+        "category": "Projectiles",
+        "height": 1.0,
+        "width": 1.0,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:drowned": {
+        "minecraft_id": "minecraft:drowned",
+        "display_name": "Drowned",
+        "type": "hostile",
+        "packet_type": "LIVING",
+        "category": "Hostile mobs",
+        "height": 1.95,
+        "width": 0.6,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:rotten_flesh": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            },
+            "minecraft:copper_ingot": {
+                "min": 1,
+                "max": 1,
+                "chance": 0.11,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:egg": {
+        "minecraft_id": "minecraft:egg",
+        "display_name": "Thrown Egg",
+        "type": "projectile",
+        "packet_type": "BASE",
+        "category": "Projectiles",
+        "height": 0.25,
+        "width": 0.25,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:elder_guardian": {
+        "minecraft_id": "minecraft:elder_guardian",
+        "display_name": "Elder Guardian",
+        "type": "hostile",
+        "packet_type": "LIVING",
+        "category": "Hostile mobs",
+        "height": 1.9975,
+        "width": 1.9975,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:prismarine_shard": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            },
+            "minecraft:cod": {
+                "min": 1,
+                "max": 1,
+                "chance": 0.6,
+                "requires_player_kill": false
+            },
+            "minecraft:prismarine_crystals": {
+                "min": 1,
+                "max": 1,
+                "chance": 0.4,
+                "requires_player_kill": false
+            },
+            "minecraft:wet_sponge": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            },
+            "minecraft:tide_armor_trim_smithing_template": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:end_crystal": {
+        "minecraft_id": "minecraft:end_crystal",
+        "display_name": "End Crystal",
+        "type": "other",
+        "packet_type": "BASE",
+        "category": "Immobile",
+        "height": 2.0,
+        "width": 2.0,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:ender_dragon": {
+        "minecraft_id": "minecraft:ender_dragon",
+        "display_name": "Ender Dragon",
+        "type": "mob",
+        "packet_type": "LIVING",
+        "category": "Hostile mobs",
+        "height": 8.0,
+        "width": 16.0,
+        "fire_immune": true,
+        "drops": {}
+    },
+    "minecraft:ender_pearl": {
+        "minecraft_id": "minecraft:ender_pearl",
+        "display_name": "Thrown Ender Pearl",
+        "type": "projectile",
+        "packet_type": "BASE",
+        "category": "Projectiles",
+        "height": 0.25,
+        "width": 0.25,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:enderman": {
+        "minecraft_id": "minecraft:enderman",
+        "display_name": "Enderman",
+        "type": "hostile",
+        "packet_type": "LIVING",
+        "category": "Hostile mobs",
+        "height": 2.9,
+        "width": 0.6,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:ender_pearl": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:endermite": {
+        "minecraft_id": "minecraft:endermite",
+        "display_name": "Endermite",
+        "type": "hostile",
+        "packet_type": "LIVING",
+        "category": "Hostile mobs",
+        "height": 0.3,
+        "width": 0.4,
+        "fire_immune": false,
+        "drops": {}
+    },
+    "minecraft:evoker": {
+        "minecraft_id": "minecraft:evoker",
+        "display_name": "Evoker",
+        "type": "hostile",
+        "packet_type": "LIVING",
+        "category": "Hostile mobs",
+        "height": 1.95,
+        "width": 0.6,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:totem_of_undying": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            },
+            "minecraft:emerald": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:evoker_fangs": {
+        "minecraft_id": "minecraft:evoker_fangs",
+        "display_name": "Evoker Fangs",
+        "type": "other",
+        "packet_type": "BASE",
+        "category": "Hostile mobs",
+        "height": 0.8,
+        "width": 0.5,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:experience_bottle": {
+        "minecraft_id": "minecraft:experience_bottle",
+        "display_name": "Thrown Bottle o' Enchanting",
+        "type": "projectile",
+        "packet_type": "BASE",
+        "category": "Projectiles",
+        "height": 0.25,
+        "width": 0.25,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:experience_orb": {
+        "minecraft_id": "minecraft:experience_orb",
+        "display_name": "Experience Orb",
+        "type": "other",
+        "packet_type": "EXPERIENCE_ORB",
+        "category": "UNKNOWN",
+        "height": 0.5,
+        "width": 0.5,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:eye_of_ender": {
+        "minecraft_id": "minecraft:eye_of_ender",
+        "display_name": "Eye of Ender",
+        "type": "other",
+        "packet_type": "BASE",
+        "category": "UNKNOWN",
+        "height": 0.25,
+        "width": 0.25,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:falling_block": {
+        "minecraft_id": "minecraft:falling_block",
+        "display_name": "Falling Block",
+        "type": "other",
+        "packet_type": "BASE",
+        "category": "UNKNOWN",
+        "height": 0.98,
+        "width": 0.98,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:fireball": {
+        "minecraft_id": "minecraft:fireball",
+        "display_name": "Fireball",
+        "type": "projectile",
+        "packet_type": "BASE",
+        "category": "Projectiles",
+        "height": 1.0,
+        "width": 1.0,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:firework_rocket": {
+        "minecraft_id": "minecraft:firework_rocket",
+        "display_name": "Firework Rocket",
+        "type": "projectile",
+        "packet_type": "BASE",
+        "category": "Projectiles",
+        "height": 0.25,
+        "width": 0.25,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:fishing_bobber": {
+        "minecraft_id": "minecraft:fishing_bobber",
+        "display_name": "Fishing Bobber",
+        "type": "projectile",
+        "packet_type": "BASE",
+        "category": "Projectiles",
+        "height": 0.25,
+        "width": 0.25,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:fox": {
+        "minecraft_id": "minecraft:fox",
+        "display_name": "Fox",
+        "type": "animal",
+        "packet_type": "LIVING",
+        "category": "Passive mobs",
+        "height": 0.7,
+        "width": 0.6,
+        "fire_immune": false,
+        "drops": {}
+    },
+    "minecraft:frog": {
+        "minecraft_id": "minecraft:frog",
+        "display_name": "Frog",
+        "type": "animal",
+        "packet_type": "LIVING",
+        "category": "Passive mobs",
+        "height": 0.5,
+        "width": 0.5,
+        "fire_immune": false,
+        "drops": {}
+    },
+    "minecraft:furnace_minecart": {
+        "minecraft_id": "minecraft:furnace_minecart",
+        "display_name": "Minecart with Furnace",
+        "type": "other",
+        "packet_type": "BASE",
+        "category": "Vehicles",
+        "height": 0.7,
+        "width": 0.98,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:ghast": {
+        "minecraft_id": "minecraft:ghast",
+        "display_name": "Ghast",
+        "type": "mob",
+        "packet_type": "LIVING",
+        "category": "Hostile mobs",
+        "height": 4.0,
+        "width": 4.0,
+        "fire_immune": true,
+        "drops": {
+            "minecraft:ghast_tear": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            },
+            "minecraft:gunpowder": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:giant": {
+        "minecraft_id": "minecraft:giant",
+        "display_name": "Giant",
+        "type": "hostile",
+        "packet_type": "LIVING",
+        "category": "Hostile mobs",
+        "height": 12.0,
+        "width": 3.6,
+        "fire_immune": false,
+        "drops": {}
+    },
+    "minecraft:glow_item_frame": {
+        "minecraft_id": "minecraft:glow_item_frame",
+        "display_name": "Glow Item Frame",
+        "type": "other",
+        "packet_type": "BASE",
+        "category": "Immobile",
+        "height": 0.5,
+        "width": 0.5,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:glow_squid": {
+        "minecraft_id": "minecraft:glow_squid",
+        "display_name": "Glow Squid",
+        "type": "water_creature",
+        "packet_type": "LIVING",
+        "category": "Passive mobs",
+        "height": 0.8,
+        "width": 0.8,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:glow_ink_sac": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:goat": {
+        "minecraft_id": "minecraft:goat",
+        "display_name": "Goat",
+        "type": "animal",
+        "packet_type": "LIVING",
+        "category": "Passive mobs",
+        "height": 1.3,
+        "width": 0.9,
+        "fire_immune": false,
+        "drops": {}
+    },
+    "minecraft:guardian": {
+        "minecraft_id": "minecraft:guardian",
+        "display_name": "Guardian",
+        "type": "hostile",
+        "packet_type": "LIVING",
+        "category": "Hostile mobs",
+        "height": 0.85,
+        "width": 0.85,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:prismarine_shard": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            },
+            "minecraft:cod": {
+                "min": 1,
+                "max": 1,
+                "chance": 0.5,
+                "requires_player_kill": false
+            },
+            "minecraft:prismarine_crystals": {
+                "min": 1,
+                "max": 1,
+                "chance": 0.5,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:hoglin": {
+        "minecraft_id": "minecraft:hoglin",
+        "display_name": "Hoglin",
+        "type": "animal",
+        "packet_type": "LIVING",
+        "category": "Hostile mobs",
+        "height": 1.4,
+        "width": 1.3964844,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:porkchop": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            },
+            "minecraft:leather": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:hopper_minecart": {
+        "minecraft_id": "minecraft:hopper_minecart",
+        "display_name": "Minecart with Hopper",
+        "type": "other",
+        "packet_type": "BASE",
+        "category": "Vehicles",
+        "height": 0.7,
+        "width": 0.98,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:horse": {
+        "minecraft_id": "minecraft:horse",
+        "display_name": "Horse",
+        "type": "animal",
+        "packet_type": "LIVING",
+        "category": "Passive mobs",
+        "height": 1.6,
+        "width": 1.3964844,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:leather": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:husk": {
+        "minecraft_id": "minecraft:husk",
+        "display_name": "Husk",
+        "type": "hostile",
+        "packet_type": "LIVING",
+        "category": "Hostile mobs",
+        "height": 1.95,
+        "width": 0.6,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:rotten_flesh": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            },
+            "minecraft:iron_ingot": {
+                "min": 1,
+                "max": 1,
+                "chance": 0.008333333333333333,
+                "requires_player_kill": false
+            },
+            "minecraft:carrot": {
+                "min": 1,
+                "max": 1,
+                "chance": 0.008333333333333333,
+                "requires_player_kill": false
+            },
+            "minecraft:potato": {
+                "min": 1,
+                "max": 1,
+                "chance": 0.008333333333333333,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:illusioner": {
+        "minecraft_id": "minecraft:illusioner",
+        "display_name": "Illusioner",
+        "type": "hostile",
+        "packet_type": "LIVING",
+        "category": "Hostile mobs",
+        "height": 1.95,
+        "width": 0.6,
+        "fire_immune": false,
+        "drops": {}
+    },
+    "minecraft:interaction": {
+        "minecraft_id": "minecraft:interaction",
+        "display_name": "Interaction",
+        "type": "other",
+        "packet_type": "BASE",
+        "category": "Immobile",
+        "height": 0.0,
+        "width": 0.0,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:iron_golem": {
+        "minecraft_id": "minecraft:iron_golem",
+        "display_name": "Iron Golem",
+        "type": "mob",
+        "packet_type": "LIVING",
+        "category": "Passive mobs",
+        "height": 2.7,
+        "width": 1.4,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:poppy": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            },
+            "minecraft:iron_ingot": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:item": {
+        "minecraft_id": "minecraft:item",
+        "display_name": "Item",
+        "type": "other",
+        "packet_type": "BASE",
+        "category": "UNKNOWN",
+        "height": 0.25,
+        "width": 0.25,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:item_display": {
+        "minecraft_id": "minecraft:item_display",
+        "display_name": "Item Display",
+        "type": "other",
+        "packet_type": "BASE",
+        "category": "Immobile",
+        "height": 0.0,
+        "width": 0.0,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:item_frame": {
+        "minecraft_id": "minecraft:item_frame",
+        "display_name": "Item Frame",
+        "type": "other",
+        "packet_type": "BASE",
+        "category": "Immobile",
+        "height": 0.5,
+        "width": 0.5,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:leash_knot": {
+        "minecraft_id": "minecraft:leash_knot",
+        "display_name": "Leash Knot",
+        "type": "other",
+        "packet_type": "BASE",
+        "category": "Immobile",
+        "height": 0.5,
+        "width": 0.375,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:lightning_bolt": {
+        "minecraft_id": "minecraft:lightning_bolt",
+        "display_name": "Lightning Bolt",
+        "type": "other",
+        "packet_type": "BASE",
+        "category": "UNKNOWN",
+        "height": 0.0,
+        "width": 0.0,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:llama": {
+        "minecraft_id": "minecraft:llama",
+        "display_name": "Llama",
+        "type": "animal",
+        "packet_type": "LIVING",
+        "category": "Passive mobs",
+        "height": 1.87,
+        "width": 0.9,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:leather": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:llama_spit": {
+        "minecraft_id": "minecraft:llama_spit",
+        "display_name": "Llama Spit",
+        "type": "projectile",
+        "packet_type": "BASE",
+        "category": "Projectiles",
+        "height": 0.25,
+        "width": 0.25,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:magma_cube": {
+        "minecraft_id": "minecraft:magma_cube",
+        "display_name": "Magma Cube",
+        "type": "mob",
+        "packet_type": "LIVING",
+        "category": "Hostile mobs",
+        "height": 2.04,
+        "width": 2.04,
+        "fire_immune": true,
+        "drops": {
+            "minecraft:magma_cream": {
+                "min": 1,
+                "max": 1,
+                "chance": 0.25,
+                "requires_player_kill": false
+            },
+            "minecraft:pearlescent_froglight": {
+                "min": 1,
+                "max": 1,
+                "chance": 0.25,
+                "requires_player_kill": false
+            },
+            "minecraft:verdant_froglight": {
+                "min": 1,
+                "max": 1,
+                "chance": 0.25,
+                "requires_player_kill": false
+            },
+            "minecraft:ochre_froglight": {
+                "min": 1,
+                "max": 1,
+                "chance": 0.25,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:marker": {
+        "minecraft_id": "minecraft:marker",
+        "display_name": "Marker",
+        "type": "other",
+        "packet_type": "BASE",
+        "category": "UNKNOWN",
+        "height": 0.0,
+        "width": 0.0,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:minecart": {
+        "minecraft_id": "minecraft:minecart",
+        "display_name": "Minecart",
+        "type": "other",
+        "packet_type": "BASE",
+        "category": "Vehicles",
+        "height": 0.7,
+        "width": 0.98,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:mooshroom": {
+        "minecraft_id": "minecraft:mooshroom",
+        "display_name": "Mooshroom",
+        "type": "animal",
+        "packet_type": "LIVING",
+        "category": "Passive mobs",
+        "height": 1.4,
+        "width": 0.9,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:leather": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            },
+            "minecraft:beef": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:mule": {
+        "minecraft_id": "minecraft:mule",
+        "display_name": "Mule",
+        "type": "animal",
+        "packet_type": "LIVING",
+        "category": "Passive mobs",
+        "height": 1.6,
+        "width": 1.3964844,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:leather": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:ocelot": {
+        "minecraft_id": "minecraft:ocelot",
+        "display_name": "Ocelot",
+        "type": "animal",
+        "packet_type": "LIVING",
+        "category": "Passive mobs",
+        "height": 0.7,
+        "width": 0.6,
+        "fire_immune": false,
+        "drops": {}
+    },
+    "minecraft:painting": {
+        "minecraft_id": "minecraft:painting",
+        "display_name": "Painting",
+        "type": "other",
+        "packet_type": "PAINTING",
+        "category": "Immobile",
+        "height": 0.5,
+        "width": 0.5,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:panda": {
+        "minecraft_id": "minecraft:panda",
+        "display_name": "Panda",
+        "type": "animal",
+        "packet_type": "LIVING",
+        "category": "Passive mobs",
+        "height": 1.25,
+        "width": 1.3,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:bamboo": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:parrot": {
+        "minecraft_id": "minecraft:parrot",
+        "display_name": "Parrot",
+        "type": "animal",
+        "packet_type": "LIVING",
+        "category": "Passive mobs",
+        "height": 0.9,
+        "width": 0.5,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:feather": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:phantom": {
+        "minecraft_id": "minecraft:phantom",
+        "display_name": "Phantom",
+        "type": "mob",
+        "packet_type": "LIVING",
+        "category": "Hostile mobs",
+        "height": 0.5,
+        "width": 0.9,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:phantom_membrane": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:pig": {
+        "minecraft_id": "minecraft:pig",
+        "display_name": "Pig",
+        "type": "animal",
+        "packet_type": "LIVING",
+        "category": "Passive mobs",
+        "height": 0.9,
+        "width": 0.9,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:porkchop": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:piglin": {
+        "minecraft_id": "minecraft:piglin",
+        "display_name": "Piglin",
+        "type": "hostile",
+        "packet_type": "LIVING",
+        "category": "Hostile mobs",
+        "height": 1.95,
+        "width": 0.6,
+        "fire_immune": false,
+        "drops": {}
+    },
+    "minecraft:piglin_brute": {
+        "minecraft_id": "minecraft:piglin_brute",
+        "display_name": "Piglin Brute",
+        "type": "hostile",
+        "packet_type": "LIVING",
+        "category": "Hostile mobs",
+        "height": 1.95,
+        "width": 0.6,
+        "fire_immune": false,
+        "drops": {}
+    },
+    "minecraft:pillager": {
+        "minecraft_id": "minecraft:pillager",
+        "display_name": "Pillager",
+        "type": "hostile",
+        "packet_type": "LIVING",
+        "category": "Hostile mobs",
+        "height": 1.95,
+        "width": 0.6,
+        "fire_immune": false,
+        "drops": {}
+    },
+    "minecraft:player": {
+        "minecraft_id": "minecraft:player",
+        "display_name": "Player",
+        "type": "player",
+        "packet_type": "PLAYER",
+        "category": "UNKNOWN",
+        "height": 1.8,
+        "width": 0.6,
+        "fire_immune": false,
+        "drops": {}
+    },
+    "minecraft:polar_bear": {
+        "minecraft_id": "minecraft:polar_bear",
+        "display_name": "Polar Bear",
+        "type": "animal",
+        "packet_type": "LIVING",
+        "category": "Passive mobs",
+        "height": 1.4,
+        "width": 1.4,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:cod": {
+                "min": 1,
+                "max": 1,
+                "chance": 0.75,
+                "requires_player_kill": false
+            },
+            "minecraft:salmon": {
+                "min": 1,
+                "max": 1,
+                "chance": 0.25,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:potion": {
+        "minecraft_id": "minecraft:potion",
+        "display_name": "Potion",
+        "type": "projectile",
+        "packet_type": "BASE",
+        "category": "Projectiles",
+        "height": 0.25,
+        "width": 0.25,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:pufferfish": {
+        "minecraft_id": "minecraft:pufferfish",
+        "display_name": "Pufferfish",
+        "type": "water_creature",
+        "packet_type": "LIVING",
+        "category": "Passive mobs",
+        "height": 0.7,
+        "width": 0.7,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:pufferfish": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            },
+            "minecraft:bone_meal": {
+                "min": 1,
+                "max": 1,
+                "chance": 0.05,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:rabbit": {
+        "minecraft_id": "minecraft:rabbit",
+        "display_name": "Rabbit",
+        "type": "animal",
+        "packet_type": "LIVING",
+        "category": "Passive mobs",
+        "height": 0.5,
+        "width": 0.4,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:rabbit_hide": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            },
+            "minecraft:rabbit": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            },
+            "minecraft:rabbit_foot": {
+                "min": 1,
+                "max": 1,
+                "chance": 0.1,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:ravager": {
+        "minecraft_id": "minecraft:ravager",
+        "display_name": "Ravager",
+        "type": "hostile",
+        "packet_type": "LIVING",
+        "category": "Hostile mobs",
+        "height": 2.2,
+        "width": 1.95,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:saddle": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:salmon": {
+        "minecraft_id": "minecraft:salmon",
+        "display_name": "Salmon",
+        "type": "water_creature",
+        "packet_type": "LIVING",
+        "category": "Passive mobs",
+        "height": 0.4,
+        "width": 0.7,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:salmon": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            },
+            "minecraft:bone_meal": {
+                "min": 1,
+                "max": 1,
+                "chance": 0.05,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:sheep": {
+        "minecraft_id": "minecraft:sheep",
+        "display_name": "Sheep",
+        "type": "animal",
+        "packet_type": "LIVING",
+        "category": "Passive mobs",
+        "height": 1.3,
+        "width": 0.9,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:mutton": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:shulker": {
+        "minecraft_id": "minecraft:shulker",
+        "display_name": "Shulker",
+        "type": "mob",
+        "packet_type": "LIVING",
+        "category": "Hostile mobs",
+        "height": 1.0,
+        "width": 1.0,
+        "fire_immune": true,
+        "drops": {
+            "minecraft:shulker_shell": {
+                "min": 1,
+                "max": 1,
+                "chance": 0.5,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:shulker_bullet": {
+        "minecraft_id": "minecraft:shulker_bullet",
+        "display_name": "Shulker Bullet",
+        "type": "projectile",
+        "packet_type": "BASE",
+        "category": "Projectiles",
+        "height": 0.3125,
+        "width": 0.3125,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:silverfish": {
+        "minecraft_id": "minecraft:silverfish",
+        "display_name": "Silverfish",
+        "type": "hostile",
+        "packet_type": "LIVING",
+        "category": "Hostile mobs",
+        "height": 0.3,
+        "width": 0.4,
+        "fire_immune": false,
+        "drops": {}
+    },
+    "minecraft:skeleton": {
+        "minecraft_id": "minecraft:skeleton",
+        "display_name": "Skeleton",
+        "type": "hostile",
+        "packet_type": "LIVING",
+        "category": "Hostile mobs",
+        "height": 1.99,
+        "width": 0.6,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:arrow": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            },
+            "minecraft:bone": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:skeleton_horse": {
+        "minecraft_id": "minecraft:skeleton_horse",
+        "display_name": "Skeleton Horse",
+        "type": "animal",
+        "packet_type": "LIVING",
+        "category": "Hostile mobs",
+        "height": 1.6,
+        "width": 1.3964844,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:bone": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:slime": {
+        "minecraft_id": "minecraft:slime",
+        "display_name": "Slime",
+        "type": "mob",
+        "packet_type": "LIVING",
+        "category": "Hostile mobs",
+        "height": 2.04,
+        "width": 2.04,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:slime_ball": {
+                "min": 1,
+                "max": 1,
+                "chance": 0.5,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:small_fireball": {
+        "minecraft_id": "minecraft:small_fireball",
+        "display_name": "Small Fireball",
+        "type": "projectile",
+        "packet_type": "BASE",
+        "category": "Projectiles",
+        "height": 0.3125,
+        "width": 0.3125,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:sniffer": {
+        "minecraft_id": "minecraft:sniffer",
+        "display_name": "Sniffer",
+        "type": "animal",
+        "packet_type": "LIVING",
+        "category": "Passive mobs",
+        "height": 1.75,
+        "width": 1.9,
+        "fire_immune": false,
+        "drops": {}
+    },
+    "minecraft:snow_golem": {
+        "minecraft_id": "minecraft:snow_golem",
+        "display_name": "Snow Golem",
+        "type": "mob",
+        "packet_type": "LIVING",
+        "category": "Passive mobs",
+        "height": 1.9,
+        "width": 0.7,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:snowball": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:snowball": {
+        "minecraft_id": "minecraft:snowball",
+        "display_name": "Snowball",
+        "type": "projectile",
+        "packet_type": "BASE",
+        "category": "Projectiles",
+        "height": 0.25,
+        "width": 0.25,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:spawner_minecart": {
+        "minecraft_id": "minecraft:spawner_minecart",
+        "display_name": "Minecart with Monster Spawner",
+        "type": "other",
+        "packet_type": "BASE",
+        "category": "Vehicles",
+        "height": 0.7,
+        "width": 0.98,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:spectral_arrow": {
+        "minecraft_id": "minecraft:spectral_arrow",
+        "display_name": "Spectral Arrow",
+        "type": "projectile",
+        "packet_type": "BASE",
+        "category": "Projectiles",
+        "height": 0.5,
+        "width": 0.5,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:spider": {
+        "minecraft_id": "minecraft:spider",
+        "display_name": "Spider",
+        "type": "hostile",
+        "packet_type": "LIVING",
+        "category": "Hostile mobs",
+        "height": 0.9,
+        "width": 1.4,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:string": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            },
+            "minecraft:spider_eye": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:squid": {
+        "minecraft_id": "minecraft:squid",
+        "display_name": "Squid",
+        "type": "water_creature",
+        "packet_type": "LIVING",
+        "category": "Passive mobs",
+        "height": 0.8,
+        "width": 0.8,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:ink_sac": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:stray": {
+        "minecraft_id": "minecraft:stray",
+        "display_name": "Stray",
+        "type": "hostile",
+        "packet_type": "LIVING",
+        "category": "Hostile mobs",
+        "height": 1.99,
+        "width": 0.6,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:arrow": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            },
+            "minecraft:bone": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            },
+            "minecraft:tipped_arrow": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:strider": {
+        "minecraft_id": "minecraft:strider",
+        "display_name": "Strider",
+        "type": "animal",
+        "packet_type": "LIVING",
+        "category": "Passive mobs",
+        "height": 1.7,
+        "width": 0.9,
+        "fire_immune": true,
+        "drops": {
+            "minecraft:string": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:tadpole": {
+        "minecraft_id": "minecraft:tadpole",
+        "display_name": "Tadpole",
+        "type": "water_creature",
+        "packet_type": "LIVING",
+        "category": "Passive mobs",
+        "height": 0.3,
+        "width": 0.4,
+        "fire_immune": false,
+        "drops": {}
+    },
+    "minecraft:text_display": {
+        "minecraft_id": "minecraft:text_display",
+        "display_name": "Text Display",
+        "type": "other",
+        "packet_type": "BASE",
+        "category": "Immobile",
+        "height": 0.0,
+        "width": 0.0,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:tnt": {
+        "minecraft_id": "minecraft:tnt",
+        "display_name": "Primed TNT",
+        "type": "other",
+        "packet_type": "BASE",
+        "category": "UNKNOWN",
+        "height": 0.98,
+        "width": 0.98,
+        "fire_immune": true,
+        "drops": []
+    },
+    "minecraft:tnt_minecart": {
+        "minecraft_id": "minecraft:tnt_minecart",
+        "display_name": "Minecart with TNT",
+        "type": "other",
+        "packet_type": "BASE",
+        "category": "Vehicles",
+        "height": 0.7,
+        "width": 0.98,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:trader_llama": {
+        "minecraft_id": "minecraft:trader_llama",
+        "display_name": "Trader Llama",
+        "type": "animal",
+        "packet_type": "LIVING",
+        "category": "Passive mobs",
+        "height": 1.87,
+        "width": 0.9,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:leather": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:trident": {
+        "minecraft_id": "minecraft:trident",
+        "display_name": "Trident",
+        "type": "projectile",
+        "packet_type": "BASE",
+        "category": "Projectiles",
+        "height": 0.5,
+        "width": 0.5,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:tropical_fish": {
+        "minecraft_id": "minecraft:tropical_fish",
+        "display_name": "Tropical Fish",
+        "type": "water_creature",
+        "packet_type": "LIVING",
+        "category": "Passive mobs",
+        "height": 0.4,
+        "width": 0.5,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:tropical_fish": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            },
+            "minecraft:bone_meal": {
+                "min": 1,
+                "max": 1,
+                "chance": 0.05,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:turtle": {
+        "minecraft_id": "minecraft:turtle",
+        "display_name": "Turtle",
+        "type": "animal",
+        "packet_type": "LIVING",
+        "category": "Passive mobs",
+        "height": 0.4,
+        "width": 1.2,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:seagrass": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            },
+            "minecraft:bowl": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:vex": {
+        "minecraft_id": "minecraft:vex",
+        "display_name": "Vex",
+        "type": "hostile",
+        "packet_type": "LIVING",
+        "category": "Hostile mobs",
+        "height": 0.8,
+        "width": 0.4,
+        "fire_immune": true,
+        "drops": {}
+    },
+    "minecraft:villager": {
+        "minecraft_id": "minecraft:villager",
+        "display_name": "Villager",
+        "type": "passive",
+        "packet_type": "LIVING",
+        "category": "Passive mobs",
+        "height": 1.95,
+        "width": 0.6,
+        "fire_immune": false,
+        "drops": {}
+    },
+    "minecraft:vindicator": {
+        "minecraft_id": "minecraft:vindicator",
+        "display_name": "Vindicator",
+        "type": "hostile",
+        "packet_type": "LIVING",
+        "category": "Hostile mobs",
+        "height": 1.95,
+        "width": 0.6,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:emerald": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:wandering_trader": {
+        "minecraft_id": "minecraft:wandering_trader",
+        "display_name": "Wandering Trader",
+        "type": "passive",
+        "packet_type": "LIVING",
+        "category": "Passive mobs",
+        "height": 1.95,
+        "width": 0.6,
+        "fire_immune": false,
+        "drops": {}
+    },
+    "minecraft:warden": {
+        "minecraft_id": "minecraft:warden",
+        "display_name": "Warden",
+        "type": "hostile",
+        "packet_type": "LIVING",
+        "category": "Hostile mobs",
+        "height": 2.9,
+        "width": 0.9,
+        "fire_immune": true,
+        "drops": {
+            "minecraft:sculk_catalyst": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:witch": {
+        "minecraft_id": "minecraft:witch",
+        "display_name": "Witch",
+        "type": "hostile",
+        "packet_type": "LIVING",
+        "category": "Hostile mobs",
+        "height": 1.95,
+        "width": 0.6,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:glowstone_dust": {
+                "min": 1,
+                "max": 1,
+                "chance": 0.125,
+                "requires_player_kill": false
+            },
+            "minecraft:sugar": {
+                "min": 1,
+                "max": 1,
+                "chance": 0.125,
+                "requires_player_kill": false
+            },
+            "minecraft:redstone": {
+                "min": 1,
+                "max": 1,
+                "chance": 0.125,
+                "requires_player_kill": false
+            },
+            "minecraft:spider_eye": {
+                "min": 1,
+                "max": 1,
+                "chance": 0.125,
+                "requires_player_kill": false
+            },
+            "minecraft:glass_bottle": {
+                "min": 1,
+                "max": 1,
+                "chance": 0.125,
+                "requires_player_kill": false
+            },
+            "minecraft:gunpowder": {
+                "min": 1,
+                "max": 1,
+                "chance": 0.125,
+                "requires_player_kill": false
+            },
+            "minecraft:stick": {
+                "min": 1,
+                "max": 1,
+                "chance": 0.25,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:wither": {
+        "minecraft_id": "minecraft:wither",
+        "display_name": "Wither",
+        "type": "hostile",
+        "packet_type": "LIVING",
+        "category": "Hostile mobs",
+        "height": 3.5,
+        "width": 0.9,
+        "fire_immune": true,
+        "drops": {}
+    },
+    "minecraft:wither_skeleton": {
+        "minecraft_id": "minecraft:wither_skeleton",
+        "display_name": "Wither Skeleton",
+        "type": "hostile",
+        "packet_type": "LIVING",
+        "category": "Hostile mobs",
+        "height": 2.4,
+        "width": 0.7,
+        "fire_immune": true,
+        "drops": {
+            "minecraft:coal": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            },
+            "minecraft:bone": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            },
+            "minecraft:wither_skeleton_skull": {
+                "min": 1,
+                "max": 1,
+                "chance": 0.025,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:wither_skull": {
+        "minecraft_id": "minecraft:wither_skull",
+        "display_name": "Wither Skull",
+        "type": "projectile",
+        "packet_type": "BASE",
+        "category": "Projectiles",
+        "height": 0.3125,
+        "width": 0.3125,
+        "fire_immune": false,
+        "drops": []
+    },
+    "minecraft:wolf": {
+        "minecraft_id": "minecraft:wolf",
+        "display_name": "Wolf",
+        "type": "animal",
+        "packet_type": "LIVING",
+        "category": "Passive mobs",
+        "height": 0.85,
+        "width": 0.6,
+        "fire_immune": false,
+        "drops": {}
+    },
+    "minecraft:zoglin": {
+        "minecraft_id": "minecraft:zoglin",
+        "display_name": "Zoglin",
+        "type": "hostile",
+        "packet_type": "LIVING",
+        "category": "Hostile mobs",
+        "height": 1.4,
+        "width": 1.3964844,
+        "fire_immune": true,
+        "drops": {
+            "minecraft:rotten_flesh": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:zombie": {
+        "minecraft_id": "minecraft:zombie",
+        "display_name": "Zombie",
+        "type": "hostile",
+        "packet_type": "LIVING",
+        "category": "Hostile mobs",
+        "height": 1.95,
+        "width": 0.6,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:rotten_flesh": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            },
+            "minecraft:iron_ingot": {
+                "min": 1,
+                "max": 1,
+                "chance": 0.008333333333333333,
+                "requires_player_kill": false
+            },
+            "minecraft:carrot": {
+                "min": 1,
+                "max": 1,
+                "chance": 0.008333333333333333,
+                "requires_player_kill": false
+            },
+            "minecraft:potato": {
+                "min": 1,
+                "max": 1,
+                "chance": 0.008333333333333333,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:zombie_horse": {
+        "minecraft_id": "minecraft:zombie_horse",
+        "display_name": "Zombie Horse",
+        "type": "animal",
+        "packet_type": "LIVING",
+        "category": "Hostile mobs",
+        "height": 1.6,
+        "width": 1.3964844,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:rotten_flesh": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:zombie_villager": {
+        "minecraft_id": "minecraft:zombie_villager",
+        "display_name": "Zombie Villager",
+        "type": "hostile",
+        "packet_type": "LIVING",
+        "category": "Hostile mobs",
+        "height": 1.95,
+        "width": 0.6,
+        "fire_immune": false,
+        "drops": {
+            "minecraft:rotten_flesh": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            },
+            "minecraft:iron_ingot": {
+                "min": 1,
+                "max": 1,
+                "chance": 0.008333333333333333,
+                "requires_player_kill": false
+            },
+            "minecraft:carrot": {
+                "min": 1,
+                "max": 1,
+                "chance": 0.008333333333333333,
+                "requires_player_kill": false
+            },
+            "minecraft:potato": {
+                "min": 1,
+                "max": 1,
+                "chance": 0.008333333333333333,
+                "requires_player_kill": false
+            }
+        }
+    },
+    "minecraft:zombified_piglin": {
+        "minecraft_id": "minecraft:zombified_piglin",
+        "display_name": "Zombified Piglin",
+        "type": "hostile",
+        "packet_type": "LIVING",
+        "category": "Hostile mobs",
+        "height": 1.95,
+        "width": 0.6,
+        "fire_immune": true,
+        "drops": {
+            "minecraft:rotten_flesh": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            },
+            "minecraft:gold_nugget": {
+                "min": 1,
+                "max": 1,
+                "chance": 1,
+                "requires_player_kill": false
+            },
+            "minecraft:gold_ingot": {
+                "min": 1,
+                "max": 1,
+                "chance": 0.025,
+                "requires_player_kill": false
+            }
+        }
+    }
+}
