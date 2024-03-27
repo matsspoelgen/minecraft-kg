@@ -2833,7 +2833,7 @@
             "saturation_modifier": 0.3,
             "effects": [
                 {
-                    "id": 17,
+                    "effect": "hunger",
                     "duration": 600,
                     "amplifier": 0,
                     "chance": 0.3
@@ -5557,25 +5557,25 @@
             "saturation_modifier": 1.2,
             "effects": [
                 {
-                    "id": 10,
+                    "effect": "regeneration",
                     "duration": 400,
                     "amplifier": 1,
                     "chance": 1.0
                 },
                 {
-                    "id": 11,
+                    "effect": "resistance",
                     "duration": 6000,
                     "amplifier": 0,
                     "chance": 1.0
                 },
                 {
-                    "id": 12,
+                    "effect": "fire_resistance",
                     "duration": 6000,
                     "amplifier": 0,
                     "chance": 1.0
                 },
                 {
-                    "id": 22,
+                    "effect": "absorption",
                     "duration": 2400,
                     "amplifier": 3,
                     "chance": 1.0
@@ -6554,13 +6554,13 @@
             "saturation_modifier": 1.2,
             "effects": [
                 {
-                    "id": 10,
+                    "effect": "regeneration",
                     "duration": 100,
                     "amplifier": 1,
                     "chance": 1.0
                 },
                 {
-                    "id": 22,
+                    "effect": "absorption",
                     "duration": 2400,
                     "amplifier": 0,
                     "chance": 1.0
@@ -11564,7 +11564,7 @@
             "saturation_modifier": 0.3,
             "effects": [
                 {
-                    "id": 19,
+                    "effect": "poison",
                     "duration": 100,
                     "amplifier": 0,
                     "chance": 0.6
@@ -12193,19 +12193,19 @@
             "saturation_modifier": 0.1,
             "effects": [
                 {
-                    "id": 19,
+                    "effect": "poison",
                     "duration": 1200,
                     "amplifier": 1,
                     "chance": 1.0
                 },
                 {
-                    "id": 17,
+                    "effect": "hunger",
                     "duration": 300,
                     "amplifier": 2,
                     "chance": 1.0
                 },
                 {
-                    "id": 9,
+                    "effect": "nausea",
                     "duration": 300,
                     "amplifier": 0,
                     "chance": 1.0
@@ -13337,7 +13337,7 @@
             "saturation_modifier": 0.1,
             "effects": [
                 {
-                    "id": 17,
+                    "effect": "hunger",
                     "duration": 600,
                     "amplifier": 0,
                     "chance": 0.8
@@ -14319,7 +14319,7 @@
             "saturation_modifier": 0.8,
             "effects": [
                 {
-                    "id": 19,
+                    "effect": "poison",
                     "duration": 100,
                     "amplifier": 0,
                     "chance": 1.0

@@ -3,231 +3,231 @@
         "name": "absorption",
         "minecraft_id": "minecraft:absorption",
         "display_name": "Absorption",
-        "type": "good",
+        "isGood": true,
         "instantaneous": false
     },
     "bad_omen": {
         "name": "bad_omen",
         "minecraft_id": "minecraft:bad_omen",
         "display_name": "Bad Omen",
-        "type": "bad",
+        "isGood": false,
         "instantaneous": false
     },
     "blindness": {
         "name": "blindness",
         "minecraft_id": "minecraft:blindness",
         "display_name": "Blindness",
-        "type": "bad",
+        "isGood": false,
         "instantaneous": false
     },
     "conduit_power": {
         "name": "conduit_power",
         "minecraft_id": "minecraft:conduit_power",
         "display_name": "Conduit Power",
-        "type": "good",
+        "isGood": true,
         "instantaneous": false
     },
     "darkness": {
         "name": "darkness",
         "minecraft_id": "minecraft:darkness",
         "display_name": "Darkness",
-        "type": "bad",
+        "isGood": false,
         "instantaneous": false
     },
     "dolphins_grace": {
         "name": "dolphins_grace",
         "minecraft_id": "minecraft:dolphins_grace",
         "display_name": "Dolphin's Grace",
-        "type": "good",
+        "isGood": true,
         "instantaneous": false
     },
     "fire_resistance": {
         "name": "fire_resistance",
         "minecraft_id": "minecraft:fire_resistance",
         "display_name": "Fire Resistance",
-        "type": "good",
+        "isGood": true,
         "instantaneous": false
     },
     "glowing": {
         "name": "glowing",
         "minecraft_id": "minecraft:glowing",
         "display_name": "Glowing",
-        "type": "bad",
+        "isGood": false,
         "instantaneous": false
     },
     "haste": {
         "name": "haste",
         "minecraft_id": "minecraft:haste",
         "display_name": "Haste",
-        "type": "good",
+        "isGood": true,
         "instantaneous": false
     },
     "health_boost": {
         "name": "health_boost",
         "minecraft_id": "minecraft:health_boost",
         "display_name": "Health Boost",
-        "type": "good",
+        "isGood": true,
         "instantaneous": false
     },
     "hero_of_the_village": {
         "name": "hero_of_the_village",
         "minecraft_id": "minecraft:hero_of_the_village",
         "display_name": "Hero of the Village",
-        "type": "good",
+        "isGood": true,
         "instantaneous": false
     },
     "hunger": {
         "name": "hunger",
         "minecraft_id": "minecraft:hunger",
         "display_name": "Hunger",
-        "type": "bad",
+        "isGood": false,
         "instantaneous": false
     },
     "instant_damage": {
         "name": "instant_damage",
         "minecraft_id": "minecraft:instant_damage",
         "display_name": "Instant Damage",
-        "type": "bad",
+        "isGood": false,
         "instantaneous": true
     },
     "instant_health": {
         "name": "instant_health",
         "minecraft_id": "minecraft:instant_health",
         "display_name": "Instant Health",
-        "type": "good",
+        "isGood": true,
         "instantaneous": true
     },
     "invisibility": {
         "name": "invisibility",
         "minecraft_id": "minecraft:invisibility",
         "display_name": "Invisibility",
-        "type": "good",
+        "isGood": true,
         "instantaneous": false
     },
     "jump_boost": {
         "name": "jump_boost",
         "minecraft_id": "minecraft:jump_boost",
         "display_name": "Jump Boost",
-        "type": "good",
+        "isGood": true,
         "instantaneous": false
     },
     "levitation": {
         "name": "levitation",
         "minecraft_id": "minecraft:levitation",
         "display_name": "Levitation",
-        "type": "bad",
+        "isGood": false,
         "instantaneous": false
     },
     "luck": {
         "name": "luck",
         "minecraft_id": "minecraft:luck",
         "display_name": "Luck",
-        "type": "good",
+        "isGood": true,
         "instantaneous": false
     },
     "mining_fatigue": {
         "name": "mining_fatigue",
         "minecraft_id": "minecraft:mining_fatigue",
         "display_name": "Mining Fatigue",
-        "type": "bad",
+        "isGood": false,
         "instantaneous": false
     },
     "nausea": {
         "name": "nausea",
         "minecraft_id": "minecraft:nausea",
         "display_name": "Nausea",
-        "type": "bad",
+        "isGood": false,
         "instantaneous": false
     },
     "night_vision": {
         "name": "night_vision",
         "minecraft_id": "minecraft:night_vision",
         "display_name": "Night Vision",
-        "type": "good",
+        "isGood": true,
         "instantaneous": false
     },
     "poison": {
         "name": "poison",
         "minecraft_id": "minecraft:poison",
         "display_name": "Poison",
-        "type": "bad",
+        "isGood": false,
         "instantaneous": false
     },
     "regeneration": {
         "name": "regeneration",
         "minecraft_id": "minecraft:regeneration",
         "display_name": "Regeneration",
-        "type": "good",
+        "isGood": true,
         "instantaneous": false
     },
     "resistance": {
         "name": "resistance",
         "minecraft_id": "minecraft:resistance",
         "display_name": "Resistance",
-        "type": "good",
+        "isGood": true,
         "instantaneous": false
     },
     "saturation": {
         "name": "saturation",
         "minecraft_id": "minecraft:saturation",
         "display_name": "Saturation",
-        "type": "good",
+        "isGood": true,
         "instantaneous": true
     },
     "slow_falling": {
         "name": "slow_falling",
         "minecraft_id": "minecraft:slow_falling",
         "display_name": "Slow Falling",
-        "type": "good",
+        "isGood": true,
         "instantaneous": false
     },
     "slowness": {
         "name": "slowness",
         "minecraft_id": "minecraft:slowness",
         "display_name": "Slowness",
-        "type": "bad",
+        "isGood": false,
         "instantaneous": false
     },
     "speed": {
         "name": "speed",
         "minecraft_id": "minecraft:speed",
         "display_name": "Speed",
-        "type": "good",
+        "isGood": true,
         "instantaneous": false
     },
     "strength": {
         "name": "strength",
         "minecraft_id": "minecraft:strength",
         "display_name": "Strength",
-        "type": "good",
+        "isGood": true,
         "instantaneous": false
     },
     "unluck": {
         "name": "unluck",
         "minecraft_id": "minecraft:unluck",
         "display_name": "Bad Luck",
-        "type": "bad",
+        "isGood": false,
         "instantaneous": false
     },
     "water_breathing": {
         "name": "water_breathing",
         "minecraft_id": "minecraft:water_breathing",
         "display_name": "Water Breathing",
-        "type": "good",
+        "isGood": true,
         "instantaneous": false
     },
     "weakness": {
         "name": "weakness",
         "minecraft_id": "minecraft:weakness",
         "display_name": "Weakness",
-        "type": "bad",
+        "isGood": false,
         "instantaneous": false
     },
     "wither": {
         "name": "wither",
         "minecraft_id": "minecraft:wither",
         "display_name": "Wither",
-        "type": "bad",
+        "isGood": false,
         "instantaneous": false
     }
 }
