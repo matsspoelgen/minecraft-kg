@@ -1,5 +1,0 @@
-SELECT (COUNT(?a) AS ?count)
-WHERE {
-  ?a rdf:type mc:Item .
-  ?a rdf:type mc:Block .
-}

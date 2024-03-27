@@ -1,0 +1,11 @@
+# Which Item has most recipes?
+
+SELECT ?displayName (COUNT(?recipe) as ?recipeCount)
+WHERE {
+    SELECT ?displayName ?recipe
+    WHERE {
+        ?recipe a mc:Recipe ;
+            mc_recipe:hasIngredient ?item .
+        ?item mc:hasDisplayName ?displayName .
+    }
+} GROUP BY ?displayName ORDER BY DESC(?recipeCount) LIMIT 10

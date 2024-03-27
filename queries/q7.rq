@@ -1,0 +1,9 @@
+# Which Blocks are unbreakable?
+
+SELECT ?displayName
+WHERE {
+    ?block a mc:Block ;
+        mc:hasDisplayName ?displayName ;
+        mc_block:isDiggable ?diggable .
+    FILTER (?diggable = "false"^^xsd:boolean)
+}

@@ -1,0 +1,13 @@
+# What can I enchant my helmet with?
+
+SELECT ?displayName
+WHERE {
+    ?enchantment a mc:Enchantment ;
+        mc:hasDisplayName ?displayName ;
+        mc_enchantment:hasCategory ?category .
+    FILTER (?category IN ("ARMOR_HEAD"^^xsd:string, 
+                          "WEARABLE"^^xsd:string, 
+                          "ARMOR"^^xsd:string,
+                          "VANISHABLE"^^xsd:string,
+                          "BREAKABLE"^^xsd:string))
+}

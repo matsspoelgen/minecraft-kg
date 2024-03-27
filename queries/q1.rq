@@ -1,0 +1,9 @@
+# Which Items are required to craft an Enchanting Table?
+
+SELECT (?ingredientName AS ?requiredIngredient)
+WHERE {
+  ?recipe mc_recipe:makesItem ?item ;
+          mc_recipe:hasIngredient ?ingredient .
+  ?ingredient mc:hasName ?ingredientName .
+  FILTER (?item = mc_item:enchanting_table)
+}

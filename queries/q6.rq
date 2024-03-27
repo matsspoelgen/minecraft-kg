@@ -1,0 +1,11 @@
+# Which Entities are immune to fire damage?
+
+SELECT ?displayName
+WHERE {
+    ?entity a mc:Entity ;
+        mc_entity:hasPacketType ?packetType ;
+        mc:hasDisplayName ?displayName ;
+        mc_entity:isFireImmune ?fireImmune .
+    FILTER (?packetType = "LIVING"^^xsd:string)
+    FILTER (?fireImmune = "true"^^xsd:boolean)
+}

@@ -1,0 +1,10 @@
+# Which Items can only be obtained with a silk touch tool?
+
+SELECT ?itemDisplayName
+WHERE {
+    ?blockDrop a mc:BlockDrop ;
+        mc_block_drop:hasItem ?item ;
+        mc_block_drop:hasSilkTouchRule ?silkTouchRule .
+    ?item mc:hasDisplayName ?itemDisplayName .
+    FILTER (?silkTouchRule = "required"^^xsd:string)
+} LIMIT 10

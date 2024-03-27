@@ -1,0 +1,6 @@
+# How many Items are there in minecraft?
+
+SELECT (COUNT(?item) AS ?itemCount)
+WHERE {
+    ?item a mc:Item .
+}

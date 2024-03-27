@@ -1,0 +1,15 @@
+# Which Items are neither craftable nor used in crafting?
+
+SELECT ?displayName
+WHERE {
+    ?item a mc:Item ;
+        mc:hasDisplayName ?displayName .
+    FILTER NOT EXISTS {
+        ?recipe a mc:Recipe ;
+            mc_recipe:makesItem ?item .
+    }
+    FILTER NOT EXISTS {
+        ?recipe a mc:Recipe ;
+            mc_recipe:hasIngredient ?item .
+    }
+} LIMIT 10

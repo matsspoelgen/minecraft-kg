@@ -1,0 +1,9 @@
+# Which Items are crafted using sticks?
+
+SELECT ?itemName
+WHERE {
+  ?recipe mc_recipe:makesItem ?item ;
+          mc_recipe:hasIngredient ?ingredient .
+  ?item mc:hasName ?itemName .
+  FILTER (?ingredient = mc_item:stick)
+} LIMIT 10
