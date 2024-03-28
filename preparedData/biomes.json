@@ -7,7 +7,19 @@
         "has_precipitation": false,
         "temperature": 2.0,
         "category": "mesa",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "glow_squid"
+        ]
     },
     "bamboo_jungle": {
         "name": "bamboo_jungle",
@@ -17,7 +29,26 @@
         "has_precipitation": true,
         "temperature": 0.95,
         "category": "jungle",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "sheep",
+            "pig",
+            "chicken",
+            "cow",
+            "parrot",
+            "panda",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "ocelot",
+            "glow_squid"
+        ]
     },
     "basalt_deltas": {
         "name": "basalt_deltas",
@@ -27,7 +58,12 @@
         "has_precipitation": false,
         "temperature": 2.0,
         "category": "nether",
-        "dimension": "nether"
+        "dimension": "nether",
+        "entities": [
+            "strider",
+            "ghast",
+            "magma_cube"
+        ]
     },
     "beach": {
         "name": "beach",
@@ -37,7 +73,20 @@
         "has_precipitation": true,
         "temperature": 0.8,
         "category": "beach",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "turtle",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "glow_squid"
+        ]
     },
     "birch_forest": {
         "name": "birch_forest",
@@ -47,7 +96,23 @@
         "has_precipitation": true,
         "temperature": 0.6,
         "category": "forest",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "sheep",
+            "pig",
+            "chicken",
+            "cow",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "glow_squid"
+        ]
     },
     "cherry_grove": {
         "name": "cherry_grove",
@@ -57,7 +122,22 @@
         "has_precipitation": true,
         "temperature": 0.5,
         "category": "forest",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "pig",
+            "rabbit",
+            "sheep",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "glow_squid"
+        ]
     },
     "cold_ocean": {
         "name": "cold_ocean",
@@ -67,7 +147,23 @@
         "has_precipitation": true,
         "temperature": 0.5,
         "category": "ocean",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "drowned",
+            "glow_squid",
+            "cod",
+            "salmon",
+            "squid"
+        ]
     },
     "crimson_forest": {
         "name": "crimson_forest",
@@ -77,7 +173,13 @@
         "has_precipitation": false,
         "temperature": 2.0,
         "category": "nether",
-        "dimension": "nether"
+        "dimension": "nether",
+        "entities": [
+            "strider",
+            "zombified_piglin",
+            "hoglin",
+            "piglin"
+        ]
     },
     "dark_forest": {
         "name": "dark_forest",
@@ -87,7 +189,23 @@
         "has_precipitation": true,
         "temperature": 0.7,
         "category": "forest",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "sheep",
+            "pig",
+            "chicken",
+            "cow",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "glow_squid"
+        ]
     },
     "deep_cold_ocean": {
         "name": "deep_cold_ocean",
@@ -97,7 +215,23 @@
         "has_precipitation": true,
         "temperature": 0.5,
         "category": "ocean",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "drowned",
+            "glow_squid",
+            "cod",
+            "salmon",
+            "squid"
+        ]
     },
     "deep_dark": {
         "name": "deep_dark",
@@ -107,7 +241,8 @@
         "has_precipitation": true,
         "temperature": 0.8,
         "category": "underground",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": []
     },
     "deep_frozen_ocean": {
         "name": "deep_frozen_ocean",
@@ -117,7 +252,23 @@
         "has_precipitation": true,
         "temperature": 0.5,
         "category": "ocean",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "polar_bear",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "drowned",
+            "glow_squid",
+            "salmon",
+            "squid"
+        ]
     },
     "deep_lukewarm_ocean": {
         "name": "deep_lukewarm_ocean",
@@ -127,7 +278,25 @@
         "has_precipitation": true,
         "temperature": 0.5,
         "category": "ocean",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "drowned",
+            "glow_squid",
+            "cod",
+            "pufferfish",
+            "tropical_fish",
+            "squid",
+            "dolphin"
+        ]
     },
     "deep_ocean": {
         "name": "deep_ocean",
@@ -137,7 +306,23 @@
         "has_precipitation": true,
         "temperature": 0.5,
         "category": "ocean",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "drowned",
+            "glow_squid",
+            "cod",
+            "squid",
+            "dolphin"
+        ]
     },
     "desert": {
         "name": "desert",
@@ -147,7 +332,21 @@
         "has_precipitation": false,
         "temperature": 2.0,
         "category": "desert",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "rabbit",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "husk",
+            "glow_squid"
+        ]
     },
     "dripstone_caves": {
         "name": "dripstone_caves",
@@ -157,7 +356,20 @@
         "has_precipitation": true,
         "temperature": 0.8,
         "category": "underground",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "drowned",
+            "glow_squid"
+        ]
     },
     "end_barrens": {
         "name": "end_barrens",
@@ -167,7 +379,10 @@
         "has_precipitation": false,
         "temperature": 0.5,
         "category": "the_end",
-        "dimension": "end"
+        "dimension": "end",
+        "entities": [
+            "enderman"
+        ]
     },
     "end_highlands": {
         "name": "end_highlands",
@@ -177,7 +392,10 @@
         "has_precipitation": false,
         "temperature": 0.5,
         "category": "the_end",
-        "dimension": "end"
+        "dimension": "end",
+        "entities": [
+            "enderman"
+        ]
     },
     "end_midlands": {
         "name": "end_midlands",
@@ -187,7 +405,10 @@
         "has_precipitation": false,
         "temperature": 0.5,
         "category": "the_end",
-        "dimension": "end"
+        "dimension": "end",
+        "entities": [
+            "enderman"
+        ]
     },
     "eroded_badlands": {
         "name": "eroded_badlands",
@@ -197,7 +418,19 @@
         "has_precipitation": false,
         "temperature": 2.0,
         "category": "mesa",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "glow_squid"
+        ]
     },
     "flower_forest": {
         "name": "flower_forest",
@@ -207,7 +440,24 @@
         "has_precipitation": true,
         "temperature": 0.7,
         "category": "forest",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "sheep",
+            "pig",
+            "chicken",
+            "cow",
+            "rabbit",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "glow_squid"
+        ]
     },
     "forest": {
         "name": "forest",
@@ -217,7 +467,24 @@
         "has_precipitation": true,
         "temperature": 0.7,
         "category": "forest",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "sheep",
+            "pig",
+            "chicken",
+            "cow",
+            "wolf",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "glow_squid"
+        ]
     },
     "frozen_ocean": {
         "name": "frozen_ocean",
@@ -227,7 +494,23 @@
         "has_precipitation": true,
         "temperature": 0.0,
         "category": "ocean",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "polar_bear",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "drowned",
+            "glow_squid",
+            "salmon",
+            "squid"
+        ]
     },
     "frozen_peaks": {
         "name": "frozen_peaks",
@@ -237,7 +520,20 @@
         "has_precipitation": true,
         "temperature": -0.7,
         "category": "ice",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "goat",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "glow_squid"
+        ]
     },
     "frozen_river": {
         "name": "frozen_river",
@@ -247,7 +543,22 @@
         "has_precipitation": true,
         "temperature": 0.0,
         "category": "ice",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "drowned",
+            "glow_squid",
+            "salmon",
+            "squid"
+        ]
     },
     "grove": {
         "name": "grove",
@@ -257,7 +568,26 @@
         "has_precipitation": true,
         "temperature": -0.2,
         "category": "forest",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "sheep",
+            "pig",
+            "chicken",
+            "cow",
+            "wolf",
+            "rabbit",
+            "fox",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "glow_squid"
+        ]
     },
     "ice_spikes": {
         "name": "ice_spikes",
@@ -267,7 +597,22 @@
         "has_precipitation": true,
         "temperature": 0.0,
         "category": "ice",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "rabbit",
+            "polar_bear",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "stray",
+            "glow_squid"
+        ]
     },
     "jagged_peaks": {
         "name": "jagged_peaks",
@@ -277,7 +622,20 @@
         "has_precipitation": true,
         "temperature": -0.7,
         "category": "mountain",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "goat",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "glow_squid"
+        ]
     },
     "jungle": {
         "name": "jungle",
@@ -287,7 +645,26 @@
         "has_precipitation": true,
         "temperature": 0.95,
         "category": "jungle",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "sheep",
+            "pig",
+            "chicken",
+            "cow",
+            "parrot",
+            "panda",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "ocelot",
+            "glow_squid"
+        ]
     },
     "lukewarm_ocean": {
         "name": "lukewarm_ocean",
@@ -297,7 +674,25 @@
         "has_precipitation": true,
         "temperature": 0.5,
         "category": "ocean",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "drowned",
+            "glow_squid",
+            "cod",
+            "pufferfish",
+            "tropical_fish",
+            "squid",
+            "dolphin"
+        ]
     },
     "lush_caves": {
         "name": "lush_caves",
@@ -307,7 +702,21 @@
         "has_precipitation": true,
         "temperature": 0.5,
         "category": "underground",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "axolotl",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "glow_squid",
+            "tropical_fish"
+        ]
     },
     "mangrove_swamp": {
         "name": "mangrove_swamp",
@@ -317,7 +726,21 @@
         "has_precipitation": true,
         "temperature": 0.8,
         "category": "forest",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "frog",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "glow_squid",
+            "tropical_fish"
+        ]
     },
     "meadow": {
         "name": "meadow",
@@ -327,7 +750,22 @@
         "has_precipitation": true,
         "temperature": 0.5,
         "category": "mountain",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "donkey",
+            "rabbit",
+            "sheep",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "glow_squid"
+        ]
     },
     "mushroom_fields": {
         "name": "mushroom_fields",
@@ -337,7 +775,12 @@
         "has_precipitation": true,
         "temperature": 0.9,
         "category": "mushroom",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "mooshroom",
+            "glow_squid"
+        ]
     },
     "nether_wastes": {
         "name": "nether_wastes",
@@ -347,7 +790,15 @@
         "has_precipitation": false,
         "temperature": 2.0,
         "category": "nether",
-        "dimension": "nether"
+        "dimension": "nether",
+        "entities": [
+            "strider",
+            "ghast",
+            "zombified_piglin",
+            "magma_cube",
+            "enderman",
+            "piglin"
+        ]
     },
     "ocean": {
         "name": "ocean",
@@ -357,7 +808,23 @@
         "has_precipitation": true,
         "temperature": 0.5,
         "category": "ocean",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "drowned",
+            "glow_squid",
+            "cod",
+            "squid",
+            "dolphin"
+        ]
     },
     "old_growth_birch_forest": {
         "name": "old_growth_birch_forest",
@@ -367,7 +834,23 @@
         "has_precipitation": true,
         "temperature": 0.6,
         "category": "forest",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "sheep",
+            "pig",
+            "chicken",
+            "cow",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "glow_squid"
+        ]
     },
     "old_growth_pine_taiga": {
         "name": "old_growth_pine_taiga",
@@ -377,7 +860,26 @@
         "has_precipitation": true,
         "temperature": 0.3,
         "category": "taiga",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "sheep",
+            "pig",
+            "chicken",
+            "cow",
+            "wolf",
+            "rabbit",
+            "fox",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "glow_squid"
+        ]
     },
     "old_growth_spruce_taiga": {
         "name": "old_growth_spruce_taiga",
@@ -387,7 +889,26 @@
         "has_precipitation": true,
         "temperature": 0.25,
         "category": "taiga",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "sheep",
+            "pig",
+            "chicken",
+            "cow",
+            "wolf",
+            "rabbit",
+            "fox",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "glow_squid"
+        ]
     },
     "plains": {
         "name": "plains",
@@ -397,7 +918,25 @@
         "has_precipitation": true,
         "temperature": 0.8,
         "category": "plains",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "sheep",
+            "pig",
+            "chicken",
+            "cow",
+            "horse",
+            "donkey",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "glow_squid"
+        ]
     },
     "river": {
         "name": "river",
@@ -407,7 +946,22 @@
         "has_precipitation": true,
         "temperature": 0.5,
         "category": "river",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "drowned",
+            "glow_squid",
+            "salmon",
+            "squid"
+        ]
     },
     "savanna": {
         "name": "savanna",
@@ -417,7 +971,25 @@
         "has_precipitation": false,
         "temperature": 2.0,
         "category": "savanna",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "sheep",
+            "pig",
+            "chicken",
+            "cow",
+            "horse",
+            "donkey",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "glow_squid"
+        ]
     },
     "savanna_plateau": {
         "name": "savanna_plateau",
@@ -427,7 +999,26 @@
         "has_precipitation": false,
         "temperature": 2.0,
         "category": "savanna",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "sheep",
+            "pig",
+            "chicken",
+            "cow",
+            "horse",
+            "donkey",
+            "llama",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "glow_squid"
+        ]
     },
     "small_end_islands": {
         "name": "small_end_islands",
@@ -437,7 +1028,10 @@
         "has_precipitation": false,
         "temperature": 0.5,
         "category": "the_end",
-        "dimension": "end"
+        "dimension": "end",
+        "entities": [
+            "enderman"
+        ]
     },
     "snowy_beach": {
         "name": "snowy_beach",
@@ -447,7 +1041,19 @@
         "has_precipitation": true,
         "temperature": 0.05,
         "category": "beach",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "glow_squid"
+        ]
     },
     "snowy_plains": {
         "name": "snowy_plains",
@@ -457,7 +1063,22 @@
         "has_precipitation": true,
         "temperature": 0.0,
         "category": "plains",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "rabbit",
+            "polar_bear",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "stray",
+            "glow_squid"
+        ]
     },
     "snowy_slopes": {
         "name": "snowy_slopes",
@@ -467,7 +1088,21 @@
         "has_precipitation": true,
         "temperature": -0.3,
         "category": "mountain",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "rabbit",
+            "goat",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "glow_squid"
+        ]
     },
     "snowy_taiga": {
         "name": "snowy_taiga",
@@ -477,7 +1112,26 @@
         "has_precipitation": true,
         "temperature": -0.5,
         "category": "taiga",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "sheep",
+            "pig",
+            "chicken",
+            "cow",
+            "wolf",
+            "rabbit",
+            "fox",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "glow_squid"
+        ]
     },
     "soul_sand_valley": {
         "name": "soul_sand_valley",
@@ -487,7 +1141,13 @@
         "has_precipitation": false,
         "temperature": 2.0,
         "category": "nether",
-        "dimension": "nether"
+        "dimension": "nether",
+        "entities": [
+            "strider",
+            "skeleton",
+            "ghast",
+            "enderman"
+        ]
     },
     "sparse_jungle": {
         "name": "sparse_jungle",
@@ -497,7 +1157,23 @@
         "has_precipitation": true,
         "temperature": 0.95,
         "category": "jungle",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "sheep",
+            "pig",
+            "chicken",
+            "cow",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "glow_squid"
+        ]
     },
     "stony_peaks": {
         "name": "stony_peaks",
@@ -507,7 +1183,19 @@
         "has_precipitation": true,
         "temperature": 1.0,
         "category": "mountain",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "glow_squid"
+        ]
     },
     "stony_shore": {
         "name": "stony_shore",
@@ -517,7 +1205,19 @@
         "has_precipitation": true,
         "temperature": 0.2,
         "category": "beach",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "glow_squid"
+        ]
     },
     "sunflower_plains": {
         "name": "sunflower_plains",
@@ -527,7 +1227,25 @@
         "has_precipitation": true,
         "temperature": 0.8,
         "category": "plains",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "sheep",
+            "pig",
+            "chicken",
+            "cow",
+            "horse",
+            "donkey",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "glow_squid"
+        ]
     },
     "swamp": {
         "name": "swamp",
@@ -537,7 +1255,24 @@
         "has_precipitation": true,
         "temperature": 0.8,
         "category": "swamp",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "sheep",
+            "pig",
+            "chicken",
+            "cow",
+            "frog",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "glow_squid"
+        ]
     },
     "taiga": {
         "name": "taiga",
@@ -547,7 +1282,26 @@
         "has_precipitation": true,
         "temperature": 0.25,
         "category": "taiga",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "sheep",
+            "pig",
+            "chicken",
+            "cow",
+            "wolf",
+            "rabbit",
+            "fox",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "glow_squid"
+        ]
     },
     "the_end": {
         "name": "the_end",
@@ -557,7 +1311,10 @@
         "has_precipitation": false,
         "temperature": 0.5,
         "category": "the_end",
-        "dimension": "end"
+        "dimension": "end",
+        "entities": [
+            "enderman"
+        ]
     },
     "the_void": {
         "name": "the_void",
@@ -567,7 +1324,8 @@
         "has_precipitation": false,
         "temperature": 0.5,
         "category": "none",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": []
     },
     "warm_ocean": {
         "name": "warm_ocean",
@@ -577,7 +1335,24 @@
         "has_precipitation": true,
         "temperature": 0.5,
         "category": "ocean",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "drowned",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "glow_squid",
+            "pufferfish",
+            "tropical_fish",
+            "squid",
+            "dolphin"
+        ]
     },
     "warped_forest": {
         "name": "warped_forest",
@@ -587,7 +1362,11 @@
         "has_precipitation": false,
         "temperature": 2.0,
         "category": "nether",
-        "dimension": "nether"
+        "dimension": "nether",
+        "entities": [
+            "strider",
+            "enderman"
+        ]
     },
     "windswept_forest": {
         "name": "windswept_forest",
@@ -597,7 +1376,24 @@
         "has_precipitation": true,
         "temperature": 0.2,
         "category": "forest",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "sheep",
+            "pig",
+            "chicken",
+            "cow",
+            "llama",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "glow_squid"
+        ]
     },
     "windswept_gravelly_hills": {
         "name": "windswept_gravelly_hills",
@@ -607,7 +1403,24 @@
         "has_precipitation": true,
         "temperature": 0.2,
         "category": "extreme_hills",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "sheep",
+            "pig",
+            "chicken",
+            "cow",
+            "llama",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "glow_squid"
+        ]
     },
     "windswept_hills": {
         "name": "windswept_hills",
@@ -617,7 +1430,24 @@
         "has_precipitation": true,
         "temperature": 0.2,
         "category": "extreme_hills",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "sheep",
+            "pig",
+            "chicken",
+            "cow",
+            "llama",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "glow_squid"
+        ]
     },
     "windswept_savanna": {
         "name": "windswept_savanna",
@@ -627,7 +1457,25 @@
         "has_precipitation": false,
         "temperature": 2.0,
         "category": "savanna",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "sheep",
+            "pig",
+            "chicken",
+            "cow",
+            "horse",
+            "donkey",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "glow_squid"
+        ]
     },
     "wooded_badlands": {
         "name": "wooded_badlands",
@@ -637,6 +1485,18 @@
         "has_precipitation": false,
         "temperature": 2.0,
         "category": "mesa",
-        "dimension": "overworld"
+        "dimension": "overworld",
+        "entities": [
+            "bat",
+            "spider",
+            "zombie",
+            "zombie_villager",
+            "skeleton",
+            "creeper",
+            "slime",
+            "enderman",
+            "witch",
+            "glow_squid"
+        ]
     }
 }
