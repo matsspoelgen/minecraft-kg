@@ -1,0 +1,10 @@
+# Which depleting Item cannot be repaired?
+
+SELECT ?itemDisplayName
+WHERE {
+    ?item a mc:Depletable ;
+        mc:hasDisplayName ?itemDisplayName .
+    FILTER NOT EXISTS {
+        ?item mc_item:hasRepairItem ?repairItem .
+    }
+}

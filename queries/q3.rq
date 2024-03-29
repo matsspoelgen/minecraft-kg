@@ -1,14 +1,14 @@
 # Which Entities drop Food Items that cause Hunger?
 
-SELECT ?entityName ?itemName
+SELECT ?itemName (?entityName AS ?droppedBy)
 WHERE {
     ?entity rdf:type mc:Entity ;
         mc:hasDisplayName ?entityName ;
-        mc_entity:hasDrop ?entityLoot . 
-    ?entityLoot mc_entity_loot:hasItem ?item .
+        mc_entity:hasDrop ?entityDrop . 
+    ?entityDrop mc_entity_drop:hasItem ?item .
     ?item a mc:Food ;
         mc:hasDisplayName ?itemName ;
-        mc_food:givesEffect ?foodEffect .
+        mc_item:givesEffect ?foodEffect .
     ?foodEffect a mc:FoodEffect ;
         mc_effect:hasEffect ?effect .
     FILTER (?effect = mc_effect:hunger)

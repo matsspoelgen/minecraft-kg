@@ -1,0 +1,10 @@
+# Where do Slimes spawn?
+
+SELECT ?biomeDisplayName
+WHERE {
+    ?biome a mc:Biome ;
+        mc:hasDisplayName ?biomeDisplayName ;
+        mc_biome:hasEntity ?entity .
+    ?entity mc:hasDisplayName ?entityDisplayName .
+    FILTER (?entityDisplayName = xsd:string("Goat"))
+}

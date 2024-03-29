@@ -1,0 +1,9 @@
+# What can I wear on my head?
+
+SELECT ?displayName
+WHERE {
+    ?item a mc:Item ;
+        mc:hasDisplayName ?displayName ;
+        mc_item:hasSlot ?slot .
+    FILTER (?slot = xsd:string("head"))
+}

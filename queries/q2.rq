@@ -2,7 +2,7 @@
 
 SELECT ?itemName
 WHERE {
-  ?recipe mc_recipe:makesItem ?item ;
+  ?recipe mc_recipe:hasResult ?item ;
           mc_recipe:hasIngredient ?ingredient .
   ?item mc:hasName ?itemName .
   FILTER (?ingredient = mc_item:stick)

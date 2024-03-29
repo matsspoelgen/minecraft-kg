@@ -1,13 +1,13 @@
 # What can I enchant my helmet with?
 
-SELECT ?displayName
+SELECT ?displayName ?enchantmentName
 WHERE {
-    ?enchantment a mc:Enchantment ;
+    ?item a mc:Item ;
         mc:hasDisplayName ?displayName ;
-        mc_enchantment:hasCategory ?category .
-    FILTER (?category IN ("ARMOR_HEAD"^^xsd:string, 
-                          "WEARABLE"^^xsd:string, 
-                          "ARMOR"^^xsd:string,
-                          "VANISHABLE"^^xsd:string,
-                          "BREAKABLE"^^xsd:string))
+        mc_item:hasEnchantCategory ?categoryA .
+    ?enchantment a mc:Enchantment ;
+        mc_enchantment:hasCategory ?categoryB ;
+        mc:hasDisplayName ?enchantmentName .
+    FILTER (?categoryA = ?categoryB)
+    FILTER (?displayName = xsd:string("Iron Helmet"))
 }

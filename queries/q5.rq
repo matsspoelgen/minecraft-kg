@@ -1,10 +1,22 @@
 # Which Items can only be obtained with a silk touch tool?
 
-SELECT ?itemDisplayName
+SELECT ?displayName 
 WHERE {
-    ?blockDrop a mc:BlockDrop ;
-        mc_block_drop:hasItem ?item ;
+    ?item a mc:Item ;
+        mc:hasDisplayName ?displayName ;
+        mc:hasAquisitionMethod ?aquisitionMethod .
+    
+    # Remove Items that are aquired by crafting or looting 
+    FILTER NOT EXISTS {
+        ?aquisitionMethod a mc:Recipe.
+        ?aquisitionMethod a mc:EntityDrop.
+        ?aquisitionMethod a mc:ChestLoot.
+    }
+
+    ?aquisitionMethod a mc:BlockDrop ;
+        mc_block_drop:hasItem ?droppedItem ;
         mc_block_drop:hasSilkTouchRule ?silkTouchRule .
-    ?item mc:hasDisplayName ?itemDisplayName .
-    FILTER (?silkTouchRule = "required"^^xsd:string)
+    
+    FILTER (?silkTouchRule = xsd:string("required"))
+    FILTER (?droppedItem = ?item)
 } LIMIT 10

@@ -1,0 +1,11 @@
+# How can I obtain Redstone Dust?
+
+SELECT ?aquisitionName ?acquisitionType
+WHERE {
+    ?item a mc:Item ;
+        mc:hasDisplayName ?itemDisplayName ;
+        mc:hasAquisitionMethod ?aquisitionMethod .
+    ?aquisitionMethod a ?acquisitionType ;
+        mc:hasName ?aquisitionName .
+    FILTER (?itemDisplayName = xsd:string("Redstone Dust"))
+}
